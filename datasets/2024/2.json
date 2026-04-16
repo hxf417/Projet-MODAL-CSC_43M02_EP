@@ -1,0 +1,5211 @@
+{
+  "data": {
+    "search": {
+      "nodes": [
+        {
+          "name": "firecrawl",
+          "createdAt": "2024-04-15T21:02:29Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "crawler"
+                }
+              },
+              {
+                "topic": {
+                  "name": "markdown"
+                }
+              },
+              {
+                "topic": {
+                  "name": "scraper"
+                }
+              },
+              {
+                "topic": {
+                  "name": "html-to-markdown"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "scraping"
+                }
+              },
+              {
+                "topic": {
+                  "name": "web-crawler"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-scraping"
+                }
+              },
+              {
+                "topic": {
+                  "name": "webscraping"
+                }
+              },
+              {
+                "topic": {
+                  "name": "web-scraping"
+                }
+              },
+              {
+                "topic": {
+                  "name": "web-data"
+                }
+              },
+              {
+                "topic": {
+                  "name": "web-data-extraction"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-extraction"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Folo",
+          "createdAt": "2024-04-08T03:23:35Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "reader"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rss"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rss-reader"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rsshub"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "onlook",
+          "createdAt": "2024-06-25T19:16:02Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tailwindcss"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nextjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "low-code"
+                }
+              },
+              {
+                "topic": {
+                  "name": "design"
+                }
+              },
+              {
+                "topic": {
+                  "name": "frontend"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "figma"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cursor"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ide"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cursor-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "design-to-code"
+                }
+              },
+              {
+                "topic": {
+                  "name": "editor"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vibe-coding"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "SWE-agent",
+          "createdAt": "2024-04-02T04:09:47Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "developer-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agent-based-model"
+                }
+              },
+              {
+                "topic": {
+                  "name": "lms"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cybersecurity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "L1B3RT4S",
+          "createdAt": "2024-04-08T16:49:12Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "prompts"
+                }
+              },
+              {
+                "topic": {
+                  "name": "red-teaming"
+                }
+              },
+              {
+                "topic": {
+                  "name": "roleplay"
+                }
+              },
+              {
+                "topic": {
+                  "name": "scenario"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-jailbreak"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jailbreak"
+                }
+              },
+              {
+                "topic": {
+                  "name": "liberation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-liberation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "1337"
+                }
+              },
+              {
+                "topic": {
+                  "name": "adversarial-attacks"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cybersecurity"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hack"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "screenpipe",
+          "createdAt": "2024-06-19T13:23:56Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "computer-vision"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multimodal"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vision"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agi"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "agent-zero",
+          "createdAt": "2024-06-10T09:10:45Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "assistant"
+                }
+              },
+              {
+                "topic": {
+                  "name": "autonomous"
+                }
+              },
+              {
+                "topic": {
+                  "name": "linux"
+                }
+              },
+              {
+                "topic": {
+                  "name": "zero"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "mcp-toolbox",
+          "createdAt": "2024-06-07T20:52:54Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "genai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "database"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "server"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "bigquery"
+                }
+              },
+              {
+                "topic": {
+                  "name": "elasticsearch"
+                }
+              },
+              {
+                "topic": {
+                  "name": "firestore"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mongodb"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mysql"
+                }
+              },
+              {
+                "topic": {
+                  "name": "oracle"
+                }
+              },
+              {
+                "topic": {
+                  "name": "postgresql"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "RD-Agent",
+          "createdAt": "2024-04-03T03:39:33Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "automation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-mining"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-science"
+                }
+              },
+              {
+                "topic": {
+                  "name": "development"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "research"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "RemoveWindowsAI",
+          "createdAt": "2024-06-07T04:37:20Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "copilot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "recall"
+                }
+              },
+              {
+                "topic": {
+                  "name": "windows"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "debloat"
+                }
+              },
+              {
+                "topic": {
+                  "name": "image-creator"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rewrite"
+                }
+              },
+              {
+                "topic": {
+                  "name": "powershell"
+                }
+              },
+              {
+                "topic": {
+                  "name": "privacy"
+                }
+              },
+              {
+                "topic": {
+                  "name": "security"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "bloatware"
+                }
+              },
+              {
+                "topic": {
+                  "name": "bloatware-removal"
+                }
+              },
+              {
+                "topic": {
+                  "name": "optimizer"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "tambo",
+          "createdAt": "2024-06-15T17:11:37Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "js"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "reactjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ui-components"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "assistant"
+                }
+              },
+              {
+                "topic": {
+                  "name": "assistant-chat-bots"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-ui"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ten-framework",
+          "createdAt": "2024-06-19T14:26:15Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multi-modal"
+                }
+              },
+              {
+                "topic": {
+                  "name": "real-time"
+                }
+              },
+              {
+                "topic": {
+                  "name": "video"
+                }
+              },
+              {
+                "topic": {
+                  "name": "voice"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "rig",
+          "createdAt": "2024-06-05T13:42:28Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "automation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "large-language-model"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rust"
+                }
+              },
+              {
+                "topic": {
+                  "name": "scalable-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llmops"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "julep",
+          "createdAt": "2024-04-04T09:33:02Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents-framework"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-memory"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-platform"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "developer-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-ops"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "aiagents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "devfest"
+                }
+              },
+              {
+                "topic": {
+                  "name": "node"
+                }
+              },
+              {
+                "topic": {
+                  "name": "node-js"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nodejs"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "llm-scraper",
+          "createdAt": "2024-04-20T17:06:57Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "browser"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gpt"
+                }
+              },
+              {
+                "topic": {
+                  "name": "langchain"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "scraper"
+                }
+              },
+              {
+                "topic": {
+                  "name": "browser-automation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "playwright"
+                }
+              },
+              {
+                "topic": {
+                  "name": "puppeteer"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gpt-4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "atomic-agents",
+          "createdAt": "2024-06-03T08:24:07Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "large-language-model"
+                }
+              },
+              {
+                "topic": {
+                  "name": "large-language-models"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llms"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai-api"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "genkit",
+          "createdAt": "2024-04-29T22:04:42Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "genkit"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vector-database"
+                }
+              },
+              {
+                "topic": {
+                  "name": "embedders"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multimodal"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "pgai",
+          "createdAt": "2024-05-16T13:47:02Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "postgresql"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "magic-resume",
+          "createdAt": "2024-05-19T11:13:58Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "resume-website"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "deepseek"
+                }
+              },
+              {
+                "topic": {
+                  "name": "doubao"
+                }
+              },
+              {
+                "topic": {
+                  "name": "motion"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shadcn-ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tanstack"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tanstack-start"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "qodo-cover",
+          "createdAt": "2024-05-18T09:34:18Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "test-automation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "testing"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "x",
+          "createdAt": "2024-05-09T11:19:21Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "antd"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chat-ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "copilot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ragapp",
+          "createdAt": "2024-04-29T08:56:48Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agentic"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "docker"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llamaindex"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ultravox",
+          "createdAt": "2024-05-29T23:17:05Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "slm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "speech"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "micro-agent",
+          "createdAt": "2024-05-23T12:30:24Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "figma"
+                }
+              },
+              {
+                "topic": {
+                  "name": "javascript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "logfire",
+          "createdAt": "2024-04-23T11:50:23Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "fastapi"
+                }
+              },
+              {
+                "topic": {
+                  "name": "logging"
+                }
+              },
+              {
+                "topic": {
+                  "name": "observability"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "opentelemetry"
+                }
+              },
+              {
+                "topic": {
+                  "name": "pydantic"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "trace"
+                }
+              },
+              {
+                "topic": {
+                  "name": "metrics"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "pydantic-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agent-observability"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-observability"
+                }
+              },
+              {
+                "topic": {
+                  "name": "evals"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "AdalFlow",
+          "createdAt": "2024-04-19T05:05:13Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "framework"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nlp"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "retriever"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatbot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "information-retrieval"
+                }
+              },
+              {
+                "topic": {
+                  "name": "question-answering"
+                }
+              },
+              {
+                "topic": {
+                  "name": "summarization"
+                }
+              },
+              {
+                "topic": {
+                  "name": "bm25"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "SwarmUI",
+          "createdAt": "2024-06-21T06:24:53Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "csharp"
+                }
+              },
+              {
+                "topic": {
+                  "name": "image-generation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "javascript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "stable-diffusion"
+                }
+              },
+              {
+                "topic": {
+                  "name": "comfyui"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "srcbook",
+          "createdAt": "2024-05-08T19:28:00Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "javascript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "local"
+                }
+              },
+              {
+                "topic": {
+                  "name": "notebook"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "AI-ML-Roadmap-from-scratch",
+          "createdAt": "2024-05-26T05:26:18Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "aiml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-science"
+                }
+              },
+              {
+                "topic": {
+                  "name": "deep-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "resources"
+                }
+              },
+              {
+                "topic": {
+                  "name": "roadmap"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tutorial"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning-from-scratch"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hacktoberfest"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hacktoberfest2025"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "openrecall",
+          "createdAt": "2024-05-29T06:14:07Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "alternative"
+                }
+              },
+              {
+                "topic": {
+                  "name": "history"
+                }
+              },
+              {
+                "topic": {
+                  "name": "macos"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ocr"
+                }
+              },
+              {
+                "topic": {
+                  "name": "open-source"
+                }
+              },
+              {
+                "topic": {
+                  "name": "privacy"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "recall"
+                }
+              },
+              {
+                "topic": {
+                  "name": "search"
+                }
+              },
+              {
+                "topic": {
+                  "name": "self-hosted"
+                }
+              },
+              {
+                "topic": {
+                  "name": "semantic"
+                }
+              },
+              {
+                "topic": {
+                  "name": "windows"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "datachain",
+          "createdAt": "2024-06-25T22:29:35Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cv"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-wrangling"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-eval"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multimodal"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-analytics"
+                }
+              },
+              {
+                "topic": {
+                  "name": "embeddings"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mlops"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "agentUniverse",
+          "createdAt": "2024-04-23T11:28:18Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multi-agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "awesome"
+                }
+              },
+              {
+                "topic": {
+                  "name": "awesome-list"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "autonomous"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "latentbox",
+          "createdAt": "2024-04-05T19:31:39Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "art"
+                }
+              },
+              {
+                "topic": {
+                  "name": "awesome-list"
+                }
+              },
+              {
+                "topic": {
+                  "name": "creative-coding"
+                }
+              },
+              {
+                "topic": {
+                  "name": "design"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ux"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "MrRSS",
+          "createdAt": "2024-05-10T18:05:25Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "rss-reader"
+                }
+              },
+              {
+                "topic": {
+                  "name": "atom"
+                }
+              },
+              {
+                "topic": {
+                  "name": "feed-reader"
+                }
+              },
+              {
+                "topic": {
+                  "name": "feeds"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rss"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Awesome-ChatTTS",
+          "createdAt": "2024-06-05T01:15:39Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chattts"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "rlhf-book",
+          "createdAt": "2024-05-24T17:08:24Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "alignment"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rlhf"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "gollama",
+          "createdAt": "2024-05-30T12:35:37Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gguf"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ollama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ggml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "linux"
+                }
+              },
+              {
+                "topic": {
+                  "name": "macos"
+                }
+              },
+              {
+                "topic": {
+                  "name": "models"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ollama-app",
+          "createdAt": "2024-05-23T08:26:49Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "android"
+                }
+              },
+              {
+                "topic": {
+                  "name": "app"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ollama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ollama-client"
+                }
+              },
+              {
+                "topic": {
+                  "name": "localai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "linux"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "windows"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "litlyx",
+          "createdAt": "2024-05-29T13:21:06Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "analytics"
+                }
+              },
+              {
+                "topic": {
+                  "name": "angular"
+                }
+              },
+              {
+                "topic": {
+                  "name": "charts"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-analysis"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-visualization"
+                }
+              },
+              {
+                "topic": {
+                  "name": "javascript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "metrics"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nextjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nodejs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nuxt"
+                }
+              },
+              {
+                "topic": {
+                  "name": "open-source"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "statistics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "anyquery",
+          "createdAt": "2024-04-06T17:17:25Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "api"
+                }
+              },
+              {
+                "topic": {
+                  "name": "business-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "csv"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-visualization"
+                }
+              },
+              {
+                "topic": {
+                  "name": "database"
+                }
+              },
+              {
+                "topic": {
+                  "name": "json"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mysql"
+                }
+              },
+              {
+                "topic": {
+                  "name": "parquet"
+                }
+              },
+              {
+                "topic": {
+                  "name": "sql"
+                }
+              },
+              {
+                "topic": {
+                  "name": "sqlite"
+                }
+              },
+              {
+                "topic": {
+                  "name": "analytics"
+                }
+              },
+              {
+                "topic": {
+                  "name": "go"
+                }
+              },
+              {
+                "topic": {
+                  "name": "github"
+                }
+              },
+              {
+                "topic": {
+                  "name": "notion"
+                }
+              },
+              {
+                "topic": {
+                  "name": "salesforce"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "page-ui",
+          "createdAt": "2024-04-29T16:21:45Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "components"
+                }
+              },
+              {
+                "topic": {
+                  "name": "landing-page"
+                }
+              },
+              {
+                "topic": {
+                  "name": "next"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nextjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "reactjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shadcn"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shadcn-ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shadcnui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ui-components"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ui-library"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tailwindcss"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "middleware",
+          "createdAt": "2024-04-02T09:14:22Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "dora"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dora-metrics"
+                }
+              },
+              {
+                "topic": {
+                  "name": "devops"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dev-tool"
+                }
+              },
+              {
+                "topic": {
+                  "name": "engineering-productivity"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dev"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dev-productivity"
+                }
+              },
+              {
+                "topic": {
+                  "name": "pull-request-review"
+                }
+              },
+              {
+                "topic": {
+                  "name": "pr-review"
+                }
+              },
+              {
+                "topic": {
+                  "name": "engineering-management"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hacktoberfest"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "MLE-agent",
+          "createdAt": "2024-04-16T23:49:21Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mle"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mlops"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "paddler",
+          "createdAt": "2024-04-27T18:07:47Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llamacpp"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llmops"
+                }
+              },
+              {
+                "topic": {
+                  "name": "load-balancer"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "memfree",
+          "createdAt": "2024-06-15T04:16:59Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai-search"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vector-search"
+                }
+              },
+              {
+                "topic": {
+                  "name": "serverless-vector"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hybrid-ai-search"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-search-engine"
+                }
+              },
+              {
+                "topic": {
+                  "name": "search-engine"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generate-ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shadcn-ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hacktoberfest"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hacktoberfest-accepted"
+                }
+              },
+              {
+                "topic": {
+                  "name": "page-generator"
+                }
+              },
+              {
+                "topic": {
+                  "name": "devfast"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "korvus",
+          "createdAt": "2024-06-24T21:37:54Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "embeddings"
+                }
+              },
+              {
+                "topic": {
+                  "name": "javascript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              },
+              {
+                "topic": {
+                  "name": "search"
+                }
+              },
+              {
+                "topic": {
+                  "name": "sql"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "MusicGPT",
+          "createdAt": "2024-05-03T16:20:12Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "music"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gpt"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ControlFlow",
+          "createdAt": "2024-04-01T18:46:22Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agentic-framework"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agentic-workflow"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "prefect"
+                }
+              },
+              {
+                "topic": {
+                  "name": "workflow"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "infinite-bookshelf",
+          "createdAt": "2024-05-19T23:56:33Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "groq"
+                }
+              },
+              {
+                "topic": {
+                  "name": "groq-api"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llama3"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "desktop",
+          "createdAt": "2024-05-26T17:38:34Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "desktop"
+                }
+              },
+              {
+                "topic": {
+                  "name": "e2b"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gpt"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "e2b-dev"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "computer"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "nerve",
+          "createdAt": "2024-06-07T09:58:13Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent-based-modeling"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "adk"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agent-development-kit"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp-client"
+                }
+              },
+              {
+                "topic": {
+                  "name": "model-context-protocol"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "gemini-chatbot",
+          "createdAt": "2024-04-03T18:51:44Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatbot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gemini-pro"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nextjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vercel"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Awesome-Jailbreak-on-LLMs",
+          "createdAt": "2024-06-27T11:56:54Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jailbreak"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llms"
+                }
+              },
+              {
+                "topic": {
+                  "name": "privacy"
+                }
+              },
+              {
+                "topic": {
+                  "name": "safety"
+                }
+              },
+              {
+                "topic": {
+                  "name": "security"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vlm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vlms"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ha-llmvision",
+          "createdAt": "2024-05-14T15:26:00Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vision"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hacs-integration"
+                }
+              },
+              {
+                "topic": {
+                  "name": "home-assistant"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multimodal"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cctv-detection"
+                }
+              },
+              {
+                "topic": {
+                  "name": "notifications"
+                }
+              },
+              {
+                "topic": {
+                  "name": "smart-home"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "CrewAI-Studio",
+          "createdAt": "2024-05-30T08:15:40Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "crewai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "crewaiui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "no-code"
+                }
+              },
+              {
+                "topic": {
+                  "name": "streamlit"
+                }
+              },
+              {
+                "topic": {
+                  "name": "crewaigui"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "aideml",
+          "createdAt": "2024-04-03T14:45:49Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-science"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "automated-machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "autonomous-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "autoresearch"
+                }
+              },
+              {
+                "topic": {
+                  "name": "code-optimization"
+                }
+              },
+              {
+                "topic": {
+                  "name": "self-improving-ai"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "thread-notebook",
+          "createdAt": "2024-05-21T20:18:22Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "analysis"
+                }
+              },
+              {
+                "topic": {
+                  "name": "analytics"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data-science"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jupyter"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jupyter-notebook"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jupyter-notebooks"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jupyterhub"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jupyterlab"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ollama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "react"
+                }
+              },
+              {
+                "topic": {
+                  "name": "reactjs"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "JamAIBase",
+          "createdAt": "2024-05-30T15:31:08Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents-framework"
+                }
+              },
+              {
+                "topic": {
+                  "name": "baas"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatbot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "lancedb"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-ops"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "serverless"
+                }
+              },
+              {
+                "topic": {
+                  "name": "backend-as-a-service"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatgpt"
+                }
+              },
+              {
+                "topic": {
+                  "name": "orchestration"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              },
+              {
+                "topic": {
+                  "name": "retrieval-augmented-generation"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "listen",
+          "createdAt": "2024-04-29T09:27:10Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "memecoins"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rust"
+                }
+              },
+              {
+                "topic": {
+                  "name": "solana"
+                }
+              },
+              {
+                "topic": {
+                  "name": "trading"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dex"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "partykit",
+          "createdAt": "2024-05-27T21:40:55Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "collaboration"
+                }
+              },
+              {
+                "topic": {
+                  "name": "durable-objects"
+                }
+              },
+              {
+                "topic": {
+                  "name": "real-time"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "experts",
+          "createdAt": "2024-04-22T13:54:49Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "assistants-api"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multi-agent-systems"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai-assistants"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai-assistants-api"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "llmchat",
+          "createdAt": "2024-05-11T03:34:28Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "claude"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nextjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shadcn-ui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tailwindcss"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tiptap"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vercel"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "aisdk"
+                }
+              },
+              {
+                "topic": {
+                  "name": "immer"
+                }
+              },
+              {
+                "topic": {
+                  "name": "zustand"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "web-llm-chat",
+          "createdAt": "2024-05-15T01:51:41Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chat"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chat-application"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatbot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gemma"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hermes"
+                }
+              },
+              {
+                "topic": {
+                  "name": "large-language-models"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mistral"
+                }
+              },
+              {
+                "topic": {
+                  "name": "phi2"
+                }
+              },
+              {
+                "topic": {
+                  "name": "privacy"
+                }
+              },
+              {
+                "topic": {
+                  "name": "redpajama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tinyllama"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "arcade-mcp",
+          "createdAt": "2024-04-26T22:25:48Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-tool-call"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "toolcalling"
+                }
+              },
+              {
+                "topic": {
+                  "name": "arcade-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "arcade"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp-client"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp-servers"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-gateway"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp-gateway"
+                }
+              },
+              {
+                "topic": {
+                  "name": "model-context-protocol"
+                }
+              },
+              {
+                "topic": {
+                  "name": "model-context-protocol-sdk"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp-runtime"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "pdf-to-podcast",
+          "createdAt": "2024-06-09T04:28:05Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "audio"
+                }
+              },
+              {
+                "topic": {
+                  "name": "research"
+                }
+              },
+              {
+                "topic": {
+                  "name": "utilities"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "chatty",
+          "createdAt": "2024-05-09T08:09:41Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatbot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "huggingface"
+                }
+              },
+              {
+                "topic": {
+                  "name": "local"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "WilmerAI",
+          "createdAt": "2024-04-08T06:10:36Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llms"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Open-AF3",
+          "createdAt": "2024-05-08T16:54:21Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "alphafold"
+                }
+              },
+              {
+                "topic": {
+                  "name": "bio"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "geneml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "biology"
+                }
+              },
+              {
+                "topic": {
+                  "name": "biology-ai"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "june",
+          "createdAt": "2024-06-03T16:09:46Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "cli-app"
+                }
+              },
+              {
+                "topic": {
+                  "name": "command-line-tool"
+                }
+              },
+              {
+                "topic": {
+                  "name": "large-language-models"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "speech-to-text"
+                }
+              },
+              {
+                "topic": {
+                  "name": "text-to-speech"
+                }
+              },
+              {
+                "topic": {
+                  "name": "huggingface"
+                }
+              },
+              {
+                "topic": {
+                  "name": "coqui-tts"
+                }
+              },
+              {
+                "topic": {
+                  "name": "speech-recognition"
+                }
+              },
+              {
+                "topic": {
+                  "name": "whisper"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "assistant-chat-bots"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatbot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatbots"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "APT",
+          "createdAt": "2024-06-19T11:39:44Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-framework"
+                }
+              },
+              {
+                "topic": {
+                  "name": "computer-vision"
+                }
+              },
+              {
+                "topic": {
+                  "name": "deep-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "image-processing"
+                }
+              },
+              {
+                "topic": {
+                  "name": "inference"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machinelearning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "neural-network"
+                }
+              },
+              {
+                "topic": {
+                  "name": "onnx"
+                }
+              },
+              {
+                "topic": {
+                  "name": "onnxruntime"
+                }
+              },
+              {
+                "topic": {
+                  "name": "video-processing"
+                }
+              },
+              {
+                "topic": {
+                  "name": "aigc"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "audio-processing"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "earth2studio",
+          "createdAt": "2024-04-05T17:39:51Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "climate-science"
+                }
+              },
+              {
+                "topic": {
+                  "name": "deep-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "weather"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "magic-cli",
+          "createdAt": "2024-06-24T10:14:42Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cli"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rust"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "comfy-cli",
+          "createdAt": "2024-04-14T01:08:32Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "comfyui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "command-line"
+                }
+              },
+              {
+                "topic": {
+                  "name": "stable-diffusion"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "llm-functions",
+          "createdAt": "2024-05-16T00:46:23Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "function-calling"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-functions"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tool-use"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "minefield",
+          "createdAt": "2024-06-05T15:35:52Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "graph"
+                }
+              },
+              {
+                "topic": {
+                  "name": "roaring-bitmaps"
+                }
+              },
+              {
+                "topic": {
+                  "name": "sbom"
+                }
+              },
+              {
+                "topic": {
+                  "name": "supply-chain-security"
+                }
+              },
+              {
+                "topic": {
+                  "name": "airgap"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Trace",
+          "createdAt": "2024-06-14T18:21:58Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "autodiff"
+                }
+              },
+              {
+                "topic": {
+                  "name": "optimization"
+                }
+              },
+              {
+                "topic": {
+                  "name": "large-language-models"
+                }
+              },
+              {
+                "topic": {
+                  "name": "prompt-optimization"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agentic-agi"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agentic-workflow"
+                }
+              },
+              {
+                "topic": {
+                  "name": "compound-systems"
+                }
+              },
+              {
+                "topic": {
+                  "name": "end-to-end"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-optimization"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "optimizer"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "firecrawl-app-examples",
+          "createdAt": "2024-06-22T12:26:20Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-scraping"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data"
+                }
+              },
+              {
+                "topic": {
+                  "name": "examples"
+                }
+              },
+              {
+                "topic": {
+                  "name": "html-to-markdown"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "markdown"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              },
+              {
+                "topic": {
+                  "name": "scrapers"
+                }
+              },
+              {
+                "topic": {
+                  "name": "web-crawler"
+                }
+              },
+              {
+                "topic": {
+                  "name": "templates"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "JiwuChat",
+          "createdAt": "2024-05-03T12:38:16Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nuxt3"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vite"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vue"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tauri2"
+                }
+              },
+              {
+                "topic": {
+                  "name": "android-app"
+                }
+              },
+              {
+                "topic": {
+                  "name": "linux-app"
+                }
+              },
+              {
+                "topic": {
+                  "name": "macos-app"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chat-application"
+                }
+              },
+              {
+                "topic": {
+                  "name": "desktop-app"
+                }
+              },
+              {
+                "topic": {
+                  "name": "instant-messaging"
+                }
+              },
+              {
+                "topic": {
+                  "name": "multi-platform"
+                }
+              },
+              {
+                "topic": {
+                  "name": "real-time-messaging"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "cog-consistent-character",
+          "createdAt": "2024-05-30T10:24:32Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cog"
+                }
+              },
+              {
+                "topic": {
+                  "name": "comfyui"
+                }
+              },
+              {
+                "topic": {
+                  "name": "replicate"
+                }
+              },
+              {
+                "topic": {
+                  "name": "stable-diffusion"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "swiftide",
+          "createdAt": "2024-06-09T20:07:06Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "indexing"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "data"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ml"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llmops"
+                }
+              },
+              {
+                "topic": {
+                  "name": "genai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "retrieval-augmented-generation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rust"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "prompt-injection-defenses",
+          "createdAt": "2024-04-01T05:08:06Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cybersecurity"
+                }
+              },
+              {
+                "topic": {
+                  "name": "prompt-injection"
+                }
+              },
+              {
+                "topic": {
+                  "name": "security"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "aigotools",
+          "createdAt": "2024-06-12T10:33:27Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "directory"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nestjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nextjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "openai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "aigotools"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "meme-search",
+          "createdAt": "2024-06-08T22:08:51Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "machine-learning"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vector-database"
+                }
+              },
+              {
+                "topic": {
+                  "name": "self-hosted"
+                }
+              },
+              {
+                "topic": {
+                  "name": "docker"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "meme"
+                }
+              },
+              {
+                "topic": {
+                  "name": "semantic-search"
+                }
+              },
+              {
+                "topic": {
+                  "name": "homelab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "OpenMusic",
+          "createdAt": "2024-05-24T17:27:00Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "diffusion-models"
+                }
+              },
+              {
+                "topic": {
+                  "name": "music-generation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "text-to-audio"
+                }
+              },
+              {
+                "topic": {
+                  "name": "text-to-music"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-music"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-music-generation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-music-generator"
+                }
+              },
+              {
+                "topic": {
+                  "name": "audioldm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "diffusion-transformer"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dit"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hifi-gan"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mdt"
+                }
+              },
+              {
+                "topic": {
+                  "name": "music-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "music-ai-architectures"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "tlbrowse",
+          "createdAt": "2024-05-25T21:34:51Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "sitebuilder"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tldraw"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "website"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "innoshop",
+          "createdAt": "2024-06-22T02:32:33Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ecommerce"
+                }
+              },
+              {
+                "topic": {
+                  "name": "innoshop"
+                }
+              },
+              {
+                "topic": {
+                  "name": "innovation"
+                }
+              },
+              {
+                "topic": {
+                  "name": "laravel"
+                }
+              },
+              {
+                "topic": {
+                  "name": "b2c"
+                }
+              },
+              {
+                "topic": {
+                  "name": "laravelshop"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shop"
+                }
+              },
+              {
+                "topic": {
+                  "name": "storefront"
+                }
+              },
+              {
+                "topic": {
+                  "name": "blockchain-ecommerce"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ecommerce-platform"
+                }
+              },
+              {
+                "topic": {
+                  "name": "laravel-ecommerce"
+                }
+              },
+              {
+                "topic": {
+                  "name": "open-source"
+                }
+              },
+              {
+                "topic": {
+                  "name": "opensource-ecommerce"
+                }
+              },
+              {
+                "topic": {
+                  "name": "php-ecommerce"
+                }
+              },
+              {
+                "topic": {
+                  "name": "innocms"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ai-trader",
+          "createdAt": "2024-06-18T14:10:24Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "algorithmic-trading"
+                }
+              },
+              {
+                "topic": {
+                  "name": "backtrader"
+                }
+              },
+              {
+                "topic": {
+                  "name": "portfolio-management"
+                }
+              },
+              {
+                "topic": {
+                  "name": "stock-price-prediction"
+                }
+              },
+              {
+                "topic": {
+                  "name": "trading"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "cli"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mcp-server"
+                }
+              },
+              {
+                "topic": {
+                  "name": "quantitative-finance"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "LLM-Jailbreaks",
+          "createdAt": "2024-04-21T02:44:55Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chatgpt"
+                }
+              },
+              {
+                "topic": {
+                  "name": "claude"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dan"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jailbreak"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jailbreak-prompts"
+                }
+              },
+              {
+                "topic": {
+                  "name": "kimi"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "prompts"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ai-ublock-blacklist",
+          "createdAt": "2024-06-17T20:51:46Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "content-farm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ublock-origin"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "felafax",
+          "createdAt": "2024-06-17T09:41:34Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "infra"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jax"
+                }
+              },
+              {
+                "topic": {
+                  "name": "xla"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "bus",
+          "createdAt": "2024-04-19T02:00:47Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "cache"
+                }
+              },
+              {
+                "topic": {
+                  "name": "crypto"
+                }
+              },
+              {
+                "topic": {
+                  "name": "hl7"
+                }
+              },
+              {
+                "topic": {
+                  "name": "java21"
+                }
+              },
+              {
+                "topic": {
+                  "name": "logger"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mybatis"
+                }
+              },
+              {
+                "topic": {
+                  "name": "opencv"
+                }
+              },
+              {
+                "topic": {
+                  "name": "socket"
+                }
+              },
+              {
+                "topic": {
+                  "name": "spring-boot"
+                }
+              },
+              {
+                "topic": {
+                  "name": "starter"
+                }
+              },
+              {
+                "topic": {
+                  "name": "pagger"
+                }
+              },
+              {
+                "topic": {
+                  "name": "dubbo"
+                }
+              },
+              {
+                "topic": {
+                  "name": "sensitive"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tracer"
+                }
+              },
+              {
+                "topic": {
+                  "name": "mapper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ragbook-notebooks",
+          "createdAt": "2024-04-10T14:18:01Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "agent"
+                }
+              },
+              {
+                "topic": {
+                  "name": "agents"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "langchain"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llamaindex"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llms"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "rag"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "awesome-ai",
+          "createdAt": "2024-05-04T11:32:59Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-tools"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial-intelligence"
+                }
+              },
+              {
+                "topic": {
+                  "name": "awesome"
+                }
+              },
+              {
+                "topic": {
+                  "name": "awesome-list"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llm"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llms"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai-api"
+                }
+              },
+              {
+                "topic": {
+                  "name": "diffusers"
+                }
+              },
+              {
+                "topic": {
+                  "name": "generative-ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "gpt"
+                }
+              },
+              {
+                "topic": {
+                  "name": "large-language-models"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ReMind",
+          "createdAt": "2024-05-22T19:36:06Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "artificial"
+                }
+              },
+              {
+                "topic": {
+                  "name": "memory"
+                }
+              },
+              {
+                "topic": {
+                  "name": "chromadb"
+                }
+              },
+              {
+                "topic": {
+                  "name": "electronjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "embeddings"
+                }
+              },
+              {
+                "topic": {
+                  "name": "javascript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "langchain"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ocr"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ollama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "python"
+                }
+              },
+              {
+                "topic": {
+                  "name": "sqlite3"
+                }
+              },
+              {
+                "topic": {
+                  "name": "threejs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "vector-database"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "ScribeWizard",
+          "createdAt": "2024-06-19T23:50:23Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "groq"
+                }
+              },
+              {
+                "topic": {
+                  "name": "groq-api"
+                }
+              },
+              {
+                "topic": {
+                  "name": "llama3"
+                }
+              },
+              {
+                "topic": {
+                  "name": "whisper"
+                }
+              },
+              {
+                "topic": {
+                  "name": "replit"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "jobsync",
+          "createdAt": "2024-05-21T22:30:01Z",
+          "repositoryTopics": {
+            "nodes": [
+              {
+                "topic": {
+                  "name": "javascript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jobsearch"
+                }
+              },
+              {
+                "topic": {
+                  "name": "jobseekers"
+                }
+              },
+              {
+                "topic": {
+                  "name": "nextjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "reactjs"
+                }
+              },
+              {
+                "topic": {
+                  "name": "shadcn"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tailwindcss"
+                }
+              },
+              {
+                "topic": {
+                  "name": "tiptap"
+                }
+              },
+              {
+                "topic": {
+                  "name": "typescript"
+                }
+              },
+              {
+                "topic": {
+                  "name": "application-tracking-system"
+                }
+              },
+              {
+                "topic": {
+                  "name": "job-search"
+                }
+              },
+              {
+                "topic": {
+                  "name": "job-tracker"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ai"
+                }
+              },
+              {
+                "topic": {
+                  "name": "ollama"
+                }
+              },
+              {
+                "topic": {
+                  "name": "job-tracking"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
