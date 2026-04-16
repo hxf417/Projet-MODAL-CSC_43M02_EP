@@ -12,7 +12,9 @@ Pipeline:
 from __future__ import annotations
 
 import argparse
+import colorsys
 import json
+import math
 import os
 import time
 from collections import Counter, defaultdict
@@ -65,6 +67,19 @@ query($owner: String!, $name: String!, $topicsFirst: Int!, $usersFirst: Int!) {
   }
 }
 """
+
+BASE_COLOR_PALETTE = [
+    (31, 119, 180),   # blue
+    (255, 127, 14),   # orange
+    (44, 160, 44),    # green
+    (214, 39, 40),    # red
+    (148, 103, 189),  # purple
+    (140, 86, 75),    # brown
+    (227, 119, 194),  # pink
+    (127, 127, 127),  # gray
+    (188, 189, 34),   # olive
+    (23, 190, 207),   # cyan
+]
 
 
 def graphql_request(
@@ -175,6 +190,23 @@ def clean_users(raw_logins: Iterable[str]) -> List[str]:
     return cleaned
 
 
+def build_community_color_map(partition: Dict[str, int]) -> Dict[int, Tuple[int, int, int]]:
+    """Assign deterministic RGB colors to community ids."""
+    community_ids = sorted(set(partition.values()))
+    color_map: Dict[int, Tuple[int, int, int]] = {}
+
+    for idx, cid in enumerate(community_ids):
+        if idx < len(BASE_COLOR_PALETTE):
+            color_map[cid] = BASE_COLOR_PALETTE[idx]
+            continue
+        hue = (idx * 0.61803398875) % 1.0
+        sat = 0.62
+        val = 0.92
+        r_f, g_f, b_f = colorsys.hsv_to_rgb(hue, sat, val)
+        color_map[cid] = (int(r_f * 255), int(g_f * 255), int(b_f * 255))
+    return color_map
+
+
 def build_dataset(token: str) -> List[Dict]:
     """Return merged repository dataset with source domains and details."""
     headers = {"Authorization": f"Bearer {token}"}
@@ -243,7 +275,13 @@ def build_dataset(token: str) -> List[Dict]:
     return final_data
 
 
-def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int]]:
+def build_backbone_graph(
+    repo_data: List[Dict],
+    min_shared_elite_users: int,
+    generic_topic_repo_ratio: float,
+    top_k_per_topic: int,
+    k_core_k: int,
+) -> Tuple[nx.Graph, Dict[str, int]]:
     """Build topic-topic backbone graph and return it with elite user stats."""
     user_repo_map: Dict[str, Set[str]] = defaultdict(set)
     topic_stats: Dict[str, Dict] = defaultdict(
@@ -299,9 +337,65 @@ def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int
         topic_nodes,
     )
 
-    weak_edges = [(u, v) for u, v, d in topic_graph.edges(data=True) if d.get("weight", 0) < 2]
+    total_repos = max(len(repo_data), 1)
+    topic_repo_count = {
+        topic: int(stats.get("repo_count", 0)) for topic, stats in topic_stats.items()
+    }
+
+    # Remove overly generic topics that connect everything and hide community structure.
+    generic_threshold = max(8, int(total_repos * generic_topic_repo_ratio))
+    generic_topics = {
+        t for t, c in topic_repo_count.items() if c >= generic_threshold
+    }
+    if generic_topics:
+        topic_graph.remove_nodes_from([n for n in generic_topics if n in topic_graph])
+
+    # Shared elite-user count + association strength (normalized) for each edge.
+    for u, v, data in topic_graph.edges(data=True):
+        shared = int(data.get("weight", 0))
+        data["shared_elite_users"] = shared
+        denom = math.sqrt(
+            max(topic_repo_count.get(u, 1), 1) * max(topic_repo_count.get(v, 1), 1)
+        )
+        data["association_strength"] = float(shared / denom)
+
+    # Keep only edges with enough support.
+    weak_edges = [
+        (u, v)
+        for u, v, d in topic_graph.edges(data=True)
+        if d.get("shared_elite_users", 0) < min_shared_elite_users
+    ]
     topic_graph.remove_edges_from(weak_edges)
     topic_graph.remove_nodes_from(list(nx.isolates(topic_graph)))
+
+    # Top-k sparsification per topic to reveal clusters (symmetrized keep set).
+    keep_edges: Set[Tuple[str, str]] = set()
+    for node in topic_graph.nodes():
+        incident = []
+        for nbr in topic_graph.neighbors(node):
+            edge = topic_graph[node][nbr]
+            incident.append(
+                (
+                    edge.get("association_strength", 0.0),
+                    edge.get("shared_elite_users", 0),
+                    tuple(sorted((node, nbr))),
+                )
+            )
+        incident.sort(reverse=True)
+        for _, _, edge_key in incident[:top_k_per_topic]:
+            keep_edges.add(edge_key)
+
+    edges_to_remove = []
+    for u, v in topic_graph.edges():
+        edge_key = tuple(sorted((u, v)))
+        if edge_key not in keep_edges:
+            edges_to_remove.append((u, v))
+    topic_graph.remove_edges_from(edges_to_remove)
+    topic_graph.remove_nodes_from(list(nx.isolates(topic_graph)))
+
+    # k-core cleanup: drop weakly connected fringe nodes.
+    if topic_graph.number_of_nodes() > 0 and k_core_k > 0:
+        topic_graph = nx.k_core(topic_graph, k=k_core_k)
 
     for topic in topic_graph.nodes():
         stats = topic_stats.get(topic, {})
@@ -326,7 +420,7 @@ def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int
         topic_graph.nodes[topic]["Stars"] = total_stars
         topic_graph.nodes[topic]["Group"] = group
         topic_graph.nodes[topic]["Language"] = dominant_language
-        topic_graph.nodes[topic]["NodeSize"] = total_stars
+        topic_graph.nodes[topic]["NodeSize"] = float(8.0 + 6.0 * math.log10(total_stars + 1))
         topic_graph.nodes[topic]["Forks"] = total_forks
         topic_graph.nodes[topic]["RepoCount"] = repo_count
 
@@ -337,20 +431,34 @@ def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int
         topic_graph.nodes[topic]["language"] = dominant_language
         topic_graph.nodes[topic]["repo_count"] = repo_count
 
-    pagerank = nx.pagerank(topic_graph, weight="weight") if topic_graph.number_of_nodes() else {}
+    pagerank = (
+        nx.pagerank(topic_graph, weight="association_strength")
+        if topic_graph.number_of_nodes()
+        else {}
+    )
 
     distance_graph = topic_graph.copy()
     for u, v, data in distance_graph.edges(data=True):
-        weight = data.get("weight", 1.0)
-        data["distance"] = 1.0 / max(float(weight), 1e-9)
+        strength = data.get("association_strength", 0.0)
+        data["distance"] = 1.0 / max(float(strength), 1e-9)
     betweenness = (
         nx.betweenness_centrality(distance_graph, weight="distance")
         if topic_graph.number_of_nodes()
         else {}
     )
 
+    modularity = 0.0
     if topic_graph.number_of_edges() > 0:
-        partition = community_louvain.best_partition(topic_graph, weight="weight")
+        partition = community_louvain.best_partition(
+            topic_graph,
+            weight="association_strength",
+            resolution=1.15,
+        )
+        modularity = community_louvain.modularity(
+            partition,
+            topic_graph,
+            weight="association_strength",
+        )
     else:
         partition = {n: 0 for n in topic_graph.nodes()}
 
@@ -361,7 +469,31 @@ def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int
         topic_graph.nodes[topic]["Betweenness"] = bw_score
         topic_graph.nodes[topic]["pagerank"] = pr_score
         topic_graph.nodes[topic]["betweenness"] = bw_score
+        topic_graph.nodes[topic]["Community"] = int(partition.get(topic, 0))
         topic_graph.nodes[topic]["community"] = int(partition.get(topic, 0))
+
+    community_colors = build_community_color_map(partition)
+    for topic in topic_graph.nodes():
+        cid = int(partition.get(topic, 0))
+        r, g, b = community_colors[cid]
+        topic_graph.nodes[topic]["viz"] = {
+            "color": {"r": r, "g": g, "b": b, "a": 0.95},
+            "size": float(topic_graph.nodes[topic].get("NodeSize", 10.0)),
+        }
+
+    for u, v, edge_data in topic_graph.edges(data=True):
+        cu = int(partition.get(u, 0))
+        cv = int(partition.get(v, 0))
+        if cu == cv:
+            r, g, b = community_colors[cu]
+            alpha = 0.35
+        else:
+            r, g, b = (140, 140, 140)
+            alpha = 0.20
+        edge_data["viz"] = {
+            "color": {"r": r, "g": g, "b": b, "a": alpha},
+            "thickness": float(1.0 + 8.0 * edge_data.get("association_strength", 0.0)),
+        }
 
     bridge_nodes = []
     for node in topic_graph.nodes():
@@ -389,7 +521,16 @@ def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int
     else:
         print("\nTop 5 bridge technologies (between communities): none")
 
-    return topic_graph, {"elite_user_count": len(elite_users)}
+    return topic_graph, {
+        "elite_user_count": len(elite_users),
+        "generic_topics_removed": len(generic_topics),
+        "min_shared_elite_users": min_shared_elite_users,
+        "top_k_per_topic": top_k_per_topic,
+        "k_core_k": k_core_k,
+        "generic_threshold": generic_threshold,
+        "communities": len(set(partition.values())) if partition else 0,
+        "modularity": float(modularity),
+    }
 
 
 def print_graph_stats(graph: nx.Graph) -> None:
@@ -435,26 +576,79 @@ def parse_args() -> argparse.Namespace:
         default="ai_backbone_network.gexf",
         help="Path to save final GEXF file",
     )
+    parser.add_argument(
+        "--min-shared-users",
+        type=int,
+        default=3,
+        help="Minimum shared elite developers for keeping a topic-topic edge",
+    )
+    parser.add_argument(
+        "--generic-ratio",
+        type=float,
+        default=0.18,
+        help="Drop topics that appear in at least this ratio of repositories",
+    )
+    parser.add_argument(
+        "--top-k",
+        type=int,
+        default=8,
+        help="Keep top-k strongest edges per topic by association strength",
+    )
+    parser.add_argument(
+        "--k-core",
+        type=int,
+        default=2,
+        help="Apply k-core cleanup after edge pruning (0 disables)",
+    )
+    parser.add_argument(
+        "--reuse-raw",
+        action="store_true",
+        help="Reuse existing raw JSON file instead of fetching from GitHub API",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    token = os.getenv(args.token_env)
-    if not token:
-        raise RuntimeError(
-            f"Missing GitHub token. Please set environment variable: {args.token_env}"
-        )
 
-    repo_data = build_dataset(token)
-    with open(args.raw_output, "w", encoding="utf-8") as f:
-        json.dump(repo_data, f, ensure_ascii=False, indent=2)
-    print(f"[save] cleaned repository data -> {args.raw_output}")
+    if args.reuse_raw and os.path.exists(args.raw_output):
+        with open(args.raw_output, "r", encoding="utf-8") as f:
+            repo_data = json.load(f)
+        print(f"[load] reused existing raw data <- {args.raw_output}")
+    else:
+        token = os.getenv(args.token_env)
+        if not token:
+            raise RuntimeError(
+                f"Missing GitHub token. Please set environment variable: {args.token_env}"
+            )
+        repo_data = build_dataset(token)
+        with open(args.raw_output, "w", encoding="utf-8") as f:
+            json.dump(repo_data, f, ensure_ascii=False, indent=2)
+        print(f"[save] cleaned repository data -> {args.raw_output}")
 
-    topic_graph, extra_stats = build_backbone_graph(repo_data)
+    topic_graph, extra_stats = build_backbone_graph(
+        repo_data=repo_data,
+        min_shared_elite_users=args.min_shared_users,
+        generic_topic_repo_ratio=args.generic_ratio,
+        top_k_per_topic=args.top_k,
+        k_core_k=args.k_core,
+    )
     nx.write_gexf(topic_graph, args.gexf_output)
     print(f"[save] gephi gexf -> {args.gexf_output}")
     print(f"[elite] total elite users used in model: {extra_stats['elite_user_count']}")
+    print(
+        "[prune] "
+        f"generic_topics_removed={extra_stats['generic_topics_removed']}, "
+        f"generic_threshold={extra_stats['generic_threshold']}, "
+        f"min_shared_elite_users={extra_stats['min_shared_elite_users']}, "
+        f"top_k_per_topic={extra_stats['top_k_per_topic']}, "
+        f"k_core_k={extra_stats['k_core_k']}"
+    )
+    print(
+        "[community] "
+        f"communities={extra_stats['communities']}, "
+        f"modularity={extra_stats['modularity']:.4f}"
+    )
 
     print_graph_stats(topic_graph)
 
