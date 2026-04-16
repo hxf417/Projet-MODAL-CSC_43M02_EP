@@ -5,8 +5,9 @@ Pipeline:
 1) Fetch top-star repositories for topic:computer-vision and topic:nlp.
 2) Fetch per-repository details (topics + mentionable users).
 3) Build elite-user -> topic bipartite graph, then project to topic-topic.
-4) Enrich node attributes and export Gephi-compatible GEXF.
-5) Print core network statistics and top bridge technologies.
+4) Detect topic communities with NetworkX and export community tables/files.
+5) Enrich node attributes and export Gephi-compatible GEXF.
+6) Print core network statistics and top bridge technologies.
 """
 
 from __future__ import annotations
@@ -16,11 +17,11 @@ import colorsys
 import json
 import math
 import os
+import re
 import time
 from collections import Counter, defaultdict
 from typing import Dict, Iterable, List, Optional, Set, Tuple
 
-import community as community_louvain
 import networkx as nx
 import pandas as pd
 import requests
@@ -36,6 +37,85 @@ REPO_TOPICS_LIMIT = 100
 REQUEST_RETRIES = 5
 RETRY_BACKOFF_SECONDS = 1.5
 REQUEST_TIMEOUT_SECONDS = 30
+SEMANTIC_LABEL_RULES = {
+    "LLM / NLP": {
+        "llm",
+        "large-language-models",
+        "transformer",
+        "transformers",
+        "nlp",
+        "natural-language-processing",
+        "language-model",
+        "language-models",
+        "llama",
+        "prompt-engineering",
+        "chatbot",
+        "chatbots",
+        "conversational-ai",
+        "text-generation",
+        "instruction-tuning",
+    },
+    "Computer Vision": {
+        "computer-vision",
+        "image-processing",
+        "image-classification",
+        "object-detection",
+        "segmentation",
+        "instance-segmentation",
+        "image-segmentation",
+        "vision",
+        "opencv",
+        "yolo",
+        "ocr",
+        "classification",
+    },
+    "Multimodal AI": {
+        "multimodal",
+        "vlm",
+        "vision-language-model",
+        "vision-language",
+        "text-to-image",
+        "image-to-text",
+        "diffusion",
+        "generative-ai",
+        "text-generation-webui",
+    },
+    "ML Frameworks": {
+        "deep-learning",
+        "machine-learning",
+        "pytorch",
+        "tensorflow",
+        "keras",
+        "jax",
+        "neural-network",
+        "deep-neural-networks",
+        "ai",
+        "data-science",
+    },
+    "Robotics / Autonomous Driving": {
+        "autonomous-driving",
+        "robotics",
+        "ros",
+        "carla",
+        "carla-simulator",
+        "imitation-learning",
+        "reinforcement-learning",
+        "drone",
+    },
+    "Information Extraction": {
+        "named-entity-recognition",
+        "semantic-parsing",
+        "dependency-parser",
+        "pos-tagging",
+        "information-extraction",
+        "corpus-builder",
+        "corpus-tools",
+        "news-crawler",
+        "news-aggregator",
+        "readability",
+        "html-to-markdown",
+    },
+}
 
 
 LIST_REPOS_QUERY = """
@@ -465,12 +545,16 @@ def build_backbone_graph(
     for topic in topic_graph.nodes():
         pr_score = float(pagerank.get(topic, 0.0))
         bw_score = float(betweenness.get(topic, 0.0))
+        semantic_label = infer_semantic_label(topic)
         topic_graph.nodes[topic]["PageRank"] = pr_score
         topic_graph.nodes[topic]["Betweenness"] = bw_score
         topic_graph.nodes[topic]["pagerank"] = pr_score
         topic_graph.nodes[topic]["betweenness"] = bw_score
         topic_graph.nodes[topic]["Community"] = int(partition.get(topic, 0))
         topic_graph.nodes[topic]["community"] = int(partition.get(topic, 0))
+        topic_graph.nodes[topic]["community_method"] = community_method
+        topic_graph.nodes[topic]["semantic_label"] = semantic_label
+        topic_graph.nodes[topic]["SemanticLabel"] = semantic_label
 
     community_colors = build_community_color_map(partition)
     for topic in topic_graph.nodes():
@@ -634,6 +718,12 @@ def main() -> None:
         k_core_k=args.k_core,
     )
     nx.write_gexf(topic_graph, args.gexf_output)
+
+    print(f"[community] detection method -> {extra_stats['community_method']}")
+    print(f"[save] community membership csv -> {args.community_membership_output}")
+    print(f"[save] community summary csv -> {args.community_summary_output}")
+    print(f"[save] community purity csv -> {args.community_purity_output}")
+    print(f"[save] communities json -> {args.communities_json_output}")
     print(f"[save] gephi gexf -> {args.gexf_output}")
     print(f"[elite] total elite users used in model: {extra_stats['elite_user_count']}")
     print(

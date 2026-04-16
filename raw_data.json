@@ -1,8 +1,8 @@
 [
   {
     "nameWithOwner": "opencv/opencv",
-    "stargazerCount": 87145,
-    "forkCount": 56554,
+    "stargazerCount": 87147,
+    "forkCount": 56555,
     "primaryLanguage": "C++",
     "source_domains": [
       "computer-vision"
@@ -69,7 +69,7 @@
   },
   {
     "nameWithOwner": "Developer-Y/cs-video-courses",
-    "stargazerCount": 80156,
+    "stargazerCount": 80158,
     "forkCount": 11065,
     "primaryLanguage": null,
     "source_domains": [
@@ -150,7 +150,7 @@
   },
   {
     "nameWithOwner": "d2l-ai/d2l-zh",
-    "stargazerCount": 77201,
+    "stargazerCount": 77203,
     "forkCount": 12223,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -221,8 +221,8 @@
   },
   {
     "nameWithOwner": "ultralytics/ultralytics",
-    "stargazerCount": 56014,
-    "forkCount": 10775,
+    "stargazerCount": 56024,
+    "forkCount": 10776,
     "primaryLanguage": "Python",
     "source_domains": [
       "computer-vision"
@@ -304,8 +304,8 @@
   },
   {
     "nameWithOwner": "microsoft/AI-For-Beginners",
-    "stargazerCount": 46559,
-    "forkCount": 9545,
+    "stargazerCount": 46562,
+    "forkCount": 9546,
     "primaryLanguage": "Jupyter Notebook",
     "source_domains": [
       "computer-vision",
@@ -378,7 +378,7 @@
   },
   {
     "nameWithOwner": "roboflow/supervision",
-    "stargazerCount": 38084,
+    "stargazerCount": 38085,
     "forkCount": 3365,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -460,7 +460,7 @@
   },
   {
     "nameWithOwner": "google-ai-edge/mediapipe",
-    "stargazerCount": 34755,
+    "stargazerCount": 34756,
     "forkCount": 5914,
     "primaryLanguage": "C++",
     "source_domains": [
@@ -540,7 +540,7 @@
   },
   {
     "nameWithOwner": "CMU-Perceptual-Computing-Lab/openpose",
-    "stargazerCount": 33963,
+    "stargazerCount": 33965,
     "forkCount": 8053,
     "primaryLanguage": "C++",
     "source_domains": [
@@ -623,7 +623,7 @@
   },
   {
     "nameWithOwner": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-    "stargazerCount": 32901,
+    "stargazerCount": 32902,
     "forkCount": 7036,
     "primaryLanguage": null,
     "source_domains": [
@@ -726,7 +726,7 @@
   },
   {
     "nameWithOwner": "d2l-ai/d2l-en",
-    "stargazerCount": 28626,
+    "stargazerCount": 28627,
     "forkCount": 5023,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -807,8 +807,8 @@
   },
   {
     "nameWithOwner": "HumanSignal/label-studio",
-    "stargazerCount": 27038,
-    "forkCount": 3493,
+    "stargazerCount": 27040,
+    "forkCount": 3492,
     "primaryLanguage": "TypeScript",
     "source_domains": [
       "computer-vision"
@@ -1085,7 +1085,7 @@
   },
   {
     "nameWithOwner": "amusi/CVPR2026-Papers-with-Code",
-    "stargazerCount": 22404,
+    "stargazerCount": 22406,
     "forkCount": 2791,
     "primaryLanguage": null,
     "source_domains": [
@@ -1122,7 +1122,7 @@
   },
   {
     "nameWithOwner": "graphdeco-inria/gaussian-splatting",
-    "stargazerCount": 21405,
+    "stargazerCount": 21408,
     "forkCount": 3118,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -1155,7 +1155,7 @@
   {
     "nameWithOwner": "huggingface/datasets",
     "stargazerCount": 21403,
-    "forkCount": 3175,
+    "forkCount": 3176,
     "primaryLanguage": "Python",
     "source_domains": [
       "computer-vision",
@@ -1234,7 +1234,7 @@
   },
   {
     "nameWithOwner": "MaaAssistantArknights/MaaAssistantArknights",
-    "stargazerCount": 20321,
+    "stargazerCount": 20322,
     "forkCount": 2551,
     "primaryLanguage": "C++",
     "source_domains": [
@@ -1300,7 +1300,7 @@
   },
   {
     "nameWithOwner": "AccumulateMore/CV",
-    "stargazerCount": 19912,
+    "stargazerCount": 19916,
     "forkCount": 2286,
     "primaryLanguage": "Jupyter Notebook",
     "source_domains": [
@@ -1359,7 +1359,7 @@
   },
   {
     "nameWithOwner": "screenpipe/screenpipe",
-    "stargazerCount": 18226,
+    "stargazerCount": 18227,
     "forkCount": 1621,
     "primaryLanguage": "Rust",
     "source_domains": [
@@ -1732,7 +1732,7 @@
   },
   {
     "nameWithOwner": "wkentaro/labelme",
-    "stargazerCount": 15742,
+    "stargazerCount": 15743,
     "forkCount": 3660,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -2453,7 +2453,7 @@
   },
   {
     "nameWithOwner": "zalandoresearch/fashion-mnist",
-    "stargazerCount": 12698,
+    "stargazerCount": 12700,
     "forkCount": 3071,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -2762,7 +2762,7 @@
   },
   {
     "nameWithOwner": "nerfstudio-project/nerfstudio",
-    "stargazerCount": 11451,
+    "stargazerCount": 11452,
     "forkCount": 1603,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -2835,7 +2835,7 @@
   },
   {
     "nameWithOwner": "colmap/colmap",
-    "stargazerCount": 11447,
+    "stargazerCount": 11449,
     "forkCount": 1971,
     "primaryLanguage": "C++",
     "source_domains": [
@@ -2904,7 +2904,7 @@
   {
     "nameWithOwner": "kornia/kornia",
     "stargazerCount": 11175,
-    "forkCount": 1179,
+    "forkCount": 1180,
     "primaryLanguage": "Python",
     "source_domains": [
       "computer-vision"
@@ -3082,7 +3082,7 @@
   },
   {
     "nameWithOwner": "voxel51/fiftyone",
-    "stargazerCount": 10578,
+    "stargazerCount": 10579,
     "forkCount": 740,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -3162,7 +3162,7 @@
   },
   {
     "nameWithOwner": "rerun-io/rerun",
-    "stargazerCount": 10537,
+    "stargazerCount": 10538,
     "forkCount": 709,
     "primaryLanguage": "Rust",
     "source_domains": [
@@ -3343,7 +3343,7 @@
   },
   {
     "nameWithOwner": "autogluon/autogluon",
-    "stargazerCount": 10225,
+    "stargazerCount": 10226,
     "forkCount": 1137,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -3427,7 +3427,7 @@
   {
     "nameWithOwner": "openvinotoolkit/openvino",
     "stargazerCount": 10089,
-    "forkCount": 3181,
+    "forkCount": 3182,
     "primaryLanguage": "C++",
     "source_domains": [
       "computer-vision",
@@ -3661,7 +3661,7 @@
   },
   {
     "nameWithOwner": "roboflow/notebooks",
-    "stargazerCount": 9326,
+    "stargazerCount": 9325,
     "forkCount": 1441,
     "primaryLanguage": "Jupyter Notebook",
     "source_domains": [
@@ -3849,7 +3849,7 @@
   },
   {
     "nameWithOwner": "dusty-nv/jetson-inference",
-    "stargazerCount": 8803,
+    "stargazerCount": 8804,
     "forkCount": 3096,
     "primaryLanguage": "C++",
     "source_domains": [
@@ -3929,8 +3929,8 @@
   },
   {
     "nameWithOwner": "CVHub520/X-AnyLabeling",
-    "stargazerCount": 8776,
-    "forkCount": 941,
+    "stargazerCount": 8777,
+    "forkCount": 942,
     "primaryLanguage": "Python",
     "source_domains": [
       "computer-vision"
@@ -4002,7 +4002,7 @@
   },
   {
     "nameWithOwner": "realsenseai/librealsense",
-    "stargazerCount": 8700,
+    "stargazerCount": 8701,
     "forkCount": 4997,
     "primaryLanguage": "C++",
     "source_domains": [
@@ -4073,7 +4073,7 @@
   {
     "nameWithOwner": "MITDeepLearning/introtodeeplearning",
     "stargazerCount": 8599,
-    "forkCount": 4478,
+    "forkCount": 4479,
     "primaryLanguage": "Jupyter Notebook",
     "source_domains": [
       "computer-vision"
@@ -4979,8 +4979,8 @@
   },
   {
     "nameWithOwner": "roboflow/rf-detr",
-    "stargazerCount": 6393,
-    "forkCount": 772,
+    "stargazerCount": 6395,
+    "forkCount": 773,
     "primaryLanguage": "Python",
     "source_domains": [
       "computer-vision"
@@ -5446,7 +5446,7 @@
   {
     "nameWithOwner": "Hironsan/BossSensor",
     "stargazerCount": 6283,
-    "forkCount": 1078,
+    "forkCount": 1077,
     "primaryLanguage": "Python",
     "source_domains": [
       "computer-vision"
@@ -5467,7 +5467,7 @@
   },
   {
     "nameWithOwner": "amusi/AI-Job-Notes",
-    "stargazerCount": 6062,
+    "stargazerCount": 6063,
     "forkCount": 669,
     "primaryLanguage": null,
     "source_domains": [
@@ -6036,7 +6036,7 @@
   },
   {
     "nameWithOwner": "huggingface/transformers",
-    "stargazerCount": 159475,
+    "stargazerCount": 159480,
     "forkCount": 32886,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -6118,7 +6118,7 @@
   },
   {
     "nameWithOwner": "hiyouga/LlamaFactory",
-    "stargazerCount": 70177,
+    "stargazerCount": 70183,
     "forkCount": 8593,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -6202,7 +6202,7 @@
   {
     "nameWithOwner": "apachecn/ailearning",
     "stargazerCount": 42186,
-    "forkCount": 11571,
+    "forkCount": 11572,
     "primaryLanguage": "Python",
     "source_domains": [
       "nlp"
@@ -6278,7 +6278,7 @@
   },
   {
     "nameWithOwner": "666ghj/BettaFish",
-    "stargazerCount": 40456,
+    "stargazerCount": 40460,
     "forkCount": 7509,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -6384,7 +6384,7 @@
   },
   {
     "nameWithOwner": "hankcs/HanLP",
-    "stargazerCount": 36260,
+    "stargazerCount": 36261,
     "forkCount": 10899,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -6581,7 +6581,7 @@
   },
   {
     "nameWithOwner": "stanford-oval/storm",
-    "stargazerCount": 28094,
+    "stargazerCount": 28093,
     "forkCount": 2560,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -6629,7 +6629,7 @@
   },
   {
     "nameWithOwner": "NirDiamant/RAG_Techniques",
-    "stargazerCount": 26802,
+    "stargazerCount": 26805,
     "forkCount": 3207,
     "primaryLanguage": "Jupyter Notebook",
     "source_domains": [
@@ -6690,7 +6690,7 @@
   },
   {
     "nameWithOwner": "deepset-ai/haystack",
-    "stargazerCount": 24852,
+    "stargazerCount": 24851,
     "forkCount": 2720,
     "primaryLanguage": "MDX",
     "source_domains": [
@@ -6773,7 +6773,7 @@
   },
   {
     "nameWithOwner": "lukasmasuch/best-of-ml-python",
-    "stargazerCount": 23415,
+    "stargazerCount": 23417,
     "forkCount": 3114,
     "primaryLanguage": null,
     "source_domains": [
@@ -6855,7 +6855,7 @@
   },
   {
     "nameWithOwner": "HqWu-HITCS/Awesome-Chinese-LLM",
-    "stargazerCount": 22527,
+    "stargazerCount": 22528,
     "forkCount": 2126,
     "primaryLanguage": null,
     "source_domains": [
@@ -7063,7 +7063,7 @@
   },
   {
     "nameWithOwner": "AI4Finance-Foundation/FinGPT",
-    "stargazerCount": 19472,
+    "stargazerCount": 19480,
     "forkCount": 2743,
     "primaryLanguage": "Jupyter Notebook",
     "source_domains": [
@@ -7250,7 +7250,7 @@
   {
     "nameWithOwner": "dair-ai/ML-YouTube-Courses",
     "stargazerCount": 17148,
-    "forkCount": 2100,
+    "forkCount": 2101,
     "primaryLanguage": null,
     "source_domains": [
       "nlp"
@@ -7478,7 +7478,7 @@
   },
   {
     "nameWithOwner": "botpress/botpress",
-    "stargazerCount": 14637,
+    "stargazerCount": 14638,
     "forkCount": 2252,
     "primaryLanguage": "TypeScript",
     "source_domains": [
@@ -7622,7 +7622,7 @@
   {
     "nameWithOwner": "Unstructured-IO/unstructured",
     "stargazerCount": 14476,
-    "forkCount": 1216,
+    "forkCount": 1217,
     "primaryLanguage": "HTML",
     "source_domains": [
       "nlp"
@@ -7775,7 +7775,7 @@
   },
   {
     "nameWithOwner": "GeeeekExplorer/nano-vllm",
-    "stargazerCount": 12940,
+    "stargazerCount": 12939,
     "forkCount": 1939,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -8360,7 +8360,7 @@
   },
   {
     "nameWithOwner": "bigscience-workshop/petals",
-    "stargazerCount": 10075,
+    "stargazerCount": 10076,
     "forkCount": 602,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -8898,7 +8898,7 @@
   },
   {
     "nameWithOwner": "microsoft/presidio",
-    "stargazerCount": 7627,
+    "stargazerCount": 7629,
     "forkCount": 1002,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -9822,7 +9822,7 @@
   },
   {
     "nameWithOwner": "adbar/trafilatura",
-    "stargazerCount": 5723,
+    "stargazerCount": 5727,
     "forkCount": 356,
     "primaryLanguage": "Python",
     "source_domains": [
@@ -10557,8 +10557,8 @@
   },
   {
     "nameWithOwner": "yanshengjia/ml-road",
-    "stargazerCount": 4715,
-    "forkCount": 1697,
+    "stargazerCount": 4717,
+    "forkCount": 1696,
     "primaryLanguage": "Python",
     "source_domains": [
       "nlp"
