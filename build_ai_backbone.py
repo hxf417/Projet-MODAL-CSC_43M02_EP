@@ -5,20 +5,23 @@ Pipeline:
 1) Fetch top-star repositories for topic:computer-vision and topic:nlp.
 2) Fetch per-repository details (topics + mentionable users).
 3) Build elite-user -> topic bipartite graph, then project to topic-topic.
-4) Enrich node attributes and export Gephi-compatible GEXF.
-5) Print core network statistics and top bridge technologies.
+4) Detect topic communities with NetworkX and export community tables/files.
+5) Enrich node attributes and export Gephi-compatible GEXF.
+6) Print core network statistics and top bridge technologies.
 """
 
 from __future__ import annotations
 
 import argparse
+import csv
 import json
+import math
 import os
+import re
 import time
 from collections import Counter, defaultdict
 from typing import Dict, Iterable, List, Optional, Set, Tuple
 
-import community as community_louvain
 import networkx as nx
 import pandas as pd
 import requests
@@ -34,6 +37,85 @@ REPO_TOPICS_LIMIT = 100
 REQUEST_RETRIES = 5
 RETRY_BACKOFF_SECONDS = 1.5
 REQUEST_TIMEOUT_SECONDS = 30
+SEMANTIC_LABEL_RULES = {
+    "LLM / NLP": {
+        "llm",
+        "large-language-models",
+        "transformer",
+        "transformers",
+        "nlp",
+        "natural-language-processing",
+        "language-model",
+        "language-models",
+        "llama",
+        "prompt-engineering",
+        "chatbot",
+        "chatbots",
+        "conversational-ai",
+        "text-generation",
+        "instruction-tuning",
+    },
+    "Computer Vision": {
+        "computer-vision",
+        "image-processing",
+        "image-classification",
+        "object-detection",
+        "segmentation",
+        "instance-segmentation",
+        "image-segmentation",
+        "vision",
+        "opencv",
+        "yolo",
+        "ocr",
+        "classification",
+    },
+    "Multimodal AI": {
+        "multimodal",
+        "vlm",
+        "vision-language-model",
+        "vision-language",
+        "text-to-image",
+        "image-to-text",
+        "diffusion",
+        "generative-ai",
+        "text-generation-webui",
+    },
+    "ML Frameworks": {
+        "deep-learning",
+        "machine-learning",
+        "pytorch",
+        "tensorflow",
+        "keras",
+        "jax",
+        "neural-network",
+        "deep-neural-networks",
+        "ai",
+        "data-science",
+    },
+    "Robotics / Autonomous Driving": {
+        "autonomous-driving",
+        "robotics",
+        "ros",
+        "carla",
+        "carla-simulator",
+        "imitation-learning",
+        "reinforcement-learning",
+        "drone",
+    },
+    "Information Extraction": {
+        "named-entity-recognition",
+        "semantic-parsing",
+        "dependency-parser",
+        "pos-tagging",
+        "information-extraction",
+        "corpus-builder",
+        "corpus-tools",
+        "news-crawler",
+        "news-aggregator",
+        "readability",
+        "html-to-markdown",
+    },
+}
 
 
 LIST_REPOS_QUERY = """
@@ -349,19 +431,20 @@ def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int
         else {}
     )
 
-    if topic_graph.number_of_edges() > 0:
-        partition = community_louvain.best_partition(topic_graph, weight="weight")
-    else:
-        partition = {n: 0 for n in topic_graph.nodes()}
+    partition, community_method = detect_communities(topic_graph)
 
     for topic in topic_graph.nodes():
         pr_score = float(pagerank.get(topic, 0.0))
         bw_score = float(betweenness.get(topic, 0.0))
+        semantic_label = infer_semantic_label(topic)
         topic_graph.nodes[topic]["PageRank"] = pr_score
         topic_graph.nodes[topic]["Betweenness"] = bw_score
         topic_graph.nodes[topic]["pagerank"] = pr_score
         topic_graph.nodes[topic]["betweenness"] = bw_score
         topic_graph.nodes[topic]["community"] = int(partition.get(topic, 0))
+        topic_graph.nodes[topic]["community_method"] = community_method
+        topic_graph.nodes[topic]["semantic_label"] = semantic_label
+        topic_graph.nodes[topic]["SemanticLabel"] = semantic_label
 
     bridge_nodes = []
     for node in topic_graph.nodes():
@@ -389,7 +472,287 @@ def build_backbone_graph(repo_data: List[Dict]) -> Tuple[nx.Graph, Dict[str, int
     else:
         print("\nTop 5 bridge technologies (between communities): none")
 
-    return topic_graph, {"elite_user_count": len(elite_users)}
+    return topic_graph, {
+        "elite_user_count": len(elite_users),
+        "community_method": community_method,
+    }
+
+
+def detect_communities(graph: nx.Graph) -> Tuple[Dict[str, int], str]:
+    """Detect communities with NetworkX and return node -> community mapping."""
+    if graph.number_of_nodes() == 0:
+        return {}, "none"
+
+    if graph.number_of_edges() == 0:
+        return {node: idx for idx, node in enumerate(graph.nodes())}, "connected-components"
+
+    louvain_communities = getattr(nx.community, "louvain_communities", None)
+    if callable(louvain_communities):
+        communities = louvain_communities(graph, weight="weight", seed=42)
+        method = "networkx-louvain"
+    else:
+        communities = list(nx.community.greedy_modularity_communities(graph, weight="weight"))
+        method = "networkx-greedy-modularity"
+
+    partition: Dict[str, int] = {}
+    for idx, community_nodes in enumerate(
+        sorted(communities, key=lambda nodes: (-len(nodes), sorted(nodes)[0]))
+    ):
+        for node in sorted(community_nodes):
+            partition[node] = idx
+    return partition, method
+
+
+def build_community_outputs(
+    graph: nx.Graph,
+) -> Tuple[pd.DataFrame, pd.DataFrame, List[Dict]]:
+    """Build tabular community outputs from the annotated topic graph."""
+    membership_columns = [
+        "community_id",
+        "topic",
+        "pagerank",
+        "betweenness",
+        "group",
+        "semantic_label",
+        "language",
+        "total_stars",
+        "total_forks",
+        "repo_count",
+        "degree",
+    ]
+    summary_columns = [
+        "community_id",
+        "size",
+        "internal_edges",
+        "density",
+        "total_stars",
+        "total_forks",
+        "total_repo_count",
+        "dominant_group",
+        "domain_purity",
+        "domain_entropy",
+        "dominant_semantic_label",
+        "proposed_label",
+        "semantic_purity",
+        "semantic_entropy",
+        "top_topics",
+    ]
+    membership_rows: List[Dict] = []
+    community_rows: List[Dict] = []
+
+    community_to_nodes: Dict[int, List[str]] = defaultdict(list)
+    for node, attrs in graph.nodes(data=True):
+        community_to_nodes[int(attrs.get("community", 0))].append(node)
+
+    for community_id, nodes in sorted(community_to_nodes.items()):
+        sorted_nodes = sorted(
+            nodes,
+            key=lambda node: (
+                -float(graph.nodes[node].get("pagerank", 0.0)),
+                -int(graph.nodes[node].get("total_stars", 0)),
+                node,
+            ),
+        )
+
+        for node in sorted_nodes:
+            attrs = graph.nodes[node]
+            membership_rows.append(
+                {
+                    "community_id": community_id,
+                    "topic": node,
+                    "pagerank": float(attrs.get("pagerank", 0.0)),
+                    "betweenness": float(attrs.get("betweenness", 0.0)),
+                    "group": attrs.get("group", "Unknown"),
+                    "semantic_label": attrs.get("semantic_label", "General AI"),
+                    "language": attrs.get("language", "Unknown"),
+                    "total_stars": int(attrs.get("total_stars", 0)),
+                    "total_forks": int(attrs.get("total_forks", 0)),
+                    "repo_count": int(attrs.get("repo_count", 0)),
+                    "degree": int(graph.degree(node)),
+                }
+            )
+
+        community_subgraph = graph.subgraph(sorted_nodes).copy()
+        total_stars = sum(int(graph.nodes[node].get("total_stars", 0)) for node in sorted_nodes)
+        total_forks = sum(int(graph.nodes[node].get("total_forks", 0)) for node in sorted_nodes)
+        total_repo_count = sum(int(graph.nodes[node].get("repo_count", 0)) for node in sorted_nodes)
+        top_topics = sorted_nodes[:10]
+        domain_counter = Counter(graph.nodes[node].get("group", "Unknown") for node in sorted_nodes)
+        dominant_group, domain_purity = compute_purity(domain_counter)
+        semantic_scores = score_semantic_labels(sorted_nodes, graph)
+        dominant_semantic_label, semantic_purity = compute_purity(semantic_scores)
+        proposed_label = choose_proposed_label(dominant_group, dominant_semantic_label)
+        community_rows.append(
+            {
+                "community_id": community_id,
+                "size": len(sorted_nodes),
+                "internal_edges": community_subgraph.number_of_edges(),
+                "density": nx.density(community_subgraph) if len(sorted_nodes) > 1 else 0.0,
+                "total_stars": total_stars,
+                "total_forks": total_forks,
+                "total_repo_count": total_repo_count,
+                "dominant_group": dominant_group,
+                "domain_purity": domain_purity,
+                "domain_entropy": compute_entropy(domain_counter),
+                "dominant_semantic_label": dominant_semantic_label,
+                "proposed_label": proposed_label,
+                "semantic_purity": semantic_purity,
+                "semantic_entropy": compute_entropy(semantic_scores),
+                "top_topics": ", ".join(top_topics),
+            }
+        )
+
+    membership_df = pd.DataFrame(membership_rows, columns=membership_columns)
+    if not membership_df.empty:
+        membership_df = membership_df.sort_values(
+            by=["community_id", "pagerank", "total_stars", "topic"],
+            ascending=[True, False, False, True],
+        )
+
+    community_df = pd.DataFrame(community_rows, columns=summary_columns)
+    if not community_df.empty:
+        community_df = community_df.sort_values(
+            by=["size", "total_stars", "community_id"],
+            ascending=[False, False, True],
+        )
+
+    communities_json = []
+    for _, community_row in community_df.iterrows():
+        community_id = int(community_row["community_id"])
+        members = membership_df[membership_df["community_id"] == community_id]
+        communities_json.append(
+            {
+                "community_id": community_id,
+                "size": int(community_row["size"]),
+                "internal_edges": int(community_row["internal_edges"]),
+                "density": float(community_row["density"]),
+                "total_stars": int(community_row["total_stars"]),
+                "total_forks": int(community_row["total_forks"]),
+                "total_repo_count": int(community_row["total_repo_count"]),
+                "dominant_group": community_row["dominant_group"],
+                "domain_purity": float(community_row["domain_purity"]),
+                "domain_entropy": float(community_row["domain_entropy"]),
+                "dominant_semantic_label": community_row["dominant_semantic_label"],
+                "proposed_label": community_row["proposed_label"],
+                "semantic_purity": float(community_row["semantic_purity"]),
+                "semantic_entropy": float(community_row["semantic_entropy"]),
+                "top_topics": community_row["top_topics"].split(", ")
+                if community_row["top_topics"]
+                else [],
+                "members": members.to_dict(orient="records"),
+            }
+        )
+
+    return membership_df, community_df, communities_json
+
+
+def save_community_outputs(
+    membership_df: pd.DataFrame,
+    community_df: pd.DataFrame,
+    communities_json: List[Dict],
+    membership_output: str,
+    summary_output: str,
+    purity_output: str,
+    json_output: str,
+) -> None:
+    """Persist community tables/files for downstream analysis."""
+    membership_df.to_csv(membership_output, index=False, quoting=csv.QUOTE_MINIMAL)
+    community_df.to_csv(summary_output, index=False, quoting=csv.QUOTE_MINIMAL)
+    purity_columns = [
+        "community_id",
+        "size",
+        "dominant_group",
+        "domain_purity",
+        "domain_entropy",
+        "dominant_semantic_label",
+        "proposed_label",
+        "semantic_purity",
+        "semantic_entropy",
+        "top_topics",
+    ]
+    community_df[purity_columns].to_csv(purity_output, index=False, quoting=csv.QUOTE_MINIMAL)
+    with open(json_output, "w", encoding="utf-8") as f:
+        json.dump(communities_json, f, ensure_ascii=False, indent=2)
+
+
+def normalize_topic_name(topic: str) -> Set[str]:
+    """Create normalized topic tokens for heuristic semantic labeling."""
+    normalized = topic.lower().replace("_", "-")
+    pieces = {normalized}
+    pieces.update(part for part in re.split(r"[^a-z0-9]+", normalized) if part)
+    return pieces
+
+
+def infer_semantic_label(topic: str) -> str:
+    """Infer a semantic subfield label from the topic name."""
+    topic_tokens = normalize_topic_name(topic)
+    best_label = "General AI"
+    best_score = 0
+
+    for label, keywords in SEMANTIC_LABEL_RULES.items():
+        score = len(topic_tokens & keywords)
+        if score > best_score:
+            best_score = score
+            best_label = label
+
+    return best_label
+
+
+def score_semantic_labels(nodes: List[str], graph: nx.Graph) -> Counter:
+    """Score semantic labels for a community using node importance."""
+    scores: Counter = Counter()
+
+    for node in nodes:
+        semantic_label = infer_semantic_label(node)
+        node_attrs = graph.nodes[node]
+        pagerank = float(node_attrs.get("pagerank", 0.0))
+        degree = float(graph.degree(node))
+        weight = pagerank * 1000.0 + degree
+
+        if semantic_label == "General AI":
+            weight *= 0.25
+
+        scores[semantic_label] += weight
+
+    if not scores:
+        scores["Unknown"] = 0.0
+    return scores
+
+
+def choose_proposed_label(dominant_group: str, dominant_semantic_label: str) -> str:
+    """Produce a user-facing label for the community."""
+    if dominant_semantic_label not in {"General AI", "Unknown"}:
+        return dominant_semantic_label
+    if dominant_group == "CV":
+        return "General Computer Vision"
+    if dominant_group == "NLP":
+        return "General NLP / Language AI"
+    if dominant_group == "Cross-domain":
+        return "General AI / Cross-domain"
+    return "General AI"
+
+
+def compute_purity(counter: Counter) -> Tuple[str, float]:
+    """Return dominant label and its share."""
+    total = sum(counter.values())
+    if total == 0:
+        return "Unknown", 0.0
+
+    dominant_label, dominant_count = counter.most_common(1)[0]
+    return dominant_label, dominant_count / total
+
+
+def compute_entropy(counter: Counter) -> float:
+    """Compute Shannon entropy from a label counter."""
+    total = sum(counter.values())
+    if total == 0:
+        return 0.0
+
+    entropy = 0.0
+    for count in counter.values():
+        probability = count / total
+        entropy -= probability * math.log2(probability)
+    return entropy
 
 
 def print_graph_stats(graph: nx.Graph) -> None:
@@ -435,6 +798,26 @@ def parse_args() -> argparse.Namespace:
         default="ai_backbone_network.gexf",
         help="Path to save final GEXF file",
     )
+    parser.add_argument(
+        "--community-membership-output",
+        default="community_membership.csv",
+        help="Path to save topic-level community membership table as CSV",
+    )
+    parser.add_argument(
+        "--community-summary-output",
+        default="community_summary.csv",
+        help="Path to save community-level summary table as CSV",
+    )
+    parser.add_argument(
+        "--community-purity-output",
+        default="community_purity.csv",
+        help="Path to save community purity metrics as CSV",
+    )
+    parser.add_argument(
+        "--communities-json-output",
+        default="communities.json",
+        help="Path to save full community structure and members as JSON",
+    )
     return parser.parse_args()
 
 
@@ -452,7 +835,23 @@ def main() -> None:
     print(f"[save] cleaned repository data -> {args.raw_output}")
 
     topic_graph, extra_stats = build_backbone_graph(repo_data)
+    membership_df, community_df, communities_json = build_community_outputs(topic_graph)
+    save_community_outputs(
+        membership_df=membership_df,
+        community_df=community_df,
+        communities_json=communities_json,
+        membership_output=args.community_membership_output,
+        summary_output=args.community_summary_output,
+        purity_output=args.community_purity_output,
+        json_output=args.communities_json_output,
+    )
     nx.write_gexf(topic_graph, args.gexf_output)
+
+    print(f"[community] detection method -> {extra_stats['community_method']}")
+    print(f"[save] community membership csv -> {args.community_membership_output}")
+    print(f"[save] community summary csv -> {args.community_summary_output}")
+    print(f"[save] community purity csv -> {args.community_purity_output}")
+    print(f"[save] communities json -> {args.communities_json_output}")
     print(f"[save] gephi gexf -> {args.gexf_output}")
     print(f"[elite] total elite users used in model: {extra_stats['elite_user_count']}")
 
