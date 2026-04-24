@@ -271,6 +271,12 @@ def load_github_token(env_name: str) -> str:
     return token
 
 
+def ensure_parent_dir(path: str) -> None:
+    parent = os.path.dirname(path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
+
+
 def is_filtered_login(login: str) -> bool:
     lower = login.lower()
     return "[bot]" in lower or lower == "web-flow"
@@ -1247,12 +1253,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--raw-output",
-        default="repo_raw_data.json",
+        default="data/raw/repo_raw_data_fork.json",
         help="Path to save/load normalized repository data",
     )
     parser.add_argument(
         "--gexf-output",
-        default="repository_backbone.gexf",
+        default="outputs/graphs/repo/repository_backbone_fork.gexf",
         help="Path to save GEXF output",
     )
     parser.add_argument(
@@ -1349,6 +1355,7 @@ def main() -> None:
             token=token,
             per_domain_limit=args.per_domain_limit,
         )
+        ensure_parent_dir(args.raw_output)
         with open(args.raw_output, "w", encoding="utf-8") as f:
             json.dump(repo_data, f, ensure_ascii=False, indent=2)
         print(f"[save] normalized raw repository data -> {args.raw_output}")
@@ -1437,6 +1444,7 @@ def main() -> None:
     )
 
     stats = annotate_graph_metrics(backbone, resolution=args.resolution)
+    ensure_parent_dir(args.gexf_output)
     nx.write_gexf(backbone, args.gexf_output)
     print(f"[save] gexf -> {args.gexf_output}")
     print_summary(backbone, stats)

@@ -1,0 +1,303 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\title{Modal Graph Analysis -- Final Report}
+\author{Raphael des Boscs, Xufan Huang}
+\date{April 2026}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Abstract}
+This report presents a multi-layer network analysis pipeline for AI repositories on GitHub.
+Starting from topic-seeded repository retrieval (\texttt{computer-vision} and \texttt{nlp}), we construct a repository-level weighted graph, extract backbone structure, detect communities, and compute centrality metrics.
+We then aggregate the repository graph to a company-level graph to evaluate whether ownership entities form distinct communities and whether small entities cluster together.
+The report focuses on methodological design, explicit mathematical definitions, and reproducible implementation details. Experimental interpretation and additional visual assets can be inserted into the placeholders provided.
+
+\section{Research Questions}
+We focus on the following questions:
+\begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{RQ1}: Can a repository-level network built from fork, README, and dependency signals reveal interpretable AI communities at scale?
+    \item \textbf{RQ2}: At company level, do ownership entities form distinct communities, and are these communities dominated by small entities?
+    \item \textbf{RQ3}: Which repositories and companies play bridge roles across communities?
+\end{enumerate}
+
+\section{Data Acquisition and Cleaning}
+\subsection{Sampling Strategy}
+We use two query seeds on GitHub GraphQL:
+\begin{itemize}[leftmargin=1.5em]
+    \item \texttt{topic:computer-vision}
+    \item \texttt{topic:nlp}
+\end{itemize}
+For this run, we retrieved top 500 repositories for each seed (stars-sorted), then merged duplicates across domains.
+The resulting unique repository set contains \textbf{967 repositories}.
+
+\subsection{Two-step GraphQL Retrieval}
+To reduce request instability and payload size:
+\begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{List stage}: retrieve compact repository metadata (\texttt{nameWithOwner}, stars, forks, language).
+    \item \textbf{Detail stage}: per repository, retrieve topics, commit-author signals, README text, dependency files, and forks.
+\end{enumerate}
+
+\subsection{Raw Fields Collected}
+Per repository, we collect:
+\begin{itemize}[leftmargin=1.5em]
+    \item Basic: \texttt{nameWithOwner}, \texttt{stargazerCount}, \texttt{forkCount}, \texttt{primaryLanguage}
+    \item Content: README text (multiple path fallbacks)
+    \item Dependencies: \texttt{requirements.txt}, \texttt{pyproject.toml}, \texttt{package.json}, \texttt{go.mod}, \texttt{Cargo.toml}, \texttt{pom.xml}, \texttt{Gemfile}, \texttt{environment.yml}
+    \item Social signals: commit authors, mentionable users, fork owners
+    \item Domain context: source topic-domain assignment (CV / NLP / cross-domain)
+\end{itemize}
+
+\subsection{Cleaning Rules}
+User/account filtering:
+\begin{itemize}[leftmargin=1.5em]
+    \item Remove any login containing \texttt{[bot]}
+    \item Remove \texttt{web-flow}
+\end{itemize}
+Dependency names and company labels are normalized to reduce lexical duplication.
+
+\section{Repository-level Graph Construction}
+\subsection{Node Definition}
+Each node is a repository.
+Topics are retained as node attributes (not topic nodes), avoiding excessive topic-projection density.
+
+\subsection{Edge Weight Design}
+For repositories $i,j$, edge weight is defined as:
+\begin{equation}
+w_{ij}=\alpha s^{\text{fork}}_{ij}+\beta s^{\text{readme}}_{ij}+\gamma s^{\text{dep}}_{ij}+\delta s^{\text{contrib}}_{ij}
+\end{equation}
+with default parameters:
+\begin{equation}
+(\alpha,\beta,\gamma,\delta)=(0.6,0.2,0.2,0.0)
+\end{equation}
+
+\paragraph{Fork-overlap signal}
+\begin{equation}
+s^{\text{fork}}_{ij}=\frac{|F_i\cap F_j|}{|F_i\cup F_j|}
+\end{equation}
+where $F_i$ is the set of fork-owner accounts of repository $i$.
+
+\paragraph{README semantic signal}
+README text is preprocessed (remove code blocks, markdown links/images, low-information terms), then converted into sparse TF-IDF vectors.
+For term $t$ in document $d$:
+\begin{equation}
+\text{tfidf}(t,d)=\left(1+\log \text{tf}(t,d)\right)\left(\log\frac{1+N}{1+\text{df}(t)}+1\right)
+\end{equation}
+README similarity:
+\begin{equation}
+s^{\text{readme}}_{ij}=\frac{v_i\cdot v_j}{\|v_i\|\|v_j\|}
+\end{equation}
+
+\paragraph{Dependency-overlap signal}
+\begin{equation}
+s^{\text{dep}}_{ij}=\frac{|D_i\cap D_j|}{|D_i\cup D_j|}
+\end{equation}
+where $D_i$ is the parsed dependency set.
+
+\paragraph{Contributor-overlap (fallback)}
+When fork/README/dependency produce near-empty connectivity, a small contributor-overlap term can be enabled as fallback for graph viability.
+
+\section{Backbone Extraction and Denoising}
+The raw similarity graph is filtered in stages:
+\begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{Pre-threshold} (\texttt{pre-min-weight}) before edge insertion.
+    \item \textbf{Backbone threshold} (\texttt{min-weight}) on existing edges.
+    \item \textbf{Optional top-$k$ sparsification} per node.
+    \item \textbf{Optional $k$-core pruning}.
+\end{enumerate}
+
+\subsection{Auto-relax Strategy}
+To avoid graph collapse under strict thresholds, we evaluate multiple relaxed candidate configurations and select by a size--modularity utility.
+This increases robustness for large and heterogeneous samples.
+
+\section{Community Detection and Centrality}
+\subsection{Louvain Community Detection}
+Weighted Louvain is applied to the final backbone graph.
+Node attribute \texttt{Community} stores cluster IDs.
+
+\subsection{Centrality Metrics}
+We compute:
+\begin{itemize}[leftmargin=1.5em]
+    \item Weighted PageRank
+    \item Weighted betweenness centrality (edge distance $=1/w$)
+    \item Weighted eigenvector centrality
+\end{itemize}
+These metrics are exported to GEXF for visualization and downstream analysis.
+
+\section{Company-level Aggregation}
+\subsection{Mapping Owner to Company}
+Company entities are inferred from repository owner:
+\begin{enumerate}[leftmargin=1.5em]
+    \item Preferred: GitHub profile \texttt{company} field (organization/user profile query).
+    \item Fallback: owner login identifier.
+\end{enumerate}
+In the current large-scale run, the fallback mode was used to guarantee immediate execution at scale.
+
+\subsection{Company Graph}
+Company node features include:
+\texttt{RepoCount}, \texttt{TotalStars}, \texttt{OwnerCount}, \texttt{SmallCompany} flag.
+
+For company pair $(a,b)$, we aggregate repository edges and normalize:
+\begin{equation}
+W_{ab}=\frac{\sum_{(i,j)\in \mathcal{P}_{ab}} w_{ij}}{\sqrt{n_a n_b}}
+\end{equation}
+where $\mathcal{P}_{ab}$ are cross-company repository pairs and $n_a,n_b$ are repository counts per company.
+
+Louvain is then applied again on the company graph, producing \texttt{CompanyCommunity}.
+
+\section{Current Large-scale Results}
+\subsection{Repository-level Summary}
+\begin{table}[h]
+\centering
+\caption{Repository-level graph summary (CV500 + NLP500)}
+\begin{tabular}{lr}
+\toprule
+Metric & Value \\
+\midrule
+Unique repositories (after merge) & 967 \\
+Backbone nodes & 847 \\
+Backbone edges & 22,893 \\
+Density & 0.063897 \\
+Average path length (LCC) & 2.795839 \\
+Communities & 19 \\
+Modularity & 0.2576 \\
+\bottomrule
+\end{tabular}
+\label{tab:repo-summary}
+\end{table}
+
+\subsection{Company-level Summary}
+\begin{table}[h]
+\centering
+\caption{Company-level graph summary (owner-fallback mode)}
+\begin{tabular}{lr}
+\toprule
+Metric & Value \\
+\midrule
+Company nodes & 655 \\
+Company edges & 16,414 \\
+Company communities & 23 \\
+Modularity & 0.2402 \\
+\bottomrule
+\end{tabular}
+\label{tab:company-summary}
+\end{table}
+
+\subsection{Interpretation of the Five Largest Company Communities}
+Current evidence indicates that the ownership graph has a heavy-tail structure:
+many small entities and a few high-connectivity anchors.
+The five largest company communities contain most nodes and should be prioritized for interpretation; tiny communities (size 1--3) are unstable and should not be over-interpreted.
+
+\begin{table}[h]
+\centering
+\caption{Five largest company communities (from \texttt{company\_communities.csv})}
+\begin{tabular}{rrrr}
+\toprule
+Community ID & Company count & Small-company ratio & Median stars \\
+\midrule
+5 & 199 & 0.9799 & 1995.0 \\
+3 & 146 & 0.9589 & 2322.0 \\
+1 & 103 & 0.9806 & 1834.0 \\
+4 & 102 & 0.9902 & 1723.0 \\
+2 & 72  & 0.9028 & 2102.5 \\
+\bottomrule
+\end{tabular}
+\label{tab:top-company-communities}
+\end{table}
+
+\section{Visualization Protocol}
+\subsection{Why ``hairball'' happens}
+Dense cross-community edges and high edge-count per node can collapse community separation under force-directed layouts.
+To improve readability, we generated a clustered variant (\texttt{company\_network\_clustered.gexf}) by preserving strong intra-community links and only a small number of bridge edges.
+
+\subsection{Recommended Gephi Layout Template}
+\begin{itemize}[leftmargin=1.5em]
+    \item Layout: ForceAtlas2
+    \item LinLog mode: ON
+    \item Prevent overlap: ON
+    \item Gravity: 0.05
+    \item Scaling: 180
+    \item Edge weight influence: 3.5
+    \item Dissuade hubs: ON
+    \item Then run Noverlap
+\end{itemize}
+Color nodes by \texttt{CompanyCommunity}, size nodes by \texttt{RepoCount} or \texttt{PageRank}.
+
+\section{Figures and Tables To Insert}
+\textbf{You can add the following assets to complete the experimental section:}
+\begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{Figure F1}: Repository backbone network (colored by \texttt{Community}, sized by PageRank).
+    \item \textbf{Figure F2}: Company network raw (\texttt{company\_network.gexf}) for density comparison.
+    \item \textbf{Figure F3}: Company network clustered (\texttt{company\_network\_clustered.gexf}) for interpretability.
+    \item \textbf{Figure F4}: Community meta-graph (if used), showing inter-community connectivity.
+    \item \textbf{Table T1}: Parameter sensitivity (weight mix, threshold, top-$k$, $k$-core, resolution) vs modularity.
+    \item \textbf{Table T2}: Top bridge repositories and top bridge companies by weighted betweenness.
+    \item \textbf{Table T3}: Domain composition per community (CV/NLP/Cross).
+\end{enumerate}
+
+\begin{figure}[h]
+\centering
+\fbox{\parbox[c][2.2in][c]{0.9\linewidth}{\centering Placeholder for F1: repository-level community graph}}
+\caption{Repository-level backbone graph (to be inserted).}
+\label{fig:repo-graph}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\fbox{\parbox[c][2.2in][c]{0.9\linewidth}{\centering Placeholder for F2/F3: company-level graphs}}
+\caption{Company-level raw and clustered graph views (to be inserted).}
+\label{fig:company-graphs}
+\end{figure}
+
+\section{Threats to Validity}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Company identity noise}: owner-fallback mode may fragment true organizations.
+    \item \textbf{Sampling bias}: top-star sampling over-represents popular repositories.
+    \item \textbf{Metadata incompleteness}: README and dependency files are not uniformly available.
+    \item \textbf{Method sensitivity}: community assignments depend on backbone and resolution parameters.
+    \item \textbf{Temporal bias}: single snapshot may hide dynamics of ecosystem evolution.
+\end{itemize}
+
+\section{Reproducibility}
+\subsection{Environment}
+Conda environment: \texttt{cours}. Required libraries include:
+\texttt{requests}, \texttt{networkx}, \texttt{pandas}, \texttt{python-louvain}.
+
+\subsection{Main Commands}
+\paragraph{Repository graph (large-scale)}
+\begin{verbatim}
+python build_repository_backbone.py \
+  --raw-output repo_raw_data_fork.json \
+  --gexf-output repository_backbone_fork.gexf \
+  --per-domain-limit 500 \
+  --weight-fork 0.6 --weight-readme 0.2 --weight-dep 0.2 --weight-contrib 0.0
+\end{verbatim}
+
+\paragraph{Company aggregation}
+\begin{verbatim}
+python analyze_company_communities.py \
+  --repo-raw repo_raw_data_fork.json \
+  --repo-graph repository_backbone_fork.gexf \
+  --company-graph company_network.gexf \
+  --company-nodes-csv company_nodes.csv \
+  --company-communities-csv company_communities.csv \
+  --no-fetch-owner-company
+\end{verbatim}
+
+\section{Conclusion}
+We implemented and validated an end-to-end, scalable graph-analysis pipeline from repository retrieval to company-level community aggregation.
+The current results support a structured ecosystem with multiple large ownership communities and high prevalence of small entities.
+Next steps should focus on (i) stronger owner-to-company normalization, (ii) parameter robustness experiments, and (iii) temporal analysis for community evolution.
+
+\end{document}
