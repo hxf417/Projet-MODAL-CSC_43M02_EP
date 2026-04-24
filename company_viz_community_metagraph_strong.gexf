@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-24">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="8" title="weight_sum" type="double" />
+      <attribute id="9" title="edge_count" type="long" />
+      <attribute id="10" title="mean_weight" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Label" type="string" />
+      <attribute id="1" title="Community" type="long" />
+      <attribute id="2" title="RepoCount" type="long" />
+      <attribute id="3" title="TotalStars" type="double" />
+      <attribute id="4" title="MeanPageRank" type="double" />
+      <attribute id="5" title="MeanBetweenness" type="double" />
+      <attribute id="6" title="MeanEigenvector" type="double" />
+      <attribute id="7" title="Members" type="string" />
+    </attributes>
+    <nodes>
+      <node id="3" label="3">
+        <viz:color r="214" g="39" b="40" a="0.95" />
+        <viz:size value="38.330302779823356" />
+        <attvalues>
+          <attvalue for="0" value="C3" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="21" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.001832994566617544" />
+          <attvalue for="5" value="0.0043564545440151325" />
+          <attvalue for="6" value="0.03148529881116696" />
+          <attvalue for="7" value="aangelopoulos|chengtan9907|dailenson|deepdoctection|graphdeco-inria|jumpat|linketic|mac-vo|maximeraafat|mit-spark|muskie82|nv-tlabs|nvlabs|pkhungurn|rmurai0610|spla-tam|torchssl|tstanislawek|vladimiryugay|wpeebles|yuliangxiu" />
+        </attvalues>
+      </node>
+      <node id="4" label="4">
+        <viz:color r="148" g="103" b="189" a="0.95" />
+        <viz:size value="50.983866769659336" />
+        <attvalues>
+          <attvalue for="0" value="C4" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="60" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003170753182726538" />
+          <attvalue for="5" value="0.005014962698624556" />
+          <attvalue for="6" value="0.07756683907661496" />
+          <attvalue for="7" value="adobe|ai-forever|alibaba|antoniotepsich|apple|aws-samples|brokensource|cleanlab|cleardusk|cvg|dsgiitr|evelynfan|foolwood|gaparmar|girafe-ai|google-deepmind|haitongli|hukenovs|hustvl|hypergan|hypox64|hysts|hzwer|idea-research|idealo|jacobgil|junruxiong|keras-team|klingairesearch|lpiccinelli-eth|lucidrains|lufficc|megvii-research|microsoft|milanlproc|minivision-ai|mukosame|noahcao|nyu-mll|ofa-sys|perone|peterl1n|piddnad|podgorskiy|qinzheng93|qubvel-org|roatienza|rohitg00|serpentai|taesungp|tianzhi0549|toandaominh1997|torchgan|wkentaro|xiaoyufenfei|xuebinqin|xvjiarui|yassouali|yatenglg|yurijmikhalevich" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="3" target="4" id="0" weight="5.05567601736658">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="3.9375692122600245" />
+        <attvalues>
+          <attvalue for="8" value="5.05567601736658" />
+          <attvalue for="9" value="22" />
+          <attvalue for="10" value="0.22980345533484456" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

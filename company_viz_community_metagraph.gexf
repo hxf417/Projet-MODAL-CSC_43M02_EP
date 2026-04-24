@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-24">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="8" title="weight_sum" type="double" />
+      <attribute id="9" title="edge_count" type="long" />
+      <attribute id="10" title="mean_weight" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Label" type="string" />
+      <attribute id="1" title="Community" type="long" />
+      <attribute id="2" title="RepoCount" type="long" />
+      <attribute id="3" title="TotalStars" type="double" />
+      <attribute id="4" title="MeanPageRank" type="double" />
+      <attribute id="5" title="MeanBetweenness" type="double" />
+      <attribute id="6" title="MeanEigenvector" type="double" />
+      <attribute id="7" title="Members" type="string" />
+    </attributes>
+    <nodes>
+      <node id="0" label="0">
+        <viz:color r="31" g="119" b="180" a="0.95" />
+        <viz:size value="32.64911064067352" />
+        <attvalues>
+          <attvalue for="0" value="C0" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="10" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.001086962305345461" />
+          <attvalue for="5" value="0.002296622036144635" />
+          <attvalue for="6" value="0.004583883878729135" />
+          <attvalue for="7" value="1adrianb|ajbrock|amdegroot|junyanz|kupynorest|longcw|pathak22|phillipi|pierluigiferrari|rykov8" />
+        </attvalues>
+      </node>
+      <node id="1" label="1">
+        <viz:color r="255" g="127" b="14" a="0.95" />
+        <viz:size value="55.552777669262355" />
+        <attvalues>
+          <attvalue for="0" value="C1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="79" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0024887771145676897" />
+          <attvalue for="5" value="0.005722111081134931" />
+          <attvalue for="6" value="0.049653872518427705" />
+          <attvalue for="7" value="3d-morphable-models|425776024|advimman|ahmetozlu|ai4finance-foundation|alicevision|astorfi|atulapra|ayoolaolafenwa|bendangnuksung|bheinzerling|blmoistawinde|brikerman|calciferzh|carla-simulator|chainer|chandrikadeb7|charmve|chonyy|colmap|crownpku|davidsandberg|delip|dongrixinyu|franck-dernoncourt|gauravbh1010tt|geekalexis|gogoduck912|google-ai-edge|google-research|hironsan|hkchengrex|hyperparticle|ibm|ieee8023|jadore801120|jaymody|junshutang|kaiyangzhou|laugh12321|localminimum|luispedro|lukalabs|makcedward|maluuba|marvinteichmann|mesolitica|mind-lab|morvanzhou|nachifur|nfmcclure|nvidia|omkarpathak|openeventdata|openstitching|openvinotoolkit|otaha178|plasticityai|readbeyond|redhuntlabs|richzhang|roshan-research|seanlee97|shawnyxiao|sightmachine|skygazer42|soubhiksanyal|stvir|tatsuyah|teamhg-memex|tensorlayer|timobolkart|uber-archive|ubicomplab|visionml|wikipedia2vec|xinshuoweng|yongzhuo|youyuge34" />
+        </attvalues>
+      </node>
+      <node id="2" label="2">
+        <viz:color r="44" g="160" b="44" a="0.95" />
+        <viz:size value="50.724582991474435" />
+        <attvalues>
+          <attvalue for="0" value="C2" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="59" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0026155873452710326" />
+          <attvalue for="5" value="0.006740814595332445" />
+          <attvalue for="6" value="0.0514128869524235" />
+          <attvalue for="7" value="3dtopia|answerdotai|asappresearch|autoliuweijie|bentrevett|bilibili|bin123apple|bytedance|cdpierse|codertimo|datawhalechina|flairnlp|fudandisc|geeeekexplorer|grammarly|harderthenharder|hiyouga|huggingface|hyperonym|imcaspar|intellabs|jalammar|jsksxs360|kakaobrain|kha-white|liucongg|magpie-align|mlfoundations|morizeyao|namisan|novasearch-team|nx-ai|paddlepaddle|princeton-nlp|qdata|salesforce|scir-hi|shibing624|sktbrain|smilelight|songyouwei|tencent|the-finai|thunlp|tigerresearch|timoschick|tomaarsen|tongjilibo|uber-research|unbabel|unitaryai|wangyuxinwhy|whylabs|williamsysu|yangjianxin1|ymcui|yuanzhoulvpi2017|zhziszz|zkywsg" />
+        </attvalues>
+      </node>
+      <node id="3" label="3">
+        <viz:color r="214" g="39" b="40" a="0.95" />
+        <viz:size value="38.330302779823356" />
+        <attvalues>
+          <attvalue for="0" value="C3" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="21" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.001832994566617544" />
+          <attvalue for="5" value="0.0043564545440151325" />
+          <attvalue for="6" value="0.03148529881116696" />
+          <attvalue for="7" value="aangelopoulos|chengtan9907|dailenson|deepdoctection|graphdeco-inria|jumpat|linketic|mac-vo|maximeraafat|mit-spark|muskie82|nv-tlabs|nvlabs|pkhungurn|rmurai0610|spla-tam|torchssl|tstanislawek|vladimiryugay|wpeebles|yuliangxiu" />
+        </attvalues>
+      </node>
+      <node id="4" label="4">
+        <viz:color r="148" g="103" b="189" a="0.95" />
+        <viz:size value="50.983866769659336" />
+        <attvalues>
+          <attvalue for="0" value="C4" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="60" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003170753182726538" />
+          <attvalue for="5" value="0.005014962698624556" />
+          <attvalue for="6" value="0.07756683907661496" />
+          <attvalue for="7" value="adobe|ai-forever|alibaba|antoniotepsich|apple|aws-samples|brokensource|cleanlab|cleardusk|cvg|dsgiitr|evelynfan|foolwood|gaparmar|girafe-ai|google-deepmind|haitongli|hukenovs|hustvl|hypergan|hypox64|hysts|hzwer|idea-research|idealo|jacobgil|junruxiong|keras-team|klingairesearch|lpiccinelli-eth|lucidrains|lufficc|megvii-research|microsoft|milanlproc|minivision-ai|mukosame|noahcao|nyu-mll|ofa-sys|perone|peterl1n|piddnad|podgorskiy|qinzheng93|qubvel-org|roatienza|rohitg00|serpentai|taesungp|tianzhi0549|toandaominh1997|torchgan|wkentaro|xiaoyufenfei|xuebinqin|xvjiarui|yassouali|yatenglg|yurijmikhalevich" />
+        </attvalues>
+      </node>
+      <node id="5" label="5">
+        <viz:color r="140" g="86" b="75" a="0.95" />
+        <viz:size value="28.94427190999916" />
+        <attvalues>
+          <attvalue for="0" value="C5" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0016596385411022697" />
+          <attvalue for="5" value="0.006323203656611921" />
+          <attvalue for="6" value="0.000117751774358343" />
+          <attvalue for="7" value="ahmetaa|apache|datumbox|lionsoul2014|nlpchina" />
+        </attvalues>
+      </node>
+      <node id="9" label="9">
+        <viz:color r="23" g="190" b="207" a="0.95" />
+        <viz:size value="53.46640106136302" />
+        <attvalues>
+          <attvalue for="0" value="C9" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="70" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0018836284016346108" />
+          <attvalue for="5" value="0.0040368845741367764" />
+          <attvalue for="6" value="0.02756350695067481" />
+          <attvalue for="7" value="allenai|alvations|argosopentech|aurelio-labs|autodistill|azavea|beir-cellar|cambrian-mllm|capitalone|chartbeat-labs|chiphuyen|chrismattmann|code-kern-ai|cvhub520|datamade|deeppavlov|deepset-ai|enoch3712|explosion|facebookresearch|georgian-io|google|iaar-shanghai|jncraton|kennethleungty|kornia|li-plus|lightly-ai|ludwig-ai|maartengr|minishlab|modeltc|monarch-initiative|nanonets|naver|nerfstudio-project|obsei|obss|open-compass|petrochukm|pixeltable|promptslab|prunaai|pytorch|roboflow|rqluo|sajal2692|sb-ai-lab|sberbank-ai-lab|shcherbak-ai|sloria|squeezeailab|stanford-oval|tatsu-lab|tinyllava|titipata|torchgeo|towhee-io|ultralytics|undertheseanlp|unstructured-io|vietanhdev|vkcom|waybarrios|web-arena-x|wenhaochai|whitphx|xusenlinzy|yvann-ba|zamalali" />
+        </attvalues>
+      </node>
+      <node id="8" label="8">
+        <viz:color r="188" g="189" b="34" a="0.95" />
+        <viz:size value="30.583005244258363" />
+        <attvalues>
+          <attvalue for="0" value="C8" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0012159721294483106" />
+          <attvalue for="5" value="0.001960906312030973" />
+          <attvalue for="6" value="0.0004286934252638313" />
+          <attvalue for="7" value="axa-group|botpress|iliashad|software-mansion|superlinked|textlint|typedgrammar" />
+        </attvalues>
+      </node>
+      <node id="10" label="10">
+        <viz:color r="222" g="234" b="89" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C10" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0008679137875258386" />
+          <attvalue for="5" value="6.790583100346086e-05" />
+          <attvalue for="6" value="0.003980476397588067" />
+          <attvalue for="7" value="baegwangbin|nianticlabs" />
+        </attvalues>
+      </node>
+      <node id="11" label="11">
+        <viz:color r="204" g="89" b="234" a="0.95" />
+        <viz:size value="28.0" />
+        <attvalues>
+          <attvalue for="0" value="C11" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.001105671302719474" />
+          <attvalue for="5" value="0.0026050081721155243" />
+          <attvalue for="6" value="0.0008288601516972186" />
+          <attvalue for="7" value="bharathgs|rguthrie3|spro|xavier-zy" />
+        </attvalues>
+      </node>
+      <node id="12" label="12">
+        <viz:color r="89" g="234" b="161" a="0.95" />
+        <viz:size value="29.79795897113271" />
+        <attvalues>
+          <attvalue for="0" value="C12" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.001241322628888554" />
+          <attvalue for="5" value="0.003173621940920366" />
+          <attvalue for="6" value="0.003773926653553073" />
+          <attvalue for="7" value="brightmart|chineseglue|cluebenchmark|moein-shariatnia|separius|sgrvinod" />
+        </attvalues>
+      </node>
+      <node id="13" label="13">
+        <viz:color r="234" g="119" b="89" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C13" />
+          <attvalue for="1" value="13" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0006827924287619684" />
+          <attvalue for="5" value="0.001500953023214428" />
+          <attvalue for="6" value="0.00016139101845155342" />
+          <attvalue for="7" value="bytedeco|lessthanoptimal" />
+        </attvalues>
+      </node>
+      <node id="14" label="14">
+        <viz:color r="89" g="101" b="234" a="0.95" />
+        <viz:size value="28.0" />
+        <attvalues>
+          <attvalue for="0" value="C14" />
+          <attvalue for="1" value="14" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0014132214934134925" />
+          <attvalue for="5" value="0.008122942336241577" />
+          <attvalue for="6" value="0.0013602607179501846" />
+          <attvalue for="7" value="cbsudux|victordibia|xinghaochen|zhongqunzhang" />
+        </attvalues>
+      </node>
+      <node id="15" label="15">
+        <viz:color r="143" g="234" b="89" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C15" />
+          <attvalue for="1" value="15" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0025338471387103935" />
+          <attvalue for="5" value="0.0176063428729318" />
+          <attvalue for="6" value="0.003240124546620709" />
+          <attvalue for="7" value="cedrickchee|mihail911" />
+        </attvalues>
+      </node>
+      <node id="16" label="16">
+        <viz:color r="234" g="89" b="186" a="0.95" />
+        <viz:size value="28.0" />
+        <attvalues>
+          <attvalue for="0" value="C16" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0011055437126471202" />
+          <attvalue for="5" value="0.0026869634853955633" />
+          <attvalue for="6" value="0.0003306960112708323" />
+          <attvalue for="7" value="ceres-solver|openmvg|strasdat|sweeneychris" />
+        </attvalues>
+      </node>
+      <node id="17" label="17">
+        <viz:color r="89" g="228" b="234" a="0.95" />
+        <viz:size value="26.928203230275507" />
+        <attvalues>
+          <attvalue for="0" value="C17" />
+          <attvalue for="1" value="17" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0015300142079046931" />
+          <attvalue for="5" value="0.0029581965460128354" />
+          <attvalue for="6" value="1.1678054835926202e-07" />
+          <attvalue for="7" value="chaoyanghe|innovation-cat|youngfish42" />
+        </attvalues>
+      </node>
+      <node id="18" label="18">
+        <viz:color r="234" g="197" b="89" a="0.95" />
+        <viz:size value="28.94427190999916" />
+        <attvalues>
+          <attvalue for="0" value="C18" />
+          <attvalue for="1" value="18" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0016572632673764371" />
+          <attvalue for="5" value="0.014421325240831543" />
+          <attvalue for="6" value="0.0044633681672058825" />
+          <attvalue for="7" value="cmhungsteve|dirtyharrylyl|jianzongwu|jingyi0000|om-ai-lab" />
+        </attvalues>
+      </node>
+      <node id="19" label="19">
+        <viz:color r="155" g="89" b="234" a="0.95" />
+        <viz:size value="26.928203230275507" />
+        <attvalues>
+          <attvalue for="0" value="C19" />
+          <attvalue for="1" value="19" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0013342821566193748" />
+          <attvalue for="5" value="0.006576718759024842" />
+          <attvalue for="6" value="0.0017704673754974348" />
+          <attvalue for="7" value="cmu-perceptual-computing-lab|patrikhuber|zhec" />
+        </attvalues>
+      </node>
+      <node id="20" label="20">
+        <viz:color r="89" g="234" b="113" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C20" />
+          <attvalue for="1" value="20" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0010790854248918912" />
+          <attvalue for="5" value="0.003158791931850645" />
+          <attvalue for="6" value="0.00026232478368400113" />
+          <attvalue for="7" value="deeptecher|manfreddiaz" />
+        </attvalues>
+      </node>
+      <node id="21" label="21">
+        <viz:color r="234" g="89" b="107" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C21" />
+          <attvalue for="1" value="21" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0015467904098994583" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.7071067811865476" />
+          <attvalue for="7" value="dragen1860|honlan" />
+        </attvalues>
+      </node>
+      <node id="22" label="22">
+        <viz:color r="89" g="150" b="234" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C22" />
+          <attvalue for="1" value="22" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0013656604686169286" />
+          <attvalue for="5" value="0.0044419779797781125" />
+          <attvalue for="6" value="5.05489681937008e-08" />
+          <attvalue for="7" value="eon01|taishi-i" />
+        </attvalues>
+      </node>
+      <node id="23" label="23">
+        <viz:color r="192" g="234" b="89" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C23" />
+          <attvalue for="1" value="23" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0007185795304943927" />
+          <attvalue for="5" value="0.000304405449325859" />
+          <attvalue for="6" value="0.00011833654107994315" />
+          <attvalue for="7" value="eosphoros-ai|hkustdial" />
+        </attvalues>
+      </node>
+      <node id="24" label="24">
+        <viz:color r="234" g="89" b="234" a="0.95" />
+        <viz:size value="28.0" />
+        <attvalues>
+          <attvalue for="0" value="C24" />
+          <attvalue for="1" value="24" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0014140446909622737" />
+          <attvalue for="5" value="0.006826877596227246" />
+          <attvalue for="6" value="0.0004898274932773203" />
+          <attvalue for="7" value="esimov|hybridgroup|nlpodyssey|pemistahl" />
+        </attvalues>
+      </node>
+      <node id="25" label="25">
+        <viz:color r="89" g="234" b="191" a="0.95" />
+        <viz:size value="28.0" />
+        <attvalues>
+          <attvalue for="0" value="C25" />
+          <attvalue for="1" value="25" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.001161952185464855" />
+          <attvalue for="5" value="0.0037558949286052145" />
+          <attvalue for="6" value="0.00020789847914429697" />
+          <attvalue for="7" value="eutropicai|future-scholars|hellodigua|lanxiuyun" />
+        </attvalues>
+      </node>
+      <node id="26" label="26">
+        <viz:color r="234" g="149" b="89" a="0.95" />
+        <viz:size value="26.928203230275507" />
+        <attvalues>
+          <attvalue for="0" value="C26" />
+          <attvalue for="1" value="26" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0011420114946256528" />
+          <attvalue for="5" value="0.007251093908300591" />
+          <attvalue for="6" value="0.009829440139148249" />
+          <attvalue for="7" value="gabriben|neph0s|zjunlp" />
+        </attvalues>
+      </node>
+      <node id="27" label="27">
+        <viz:color r="106" g="89" b="234" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C27" />
+          <attvalue for="1" value="27" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0012444716214904802" />
+          <attvalue for="5" value="0.0029620991799785513" />
+          <attvalue for="6" value="3.3797593036213784e-06" />
+          <attvalue for="7" value="haosulab|simpler-env" />
+        </attvalues>
+      </node>
+      <node id="28" label="28">
+        <viz:color r="113" g="234" b="89" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C28" />
+          <attvalue for="1" value="28" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0010079768941965656" />
+          <attvalue for="5" value="0.009232851436091247" />
+          <attvalue for="6" value="0.0003234109227880774" />
+          <attvalue for="7" value="hqwu-hitcs|luban-agi" />
+        </attvalues>
+      </node>
+      <node id="29" label="29">
+        <viz:color r="234" g="89" b="156" a="0.95" />
+        <viz:size value="26.928203230275507" />
+        <attvalues>
+          <attvalue for="0" value="C29" />
+          <attvalue for="1" value="29" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0016171007133676623" />
+          <attvalue for="5" value="0.003337532567480444" />
+          <attvalue for="6" value="7.22551597356955e-05" />
+          <attvalue for="7" value="jiachenli94|lmd0311|patrick-llgc" />
+        </attvalues>
+      </node>
+      <node id="30" label="30">
+        <viz:color r="89" g="198" b="234" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C30" />
+          <attvalue for="1" value="30" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00043150851895546713" />
+          <attvalue for="5" value="2.809896455315622e-05" />
+          <attvalue for="6" value="0.0014944059791411985" />
+          <attvalue for="7" value="mrnerf|xverse-engine" />
+        </attvalues>
+      </node>
+      <node id="31" label="31">
+        <viz:color r="234" g="227" b="89" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C31" />
+          <attvalue for="1" value="31" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.000949074109516802" />
+          <attvalue for="5" value="0.0019364869737883493" />
+          <attvalue for="6" value="0.003121874434496704" />
+          <attvalue for="7" value="paschmann|rasahq" />
+        </attvalues>
+      </node>
+      <node id="32" label="32">
+        <viz:color r="185" g="89" b="234" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C32" />
+          <attvalue for="1" value="32" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0018915668557585967" />
+          <attvalue for="5" value="0.009080648711428317" />
+          <attvalue for="6" value="3.920139918194697e-05" />
+          <attvalue for="7" value="pliang279|theshadow29" />
+        </attvalues>
+      </node>
+      <node id="6" label="6">
+        <viz:color r="227" g="119" b="194" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C6" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0008932168125786037" />
+          <attvalue for="5" value="0.0014822203801789905" />
+          <attvalue for="6" value="2.6605251832398458e-05" />
+          <attvalue for="7" value="robocorp|summanlp" />
+        </attvalues>
+      </node>
+      <node id="7" label="7">
+        <viz:color r="127" g="127" b="127" a="0.95" />
+        <viz:size value="25.65685424949238" />
+        <attvalues>
+          <attvalue for="0" value="C7" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0012869376053412443" />
+          <attvalue for="5" value="0.002608520542684669" />
+          <attvalue for="6" value="0.0007006814200528535" />
+          <attvalue for="7" value="roomylee|seriousran" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="2" target="26" id="0" weight="0.3071901632259546">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="1.607185698775879" />
+        <attvalues>
+          <attvalue for="8" value="0.3071901632259546" />
+          <attvalue for="9" value="1" />
+          <attvalue for="10" value="0.3071901632259546" />
+        </attvalues>
+      </edge>
+      <edge source="3" target="4" id="1" weight="5.05567601736658">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="3.9375692122600245" />
+        <attvalues>
+          <attvalue for="8" value="5.05567601736658" />
+          <attvalue for="9" value="22" />
+          <attvalue for="10" value="0.22980345533484456" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
