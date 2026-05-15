@@ -6,14 +6,10 @@ This repository studies AI GitHub ecosystems (CV + NLP) with repository-level si
 
 - `scripts/`: executable Python pipelines
 - `data/raw/`: raw and cached API data
-- `data/snapshots/`: historical dataset snapshots
 - `outputs/graphs/repo/`: repository-level GEXF outputs
 - `outputs/graphs/company/`: company-level GEXF outputs
-- `outputs/tables/`: CSV summaries
 - `reports/`: LaTeX report sources
-- `notebooks/`: exploratory notebooks
 - `docs/`: project documentation
-- `lib/`: frontend visualization libraries
 
 Detailed file map: `docs/PROJECT_STRUCTURE.md`.
 
@@ -55,9 +51,7 @@ python scripts/seed_community_layout.py \
 python scripts/analyze_company_communities.py \
   --repo-raw data/raw/repo_raw_data_fork.json \
   --repo-graph outputs/graphs/repo/repository_backbone_fork.gexf \
-  --company-graph outputs/graphs/company/company_network.gexf \
-  --company-nodes-csv outputs/tables/company_nodes.csv \
-  --company-communities-csv outputs/tables/company_communities.csv
+  --company-graph outputs/graphs/company/company_network.gexf
 ```
 
 ## Current Key Outputs
@@ -65,4 +59,12 @@ python scripts/analyze_company_communities.py \
 - Repository graph: `outputs/graphs/repo/repository_backbone_fork.gexf`
 - Repo clustered view: `outputs/graphs/repo/repo_viz_clustered_seeded.gexf`
 - Company graph: `outputs/graphs/company/company_network.gexf`
-- Company summary table: `outputs/tables/company_communities.csv`
+- Company metagraph: `outputs/graphs/company/company_viz_community_metagraph.gexf`
+
+## Environment
+
+Use conda environment `cours`:
+
+```bash
+conda activate cours
+```
