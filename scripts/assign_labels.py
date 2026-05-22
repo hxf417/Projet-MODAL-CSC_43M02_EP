@@ -179,4 +179,4 @@ def analyse_labels(graph_filepath, json_filepath):
 
 if __name__ == "__main__":
     
-    analyse_labels("outputs/graphs/repo/repository_backbone_fork.gexf", "data/raw/repo_raw_data_fork.json")
+    analyse_labels("outputs/graphs/repo/clean_fork_network.gexf", "data/raw/repo_raw_data_fork.json")
