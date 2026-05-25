@@ -51,8 +51,27 @@ python scripts/seed_community_layout.py \
 python scripts/analyze_company_communities.py \
   --repo-raw data/raw/repo_raw_data_fork.json \
   --repo-graph outputs/graphs/repo/repository_backbone_fork.gexf \
-  --company-graph outputs/graphs/company/company_network.gexf
+  --company-graph outputs/graphs/company/company_network.gexf \
+  --drop-owners-without-company
 ```
+
+5. (Recommended) Save outputs in a dataset-specific folder:
+
+```bash
+python scripts/analyze_company_communities.py \
+  --repo-raw data/raw/repo_raw_data_fork.json \
+  --repo-graph outputs/graphs/repo/repository_backbone_fork.gexf \
+  --fetch-owner-company \
+  --drop-owners-without-company \
+  --dataset-tag top100_cv_nlp
+```
+
+This writes files under:
+- `outputs/datasets/top100_cv_nlp/graphs/company/company_network.gexf`
+- `outputs/datasets/top100_cv_nlp/tables/company_nodes.csv`
+- `outputs/datasets/top100_cv_nlp/tables/company_communities.csv`
+- `outputs/datasets/top100_cv_nlp/tables/owner_company_map.csv`
+- `outputs/datasets/top100_cv_nlp/cache/owner_company_cache.json`
 
 ## Current Key Outputs
 
@@ -60,6 +79,7 @@ python scripts/analyze_company_communities.py \
 - Repo clustered view: `outputs/graphs/repo/repo_viz_clustered_seeded.gexf`
 - Company graph: `outputs/graphs/company/company_network.gexf`
 - Company metagraph: `outputs/graphs/company/company_viz_community_metagraph.gexf`
+- Owner-company mapping: `outputs/tables/owner_company_map.csv` (or dataset-specific path)
 
 ## Environment
 

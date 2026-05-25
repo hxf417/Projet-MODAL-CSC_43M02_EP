@@ -1,0 +1,37 @@
+company_community,company_count,small_company_count,small_company_ratio,median_repo_count,median_stars,top_companies
+5,21,21,1.0,1.0,2677.0,"AXA, cvat.ai, Botpress, Eutropic, AI Singapore"
+30,3,3,1.0,1.0,1158.0,"RealSenseAI, Stereolabs, NVIDIA AI IOT"
+11,2,2,1.0,1.5,8925.0,"Extreme Vision Limited, Beijing University of Posts and Telecommunications"
+21,2,2,1.0,1.0,1935.0,"Hao Su's Lab, UCSD, simple-env"
+27,2,2,1.0,1.0,12101.5,"MAA, MaaXYZ"
+34,2,2,1.0,1.0,1381.0,"Robocorp, Summa NLP"
+6,1,1,1.0,1.0,12921.0,微信：aizhushou888
+7,1,1,1.0,1.0,720.0,ApacheCN
+8,1,1,1.0,1.0,1357.0,Zapdos Labs
+9,1,1,1.0,1.0,2489.0,baidu.com
+10,1,1,1.0,1.0,1154.0,Beijing Institute of Technology
+12,1,1,1.0,1.0,1146.0,@black-forest-labs
+13,1,1,1.0,1.0,3084.0,Cactus Compute
+14,1,1,1.0,1.0,1190.0,CAMEL-AI.org
+15,1,1,1.0,1.0,1313.0,Chocolate Factory
+16,1,1,1.0,1.0,3049.0,"Computer Vision Institute, SZU"
+17,1,1,1.0,1.0,1262.0,"Data Science and Analytic Thrust, Information Hub, HKUST(GZ)"
+19,1,1,1.0,1.0,4231.0,Egyptian Food Bank
+20,1,1,1.0,1.0,1646.0,Fuzhou University
+22,1,1,1.0,1.0,2975.0,Imperial College London
+23,1,1,1.0,1.0,1043.0,Insta360
+24,1,1,1.0,1.0,3903.0,JDAI-CV
+25,1,1,1.0,1.0,1095.0,Jeeliz
+26,1,1,1.0,1.0,775.0,LexPredict
+28,1,1,1.0,2.0,16402.0,Natural Language Toolkit
+29,1,1,1.0,1.0,1016.0,NLP Town
+31,1,1,1.0,1.0,1266.0,NVIDIA-Merlin
+32,1,1,1.0,1.0,1709.0,OpenDataCam
+35,1,1,1.0,1.0,4040.0,Woven by Toyota
+2,81,79,0.9753,1.0,2040.0,"CVer, DAIR.AI, @clober-dex, https://www.CLUEbenchmarks.com, Mila/Polytechnique Montréal & @towardsai"
+3,114,110,0.9649,1.0,2415.0,"Explosion, Roboflow, Google, Meta Research, BigScience Workshop"
+0,74,71,0.9595,1.0,1679.5,"Google Research, Ai2, PaddlePaddle, OpenVINO™ Toolkit, AliceVision"
+4,70,65,0.9286,1.0,1687.5,"Microsoft, Carnegie Mellon University:, NVIDIA, Meta, Alibaba"
+1,50,45,0.9,1.0,2122.5,"Hugging Face, Tencent, THUNLP, ZJUNLP, Bytedance Inc."
+18,6,5,0.8333,1.0,2940.5,"@riege, The Hybrid Group, @vale-cli, ego, NLP Odyssey"
+33,1,0,0.0,4.0,13271.0,OpenMMLab

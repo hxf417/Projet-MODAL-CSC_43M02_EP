@@ -24,6 +24,8 @@
 
 - `graphs/repo/`: repository network and visualization variants (`repo_viz_*`)
 - `graphs/company/`: company network and visualization variants (`company_viz_*`)
+- `tables/`: tabular outputs, including `owner_company_map.csv`
+- `datasets/<tag>/...`: optional dataset-scoped outputs generated with `--dataset-tag`
 
 ## reports/
 

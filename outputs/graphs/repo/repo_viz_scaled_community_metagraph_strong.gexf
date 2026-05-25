@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-15">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="8" title="weight_sum" type="double" />
+      <attribute id="9" title="edge_count" type="long" />
+      <attribute id="10" title="mean_weight" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Label" type="string" />
+      <attribute id="1" title="Community" type="long" />
+      <attribute id="2" title="RepoCount" type="long" />
+      <attribute id="3" title="TotalStars" type="double" />
+      <attribute id="4" title="MeanPageRank" type="double" />
+      <attribute id="5" title="MeanBetweenness" type="double" />
+      <attribute id="6" title="MeanEigenvector" type="double" />
+      <attribute id="7" title="Members" type="string" />
+    </attributes>
+    <nodes>
+      <node id="0" label="0">
+        <viz:color r="31" g="119" b="180" a="0.95" />
+        <viz:size value="61.95235392680606" />
+        <attvalues>
+          <attvalue for="0" value="C0" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="110" />
+          <attvalue for="3" value="385191.0" />
+          <attvalue for="4" value="0.0020490510712600843" />
+          <attvalue for="5" value="0.0032289151110755044" />
+          <attvalue for="6" value="0.05382309218305144" />
+          <attvalue for="7" value="AntonioTepsich/Convolutional-KANs|Anything-of-anything/Anything-3D|BrokenSource/DepthFlow|EvelynFan/FaceFormer|Fantasy-Studio/Paint-by-Example|GaParmar/clean-fid|GaParmar/img2img-turbo|HyperGAN/HyperGAN|HypoX64/DeepMosaics|IDEA-Research/DINO|Jumpat/SegAnyGAussians|Jumpat/SegmentAnythingin3D|KlingAIResearch/ReCamMaster|Linketic/CityGaussian|MAC-VO/MAC-VO|MIT-SPARK/VGGT-SLAM|MilaNLProc/contextualized-topic-models|MrNeRF/LichtFeld-Studio|Mukosame/Anime2Sketch|NVlabs/neuralangelo|OFA-Sys/Chinese-CLIP|PeterL1n/BackgroundMattingV2|SerpentAI/SerpentAI|VladimirYugay/Gaussian-SLAM|YuliangXiu/ECON|YuliangXiu/ICON|aangelopoulos/conformal-prediction|adobe-research/custom-diffusion|adobe/antialiased-cnns|ai-forever/ghost|alibaba/EasyNLP|apple/ml-cvnets|autodistill/autodistill|aws-samples/aws-machine-learning-university-accelerated-cv|baegwangbin/DSINE|chengtan9907/OpenSTL|cleanlab/cleanvision|cleardusk/3DDFA|cleardusk/3DDFA_V2|cvg/glue-factory|dailenson/SDT|deepdoctection/deepdoctection|dsgiitr/d2l-pytorch|foolwood/SiamMask|girafe-ai/ml-course|google-deepmind/tapnet|graphdeco-inria/gaussian-splatting|haitongli/knowledge-distillation-pytorch|hkchengrex/Cutie|hkchengrex/MMAudio|hukenovs/hagrid|hustvl/4DGaussians|hustvl/YOLOS|hysts/pytorch_image_classification|hzwer/ECCV2022-RIFE|idealo/imagededup|jacobgil/pytorch-grad-cam|junruxiong/IncarnaMind|junshutang/Make-It-3D|junyanz/pytorch-CycleGAN-and-pix2pix|keras-team/keras-hub|kingyiusuen/image-to-latex|lightly-ai/lightly-train|lpiccinelli-eth/UniDepth|lucidrains/vit-pytorch|lufficc/SSD|maximeraafat/BlenderNeRF|megvii-research/mdistiller|microsoft/CameraTraps|microsoft/Semi-supervised-learning|minivision-ai/Silent-Face-Anti-Spoofing|muskie82/MonoGS|nianticlabs/monodepth2|nianticlabs/simplerecon|noahcao/OC_SORT|nv-tlabs/3dgrut|nv-tlabs/NKSR|nyu-mll/jiant|obss/sahi|perone/medicaltorch|piddnad/DDColor|pkhungurn/talking-head-anime-demo|podgorskiy/ALAE|qinzheng93/GeoTransformer|qubvel-org/segmentation_models.pytorch|roatienza/Deep-Learning-Experiments|roboflow/awesome-openai-vision-api-experiments|roboflow/inference|roboflow/notebooks|roboflow/rf-detr|roboflow/sports|sb-ai-lab/LightAutoML|sberbank-ai-lab/LightAutoML|spla-tam/SplaTAM|symforce-org/symforce|taesungp/contrastive-unpaired-translation|tianzhi0549/FCOS|toandaominh1997/EfficientDet.Pytorch|torchgan/torchgan|ultralytics/ultralytics|vietanhdev/anylabeling|wkentaro/pytorch-fcn|wpeebles/gangealing|xiaoyufenfei/Efficient-Segmentation-Networks|xuebinqin/U-2-Net|xverse-engine/XScene-UEPlugin|yashbhalgat/HashNeRF-pytorch|yassouali/pytorch-segmentation|yatengLG/ISAT_with_segment_anything|yurijmikhalevich/rclip" />
+        </attvalues>
+      </node>
+      <node id="1" label="1">
+        <viz:color r="255" g="127" b="14" a="0.95" />
+        <viz:size value="61.569219381653056" />
+        <attvalues>
+          <attvalue for="0" value="C1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="108" />
+          <attvalue for="3" value="479844.0" />
+          <attvalue for="4" value="0.0017663229472071522" />
+          <attvalue for="5" value="0.003985391801358341" />
+          <attvalue for="6" value="0.04000398166122122" />
+          <attvalue for="7" value="3d-morphable-models/curated-list-of-awesome-3D-Morphable-Model-software-and-data|425776024/nlpcda|AI4Finance-Foundation/FinGPT|BrikerMan/Kashgari|CalciferZh/minimal-hand|Charmve/computer-vision-in-action|DragonComputer/Dragonfire|FORTH-ModelBasedTracker/MocapNET|Franck-Dernoncourt/NeuroNER|GauravBh1010tt/DeepLearn|GeekAlexis/FastMOT|GoGoDuck912/Self-Correction-Human-Parsing|Hironsan/BossSensor|Hyperparticle/one-pixel-attack-keras|IBM/MAX-Image-Resolution-Enhancer|IntelLabs/nlp-architect|KaiyangZhou/deep-person-reid|MIND-Lab/OCTIS|Maluuba/nlg-eval|MarvinTeichmann/KittiSeg|MorvanZhou/NLP-Tutorials|NVIDIA/MinkowskiEngine|NVlabs/instant-ngp|OmkarPathak/pyresparser|OpenStitching/stitching|STVIR/pysot|SeanLee97/xmnlp|ShawnyXiao/TextClassification-Keras|TeamHG-Memex/eli5|TimoBolkart/voca|YeYzheng/KGQA-Based-On-medicine|advimman/lama|ahmetozlu/tensorflow_object_counting_api|ahmetozlu/vehicle_counting_tensorflow|alicevision/AliceVision|alicevision/Meshroom|allenai/ai2thor|allenai/bi-att-flow|allenai/objaverse-xl|allenai/scispacy|astorfi/TensorFlow-World|atulapra/Emotion-detection|ayoolaolafenwa/PixelLib|bendangnuksung/Image-OutPainting|bheinzerling/bpemb|blmoistawinde/HarvestText|carla-simulator/carla|carpedm20/MemN2N-tensorflow|carpedm20/lstm-char-cnn-tensorflow|chainer/chainercv|chandrikadeb7/Face-Mask-Detection|chonyy/AI-basketball-analysis|colmap/colmap|crownpku/Information-Extraction-Chinese|davidsandberg/facenet|delip/PyTorchNLPBook|dongrixinyu/JioNLP|ggeop/Python-ai-assistant|google-ai-edge/mediapipe|google-research/bert|google-research/long-range-arena|google-research/maxim|google-research/pix2seq|google-research/simclr|hkchengrex/XMem|ieee8023/covid-chestxray-dataset|jadore801120/attention-is-all-you-need-pytorch|jaymody/picoGPT|kakaobrain/fast-autoaugment|laugh12321/TensorRT-YOLO|localminimum/QANet|lonePatient/Bert-Multi-Label-Text-Classification|luispedro/mahotas|lukalabs/cakechat|makcedward/nlpaug|mesolitica/NLP-Models-Tensorflow|microsoft/AI-For-Beginners|miso-belica/sumy|nachifur/MulimgViewer|nfmcclure/tensorflow_cookbook|ogkalu2/comic-translate|open-edge-platform/training_extensions|openeventdata/mordecai|openpifpaf/openpifpaf|openvinotoolkit/nncf|openvinotoolkit/openvino|openvinotoolkit/openvino_notebooks|otaha178/Emotion-recognition|readbeyond/aeneas|redhuntlabs/Octopii|richzhang/colorization|rmurai0610/MASt3R-SLAM|roboflow/supervision|roshan-research/hazm|sightmachine/SimpleCV|skygazer42/DL-Hub|sloria/TextBlob|soubhiksanyal/RingNet|tatsuyah/vehicle-detection|tensorlayer/HyperPose|tensorlayer/seq2seq-chatbot|ubicomplab/rPPG-Toolbox|utiasSTARS/pykitti|wikipedia2vec/wikipedia2vec|wkentaro/labelme|xinshuoweng/AB3DMOT|yongzhuo/Keras-TextClassification|youyuge34/Anime-InPainting" />
+        </attvalues>
+      </node>
+      <node id="2" label="2">
+        <viz:color r="44" g="160" b="44" a="0.95" />
+        <viz:size value="70.75431016179809" />
+        <attvalues>
+          <attvalue for="0" value="C2" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="161" />
+          <attvalue for="3" value="681567.0" />
+          <attvalue for="4" value="0.000846940335919464" />
+          <attvalue for="5" value="0.002246110507691665" />
+          <attvalue for="6" value="0.0013298049679345172" />
+          <attvalue for="7" value="1adrianb/2D-and-3D-face-alignment|CLUEbenchmark/CLUECorpus2020|CLUEbenchmark/CLUEDatasetSearch|CMU-Perceptual-Computing-Lab/openpose|CSAILVision/LabelMeAnnotationTool|Cartucho/mAP|ChineseGLUE/ChineseGLUE|DSKSD/DeepNLP-models-Pytorch|DWCTOD/CVPR2024-Papers-with-Code-Demo|DeepTecher/awesome-autonomous-vehicle|DengBoCong/nlp-paper|DirtyHarryLYL/Transformer-in-Vision|EdinburghNLP/awesome-hallucination-detection|EutropicAI/Final2x|Future-Scholars/paperlib|HKUSTDial/NL2SQL_Handbook|JasonKessler/scattertext|Jiakui/awesome-bert|KupynOrest/DeblurGAN|Kyubyong/nlp_tasks|LMD0311/Awesome-World-Model|MOLAorg/mola|MRPT/mrpt|Mooler0410/LLMsPracticalGuide|NLP-LOVE/ML-NLP|NVIDIA/pix2pixHD|Neph0s/awesome-llm-role-playing-with-persona|Separius/BERT-keras|Separius/awesome-sentence-embedding|SkalskiP/courses|Tencent/tencent-ml-images|TheShadow29/awesome-grounding|TingsongYu/PyTorch-Tutorial-2nd|WooooDyy/LLM-Agent-Paper-List|Yangzhangcst/Transformer-in-Computer-Vision|ZhaoJ9014/face.evoLVe|ZheC/Realtime_Multi-Person_Pose_Estimation|ZhongqunZHANG/awesome-6d-object|aiff22/DPED|airaria/TextBrewer|aitorzip/PyTorch-CycleGAN|ajbrock/Neural-Photo-Editor|alibaba/AliceMind|amdegroot/ssd.pytorch|amitness/learning|amusi/CVPR2026-Papers-with-Code|amusi/ECCV2024-Papers-with-Code|amusi/ICCV2025-Papers-with-Code|amusi/awesome-object-detection|amusi/daily-paper-computer-vision|andyzeng/3dmatch-toolbox|aniketpotabatti/Data-Science-EBooks|artivis/manif|astorfi/lip-reading-deeplearning|babylonhealth/fastText_multilingual|bharathgs/Awesome-pytorch-list|brightmart/bert_language_understanding|brightmart/nlp_chinese_corpus|brightmart/text_classification|cbsudux/awesome-human-pose-estimation|cedrickchee/awesome-transformer-nlp|ceres-solver/ceres-solver|changh95/visual-slam-roadmap|cmhungsteve/Awesome-Transformer-Attention|codefuse-ai/Awesome-Code-LLM|crownpku/Awesome-Chinese-NLP|dair-ai/ML-YouTube-Courses|davisking/dlib|didi/ChineseNLP|endymecy/awesome-deeplearning-resources|eosphoros-ai/Awesome-Text2SQL|esimov/caire|esimov/pigo|extreme-assistant/CVPR2024-Paper-Code-Interpretation|extreme-assistant/ICCV2023-Paper-Code-Interpretation|gabriben/awesome-generative-information-retrieval|go-ego/gse|google-research/electra|google-research/uda|graykode/gpt-2-Pytorch|graykode/nlp-tutorial|greyblake/whatlang-rs|hellodigua/ChatLab|huoyijie/AdvancedEAST|hybridgroup/gocv|idealo/image-quality-assessment|idealo/image-super-resolution|imcaspar/gpt2-ml|iwangjian/Paper-Reading-ConvAI|jason718/awesome-self-supervised-learning|jasonwei20/eda_nlp|jessevig/bertviz|jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction|jianzongwu/Awesome-Open-Vocabulary|jingyi0000/VLM_survey|joeddav/devol|junyanz/CatPapers|junyanz/CycleGAN|junyanz/iGAN|junyanz/interactive-deep-colorization|keon/awesome-nlp|kmario23/deep-learning-drizzle|lanxiuyun/lazyeat|lonePatient/albert_pytorch|longcw/faster_rcnn_pytorch|louisfb01/Best_AI_paper_2020|louisfb01/best_AI_papers_2021|louisfb01/best_AI_papers_2022|luban-agi/Awesome-AIGC-Tutorials|lyeoni/nlp-tutorial|makcedward/nlp|manfreddiaz/awesome-autonomous-vehicles|microsoft/AirSim|microsoft/LMOps|microsoft/ailab|microsoft/torchscale|microsoft/unilm|mihail911/nlp-library|moein-shariatnia/OpenAI-CLIP|nlpodyssey/spago|om-ai-lab/OmDet|omarsar/nlp_overview|openMVG/awesome_3DReconstruction_list|openMVG/openMVG|pathak22/context-encoder|patrick-llgc/Learning-Deep-Learning|patrikhuber/eos|pemistahl/lingua|pemistahl/lingua-go|pemistahl/lingua-py|pemistahl/lingua-rs|phillipi/pix2pix|pierluigiferrari/ssd_keras|pliang279/awesome-multimodal-ml|rguthrie3/DeepLearningForNLPInPytorch|roomylee/awesome-relation-extraction|rykov8/ssd_keras|seriousran/awesome-qa|sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning|spro/practical-pytorch|sreeharierk/datascience|strasdat/Sophus|sweeneychris/TheiaSfM|thunlp/PromptPapers|thunlp/TAADpapers|una-dinosauria/3d-pose-baseline|victordibia/handtracking|weiaicunzai/awesome-image-classification|xiamx/awesome-sentiment-analysis|xinghaochen/awesome-hand-pose-estimation|ymcui/Chinese-BERT-wwm|ymcui/Chinese-ELECTRA|ymcui/Chinese-XLNet|yongzhuo/nlp_xiaojiang|zalandoresearch/fashion-mnist|zihangdai/xlnet|zjukg/KG-LLM-Papers|zjunlp/LLMAgentPapers|zjunlp/Prompt4ReasoningPapers|zjunlp/PromptKG|zubair-irshad/Awesome-Implicit-NeRF-Robotics" />
+        </attvalues>
+      </node>
+      <node id="3" label="3">
+        <viz:color r="214" g="39" b="40" a="0.95" />
+        <viz:size value="70.91168824543142" />
+        <attvalues>
+          <attvalue for="0" value="C3" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="162" />
+          <attvalue for="3" value="953998.0" />
+          <attvalue for="4" value="0.0010848768226543637" />
+          <attvalue for="5" value="0.0022381519077888114" />
+          <attvalue for="6" value="0.01284125596377759" />
+          <attvalue for="7" value="666ghj/BettaFish|AutoGPTQ/AutoGPTQ|CVHub520/X-AnyLabeling|Delta-ML/delta|DerwenAI/pytextrank|HumanSignal/label-studio|IAAR-Shanghai/SurveyX|IliasHad/edit-mind|IntelLabs/fastRAG|JohnSnowLabs/spark-nlp|KaiyangZhou/Dassl.pytorch|MaartenGr/BERTopic|MinishLab/model2vec|ModelTC/LightLLM|NanoNets/docext|NirDiamant/RAG_Techniques|PetrochukM/PyTorch-NLP|PrunaAI/pruna|RQLuo/MixTeX-Latex-OCR|RasaHQ/rasa|RasaHQ/rasa_core|Renumics/spotlight|SkalskiP/ILearnDeepLearning.py|SkalskiP/make-sense|SqueezeAILab/LLMCompiler|StanfordVL/GibsonEnv|SylphAI-Inc/AdalFlow|TorchSSL/TorchSSL|UniversalDataTool/universal-data-tool|Unstructured-IO/unstructured|VKCOM/YouTokenToMe|adbar/trafilatura|allenai/allennlp|allenai/dolma|allenai/scibert|alvations/pywsd|andyzeng/visual-pushing-grasping|argilla-io/argilla|argosopentech/argos-translate|aurelio-labs/semantic-router|axa-group/Parsr|axa-group/nlp.js|azavea/raster-vision|beir-cellar/beir|bfelbo/DeepMoji|bigscience-workshop/promptsource|botpress/botpress|capitalone/DataProfiler|cdpierse/transformers-interpret|chartbeat-labs/textacy|chiphuyen/lazynlp|chrismattmann/tika-python|code-kern-ai/refinery|cvat-ai/cvat|datadreamer-dev/DataDreamer|datamade/usaddress|deeppavlov/DeepPavlov|deepset-ai/haystack|dmMaze/BallonsTranslator|dmlc/gluon-cv|dmlc/gluon-nlp|dsdanielpark/Bard-API|enoch3712/ExtractThinker|explosion/curated-transformers|explosion/projects|explosion/sense2vec|explosion/spaCy|explosion/spacy-course|explosion/spacy-layout|explosion/spacy-llm|explosion/spacy-models|explosion/spacy-stanza|explosion/spacy-streamlit|explosion/thinc|facebookresearch/habitat-lab|facebookresearch/habitat-sim|fhamborg/news-please|flairNLP/flair|fukuball/jieba-php|georgian-io/LLM-Finetuning-Toolkit|github/CodeSearchNet|gnes-ai/gnes|google/budoux|google/langextract|google/langfun|google/sling|graph4ai/graph4nlp|guillaume-be/rust-bert|gunthercox/chatterbot-corpus|haltakov/natural-language-image-search|huggingface/course|huggingface/datasets|huggingface/hmtl|huggingface/neuralcoref|huggingface/setfit|huggingface/text-generation-inference|huggingface/tokenizers|huggingface/transformers|ivan-bilan/The-NLP-Pandect|jbesomi/texthero|jfilter/clean-text|jncraton/languagemodels|kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference|kevmo314/magic-copy|kornia/kornia|li-plus/chatglm.cpp|lightly-ai/lightly|linkedin/detext|ludwig-ai/ludwig|memvid/memvid|microsoft/computervision-recipes|microsoft/nlp-recipes|ml-tooling/ml-workspace|mlfoundations/open_clip|monarch-initiative/ontogpt|mosaicml/llm-foundry|nerfstudio-project/nerfstudio|neuml/paperai|neuml/txtai|nikitakit/self-attentive-parser|nlp-uoregon/trankit|obsei/obsei|open-compass/VLMEvalKit|opendatacam/opendatacam|paschmann/rasa-ui|pixeltable/pixeltable|pkhungurn/talking-head-anime-2-demo|pkhungurn/talking-head-anime-3-demo|plasticityai/magnitude|poloclub/diffusiondb|primeqa/primeqa|promptslab/Promptify|pytorch/text|pytorch/vision|rodrigopivi/Chatito|sajal2692/data-science-portfolio|scikit-image/scikit-image|semperai/amica|shcherbak-ai/contextgem|snipsco/snips-nlu|software-mansion/react-native-executorch|soskek/bookcorpus|stanford-oval/WikiChat|stanford-oval/storm|stanfordnlp/stanza|superlinked/sie|tatsu-lab/alpaca_eval|tensorflow/lingvo|textlint/textlint|titipata/pubmed_parser|torchgeo/torchgeo|towhee-io/towhee|typedgrammar/typed-japanese|uber-archive/plato-research-dialogue-system|undertheseanlp/underthesea|voxel51/fiftyone|waybarrios/vllm-mlx|wenhaochai/StableVideo|whitphx/streamlit-webrtc|wooorm/franc|yvann-ba/Robby-chatbot|zamalali/DeepGit" />
+        </attvalues>
+      </node>
+      <node id="4" label="4">
+        <viz:color r="148" g="103" b="189" a="0.95" />
+        <viz:size value="56.87817782917155" />
+        <attvalues>
+          <attvalue for="0" value="C4" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="85" />
+          <attvalue for="3" value="305702.0" />
+          <attvalue for="4" value="0.0019007897422521406" />
+          <attvalue for="5" value="0.003668030139581117" />
+          <attvalue for="6" value="0.04357303832085677" />
+          <attvalue for="7" value="3DTopia/OpenLRM|AndrewZhe/lawyer-llama|AnswerDotAI/ModernBERT|AnswerDotAI/byaldi|ChenghaoMou/text-dedup|FudanDISC/DISC-LawLLM|GeeeekExplorer/nano-vllm|HarderThenHarder/transformers_tasks|HqWu-HITCS/Awesome-Chinese-LLM|IntelLabs/RAG-FiT|Morizeyao/GPT2-Chinese|NX-AI/xlstm|NovaSearch-Team/RAG-Retrieval|PaddlePaddle/PaddleNLP|PaddlePaddle/RocketQA|QData/TextAttack|SCIR-HI/Huatuo-Llama-Med-Chinese|SCIR-HI/Med-ChatGLM|SKTBrain/KoBERT|Tencent/PatrickStar|Tencent/TurboTransformers|The-FinAI/PIXIU|TigerResearch/TigerBot|TinyLLaVA/TinyLLaVA_Factory|Tongjilibo/bert4torch|Unbabel/COMET|ZHZisZZ/dllm|allenai/RL4LMs|asappresearch/sru|autoliuweijie/K-BERT|bentrevett/pytorch-sentiment-analysis|bilibili/Index-1.9B|bin123apple/AutoCoder|bytedance/Sa2VA|cambrian-mllm/cambrian|chenyuntc/PyTorchText|codertimo/BERT-pytorch|datawhalechina/learn-nlp-with-transformers|deepset-ai/FARM|explosion/spacy-transformers|facebookresearch/large_concept_model|grammarly/gector|hiyouga/EasyR1|hiyouga/LlamaFactory|huggingface/naacl_transfer_learning_tutorial|huggingface/pytorch-pretrained-BigGAN|huggingface/transfer-learning-conv-ai|hyperonym/basaran|jalammar/ecco|jsksxs360/How-to-use-Transformers|kakaobrain/kogpt|kha-white/manga-ocr|liucongg/GPT2-NewsTitle|lonePatient/awesome-pretrained-chinese-nlp-models|luban-agi/Awesome-Domain-LLM|magpie-align/magpie|mlfoundations/open_flamingo|namisan/mt-dnn|princeton-nlp/PURE|princeton-nlp/SimCSE|rohitg00/ai-engineering-from-scratch|salesforce/xgen|shibing624/similarities|shibing624/text2vec|smilelight/lightNLP|songyouwei/ABSA-PyTorch|thunlp/OpenAttack|thunlp/OpenDelta|thunlp/OpenPrompt|timoschick/pet|tomaarsen/attention_sinks|uber-research/PPLM|unitaryai/detoxify|wangyuxinwhy/uniem|web-arena-x/webarena|whylabs/langkit|williamSYSU/TextGAN-PyTorch|xusenlinzy/api-for-open-llm|yangjianxin1/GPT2-chitchat|ymcui/Chinese-LLaMA-Alpaca|ymcui/Chinese-LLaMA-Alpaca-2|ymcui/Chinese-LLaMA-Alpaca-3|yuanzhoulvpi2017/zero_nlp|zjunlp/DeepKE|zkywsg/Daily-LLM" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="0" target="1" id="0" weight="35.76919125528162">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="75.05925900532407" />
+        <attvalues>
+          <attvalue for="8" value="35.76919125528162" />
+          <attvalue for="9" value="130" />
+          <attvalue for="10" value="0.27514762504062784" />
+        </attvalues>
+      </edge>
+      <edge source="0" target="3" id="1" weight="25.346185237271182">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="67.66753313997283" />
+        <attvalues>
+          <attvalue for="8" value="25.346185237271182" />
+          <attvalue for="9" value="110" />
+          <attvalue for="10" value="0.2304198657933744" />
+        </attvalues>
+      </edge>
+      <edge source="0" target="4" id="2" weight="30.05405413567788">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="71.28609452275946" />
+        <attvalues>
+          <attvalue for="8" value="30.05405413567788" />
+          <attvalue for="9" value="98" />
+          <attvalue for="10" value="0.3066740217926314" />
+        </attvalues>
+      </edge>
+      <edge source="1" target="3" id="3" weight="30.754752276815143">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="71.78143553522953" />
+        <attvalues>
+          <attvalue for="8" value="30.754752276815143" />
+          <attvalue for="9" value="140" />
+          <attvalue for="10" value="0.21967680197725103" />
+        </attvalues>
+      </edge>
+      <edge source="1" target="2" id="4" weight="12.131596581420586">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="53.114572233777736" />
+        <attvalues>
+          <attvalue for="8" value="12.131596581420586" />
+          <attvalue for="9" value="63" />
+          <attvalue for="10" value="0.19256502510191406" />
+        </attvalues>
+      </edge>
+      <edge source="1" target="4" id="5" weight="22.565544809806855">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="65.24648919244855" />
+        <attvalues>
+          <attvalue for="8" value="22.565544809806855" />
+          <attvalue for="9" value="77" />
+          <attvalue for="10" value="0.29305902350398516" />
+        </attvalues>
+      </edge>
+      <edge source="3" target="4" id="6" weight="32.18134548571653">
+        <viz:color r="95" g="95" b="95" a="0.45" />
+        <viz:thickness value="72.75978441661827" />
+        <attvalues>
+          <attvalue for="8" value="32.18134548571653" />
+          <attvalue for="9" value="141" />
+          <attvalue for="10" value="0.22823649280650019" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

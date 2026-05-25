@@ -55,4 +55,4 @@ def build_fork_network(json_filepath, output_filepath, min_similarity=0.05):
     nx.write_gexf(G_forking, output_filepath)
 
 if __name__ == "__main__":
-    build_fork_network("../data/raw/repo_raw_data_fork.json", "../outputs/graphs/repo/clean_fork_network.gexf", min_similarity=0.025)
+    build_fork_network("data/raw/repo_raw_data_fork.json", "outputs/graphs/repo/clean_fork_network.gexf", min_similarity=0.025)

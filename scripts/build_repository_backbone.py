@@ -44,8 +44,6 @@ DOMAINS = (DOMAIN_CV, DOMAIN_NLP)
 REPO_LIMIT_PER_DOMAIN = 100
 REPOS_PAGE_SIZE = 50
 TOPICS_LIMIT = 100
-MENTIONABLE_USERS_LIMIT = 50
-COMMIT_AUTHORS_LIMIT = 100
 FORKS_LIMIT = 100
 REQUEST_RETRIES = 5
 RETRY_BACKOFF_SECONDS = 1.5
@@ -74,8 +72,6 @@ query(
   $owner: String!,
   $name: String!,
   $topicsFirst: Int!,
-  $mentionableFirst: Int!,
-  $commitAuthorsFirst: Int!,
   $forksFirst: Int!
 ) {
   repository(owner: $owner, name: $name) {
@@ -87,26 +83,6 @@ query(
     parent { nameWithOwner }
     repositoryTopics(first: $topicsFirst) {
       nodes { topic { name } }
-    }
-    mentionableUsers(first: $mentionableFirst) {
-      nodes { login }
-    }
-    defaultBranchRef {
-      name
-      target {
-        __typename
-        ... on Commit {
-          history(first: $commitAuthorsFirst) {
-            nodes {
-              author {
-                user { login }
-                email
-                name
-              }
-            }
-          }
-        }
-      }
     }
     readmeMd: object(expression: "HEAD:README.md") { ... on Blob { text } }
     readmeLower: object(expression: "HEAD:readme.md") { ... on Blob { text } }
@@ -295,24 +271,6 @@ def clean_logins(logins: Iterable[str]) -> List[str]:
         seen.add(login)
         dedup.append(login)
     return dedup
-
-
-def normalize_commit_author_identity(author: Dict) -> Optional[str]:
-    user = author.get("user") or {}
-    login = (user.get("login") or "").strip()
-    if login and not is_filtered_login(login):
-        return login
-
-    email = (author.get("email") or "").strip().lower()
-    if email:
-        local_part = email.split("@", 1)[0]
-        if "+" in local_part:
-            # Typical GitHub noreply format: <id>+<login>
-            local_part = local_part.split("+", 1)[1]
-        local_part = re.sub(r"[^a-z0-9._-]", "", local_part)
-        if len(local_part) >= 3 and not is_filtered_login(local_part):
-            return f"anon:{local_part}"
-    return None
 
 
 def safe_blob_text(blob_obj: Optional[Dict]) -> str:
@@ -594,34 +552,6 @@ def extract_forker_owners(repo: Dict) -> List[str]:
     return clean_logins(owners)
 
 
-def extract_contributors(repo: Dict) -> List[str]:
-    if isinstance(repo.get("contributors"), list):
-        return clean_logins(repo["contributors"])
-
-    from_commits = []
-    default_branch_ref = repo.get("defaultBranchRef") or {}
-    target = default_branch_ref.get("target") or {}
-    history = (target.get("history") or {}).get("nodes") or []
-    for node in history:
-        author = node.get("author") or {}
-        ident = normalize_commit_author_identity(author)
-        if ident:
-            from_commits.append(ident)
-
-    if from_commits:
-        return clean_logins(from_commits)
-
-    mentionable_raw = repo.get("mentionableUsers")
-    mentionable = []
-    if isinstance(mentionable_raw, list):
-        mentionable = [str(x) for x in mentionable_raw]
-    elif isinstance(mentionable_raw, dict):
-        for n in mentionable_raw.get("nodes") or []:
-            if isinstance(n, dict) and n.get("login"):
-                mentionable.append(n["login"])
-    return clean_logins(mentionable)
-
-
 def extract_primary_language(repo: Dict) -> str:
     lang = repo.get("primaryLanguage")
     if isinstance(lang, str):
@@ -653,7 +583,6 @@ def normalize_loaded_repo_record(repo: Dict) -> Dict:
         "source_domains": sorted(set(source_domains)),
         "topics": extract_topics(repo),
         "forker_owners": extract_forker_owners(repo),
-        "contributors": extract_contributors(repo),
         "readme_text": pick_readme_text(repo),
         "dependencies": extract_dependencies(repo),
     }
@@ -701,8 +630,6 @@ def fetch_repository_details(
             "owner": owner,
             "name": name,
             "topicsFirst": TOPICS_LIMIT,
-            "mentionableFirst": MENTIONABLE_USERS_LIMIT,
-            "commitAuthorsFirst": COMMIT_AUTHORS_LIMIT,
             "forksFirst": FORKS_LIMIT,
         },
         headers,
@@ -855,13 +782,11 @@ def normalized_weight_config(
     w_fork: float,
     w_readme: float,
     w_dep: float,
-    w_contrib: float,
 ) -> Dict[str, float]:
     weights = {
         "fork": float(w_fork),
         "readme": float(w_readme),
         "dep": float(w_dep),
-        "contrib": float(w_contrib),
     }
     if any(v < 0 for v in weights.values()):
         raise ValueError("Similarity weights must be non-negative.")
@@ -877,21 +802,18 @@ def build_repository_similarity_graph(
     weight_fork: float,
     weight_readme: float,
     weight_dep: float,
-    weight_contrib: float,
 ) -> Tuple[nx.Graph, Dict[str, float]]:
     graph = nx.Graph()
     weights = normalized_weight_config(
         w_fork=weight_fork,
         w_readme=weight_readme,
         w_dep=weight_dep,
-        w_contrib=weight_contrib,
     )
 
     readme_tokens = [preprocess_readme(repo.get("readme_text", "")) for repo in repo_data]
     tfidf_vectors, tfidf_norms = build_tfidf_vectors(readme_tokens)
 
     forker_sets = [set(repo.get("forker_owners", [])) for repo in repo_data]
-    contributor_sets = [set(repo.get("contributors", [])) for repo in repo_data]
     dependency_sets = [set(repo.get("dependencies", [])) for repo in repo_data]
 
     for idx, repo in enumerate(repo_data):
@@ -915,7 +837,6 @@ def build_repository_similarity_graph(
             Topics="|".join(repo.get("topics", [])),
             TopicCount=int(len(repo.get("topics", []))),
             ForkerCount=int(len(forker_sets[idx])),
-            ContributorCount=int(len(contributor_sets[idx])),
             DependencyCount=int(len(dependency_sets[idx])),
             ReadmeLength=int(len(repo.get("readme_text", ""))),
             IsFork=int(bool(repo.get("isFork") or False)),
@@ -925,7 +846,6 @@ def build_repository_similarity_graph(
 
     pair_count = 0
     nonzero_fork = 0
-    nonzero_contrib = 0
     nonzero_readme = 0
     nonzero_dep = 0
     nonzero_weight = 0
@@ -936,15 +856,12 @@ def build_repository_similarity_graph(
         pair_count += 1
 
         fork_j = jaccard_similarity(forker_sets[i], forker_sets[j])
-        contrib_j = jaccard_similarity(contributor_sets[i], contributor_sets[j])
         readme_sim = cosine_similarity_sparse(
             tfidf_vectors[i], tfidf_norms[i], tfidf_vectors[j], tfidf_norms[j]
         )
         dep_j = jaccard_similarity(dependency_sets[i], dependency_sets[j])
         if fork_j > 0:
             nonzero_fork += 1
-        if contrib_j > 0:
-            nonzero_contrib += 1
         if readme_sim > 0:
             nonzero_readme += 1
         if dep_j > 0:
@@ -953,7 +870,6 @@ def build_repository_similarity_graph(
             weights["fork"] * fork_j
             + weights["readme"] * readme_sim
             + weights["dep"] * dep_j
-            + weights["contrib"] * contrib_j
         )
 
         if weight < pre_min_weight:
@@ -965,7 +881,6 @@ def build_repository_similarity_graph(
             repo_j["nameWithOwner"],
             weight=float(weight),
             fork_overlap=float(fork_j),
-            contributor_jaccard=float(contrib_j),
             readme_similarity=float(readme_sim),
             dependency_overlap=float(dep_j),
         )
@@ -973,14 +888,12 @@ def build_repository_similarity_graph(
     stats = {
         "pairs": float(pair_count),
         "fork_nonzero_ratio": float(nonzero_fork / pair_count) if pair_count else 0.0,
-        "contrib_nonzero_ratio": float(nonzero_contrib / pair_count) if pair_count else 0.0,
         "readme_nonzero_ratio": float(nonzero_readme / pair_count) if pair_count else 0.0,
         "dep_nonzero_ratio": float(nonzero_dep / pair_count) if pair_count else 0.0,
         "edge_keep_ratio_pre": float(nonzero_weight / pair_count) if pair_count else 0.0,
         "weight_fork": weights["fork"],
         "weight_readme": weights["readme"],
         "weight_dep": weights["dep"],
-        "weight_contrib": weights["contrib"],
     }
     return graph, stats
 
@@ -1332,33 +1245,49 @@ def parse_args() -> argparse.Namespace:
         default=0.2,
         help="Dependency overlap weight in mixed similarity",
     )
-    parser.add_argument(
-        "--weight-contrib",
-        type=float,
-        default=0.0,
-        help="Contributor-overlap weight in mixed similarity (optional fallback)",
-    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
 
-    if args.reuse_raw and os.path.exists(args.raw_output):
+    raw_exists = os.path.exists(args.raw_output)
+
+    if args.reuse_raw:
+        if not raw_exists:
+            raise RuntimeError(
+                f"--reuse-raw was set, but raw file does not exist: {args.raw_output}"
+            )
         with open(args.raw_output, "r", encoding="utf-8") as f:
             raw_records = json.load(f)
         repo_data = normalize_loaded_dataset(raw_records)
         print(f"[load] reused raw data <- {args.raw_output} ({len(repo_data)} repos)")
     else:
-        token = load_github_token(args.token_env)
-        repo_data = build_dataset_from_github(
-            token=token,
-            per_domain_limit=args.per_domain_limit,
-        )
-        ensure_parent_dir(args.raw_output)
-        with open(args.raw_output, "w", encoding="utf-8") as f:
-            json.dump(repo_data, f, ensure_ascii=False, indent=2)
-        print(f"[save] normalized raw repository data -> {args.raw_output}")
+        token = os.getenv(args.token_env, "").strip()
+        if token:
+            token = load_github_token(args.token_env)
+            repo_data = build_dataset_from_github(
+                token=token,
+                per_domain_limit=args.per_domain_limit,
+            )
+            ensure_parent_dir(args.raw_output)
+            with open(args.raw_output, "w", encoding="utf-8") as f:
+                json.dump(repo_data, f, ensure_ascii=False, indent=2)
+            print(f"[save] normalized raw repository data -> {args.raw_output}")
+        elif raw_exists:
+            with open(args.raw_output, "r", encoding="utf-8") as f:
+                raw_records = json.load(f)
+            repo_data = normalize_loaded_dataset(raw_records)
+            print(
+                "[load] no GitHub token found; auto-reused raw data "
+                f"<- {args.raw_output} ({len(repo_data)} repos)"
+            )
+        else:
+            raise RuntimeError(
+                f"Missing GitHub token in {args.token_env} and raw file not found: "
+                f"{args.raw_output}. "
+                "Set token to fetch from GitHub, or provide --reuse-raw with an existing raw file."
+            )
 
     if not repo_data:
         raise RuntimeError("No repository data available after loading/fetching.")
@@ -1369,25 +1298,7 @@ def main() -> None:
         weight_fork=args.weight_fork,
         weight_readme=args.weight_readme,
         weight_dep=args.weight_dep,
-        weight_contrib=args.weight_contrib,
     )
-    if (
-        base_graph.number_of_edges() == 0
-        and args.weight_contrib == 0.0
-        and signal_stats["contrib_nonzero_ratio"] > 0.0
-    ):
-        print(
-            "[warning] empty graph from fork/readme/dep signals; "
-            "retrying with contributor fallback weight"
-        )
-        base_graph, signal_stats = build_repository_similarity_graph(
-            repo_data=repo_data,
-            pre_min_weight=args.pre_min_weight,
-            weight_fork=args.weight_fork,
-            weight_readme=args.weight_readme,
-            weight_dep=args.weight_dep,
-            weight_contrib=0.25,
-        )
     print(
         "[graph] pre-backbone "
         f"nodes={base_graph.number_of_nodes()} edges={base_graph.number_of_edges()}"
@@ -1396,7 +1307,6 @@ def main() -> None:
         "[signal] "
         f"pair_count={int(signal_stats['pairs'])}, "
         f"fork_nonzero={signal_stats['fork_nonzero_ratio']:.3f}, "
-        f"contrib_nonzero={signal_stats['contrib_nonzero_ratio']:.3f}, "
         f"readme_nonzero={signal_stats['readme_nonzero_ratio']:.3f}, "
         f"dep_nonzero={signal_stats['dep_nonzero_ratio']:.3f}, "
         f"edge_keep_pre={signal_stats['edge_keep_ratio_pre']:.3f}"
@@ -1405,8 +1315,7 @@ def main() -> None:
         "[weights] "
         f"fork={signal_stats['weight_fork']:.3f}, "
         f"readme={signal_stats['weight_readme']:.3f}, "
-        f"dep={signal_stats['weight_dep']:.3f}, "
-        f"contrib={signal_stats['weight_contrib']:.3f}"
+        f"dep={signal_stats['weight_dep']:.3f}"
     )
 
     if args.auto_relax:

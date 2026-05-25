@@ -1,0 +1,848 @@
+owner_login,owner_type,owner_name,company_raw,company_canonical,company_id,company_label,repo_name_with_owner,kept,drop_reason
+1adrianb,User,Adrian Bulat,Samsung AI Research,samsung ai research,samsung ai research,Samsung AI Research,1adrianb/2D-and-3D-face-alignment,1,
+3DTopia,Organization,3D Topia,3D Topia,3d topia,3d topia,3D Topia,3DTopia/OpenLRM,1,
+3d-morphable-models,Organization,3d-morphable-models,3d-morphable-models,3d morphable models,3d morphable models,3d-morphable-models,3d-morphable-models/curated-list-of-awesome-3D-Morphable-Model-software-and-data,1,
+666ghj,User,BaiFu,"BUPT, Shanda",bupt shanda,bupt shanda,"BUPT, Shanda",666ghj/BettaFish,1,
+AI4Finance-Foundation,Organization,AI4Finance Foundation,AI4Finance Foundation,ai4finance foundation,ai4finance foundation,AI4Finance Foundation,AI4Finance-Foundation/FinGPT,1,
+ARM-software,Organization,Arm Software,Arm Software,arm software,arm software,Arm Software,ARM-software/ComputeLibrary,1,
+AaronJackson,User,Aaron S. Jackson,University of Dundee,university of dundee,university of dundee,University of Dundee,AaronJackson/vrn,1,
+AlibabaResearch,Organization,Alibaba Research,Alibaba Research,alibaba research,alibaba research,Alibaba Research,AlibabaResearch/AdvancedLiterateMachinery,1,
+AndrewZhe,User,Quzhe Huang,Peking University,peking university,peking university,Peking University,AndrewZhe/lawyer-llama,1,
+AnswerDotAI,Organization,Answer.AI,Answer.AI,answer.ai,answer.ai,Answer.AI,AnswerDotAI/ModernBERT,1,
+AnswerDotAI,Organization,Answer.AI,Answer.AI,answer.ai,answer.ai,Answer.AI,AnswerDotAI/byaldi,1,
+Anything-of-anything,User,Anything-of-Anything ,National University of Singapore,national university of singapore,national university of singapore,National University of Singapore,Anything-of-anything/Anything-3D,1,
+AutoGPTQ,Organization,AutoGPTQ,AutoGPTQ,autogptq,autogptq,AutoGPTQ,AutoGPTQ/AutoGPTQ,1,
+BrikerMan,User,Eliyar Eziz,"Yodo1, Ltd.",yodo1,yodo1,"Yodo1, Ltd.",BrikerMan/Kashgari,1,
+BrokenSource,Organization,Broken Source Software,Broken Source Software,broken source software,broken source software,Broken Source Software,BrokenSource/DepthFlow,1,
+CLUEbenchmark,Organization,CLUE benchmark,CLUE benchmark,clue benchmark,clue benchmark,CLUE benchmark,CLUEbenchmark/CLUECorpus2020,1,
+CLUEbenchmark,Organization,CLUE benchmark,CLUE benchmark,clue benchmark,clue benchmark,CLUE benchmark,CLUEbenchmark/CLUEDatasetSearch,1,
+CMU-Perceptual-Computing-Lab,Organization,CMU-Perceptual-Computing-Lab,CMU-Perceptual-Computing-Lab,cmu perceptual computing lab,cmu perceptual computing lab,CMU-Perceptual-Computing-Lab,CMU-Perceptual-Computing-Lab/openpose,1,
+CSAILVision,Organization,MIT CSAIL Computer Vision,MIT CSAIL Computer Vision,mit csail computer vision,mit csail computer vision,MIT CSAIL Computer Vision,CSAILVision/LabelMeAnnotationTool,1,
+CVHub520,User,CVHub,DJI,dji,dji,DJI,CVHub520/X-AnyLabeling,1,
+CVI-SZU,Organization,"Computer Vision Institute, SZU","Computer Vision Institute, SZU",computer vision institute szu,computer vision institute szu,"Computer Vision Institute, SZU",CVI-SZU/Linly,1,
+CalciferZh,User,Yuxiao Zhou,ETH Zurich,eth zurich,eth zurich,ETH Zurich,CalciferZh/minimal-hand,1,
+Cartucho,User,Cartucho,Imperial College London,imperial college london,imperial college london,Imperial College London,Cartucho/mAP,1,
+Charmve,User,Wei ZHANG,公众号: 迈微AI研习社,ai,ai,公众号: 迈微AI研习社,Charmve/computer-vision-in-action,1,
+ChineseGLUE,Organization,ChineseGLUE,ChineseGLUE,chineseglue,chineseglue,ChineseGLUE,ChineseGLUE/ChineseGLUE,1,
+DLR-RM,Organization,DLR-RM,DLR-RM,dlr rm,dlr rm,DLR-RM,DLR-RM/3DObjectTracking,1,
+Delta-ML,Organization,DELTA,DELTA,delta,delta,DELTA,Delta-ML/delta,1,
+DengBoCong,User,DengBoCong,@ByteDance,bytedance,bytedance,@ByteDance,DengBoCong/nlp-paper,1,
+Denis2054,User,Denis Rothman,AI Architect & Author | Speaker & Instructor,ai architect & author speaker & instructor,ai architect & author speaker & instructor,AI Architect & Author | Speaker & Instructor,Denis2054/Transformers-for-NLP-2nd-Edition,1,
+DerwenAI,Organization,derwen.ai,derwen.ai,derwen.ai,derwen.ai,derwen.ai,DerwenAI/pytextrank,1,
+DirtyHarryLYL,User,Yong-Lu Li,@MVIG-SJTU,mvig sjtu,mvig sjtu,@MVIG-SJTU,DirtyHarryLYL/Transformer-in-Vision,1,
+DragonComputer,Organization,DRAGON.COMPUTER,DRAGON.COMPUTER,dragon.computer,dragon.computer,DRAGON.COMPUTER,DragonComputer/Dragonfire,1,
+EdinburghNLP,Organization,Edinburgh NLP,Edinburgh NLP,edinburgh nlp,edinburgh nlp,Edinburgh NLP,EdinburghNLP/awesome-hallucination-detection,1,
+EutropicAI,Organization,Eutropic,Eutropic,eutropic,eutropic,Eutropic,EutropicAI/Final2x,1,
+EvelynFan,User,Evelyn,The University of Hong Kong,the university of hong kong,the university of hong kong,The University of Hong Kong,EvelynFan/FaceFormer,1,
+FORTH-ModelBasedTracker,Organization,FORTH  Computational Vision and Robotics Laboratory,FORTH  Computational Vision and Robotics Laboratory,forth computational vision and robotics laboratory,forth computational vision and robotics laboratory,FORTH  Computational Vision and Robotics Laboratory,FORTH-ModelBasedTracker/MocapNET,1,
+FudanDISC,Organization,FudanDISC,FudanDISC,fudandisc,fudandisc,FudanDISC,FudanDISC/DISC-LawLLM,1,
+Future-Scholars,Organization,Future Scholars,Future Scholars,future scholars,future scholars,Future Scholars,Future-Scholars/paperlib,1,
+GaParmar,User,Gaurav Parmar,Carnegie Mellon University,carnegie mellon university,carnegie mellon university,Carnegie Mellon University,GaParmar/clean-fid,1,
+GaParmar,User,Gaurav Parmar,Carnegie Mellon University,carnegie mellon university,carnegie mellon university,Carnegie Mellon University,GaParmar/img2img-turbo,1,
+GeeeekExplorer,User,Xingkai Yu,"@deepseek-ai, Nanjing University",deepseek ai nanjing university,deepseek ai nanjing university,"@deepseek-ai, Nanjing University",GeeeekExplorer/nano-vllm,1,
+HKUSTDial,Organization,Data Intelligence and Analytics Lab @ HKUST(GZ),Data Intelligence and Analytics Lab @ HKUST(GZ),data intelligence and analytics lab hkust gz,data intelligence and analytics lab hkust gz,Data Intelligence and Analytics Lab @ HKUST(GZ),HKUSTDial/NL2SQL_Handbook,1,
+HenryNdubuaku,User,Henry Ndubuaku,Cactus Compute,cactus compute,cactus compute,Cactus Compute,HenryNdubuaku/maths-cs-ai-compendium,1,
+HumanSignal,Organization,HumanSignal,HumanSignal,humansignal,humansignal,HumanSignal,HumanSignal/label-studio,1,
+HyperGAN,Organization,HyperGAN,HyperGAN,hypergan,hypergan,HyperGAN,HyperGAN/HyperGAN,1,
+Hyperparticle,User,Dan Kondratyuk,rekursiv.ai,rekursiv.ai,rekursiv.ai,rekursiv.ai,Hyperparticle/one-pixel-attack-keras,1,
+HypoX64,User,Hypo,Tencent,tencent,tencent,Tencent,HypoX64/DeepMosaics,1,
+IAAR-Shanghai,Organization,Memtensor Research Group,Memtensor Research Group,memtensor research group,memtensor research group,Memtensor Research Group,IAAR-Shanghai/SurveyX,1,
+IBM,Organization,International Business Machines,International Business Machines,international business machines,international business machines,International Business Machines,IBM/MAX-Image-Resolution-Enhancer,1,
+IDEA-Research,Organization,IDEA-Research,IDEA-Research,idea research,idea research,IDEA-Research,IDEA-Research/DINO,1,
+IntelLabs,Organization,Intel Labs,Intel Labs,intel labs,intel labs,Intel Labs,IntelLabs/RAG-FiT,1,
+IntelLabs,Organization,Intel Labs,Intel Labs,intel labs,intel labs,Intel Labs,IntelLabs/fastRAG,1,
+IntelLabs,Organization,Intel Labs,Intel Labs,intel labs,intel labs,Intel Labs,IntelLabs/nlp-architect,1,
+JDAI-CV,Organization,JDAI-CV,JDAI-CV,jdai cv,jdai cv,JDAI-CV,JDAI-CV/fast-reid,1,
+JasonKessler,User,Jason S. Kessler,Personal Account,personal account,personal account,Personal Account,JasonKessler/scattertext,1,
+JohnSnowLabs,Organization,John Snow Labs,John Snow Labs,john snow labs,john snow labs,John Snow Labs,JohnSnowLabs/spark-nlp,1,
+KevinMusgrave,User,Kevin Musgrave,Fujitsu Research,fujitsu research,fujitsu research,Fujitsu Research,KevinMusgrave/pytorch-metric-learning,1,
+KlingAIResearch,Organization,KlingAI Research,KlingAI Research,klingai research,klingai research,KlingAI Research,KlingAIResearch/ReCamMaster,1,
+Kobaayyy,User,Kobaayyy,Fuzhou University,fuzhou university,fuzhou university,Fuzhou University,Kobaayyy/Awesome-CVPR2026-CVPR2025-CVPR2024-CVPR2021-CVPR2020-Low-Level-Vision,1,
+KudoAI,Organization,KudoAI,KudoAI,kudoai,kudoai,KudoAI,KudoAI/chatgpt.js,1,
+Kyubyong,User,Kyubyong Park,TUNiB,tunib,tunib,TUNiB,Kyubyong/nlp_tasks,1,
+LMD0311,User,Xin Zhou,Huazhong University of Science & Technology,huazhong university of science & technology,huazhong university of science & technology,Huazhong University of Science & Technology,LMD0311/Awesome-World-Model,1,
+Layout-Parser,Organization,layout-parser,layout-parser,layout parser,layout parser,layout-parser,Layout-Parser/layout-parser,1,
+LexPredict,Organization,LexPredict,LexPredict,lexpredict,lexpredict,LexPredict,LexPredict/lexpredict-lexnlp,1,
+Linketic,Organization,Linketic,Linketic,linketic,linketic,Linketic,Linketic/CityGaussian,1,
+M-3LAB,Organization,M3LAB,M3LAB,m3lab,m3lab,M3LAB,M-3LAB/awesome-industrial-anomaly-detection,1,
+MAC-VO,Organization,MAC-VO,MAC-VO,mac vo,mac vo,MAC-VO,MAC-VO/MAC-VO,1,
+MIND-Lab,Organization,MIND,MIND,mind,mind,MIND,MIND-Lab/OCTIS,1,
+MIT-SPARK,Organization,MIT-SPARK,MIT-SPARK,mit spark,mit spark,MIT-SPARK,MIT-SPARK/Kimera,1,
+MIT-SPARK,Organization,MIT-SPARK,MIT-SPARK,mit spark,mit spark,MIT-SPARK,MIT-SPARK/VGGT-SLAM,1,
+MOLAorg,Organization,The MOLA SLAM framework,The MOLA SLAM framework,the mola slam framework,the mola slam framework,The MOLA SLAM framework,MOLAorg/mola,1,
+MRPT,Organization,MRPT,MRPT,mrpt,mrpt,MRPT,MRPT/mrpt,1,
+MaaAssistantArknights,Organization,MAA,MAA,maa,maa,MAA,MaaAssistantArknights/MaaAssistantArknights,1,
+MaaXYZ,Organization,MaaXYZ,MaaXYZ,maaxyz,maaxyz,MaaXYZ,MaaXYZ/MaaFramework,1,
+MaartenGr,User,Maarten Grootendorst,@google-deepmind,google deepmind,google deepmind,@google-deepmind,MaartenGr/BERTopic,1,
+Maluuba,Organization,Maluuba Inc.,Maluuba Inc.,maluuba,maluuba,Maluuba Inc.,Maluuba/nlg-eval,1,
+MarkMoHR,User,Haoran MO,Postdoc @HKUST (GZ); Ph.D @SYSU,postdoc hkust gz ph.d sysu,postdoc hkust gz ph.d sysu,Postdoc @HKUST (GZ); Ph.D @SYSU,MarkMoHR/Awesome-Image-Colorization,1,
+MarvinTeichmann,User,Marvin Teichmann,University of Cambridge,university of cambridge,university of cambridge,University of Cambridge,MarvinTeichmann/KittiSeg,1,
+MilaNLProc,Organization,MilaNLP,MilaNLP,milanlp,milanlp,MilaNLP,MilaNLProc/contextualized-topic-models,1,
+MinishLab,Organization,Minish,Minish,minish,minish,Minish,MinishLab/model2vec,1,
+Moataz-Elmesmary,User,Moataz Elmesmary ,Egyptian Food Bank,egyptian food bank,egyptian food bank,Egyptian Food Bank,Moataz-Elmesmary/Data-Science-Roadmap,1,
+ModelTC,Organization,ModelTC,ModelTC,modeltc,modeltc,ModelTC,ModelTC/LightLLM,1,
+Morizeyao,User,Zeyao Du,Shopee,shopee,shopee,Shopee,Morizeyao/GPT2-Chinese,1,
+Mukosame,User,Xiaoyu Xiang,Meta,meta,meta,Meta,Mukosame/Anime2Sketch,1,
+MycroftAI,Organization,Mycroft,Mycroft,mycroft,mycroft,Mycroft,MycroftAI/mycroft-core,1,
+NLPchina,Organization,NLPChina,NLPChina,nlpchina,nlpchina,NLPChina,NLPchina/ansj_seg,1,
+NLPchina,Organization,NLPChina,NLPChina,nlpchina,nlpchina,NLPChina,NLPchina/nlp-lang,1,
+NVIDIA,Organization,NVIDIA Corporation,NVIDIA Corporation,nvidia,nvidia,NVIDIA Corporation,NVIDIA/MinkowskiEngine,1,
+NVIDIA,Organization,NVIDIA Corporation,NVIDIA Corporation,nvidia,nvidia,NVIDIA Corporation,NVIDIA/pix2pixHD,1,
+NVIDIA-AI-IOT,Organization,NVIDIA AI IOT,NVIDIA AI IOT,nvidia ai iot,nvidia ai iot,NVIDIA AI IOT,NVIDIA-AI-IOT/redtail,1,
+NVIDIA-Merlin,Organization,NVIDIA-Merlin,NVIDIA-Merlin,nvidia merlin,nvidia merlin,NVIDIA-Merlin,NVIDIA-Merlin/Transformers4Rec,1,
+NVlabs,Organization,NVIDIA Research Projects,NVIDIA Research Projects,nvidia research projects,nvidia research projects,NVIDIA Research Projects,NVlabs/VoxFormer,1,
+NVlabs,Organization,NVIDIA Research Projects,NVIDIA Research Projects,nvidia research projects,nvidia research projects,NVIDIA Research Projects,NVlabs/instant-ngp,1,
+NVlabs,Organization,NVIDIA Research Projects,NVIDIA Research Projects,nvidia research projects,nvidia research projects,NVIDIA Research Projects,NVlabs/neuralangelo,1,
+NX-AI,Organization,NXAI,NXAI,nxai,nxai,NXAI,NX-AI/xlstm,1,
+NanoNets,Organization,Nanonets,Nanonets,nanonets,nanonets,Nanonets,NanoNets/docext,1,
+Neph0s,User,Xintao Wang,Fudan University,fudan university,fudan university,Fudan University,Neph0s/awesome-llm-role-playing-with-persona,1,
+NirDiamant,User,NirDiamant,DiamantAI,diamantai,diamantai,DiamantAI,NirDiamant/RAG_Techniques,1,
+NovaSearch-Team,Organization,NovaSearch,NovaSearch,novasearch,novasearch,NovaSearch,NovaSearch-Team/RAG-Retrieval,1,
+OAID,Organization,OAID,OAID,oaid,oaid,OAID,OAID/TengineKit,1,
+OFA-Sys,Organization,OFA-Sys,OFA-Sys,ofa sys,ofa sys,OFA-Sys,OFA-Sys/Chinese-CLIP,1,
+OML-Team,Organization,OML-Team,OML-Team,oml team,oml team,OML-Team,OML-Team/open-metric-learning,1,
+OpenStitching,Organization,OpenStitching,OpenStitching,openstitching,openstitching,OpenStitching,OpenStitching/stitching,1,
+PaddlePaddle,Organization,PaddlePaddle,PaddlePaddle,paddlepaddle,paddlepaddle,PaddlePaddle,PaddlePaddle/PaddleNLP,1,
+PaddlePaddle,Organization,PaddlePaddle,PaddlePaddle,paddlepaddle,paddlepaddle,PaddlePaddle,PaddlePaddle/RocketQA,1,
+PaddlePaddle,Organization,PaddlePaddle,PaddlePaddle,paddlepaddle,paddlepaddle,PaddlePaddle,PaddlePaddle/awesome-DeepLearning,1,
+PaddlePaddle,Organization,PaddlePaddle,PaddlePaddle,paddlepaddle,paddlepaddle,PaddlePaddle,PaddlePaddle/models,1,
+PetrochukM,User,Mixail Petrochuk,@wellsaid-labs,wellsaid labs,wellsaid labs,@wellsaid-labs,PetrochukM/PyTorch-NLP,1,
+PrunaAI,Organization,Pruna AI,Pruna AI,pruna ai,pruna ai,Pruna AI,PrunaAI/pruna,1,
+QData,Organization,QData,QData,qdata,qdata,QData,QData/TextAttack,1,
+QingyongHu,User,Qingyong,University of Oxford,university of oxford,university of oxford,University of Oxford,QingyongHu/RandLA-Net,1,
+RasaHQ,Organization,Rasa,Rasa,rasa,rasa,Rasa,RasaHQ/rasa,1,
+RasaHQ,Organization,Rasa,Rasa,rasa,rasa,Rasa,RasaHQ/rasa_core,1,
+Renumics,Organization,Renumics,Renumics,renumics,renumics,Renumics,Renumics/awesome-open-data-centric-ai,1,
+Renumics,Organization,Renumics,Renumics,renumics,renumics,Renumics,Renumics/spotlight,1,
+SKTBrain,Organization,SK T-Brain,SK T-Brain,sk t brain,sk t brain,SK T-Brain,SKTBrain/KoBERT,1,
+STVIR,Organization,STVIR,STVIR,stvir,stvir,STVIR,STVIR/pysot,1,
+ScanNet,Organization,ScanNet,ScanNet,scannet,scannet,ScanNet,ScanNet/ScanNet,1,
+SeanLee97,User,Sean,@mixedbread-ai,mixedbread ai,mixedbread ai,@mixedbread-ai,SeanLee97/xmnlp,1,
+SerpentAI,Organization,Serpent.AI,Serpent.AI,serpent.ai,serpent.ai,Serpent.AI,SerpentAI/SerpentAI,1,
+SharpAI,Organization,SharpAI Dev Team,SharpAI Dev Team,sharpai dev team,sharpai dev team,SharpAI Dev Team,SharpAI/DeepCamera,1,
+Sharpiless,User,Sharpiless,Beijing Institute of Technology,beijing institute of technology,beijing institute of technology,Beijing Institute of Technology,Sharpiless/Yolov5-Deepsort,1,
+ShawnyXiao,User,Xiaoyue Xiao,Tencent,tencent,tencent,Tencent,ShawnyXiao/TextClassification-Keras,1,
+SkalskiP,User,Piotr Skalski,@roboflow,roboflow,roboflow,@roboflow,SkalskiP/ILearnDeepLearning.py,1,
+SkalskiP,User,Piotr Skalski,@roboflow,roboflow,roboflow,@roboflow,SkalskiP/awesome-chatgpt-code-interpreter-experiments,1,
+SkalskiP,User,Piotr Skalski,@roboflow,roboflow,roboflow,@roboflow,SkalskiP/courses,1,
+SkalskiP,User,Piotr Skalski,@roboflow,roboflow,roboflow,@roboflow,SkalskiP/make-sense,1,
+SkalskiP,User,Piotr Skalski,@roboflow,roboflow,roboflow,@roboflow,SkalskiP/vlms-zero-to-hero,1,
+SqueezeAILab,Organization,SqueezeAILab,SqueezeAILab,squeezeailab,squeezeailab,SqueezeAILab,SqueezeAILab/LLMCompiler,1,
+StanfordVL,Organization,Stanford Vision and Learning Lab,Stanford Vision and Learning Lab,stanford vision and learning lab,stanford vision and learning lab,Stanford Vision and Learning Lab,StanfordVL/GibsonEnv,1,
+SylphAI-Inc,Organization,SylphAI,SylphAI,sylphai,sylphai,SylphAI,SylphAI-Inc/AdalFlow,1,
+TeamHG-Memex,Organization,TeamHG,TeamHG,teamhg,teamhg,TeamHG,TeamHG-Memex/eli5,1,
+Tencent,Organization,Tencent,Tencent,tencent,tencent,Tencent,Tencent/PatrickStar,1,
+Tencent,Organization,Tencent,Tencent,tencent,tencent,Tencent,Tencent/PocketFlow,1,
+Tencent,Organization,Tencent,Tencent,tencent,tencent,Tencent,Tencent/TurboTransformers,1,
+Tencent,Organization,Tencent,Tencent,tencent,tencent,Tencent,Tencent/tencent-ml-images,1,
+The-FinAI,Organization,The Fin AI,The Fin AI,the fin ai,the fin ai,The Fin AI,The-FinAI/PIXIU,1,
+TheShadow29,User,Arka Sadhu,Meta,meta,meta,Meta,TheShadow29/awesome-grounding,1,
+TigerResearch,Organization,TigerResearch,TigerResearch,tigerresearch,tigerresearch,TigerResearch,TigerResearch/TigerBot,1,
+TimoBolkart,User,TimoBolkart,Max Planck Institute for Intelligent Systems,max planck institute for intelligent systems,max planck institute for intelligent systems,Max Planck Institute for Intelligent Systems,TimoBolkart/voca,1,
+TorchSSL,Organization,TorchSSL,TorchSSL,torchssl,torchssl,TorchSSL,TorchSSL/TorchSSL,1,
+Unbabel,Organization,Unbabel,Unbabel,unbabel,unbabel,Unbabel,Unbabel/COMET,1,
+UniversalDataTool,Organization,Universal Data Tool,Universal Data Tool,universal data tool,universal data tool,Universal Data Tool,UniversalDataTool/universal-data-tool,1,
+Unstructured-IO,Organization,Unstructured,Unstructured,unstructured,unstructured,Unstructured,Unstructured-IO/unstructured,1,
+VKCOM,Organization,VK.com,VK.com,vk.com,vk.com,VK.com,VKCOM/YouTokenToMe,1,
+VladimirYugay,User,Vladimir Yugay,University of Amsterdam,university of amsterdam,university of amsterdam,University of Amsterdam,VladimirYugay/Gaussian-SLAM,1,
+WooooDyy,User,Zhiheng Xi (SII),Fudan University,fudan university,fudan university,Fudan University,WooooDyy/LLM-Agent-Paper-List,1,
+Yangzhangcst,User,Yang Zhang,Hubei University of Technology,hubei university of technology,hubei university of technology,Hubei University of Technology,Yangzhangcst/Transformer-in-Computer-Vision,1,
+YuliangXiu,User,Yuliang Xiu,Westlake University,westlake university,westlake university,Westlake University,YuliangXiu/ECON,1,
+YuliangXiu,User,Yuliang Xiu,Westlake University,westlake university,westlake university,Westlake University,YuliangXiu/ICON,1,
+ZHZisZZ,User,Zhanhui Zhou,UC Berkeley,uc berkeley,uc berkeley,UC Berkeley,ZHZisZZ/dllm,1,
+ZhaoJ9014,User,Jian ZHAO (赵健),TeleAI of China Telecom (中国电信人工智能研究院),teleai of china telecom,teleai of china telecom,TeleAI of China Telecom (中国电信人工智能研究院),ZhaoJ9014/face.evoLVe,1,
+ZheC,User,Zhe Cao,UC Berkeley,uc berkeley,uc berkeley,UC Berkeley,ZheC/Realtime_Multi-Person_Pose_Estimation,1,
+ZhongqunZHANG,User,Zhongqun ZHANG,University of Birmingham,university of birmingham,university of birmingham,University of Birmingham,ZhongqunZHANG/awesome-6d-object,1,
+aangelopoulos,User,Anastasios Angelopoulos,"University of California, Berkeley",university of california berkeley,university of california berkeley,"University of California, Berkeley",aangelopoulos/conformal-prediction,1,
+abhimishra91,User,Abhishek Kumar Mishra,Collinson Group,collinson group,collinson group,Collinson Group,abhimishra91/transformers-tutorials,1,
+accord-net,Organization,Accord.NET,Accord.NET,accord.net,accord.net,Accord.NET,accord-net/framework,1,
+activeloopai,Organization,Activeloop,Activeloop,activeloop,activeloop,Activeloop,activeloopai/deeplake,1,
+adapter-hub,Organization,AdapterHub,AdapterHub,adapterhub,adapterhub,AdapterHub,adapter-hub/adapters,1,
+adobe,Organization,"Adobe, Inc.","Adobe, Inc.",adobe,adobe,"Adobe, Inc.",adobe/antialiased-cnns,1,
+adobe-research,Organization,Adobe Research,Adobe Research,adobe research,adobe research,Adobe Research,adobe-research/custom-diffusion,1,
+advimman,Organization,Image Manipulation,Image Manipulation,image manipulation,image manipulation,Image Manipulation,advimman/lama,1,
+ai-forever,Organization,AI Forever,AI Forever,ai forever,ai forever,AI Forever,ai-forever/ghost,1,
+aisingapore,Organization,AI Singapore,AI Singapore,ai singapore,ai singapore,AI Singapore,aisingapore/TagUI,1,
+alexsosn,User,Oleksandr (Alex) Sosnovshchenko,Agilent Technologies,agilent technologies,agilent technologies,Agilent Technologies,alexsosn/iOS_ML,1,
+alibaba,Organization,Alibaba,Alibaba,alibaba,alibaba,Alibaba,alibaba/AliceMind,1,
+alibaba,Organization,Alibaba,Alibaba,alibaba,alibaba,Alibaba,alibaba/EasyCV,1,
+alibaba,Organization,Alibaba,Alibaba,alibaba,alibaba,Alibaba,alibaba/EasyNLP,1,
+alicevision,Organization,AliceVision,AliceVision,alicevision,alicevision,AliceVision,alicevision/AliceVision,1,
+alicevision,Organization,AliceVision,AliceVision,alicevision,alicevision,AliceVision,alicevision/Meshroom,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/RL4LMs,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/ai2thor,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/allennlp,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/bi-att-flow,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/dolma,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/objaverse-xl,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/scibert,1,
+allenai,Organization,Ai2,Ai2,ai2,ai2,Ai2,allenai/scispacy,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/AI-Job-Notes,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/CV-Company-List,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/CVPR2026-Papers-with-Code,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/Deep-Learning-Interview-Book,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/ECCV2024-Papers-with-Code,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/ICCV2025-Papers-with-Code,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/awesome-ai-awesomeness,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/awesome-object-detection,1,
+amusi,User,Amusi,CVer,cver,cver,CVer,amusi/daily-paper-computer-vision,1,
+apache,Organization,The Apache Software Foundation,The Apache Software Foundation,the apache software foundation,the apache software foundation,The Apache Software Foundation,apache/opennlp,1,
+apachecn,Organization,ApacheCN,ApacheCN,apachecn,apachecn,ApacheCN,apachecn/nlp-pytorch-zh,1,
+apple,Organization,Apple,Apple,apple,apple,Apple,apple/ml-cvnets,1,
+argilla-io,Organization,Argilla,Argilla,argilla,argilla,Argilla,argilla-io/argilla,1,
+artivis,User,Jeremie Deray,@canonical,canonical,canonical,@canonical,artivis/manif,1,
+asappresearch,Organization,ASAPP Research,ASAPP Research,asapp research,asapp research,ASAPP Research,asappresearch/sru,1,
+astorfi,User,Sina Torfi,Meta,meta,meta,Meta,astorfi/TensorFlow-World,1,
+astorfi,User,Sina Torfi,Meta,meta,meta,Meta,astorfi/lip-reading-deeplearning,1,
+atulapra,User,Atul Balaji,IBM,ibm,ibm,IBM,atulapra/Emotion-detection,1,
+aurelio-labs,Organization,Aurelio AI Labs,Aurelio AI Labs,aurelio ai labs,aurelio ai labs,Aurelio AI Labs,aurelio-labs/semantic-router,1,
+autodistill,Organization,Autodistill,Autodistill,autodistill,autodistill,Autodistill,autodistill/autodistill,1,
+autogluon,Organization,autogluon,autogluon,autogluon,autogluon,autogluon,autogluon/autogluon,1,
+autoliuweijie,User,Weijie Liu,Peking University & Tencent Research,peking university & tencent research,peking university & tencent research,Peking University & Tencent Research,autoliuweijie/K-BERT,1,
+aws-samples,Organization,AWS Samples,AWS Samples,aws samples,aws samples,AWS Samples,aws-samples/aws-machine-learning-university-accelerated-cv,1,
+axa-group,Organization,AXA,AXA,axa,axa,AXA,axa-group/Parsr,1,
+axa-group,Organization,AXA,AXA,axa,axa,AXA,axa-group/nlp.js,1,
+ayoolaolafenwa,User,ayoolaolafenwa,BrandMagic Inc,brandmagic,brandmagic,BrandMagic Inc,ayoolaolafenwa/PixelLib,1,
+azavea,Organization,Azavea,Azavea,azavea,azavea,Azavea,azavea/raster-vision,1,
+babylonhealth,Organization,Babylon Health,Babylon Health,babylon health,babylon health,Babylon Health,babylonhealth/fastText_multilingual,1,
+beir-cellar,Organization,BEIR Cellar,BEIR Cellar,beir cellar,beir cellar,BEIR Cellar,beir-cellar/beir,1,
+bendangnuksung,User,Bendang,Hubs,hubs,hubs,Hubs,bendangnuksung/Image-OutPainting,1,
+bharathgs,User,bharath g s,@betterup,betterup,betterup,@betterup,bharathgs/Awesome-pytorch-list,1,
+bheinzerling,User,Benjamin Heinzerling,RIKEN AIP,riken aip,riken aip,RIKEN AIP,bheinzerling/bpemb,1,
+bigscience-workshop,Organization,BigScience Workshop,BigScience Workshop,bigscience workshop,bigscience workshop,BigScience Workshop,bigscience-workshop/bigscience,1,
+bigscience-workshop,Organization,BigScience Workshop,BigScience Workshop,bigscience workshop,bigscience workshop,BigScience Workshop,bigscience-workshop/petals,1,
+bigscience-workshop,Organization,BigScience Workshop,BigScience Workshop,bigscience workshop,bigscience workshop,BigScience Workshop,bigscience-workshop/promptsource,1,
+bilibili,Organization,bilibili,bilibili,bilibili,bilibili,bilibili,bilibili/Index-1.9B,1,
+botpress,Organization,Botpress,Botpress,botpress,botpress,Botpress,botpress/botpress,1,
+brightmart,User,brightmart,https://www.CLUEbenchmarks.com,www.cluebenchmarks.com,www.cluebenchmarks.com,https://www.CLUEbenchmarks.com,brightmart/bert_language_understanding,1,
+brightmart,User,brightmart,https://www.CLUEbenchmarks.com,www.cluebenchmarks.com,www.cluebenchmarks.com,https://www.CLUEbenchmarks.com,brightmart/nlp_chinese_corpus,1,
+brightmart,User,brightmart,https://www.CLUEbenchmarks.com,www.cluebenchmarks.com,www.cluebenchmarks.com,https://www.CLUEbenchmarks.com,brightmart/text_classification,1,
+bytedance,Organization,Bytedance Inc.,Bytedance Inc.,bytedance,bytedance,Bytedance Inc.,bytedance/Sa2VA,1,
+bytedeco,Organization,Bytedeco,Bytedeco,bytedeco,bytedeco,Bytedeco,bytedeco/javacv,1,
+cambrian-mllm,Organization,cambrian-mllm,cambrian-mllm,cambrian mllm,cambrian mllm,cambrian-mllm,cambrian-mllm/cambrian,1,
+capitalone,Organization,Capital One,Capital One,capital one,capital one,Capital One,capitalone/DataProfiler,1,
+carla-simulator,Organization,CARLA,CARLA,carla,carla,CARLA,carla-simulator/carla,1,
+catalyst-team,Organization,Catalyst-Team,Catalyst-Team,catalyst team,catalyst team,Catalyst-Team,catalyst-team/catalyst,1,
+cdpierse,User,Charles,@weaviate,weaviate,weaviate,@weaviate,cdpierse/transformers-interpret,1,
+cedrickchee,User,Cedric Chee,InvictusByte,invictusbyte,invictusbyte,InvictusByte,cedrickchee/awesome-transformer-nlp,1,
+ceres-solver,Organization,ceres-solver,ceres-solver,ceres solver,ceres solver,ceres-solver,ceres-solver/ceres-solver,1,
+chainer,Organization,Chainer,Chainer,chainer,chainer,Chainer,chainer/chainercv,1,
+chandrikadeb7,User,Chandrika Deb,Amdocs,amdocs,amdocs,Amdocs,chandrikadeb7/Face-Mask-Detection,1,
+changh95,User,Hyunggi Chang,Tenstorrent,tenstorrent,tenstorrent,Tenstorrent,changh95/visual-slam-roadmap,1,
+chaoyanghe,User,Chaoyang He,"FedML, USC",fedml usc,fedml usc,"FedML, USC",chaoyanghe/Awesome-Federated-Learning,1,
+chartbeat-labs,Organization,Chartbeat Labs Projects,Chartbeat Labs Projects,chartbeat labs projects,chartbeat labs projects,Chartbeat Labs Projects,chartbeat-labs/textacy,1,
+chatopera,Organization,Chatopera,Chatopera,chatopera,chatopera,Chatopera,chatopera/Synonyms,1,
+chengtan9907,User,Cheng Tan,Shanghai Artificial Intelligence Laboratory,shanghai artificial intelligence laboratory,shanghai artificial intelligence laboratory,Shanghai Artificial Intelligence Laboratory,chengtan9907/OpenSTL,1,
+chizhu,User,Zhimin Lin,Alibaba,alibaba,alibaba,Alibaba,chizhu/KGQA_HLM,1,
+chonyy,User,Tony Chou,Software Engineer @AWS,software engineer aws,software engineer aws,Software Engineer @AWS,chonyy/AI-basketball-analysis,1,
+chrismattmann,User,Chris Mattmann,Mattmann.AI,mattmann.ai,mattmann.ai,Mattmann.AI,chrismattmann/tika-python,1,
+cleanlab,Organization,Cleanlab,Cleanlab,cleanlab,cleanlab,Cleanlab,cleanlab/cleanvision,1,
+cleardusk,User,Jianzhu Guo,"Previously, @KlingTeam, Kuaishou << PhD@CASIA",previously klingteam kuaishou phd casia,previously klingteam kuaishou phd casia,"Previously, @KlingTeam, Kuaishou << PhD@CASIA",cleardusk/3DDFA,1,
+cleardusk,User,Jianzhu Guo,"Previously, @KlingTeam, Kuaishou << PhD@CASIA",previously klingteam kuaishou phd casia,previously klingteam kuaishou phd casia,"Previously, @KlingTeam, Kuaishou << PhD@CASIA",cleardusk/3DDFA_V2,1,
+clovaai,Organization,Clova AI Research,Clova AI Research,clova ai research,clova ai research,Clova AI Research,clovaai/donut,1,
+cmhungsteve,User,Min-Hung (Steve) Chen,@NVIDIA,nvidia,nvidia,@NVIDIA,cmhungsteve/Awesome-Transformer-Attention,1,
+code-kern-ai,Organization,Kern AI,Kern AI,kern ai,kern ai,Kern AI,code-kern-ai/refinery,1,
+codefuse-ai,Organization,codefuse-ai,codefuse-ai,codefuse ai,codefuse ai,codefuse-ai,codefuse-ai/Awesome-Code-LLM,1,
+codertimo,User,Junseong Kim,@bittersweet-team,bittersweet team,bittersweet team,@bittersweet-team,codertimo/BERT-pytorch,1,
+colmap,Organization,colmap,colmap,colmap,colmap,colmap,colmap/colmap,1,
+crownpku,User,Guan Wang,Manulife,manulife,manulife,Manulife,crownpku/Awesome-Chinese-NLP,1,
+crownpku,User,Guan Wang,Manulife,manulife,manulife,Manulife,crownpku/Information-Extraction-Chinese,1,
+cs230-stanford,Organization,CS230 Deep Learning,CS230 Deep Learning,cs230 deep learning,cs230 deep learning,CS230 Deep Learning,cs230-stanford/cs230-code-examples,1,
+cvat-ai,Organization,cvat.ai,cvat.ai,cvat.ai,cvat.ai,cvat.ai,cvat-ai/cvat,1,
+cvg,Organization,Computer Vision and Geometry Lab,Computer Vision and Geometry Lab,computer vision and geometry lab,computer vision and geometry lab,Computer Vision and Geometry Lab,cvg/glue-factory,1,
+cyberbotics,Organization,Cyberbotics Ltd.,Cyberbotics Ltd.,cyberbotics,cyberbotics,Cyberbotics Ltd.,cyberbotics/webots,1,
+d2l-ai,Organization,Dive into Deep Learning (D2L.ai),Dive into Deep Learning (D2L.ai),dive into deep learning d2l.ai,dive into deep learning d2l.ai,Dive into Deep Learning (D2L.ai),d2l-ai/d2l-en,1,
+d2l-ai,Organization,Dive into Deep Learning (D2L.ai),Dive into Deep Learning (D2L.ai),dive into deep learning d2l.ai,dive into deep learning d2l.ai,Dive into Deep Learning (D2L.ai),d2l-ai/d2l-zh,1,
+dailenson,User,Gang Dai,Guangdong University of Technology,guangdong university of technology,guangdong university of technology,Guangdong University of Technology,dailenson/SDT,1,
+dair-ai,Organization,DAIR.AI,DAIR.AI,dair.ai,dair.ai,DAIR.AI,dair-ai/AI-Papers-of-the-Week,1,
+dair-ai,Organization,DAIR.AI,DAIR.AI,dair.ai,dair.ai,DAIR.AI,dair-ai/ML-YouTube-Courses,1,
+dair-ai,Organization,DAIR.AI,DAIR.AI,dair.ai,dair.ai,DAIR.AI,dair-ai/Transformers-Recipe,1,
+dair-ai,Organization,DAIR.AI,DAIR.AI,dair.ai,dair.ai,DAIR.AI,dair-ai/nlp_paper_summaries,1,
+datadreamer-dev,Organization,DataDreamer,DataDreamer,datadreamer,datadreamer,DataDreamer,datadreamer-dev/DataDreamer,1,
+datamade,Organization,datamade,datamade,datamade,datamade,datamade,datamade/usaddress,1,
+datawhalechina,Organization,Datawhale,Datawhale,datawhale,datawhale,Datawhale,datawhalechina/daily-interview,1,
+datawhalechina,Organization,Datawhale,Datawhale,datawhale,datawhale,Datawhale,datawhalechina/learn-nlp-with-transformers,1,
+dbpedia-spotlight,Organization,DBpedia Spotlight,DBpedia Spotlight,dbpedia spotlight,dbpedia spotlight,DBpedia Spotlight,dbpedia-spotlight/dbpedia-spotlight,1,
+deepdoctection,Organization,deepdoctection,deepdoctection,deepdoctection,deepdoctection,deepdoctection,deepdoctection/deepdoctection,1,
+deeppavlov,Organization,DeepPavlov Team,DeepPavlov Team,deeppavlov team,deeppavlov team,DeepPavlov Team,deeppavlov/DeepPavlov,1,
+deepset-ai,Organization,deepset,deepset,deepset,deepset,deepset,deepset-ai/FARM,1,
+deepset-ai,Organization,deepset,deepset,deepset,deepset,deepset,deepset-ai/haystack,1,
+didi,Organization,DiDi,DiDi,didi,didi,DiDi,didi/ChineseNLP,1,
+dmlc,Organization,Distributed (Deep) Machine Learning Community,Distributed (Deep) Machine Learning Community,distributed deep machine learning community,distributed deep machine learning community,Distributed (Deep) Machine Learning Community,dmlc/gluon-cv,1,
+dmlc,Organization,Distributed (Deep) Machine Learning Community,Distributed (Deep) Machine Learning Community,distributed deep machine learning community,distributed deep machine learning community,Distributed (Deep) Machine Learning Community,dmlc/gluon-nlp,1,
+dongrixinyu,User,dongrixinyu,Beihang University,beihang university,beihang university,Beihang University,dongrixinyu/JioNLP,1,
+dsgiitr,Organization,"Data Science Group, IIT Roorkee","Data Science Group, IIT Roorkee",data science group iit roorkee,data science group iit roorkee,"Data Science Group, IIT Roorkee",dsgiitr/d2l-pytorch,1,
+duoergun0729,User,duoergun0729,baidu.com,baidu.com,baidu.com,baidu.com,duoergun0729/nlp,1,
+dusty-nv,User,Dustin Franklin,NVIDIA,nvidia,nvidia,NVIDIA,dusty-nv/jetson-inference,1,
+endymecy,User,koala,@tencent,tencent,tencent,@tencent,endymecy/awesome-deeplearning-resources,1,
+eon01,User,Aymen El Amri,FAUN.dev(),faun.dev,faun.dev,FAUN.dev(),eon01/awesome-chatgpt,1,
+eosphoros-ai,Organization,eosphoros,eosphoros,eosphoros,eosphoros,eosphoros,eosphoros-ai/Awesome-Text2SQL,1,
+eugeneyan,User,Eugene Yan,@anthropics,anthropics,anthropics,@anthropics,eugeneyan/applied-ml,1,
+eugeneyan,User,Eugene Yan,@anthropics,anthropics,anthropics,@anthropics,eugeneyan/ml-surveys,1,
+exadel-inc,Organization,Exadel,Exadel,exadel,exadel,Exadel,exadel-inc/CompreFace,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/curated-transformers,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/projects,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/sense2vec,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spaCy,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spacy-course,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spacy-layout,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spacy-llm,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spacy-models,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spacy-stanza,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spacy-streamlit,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/spacy-transformers,1,
+explosion,Organization,Explosion,Explosion,explosion,explosion,Explosion,explosion/thinc,1,
+extreme-assistant,User,CVMart,Extreme Vision Limited,extreme vision limited,extreme vision limited,Extreme Vision Limited,extreme-assistant/CVPR2024-Paper-Code-Interpretation,1,
+extreme-assistant,User,CVMart,Extreme Vision Limited,extreme vision limited,extreme vision limited,Extreme Vision Limited,extreme-assistant/ICCV2023-Paper-Code-Interpretation,1,
+facebookresearch,Organization,Meta Research,Meta Research,meta research,meta research,Meta Research,facebookresearch/habitat-lab,1,
+facebookresearch,Organization,Meta Research,Meta Research,meta research,meta research,Meta Research,facebookresearch/habitat-sim,1,
+facebookresearch,Organization,Meta Research,Meta Research,meta research,meta research,Meta Research,facebookresearch/large_concept_model,1,
+facebookresearch,Organization,Meta Research,Meta Research,meta research,meta research,Meta Research,facebookresearch/theseus,1,
+flairNLP,Organization,flair,flair,flair,flair,flair,flairNLP/flair,1,
+foochane,User,foochane,UESTC,uestc,uestc,UESTC,foochane/books,1,
+foolwood,User,Qiang Wang,Apple,apple,apple,Apple,foolwood/SiamMask,1,
+fukuball,User,Fukuball Lin,iNDIEVOX Inc.,indievox,indievox,iNDIEVOX Inc.,fukuball/jieba-php,1,
+fundamentalvision,Organization,fundamentalvision,fundamentalvision,fundamentalvision,fundamentalvision,fundamentalvision,fundamentalvision/BEVFormer,1,
+gabriben,User,Gabriel Benedict,@amzn,amzn,amzn,@amzn,gabriben/awesome-generative-information-retrieval,1,
+georgian-io,Organization,Georgian,Georgian,georgian,georgian,Georgian,georgian-io/LLM-Finetuning-Toolkit,1,
+ggeop,User,Georgios Papachristou,Metis,metis,metis,Metis,ggeop/Python-ai-assistant,1,
+gigwegbe,User,George Igwegbe,CMU,cmu,cmu,CMU,gigwegbe/tinyml-papers-and-projects,1,
+girafe-ai,Organization,girafe.ai,girafe.ai,girafe.ai,girafe.ai,girafe.ai,girafe-ai/ml-course,1,
+github,Organization,GitHub,GitHub,github,github,GitHub,github/CodeSearchNet,1,
+gjy3035,User,Junyu Gao,NWPU,nwpu,nwpu,NWPU,gjy3035/Awesome-Crowd-Counting,1,
+gnes-ai,Organization,GNES.ai,GNES.ai,gnes.ai,gnes.ai,GNES.ai,gnes-ai/gnes,1,
+go-ego,Organization,ego,ego,ego,ego,ego,go-ego/gse,1,
+google,Organization,Google,Google,google,google,Google,google/budoux,1,
+google,Organization,Google,Google,google,google,Google,google/langextract,1,
+google,Organization,Google,Google,google,google,Google,google/langfun,1,
+google,Organization,Google,Google,google,google,Google,google/sling,1,
+google-ai-edge,Organization,google-ai-edge,google-ai-edge,google ai edge,google ai edge,google-ai-edge,google-ai-edge/mediapipe,1,
+google-deepmind,Organization,Google DeepMind,Google DeepMind,google deepmind,google deepmind,Google DeepMind,google-deepmind/tapnet,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/bert,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/electra,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/long-range-arena,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/maxim,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/pix2seq,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/scenic,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/simclr,1,
+google-research,Organization,Google Research,Google Research,google research,google research,Google Research,google-research/uda,1,
+google-research-datasets,Organization,Google Research Datasets,Google Research Datasets,google research datasets,google research datasets,Google Research Datasets,google-research-datasets/Objectron,1,
+grammarly,Organization,Grammarly,Grammarly,grammarly,grammarly,Grammarly,grammarly/gector,1,
+graph4ai,Organization,Graph4AI,Graph4AI,graph4ai,graph4ai,Graph4AI,graph4ai/graph4nlp,1,
+graphdeco-inria,Organization,GraphDeco - INRIA,GraphDeco - INRIA,graphdeco inria,graphdeco inria,GraphDeco - INRIA,graphdeco-inria/gaussian-splatting,1,
+graykode,User,Tae Hwan Jung,@clober-dex,clober dex,clober dex,@clober-dex,graykode/gpt-2-Pytorch,1,
+graykode,User,Tae Hwan Jung,@clober-dex,clober dex,clober dex,@clober-dex,graykode/nlp-roadmap,1,
+graykode,User,Tae Hwan Jung,@clober-dex,clober dex,clober dex,@clober-dex,graykode/nlp-tutorial,1,
+gunthercox,User,Gunther Cox,@Jellyfish-AI,jellyfish ai,jellyfish ai,@Jellyfish-AI,gunthercox/chatterbot-corpus,1,
+haitongli,User,Haitong Li,Purdue University,purdue university,purdue university,Purdue University,haitongli/knowledge-distillation-pytorch,1,
+haltakov,User,Vladimir Haltakov,Creafex Lab,creafex lab,creafex lab,Creafex Lab,haltakov/natural-language-image-search,1,
+haltakov,User,Vladimir Haltakov,Creafex Lab,creafex lab,creafex lab,Creafex Lab,haltakov/natural-language-youtube-search,1,
+haosulab,Organization,"Hao Su's Lab, UCSD","Hao Su's Lab, UCSD",hao su s lab ucsd,hao su s lab ucsd,"Hao Su's Lab, UCSD",haosulab/ManiSkill,1,
+hiyouga,User,Yaowei Zheng,Millennium Science School,millennium science school,millennium science school,Millennium Science School,hiyouga/EasyR1,1,
+hiyouga,User,Yaowei Zheng,Millennium Science School,millennium science school,millennium science school,Millennium Science School,hiyouga/LlamaFactory,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/awesome-huggingface,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/course,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/dataset-viewer,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/datasets,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/hmtl,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/knockknock,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/naacl_transfer_learning_tutorial,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/neuralcoref,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/pytorch-pretrained-BigGAN,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/setfit,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/text-generation-inference,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/tokenizers,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/transfer-learning-conv-ai,1,
+huggingface,Organization,Hugging Face,Hugging Face,hugging face,hugging face,Hugging Face,huggingface/transformers,1,
+huoyijie,User,huoyijie,Loading...,loading...,loading...,Loading...,huoyijie/AdvancedEAST,1,
+hustvl,Organization,HUST Vision Lab,HUST Vision Lab,hust vision lab,hust vision lab,HUST Vision Lab,hustvl/4DGaussians,1,
+hustvl,Organization,HUST Vision Lab,HUST Vision Lab,hust vision lab,hust vision lab,HUST Vision Lab,hustvl/YOLOS,1,
+hybridgroup,Organization,The Hybrid Group,The Hybrid Group,the hybrid group,the hybrid group,The Hybrid Group,hybridgroup/gocv,1,
+hyperonym,Organization,Hyperonym,Hyperonym,hyperonym,hyperonym,Hyperonym,hyperonym/basaran,1,
+hzwer,User,hzwer,@stepfun-ai,stepfun ai,stepfun ai,@stepfun-ai,hzwer/ECCV2022-RIFE,1,
+idealo,Organization,idealo,idealo,idealo,idealo,idealo,idealo/image-quality-assessment,1,
+idealo,Organization,idealo,idealo,idealo,idealo,idealo,idealo/image-super-resolution,1,
+idealo,Organization,idealo,idealo,idealo,idealo,idealo,idealo/imagededup,1,
+imagej,Organization,ImageJ,ImageJ,imagej,imagej,ImageJ,imagej/imagej2,1,
+imcaspar,User,Caspar Z,Alibaba Group,alibaba group,alibaba group,Alibaba Group,imcaspar/gpt2-ml,1,
+invictus717,User,Yiyuan Zhang,The Chinese University of HongKong,the chinese university of hongkong,the chinese university of hongkong,The Chinese University of HongKong,invictus717/MetaTransformer,1,
+ivan-bilan,User,Ivan Bilan,Personio,personio,personio,Personio,ivan-bilan/The-NLP-Pandect,1,
+iwangjian,User,Jian Wang,The Hong Kong Polytechnic University,the hong kong polytechnic university,the hong kong polytechnic university,The Hong Kong Polytechnic University,iwangjian/Paper-Reading-ConvAI,1,
+jackaduma,User,MK,Chocolate Factory,chocolate factory,chocolate factory,Chocolate Factory,jackaduma/awesome_LLMs_interview_notes,1,
+jadore801120,User,Yu-Hsiang Huang,NetBase Quid,netbase quid,netbase quid,NetBase Quid,jadore801120/attention-is-all-you-need-pytorch,1,
+jalammar,User,Jay Alammar,@cohere-ai,cohere ai,cohere ai,@cohere-ai,jalammar/ecco,1,
+jason718,User,Jason Ren,Ai2/UW,ai2 uw,ai2 uw,Ai2/UW,jason718/awesome-self-supervised-learning,1,
+jasonwei20,User,Jason Wei,@BMIRDS,bmirds,bmirds,@BMIRDS,jasonwei20/eda_nlp,1,
+jdkato,User,Joseph Kato,@vale-cli,vale cli,vale cli,@vale-cli,jdkato/prose,1,
+jeeliz,Organization,Jeeliz,Jeeliz,jeeliz,jeeliz,Jeeliz,jeeliz/jeelizWeboji,1,
+jerryji1993,User,Yanrong Ji,Northwestern University Feinberg School of Medicine,northwestern university feinberg school of medicine,northwestern university feinberg school of medicine,Northwestern University Feinberg School of Medicine,jerryji1993/DNABERT,1,
+jfilter,User,Johannes Filter,Johannes Filter,johannes filter,johannes filter,Johannes Filter,jfilter/clean-text,1,
+jiachenli94,User,Jiachen Li,"University of California, Riverside",university of california riverside,university of california riverside,"University of California, Riverside",jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction,1,
+jianzongwu,User,Jianzong Wu,Peking University,peking university,peking university,Peking University,jianzongwu/Awesome-Open-Vocabulary,1,
+jsksxs360,User,Sheng Xu,Soochow University,soochow university,soochow university,Soochow University,jsksxs360/How-to-use-Transformers,1,
+junshutang,User,Junshu Tang,"Tencent, Hunyuan",tencent hunyuan,tencent hunyuan,"Tencent, Hunyuan",junshutang/Make-It-3D,1,
+junyanz,User,Jun-Yan Zhu,Carnegie Mellon University:,carnegie mellon university,carnegie mellon university,Carnegie Mellon University:,junyanz/CatPapers,1,
+junyanz,User,Jun-Yan Zhu,Carnegie Mellon University:,carnegie mellon university,carnegie mellon university,Carnegie Mellon University:,junyanz/CycleGAN,1,
+junyanz,User,Jun-Yan Zhu,Carnegie Mellon University:,carnegie mellon university,carnegie mellon university,Carnegie Mellon University:,junyanz/iGAN,1,
+junyanz,User,Jun-Yan Zhu,Carnegie Mellon University:,carnegie mellon university,carnegie mellon university,Carnegie Mellon University:,junyanz/interactive-deep-colorization,1,
+junyanz,User,Jun-Yan Zhu,Carnegie Mellon University:,carnegie mellon university,carnegie mellon university,Carnegie Mellon University:,junyanz/pytorch-CycleGAN-and-pix2pix,1,
+kakaobrain,Organization,kakaobrain,kakaobrain,kakaobrain,kakaobrain,kakaobrain,kakaobrain/fast-autoaugment,1,
+kakaobrain,Organization,kakaobrain,kakaobrain,kakaobrain,kakaobrain,kakaobrain,kakaobrain/kogpt,1,
+kennethleungty,User,Kenneth Leung,Boston Consulting Group (BCG),boston consulting group bcg,boston consulting group bcg,Boston Consulting Group (BCG),kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference,1,
+kenshohara,User,Kensho Hara,National Institute of Advanced Industrial Science and Technology,national institute of advanced industrial science and technology,national institute of advanced industrial science and technology,National Institute of Advanced Industrial Science and Technology,kenshohara/3D-ResNets-PyTorch,1,
+kenshohara,User,Kensho Hara,National Institute of Advanced Industrial Science and Technology,national institute of advanced industrial science and technology,national institute of advanced industrial science and technology,National Institute of Advanced Industrial Science and Technology,kenshohara/video-classification-3d-cnn-pytorch,1,
+keon,User,Keon,Om Labs,om labs,om labs,Om Labs,keon/awesome-nlp,1,
+keras-team,Organization,Keras,Keras,keras,keras,Keras,keras-team/keras-hub,1,
+kmario23,User,Mario,Universität Stuttgart,universit t stuttgart,universit t stuttgart,Universität Stuttgart,kmario23/deep-learning-drizzle,1,
+konlpy,Organization,KoNLPy,KoNLPy,konlpy,konlpy,KoNLPy,konlpy/konlpy,1,
+kornia,Organization,kornia,kornia,kornia,kornia,kornia,kornia/kornia,1,
+lagadic,Organization,lagadic,lagadic,lagadic,lagadic,lagadic,lagadic/visp,1,
+lance-format,Organization,Lance Format,Lance Format,lance format,lance format,Lance Format,lance-format/lance,1,
+lgsvl,Organization,LG Silicon Valley Lab,LG Silicon Valley Lab,lg silicon valley lab,lg silicon valley lab,LG Silicon Valley Lab,lgsvl/simulator,1,
+li-plus,User,Jiahao Li,@bytedance,bytedance,bytedance,@bytedance,li-plus/chatglm.cpp,1,
+lightaime,User,Guohao Li,CAMEL-AI.org,camel ai.org,camel ai.org,CAMEL-AI.org,lightaime/deep_gcns_torch,1,
+lightly-ai,Organization,Lightly,Lightly,lightly,lightly,Lightly,lightly-ai/lightly,1,
+lightly-ai,Organization,Lightly,Lightly,lightly,lightly,Lightly,lightly-ai/lightly-train,1,
+lihanghang,User,HangHang Li,Memect,memect,memect,Memect,lihanghang/NLP-Knowledge-Graph,1,
+linkedin,Organization,LinkedIn,LinkedIn,linkedin,linkedin,LinkedIn,linkedin/detext,1,
+localminimum,User,Min,Radiant AI,radiant ai,radiant ai,Radiant AI,localminimum/QANet,1,
+longcw,User,Long Chen,@livekit,livekit,livekit,@livekit,longcw/faster_rcnn_pytorch,1,
+louisfb01,User,Louis-François Bouchard,Mila/Polytechnique Montréal & @towardsai,mila polytechnique montr al & towardsai,mila polytechnique montr al & towardsai,Mila/Polytechnique Montréal & @towardsai,louisfb01/Best_AI_paper_2020,1,
+louisfb01,User,Louis-François Bouchard,Mila/Polytechnique Montréal & @towardsai,mila polytechnique montr al & towardsai,mila polytechnique montr al & towardsai,Mila/Polytechnique Montréal & @towardsai,louisfb01/best_AI_papers_2021,1,
+louisfb01,User,Louis-François Bouchard,Mila/Polytechnique Montréal & @towardsai,mila polytechnique montr al & towardsai,mila polytechnique montr al & towardsai,Mila/Polytechnique Montréal & @towardsai,louisfb01/best_AI_papers_2022,1,
+luban-agi,Organization,luban-agi,luban-agi,luban agi,luban agi,luban-agi,luban-agi/Awesome-AIGC-Tutorials,1,
+luban-agi,Organization,luban-agi,luban-agi,luban agi,luban agi,luban-agi,luban-agi/Awesome-Domain-LLM,1,
+lucasb-eyer,User,Lucas Beyer,MSL Zürich (Ex: @openai @google Brain/DeepMind),msl z rich ex openai google brain deepmind,msl z rich ex openai google brain deepmind,MSL Zürich (Ex: @openai @google Brain/DeepMind),lucasb-eyer/pydensecrf,1,
+ludwig-ai,Organization,Ludwig,Ludwig,ludwig,ludwig,Ludwig,ludwig-ai/ludwig,1,
+lufficc,User,Congcong Li,UESTC&UCAS,uestc&ucas,uestc&ucas,UESTC&UCAS,lufficc/SSD,1,
+luispedro,User,Luis Pedro Coelho,Queensland University of Technology,queensland university of technology,queensland university of technology,Queensland University of Technology,luispedro/mahotas,1,
+lukalabs,Organization,Replika,Replika,replika,replika,Replika,lukalabs/cakechat,1,
+lyeoni,User,Allen Lee,@naver,naver,naver,@naver,lyeoni/nlp-tutorial,1,
+magpie-align,Organization,Magpie,Magpie,magpie,magpie,Magpie,magpie-align/magpie,1,
+makcedward,User,Edward Ma,SambaNova Systems,sambanova systems,sambanova systems,SambaNova Systems,makcedward/nlp,1,
+makcedward,User,Edward Ma,SambaNova Systems,sambanova systems,sambanova systems,SambaNova Systems,makcedward/nlpaug,1,
+manfreddiaz,User,Manfred Diaz,@mila-iqia @montrealrobotics,mila iqia montrealrobotics,mila iqia montrealrobotics,@mila-iqia @montrealrobotics,manfreddiaz/awesome-autonomous-vehicles,1,
+maximeraafat,User,Maxime Raafat,UV Gen,uv gen,uv gen,UV Gen,maximeraafat/BlenderNeRF,1,
+mayocream,User,Mayo Takanashi,Woven by Toyota,woven by toyota,woven by toyota,Woven by Toyota,mayocream/koharu,1,
+megvii-research,Organization,MEGVII Research,MEGVII Research,megvii research,megvii research,MEGVII Research,megvii-research/mdistiller,1,
+memvid,Organization,Memvid,Memvid,memvid,memvid,Memvid,memvid/memvid,1,
+mesolitica,Organization,Mesolitica,Mesolitica,mesolitica,mesolitica,Mesolitica,mesolitica/NLP-Models-Tensorflow,1,
+meta-toolkit,Organization,meta-toolkit,meta-toolkit,meta toolkit,meta toolkit,meta-toolkit,meta-toolkit/meta,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/AI-For-Beginners,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/AirSim,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/CameraTraps,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/LMOps,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/Semi-supervised-learning,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/ailab,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/computervision-recipes,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/nlp-recipes,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/torchscale,1,
+microsoft,Organization,Microsoft,Microsoft,microsoft,microsoft,Microsoft,microsoft/unilm,1,
+mila-iqia,Organization,Mila,Mila,mila,mila,Mila,mila-iqia/babyai,1,
+milvus-io,Organization,The Milvus Project,The Milvus Project,the milvus project,the milvus project,The Milvus Project,milvus-io/bootcamp,1,
+minivision-ai,Organization,Minivision_AI,Minivision_AI,minivision_ai,minivision_ai,Minivision_AI,minivision-ai/Silent-Face-Anti-Spoofing,1,
+ml-tooling,Organization,Machine Learning Tooling,Machine Learning Tooling,machine learning tooling,machine learning tooling,Machine Learning Tooling,ml-tooling/ml-workspace,1,
+mlfoundations,Organization,mlfoundations,mlfoundations,mlfoundations,mlfoundations,mlfoundations,mlfoundations/open_clip,1,
+mlfoundations,Organization,mlfoundations,mlfoundations,mlfoundations,mlfoundations,mlfoundations,mlfoundations/open_flamingo,1,
+modelscope,Organization,ModelScope,ModelScope,modelscope,modelscope,ModelScope,modelscope/modelscope,1,
+monarch-initiative,Organization,Monarch Initiative,Monarch Initiative,monarch initiative,monarch initiative,Monarch Initiative,monarch-initiative/ontogpt,1,
+mosaicml,Organization,Databricks Mosaic Research,Databricks Mosaic Research,databricks mosaic research,databricks mosaic research,Databricks Mosaic Research,mosaicml/llm-foundry,1,
+nachifur,User,Jiawei Liu (刘佳伟-中科院沈自所),"Shenyang Institute of Automation, Chinese Academy of Sciences",shenyang institute of automation chinese academy of sciences,shenyang institute of automation chinese academy of sciences,"Shenyang Institute of Automation, Chinese Academy of Sciences",nachifur/MulimgViewer,1,
+namisan,User,Xiaodong,MSR,msr,msr,MSR,namisan/mt-dnn,1,
+naver,Organization,NAVER,NAVER,naver,naver,NAVER,naver/splade,1,
+ndrplz,User,Andrea Palazzi,Nomitri - Perception AI for Mobile,nomitri perception ai for mobile,nomitri perception ai for mobile,Nomitri - Perception AI for Mobile,ndrplz/self-driving-car,1,
+neomatrix369,User,mani,"Lead Software, Data, ML Engnr (Self-employed)",lead software data ml engnr self employed,lead software data ml engnr self employed,"Lead Software, Data, ML Engnr (Self-employed)",neomatrix369/awesome-ai-ml-dl,1,
+nerfstudio-project,Organization,nerfstudio,nerfstudio,nerfstudio,nerfstudio,nerfstudio,nerfstudio-project/nerfstudio,1,
+neuml,Organization,NeuML,NeuML,neuml,neuml,NeuML,neuml/paperai,1,
+neuml,Organization,NeuML,NeuML,neuml,neuml,NeuML,neuml/txtai,1,
+neuralmagic,Organization,Neural Magic,Neural Magic,neural magic,neural magic,Neural Magic,neuralmagic/deepsparse,1,
+neuralmagic,Organization,Neural Magic,Neural Magic,neural magic,neural magic,Neural Magic,neuralmagic/sparseml,1,
+nfmcclure,User,Nick,@nfmcclure,nfmcclure,nfmcclure,@nfmcclure,nfmcclure/tensorflow_cookbook,1,
+nianticlabs,Organization,Niantic Labs,Niantic Labs,niantic labs,niantic labs,Niantic Labs,nianticlabs/monodepth2,1,
+nianticlabs,Organization,Niantic Labs,Niantic Labs,niantic labs,niantic labs,Niantic Labs,nianticlabs/simplerecon,1,
+nikitakit,User,Nikita Kitaev,UC Berkeley,uc berkeley,uc berkeley,UC Berkeley,nikitakit/self-attentive-parser,1,
+nlp-uoregon,User,nlp-uoregon,University of Oregon,university of oregon,university of oregon,University of Oregon,nlp-uoregon/trankit,1,
+nlpodyssey,Organization,NLP Odyssey,NLP Odyssey,nlp odyssey,nlp odyssey,NLP Odyssey,nlpodyssey/spago,1,
+nlptown,Organization,NLP Town,NLP Town,nlp town,nlp town,NLP Town,nlptown/nlp-notebooks,1,
+nltk,Organization,Natural Language Toolkit,Natural Language Toolkit,natural language toolkit,natural language toolkit,Natural Language Toolkit,nltk/nltk,1,
+nltk,Organization,Natural Language Toolkit,Natural Language Toolkit,natural language toolkit,natural language toolkit,Natural Language Toolkit,nltk/nltk_data,1,
+nv-tlabs,Organization,NVIDIA Spatial Intelligence Lab (SIL),NVIDIA Spatial Intelligence Lab (SIL),nvidia spatial intelligence lab sil,nvidia spatial intelligence lab sil,NVIDIA Spatial Intelligence Lab (SIL),nv-tlabs/3dgrut,1,
+nv-tlabs,Organization,NVIDIA Spatial Intelligence Lab (SIL),NVIDIA Spatial Intelligence Lab (SIL),nvidia spatial intelligence lab sil,nvidia spatial intelligence lab sil,NVIDIA Spatial Intelligence Lab (SIL),nv-tlabs/GSCNN,1,
+nv-tlabs,Organization,NVIDIA Spatial Intelligence Lab (SIL),NVIDIA Spatial Intelligence Lab (SIL),nvidia spatial intelligence lab sil,nvidia spatial intelligence lab sil,NVIDIA Spatial Intelligence Lab (SIL),nv-tlabs/NKSR,1,
+nyu-mll,Organization,ML² AT CILVR ,ML² AT CILVR,ml at cilvr,ml at cilvr,ML² AT CILVR,nyu-mll/jiant,1,
+obsei,Organization,obsei,obsei,obsei,obsei,obsei,obsei/obsei,1,
+obss,Organization,Open Business Software Solutions,Open Business Software Solutions,open business software solutions,open business software solutions,Open Business Software Solutions,obss/sahi,1,
+om-ai-lab,Organization,Om AI Lab,Om AI Lab,om ai lab,om ai lab,Om AI Lab,om-ai-lab/OmDet,1,
+omarsar,User,Elvis Saravia,DAIR.AI,dair.ai,dair.ai,DAIR.AI,omarsar/nlp_overview,1,
+oneTaken,User,oneTaken,Megvii Research,megvii research,megvii research,Megvii Research,oneTaken/awesome_deep_learning_interpretability,1,
+open-compass,Organization,OpenCompass,OpenCompass,opencompass,opencompass,OpenCompass,open-compass/VLMEvalKit,1,
+open-edge-platform,Organization,Open Edge Platform,Open Edge Platform,open edge platform,open edge platform,Open Edge Platform,open-edge-platform/training_extensions,1,
+open-mmlab,Organization,OpenMMLab,OpenMMLab,openmmlab,openmmlab,OpenMMLab,open-mmlab/OpenMMLabCourse,1,
+open-mmlab,Organization,OpenMMLab,OpenMMLab,openmmlab,openmmlab,OpenMMLab,open-mmlab/mmagic,1,
+open-mmlab,Organization,OpenMMLab,OpenMMLab,openmmlab,openmmlab,OpenMMLab,open-mmlab/mmdeploy,1,
+open-mmlab,Organization,OpenMMLab,OpenMMLab,openmmlab,openmmlab,OpenMMLab,open-mmlab/mmengine,1,
+openMVG,Organization,openMVG,openMVG,openmvg,openmvg,openMVG,openMVG/awesome_3DReconstruction_list,1,
+openMVG,Organization,openMVG,openMVG,openmvg,openmvg,openMVG,openMVG/openMVG,1,
+opendatacam,Organization,OpenDataCam,OpenDataCam,opendatacam,opendatacam,OpenDataCam,opendatacam/opendatacam,1,
+openeventdata,Organization,Open Event Data Alliance,Open Event Data Alliance,open event data alliance,open event data alliance,Open Event Data Alliance,openeventdata/mordecai,1,
+openpifpaf,Organization,OpenPifPaf,OpenPifPaf,openpifpaf,openpifpaf,OpenPifPaf,openpifpaf/openpifpaf,1,
+openvenues,Organization,openvenues,openvenues,openvenues,openvenues,openvenues,openvenues/libpostal,1,
+openvenues,Organization,openvenues,openvenues,openvenues,openvenues,openvenues,openvenues/pypostal,1,
+openvinotoolkit,Organization,OpenVINO™ Toolkit,OpenVINO™ Toolkit,openvino toolkit,openvino toolkit,OpenVINO™ Toolkit,openvinotoolkit/nncf,1,
+openvinotoolkit,Organization,OpenVINO™ Toolkit,OpenVINO™ Toolkit,openvino toolkit,openvino toolkit,OpenVINO™ Toolkit,openvinotoolkit/openvino,1,
+openvinotoolkit,Organization,OpenVINO™ Toolkit,OpenVINO™ Toolkit,openvino toolkit,openvino toolkit,OpenVINO™ Toolkit,openvinotoolkit/openvino_notebooks,1,
+oracle,Organization,Oracle,Oracle,oracle,oracle,Oracle,oracle/tribuo,1,
+otaha178,User,Omar Taha,TRM Labs,trm labs,trm labs,TRM Labs,otaha178/Emotion-recognition,1,
+oxford-cs-deepnlp-2017,Organization,oxford-cs-deepnlp-2017,oxford-cs-deepnlp-2017,oxford cs deepnlp 2017,oxford cs deepnlp 2017,oxford-cs-deepnlp-2017,oxford-cs-deepnlp-2017/lectures,1,
+pathak22,User,Deepak Pathak,"Skild AI, CMU",skild ai cmu,skild ai cmu,"Skild AI, CMU",pathak22/context-encoder,1,
+patil-suraj,User,Suraj Patil,@black-forest-labs,black forest labs,black forest labs,@black-forest-labs,patil-suraj/question_generation,1,
+patrikhuber,User,Patrik Huber,Mimetrik,mimetrik,mimetrik,Mimetrik,patrikhuber/eos,1,
+pemistahl,User,Peter M. Stahl,@riege,riege,riege,@riege,pemistahl/lingua,1,
+pemistahl,User,Peter M. Stahl,@riege,riege,riege,@riege,pemistahl/lingua-go,1,
+pemistahl,User,Peter M. Stahl,@riege,riege,riege,@riege,pemistahl/lingua-py,1,
+pemistahl,User,Peter M. Stahl,@riege,riege,riege,@riege,pemistahl/lingua-rs,1,
+pixeltable,Organization,Pixeltable,Pixeltable,pixeltable,pixeltable,Pixeltable,pixeltable/pixeltable,1,
+plasticityai,Organization,Plasticity,Plasticity,plasticity,plasticity,Plasticity,plasticityai/magnitude,1,
+pliang279,User,Paul Liang,Massachusetts Institute of Technology,massachusetts institute of technology,massachusetts institute of technology,Massachusetts Institute of Technology,pliang279/awesome-multimodal-ml,1,
+poloclub,Organization,"Polo Club of Data Science, Georgia Tech","Polo Club of Data Science, Georgia Tech",polo club of data science georgia tech,polo club of data science georgia tech,"Polo Club of Data Science, Georgia Tech",poloclub/diffusiondb,1,
+pprp,User,Peyton,"Data Science and Analytic Thrust, Information Hub, HKUST(GZ)",data science and analytic thrust information hub hkust gz,data science and analytic thrust information hub hkust gz,"Data Science and Analytic Thrust, Information Hub, HKUST(GZ)",pprp/awesome-attention-mechanism-in-cv,1,
+primeqa,Organization,PrimeQA,PrimeQA,primeqa,primeqa,PrimeQA,primeqa/primeqa,1,
+princeton-nlp,Organization,Princeton Natural Language Processing,Princeton Natural Language Processing,princeton natural language processing,princeton natural language processing,Princeton Natural Language Processing,princeton-nlp/PURE,1,
+princeton-nlp,Organization,Princeton Natural Language Processing,Princeton Natural Language Processing,princeton natural language processing,princeton natural language processing,Princeton Natural Language Processing,princeton-nlp/SimCSE,1,
+promptslab,Organization,PromptsLab,PromptsLab,promptslab,promptslab,PromptsLab,promptslab/Promptify,1,
+pytorch,Organization,pytorch,pytorch,pytorch,pytorch,pytorch,pytorch/text,1,
+pytorch,Organization,pytorch,pytorch,pytorch,pytorch,pytorch,pytorch/vision,1,
+qqlu,User,Lu Qi,Insta360,insta360,insta360,Insta360,qqlu/Entity,1,
+qubvel-org,Organization,qubvel-org,qubvel-org,qubvel org,qubvel org,qubvel-org,qubvel-org/segmentation_models.pytorch,1,
+readbeyond,User,ReadBeyond,ReadBeyond,readbeyond,readbeyond,ReadBeyond,readbeyond/aeneas,1,
+realsenseai,Organization,RealSenseAI,RealSenseAI,realsenseai,realsenseai,RealSenseAI,realsenseai/librealsense,1,
+redhuntlabs,Organization,RedHunt Labs,RedHunt Labs,redhunt labs,redhunt labs,RedHunt Labs,redhuntlabs/Octopii,1,
+rerun-io,Organization,rerun.io,rerun.io,rerun.io,rerun.io,rerun.io,rerun-io/rerun,1,
+rguthrie3,User,Robert,Citadel LLC,citadel,citadel,Citadel LLC,rguthrie3/DeepLearningForNLPInPytorch,1,
+richzhang,User,Richard Zhang,@adobe,adobe,adobe,@adobe,richzhang/colorization,1,
+roatienza,User,Rowel Atienza,University of the Philippines,university of the philippines,university of the philippines,University of the Philippines,roatienza/Deep-Learning-Experiments,1,
+robertknight,User,Robert Knight,Shortest Path Software,shortest path software,shortest path software,Shortest Path Software,robertknight/ocrs,1,
+robocorp,Organization,Robocorp,Robocorp,robocorp,robocorp,Robocorp,robocorp/rpaframework,1,
+roboflow,Organization,Roboflow,Roboflow,roboflow,roboflow,Roboflow,roboflow/awesome-openai-vision-api-experiments,1,
+roboflow,Organization,Roboflow,Roboflow,roboflow,roboflow,Roboflow,roboflow/inference,1,
+roboflow,Organization,Roboflow,Roboflow,roboflow,roboflow,Roboflow,roboflow/notebooks,1,
+roboflow,Organization,Roboflow,Roboflow,roboflow,roboflow,Roboflow,roboflow/rf-detr,1,
+roboflow,Organization,Roboflow,Roboflow,roboflow,roboflow,Roboflow,roboflow/sports,1,
+roboflow,Organization,Roboflow,Roboflow,roboflow,roboflow,Roboflow,roboflow/supervision,1,
+rodrigopivi,User,Rod,Om Ah Hum,om ah hum,om ah hum,Om Ah Hum,rodrigopivi/Chatito,1,
+rohitg00,User,Rohit Ghumare,iii.dev,iii.dev,iii.dev,iii.dev,rohitg00/ai-engineering-from-scratch,1,
+roomylee,User,Joohong Lee,@scatterlab,scatterlab,scatterlab,@scatterlab,roomylee/awesome-relation-extraction,1,
+roshan-research,Organization,Roshan,Roshan,roshan,roshan,Roshan,roshan-research/hazm,1,
+royshil,User,Roy Shilkrot,MIT,mit,mit,MIT,royshil/obs-backgroundremoval,1,
+sajal2692,User,Sajal Sharma,@Menyala,menyala,menyala,@Menyala,sajal2692/data-science-portfolio,1,
+salesforce,Organization,Salesforce,Salesforce,salesforce,salesforce,Salesforce,salesforce/xgen,1,
+sb-ai-lab,Organization,sb-ai-lab,sb-ai-lab,sb ai lab,sb ai lab,sb-ai-lab,sb-ai-lab/LightAutoML,1,
+sberbank-ai-lab,Organization,Sberbank AI Lab,Sberbank AI Lab,sberbank ai lab,sberbank ai lab,Sberbank AI Lab,sberbank-ai-lab/LightAutoML,1,
+scikit-image,Organization,Image Processing Toolbox for SciPy,Image Processing Toolbox for SciPy,image processing toolbox for scipy,image processing toolbox for scipy,Image Processing Toolbox for SciPy,scikit-image/scikit-image,1,
+screenpipe,Organization,screenpipe,screenpipe,screenpipe,screenpipe,screenpipe,screenpipe/screenpipe,1,
+semperai,Organization,semperai,semperai,semperai,semperai,semperai,semperai/amica,1,
+seriousran,User,Chanran Kim,NVIDIA,nvidia,nvidia,NVIDIA,seriousran/awesome-qa,1,
+shcherbak-ai,Organization,Shcherbak AI,Shcherbak AI,shcherbak ai,shcherbak ai,Shcherbak AI,shcherbak-ai/contextgem,1,
+shibing624,User,Ming Xu (徐明),@tencent,tencent,tencent,@tencent,shibing624/similarities,1,
+shibing624,User,Ming Xu (徐明),@tencent,tencent,tencent,@tencent,shibing624/similarity,1,
+shibing624,User,Ming Xu (徐明),@tencent,tencent,tencent,@tencent,shibing624/text2vec,1,
+sightmachine,Organization,Sight Machine,Sight Machine,sight machine,sight machine,Sight Machine,sightmachine/SimpleCV,1,
+simpler-env,Organization,simple-env,simple-env,simple env,simple env,simple-env,simpler-env/SimplerEnv,1,
+smilelight,User,Defang Li,Baidu,baidu,baidu,Baidu,smilelight/lightNLP,1,
+snavely,User,Noah Snavely,Cornell Tech,cornell tech,cornell tech,Cornell Tech,snavely/bundler_sfm,1,
+snipsco,Organization,Snips,Snips,snips,snips,Snips,snipsco/snips-nlu,1,
+software-mansion,Organization,Software Mansion,Software Mansion,software mansion,software mansion,Software Mansion,software-mansion/react-native-executorch,1,
+soskek,User,Sosuke Kobayashi,"Preferred Networks, Inc. @pfnet",preferred networks inc. pfnet,preferred networks inc. pfnet,"Preferred Networks, Inc. @pfnet",soskek/bookcorpus,1,
+spla-tam,Organization,spla-tam,spla-tam,spla tam,spla tam,spla-tam,spla-tam/SplaTAM,1,
+spro,User,Sean Robertson,Nuve Platform,nuve platform,nuve platform,Nuve Platform,spro/practical-pytorch,1,
+stanford-oval,Organization,Stanford Open Virtual Assistant Lab,Stanford Open Virtual Assistant Lab,stanford open virtual assistant lab,stanford open virtual assistant lab,Stanford Open Virtual Assistant Lab,stanford-oval/WikiChat,1,
+stanford-oval,Organization,Stanford Open Virtual Assistant Lab,Stanford Open Virtual Assistant Lab,stanford open virtual assistant lab,stanford open virtual assistant lab,Stanford Open Virtual Assistant Lab,stanford-oval/storm,1,
+stanfordnlp,Organization,Stanford NLP,Stanford NLP,stanford nlp,stanford nlp,Stanford NLP,stanfordnlp/CoreNLP,1,
+stanfordnlp,Organization,Stanford NLP,Stanford NLP,stanford nlp,stanford nlp,Stanford NLP,stanfordnlp/stanza,1,
+stereolabs,Organization,Stereolabs,Stereolabs,stereolabs,stereolabs,Stereolabs,stereolabs/zed-sdk,1,
+summanlp,Organization,Summa NLP,Summa NLP,summa nlp,summa nlp,Summa NLP,summanlp/textrank,1,
+superlinked,Organization,Superlinked,Superlinked,superlinked,superlinked,Superlinked,superlinked/sie,1,
+swz30,User,Syed Waqas Zamir,Microsoft,microsoft,microsoft,Microsoft,swz30/MPRNet,1,
+symforce-org,Organization,symforce,symforce,symforce,symforce,symforce,symforce-org/symforce,1,
+symisc,User,PixLab | Symisc Systems,Symisc Systems,symisc systems,symisc systems,Symisc Systems,symisc/sod,1,
+taishi-i,User,taishi-i,@CyberAgentAILab,cyberagentailab,cyberagentailab,@CyberAgentAILab,taishi-i/awesome-ChatGPT-repositories,1,
+tangyudi,User,TangYudi,微信：aizhushou888,aizhushou888,aizhushou888,微信：aizhushou888,tangyudi/Ai-Learn,1,
+tatsu-lab,Organization,Tatsu's shared repositories,Tatsu's shared repositories,tatsu s shared repositories,tatsu s shared repositories,Tatsu's shared repositories,tatsu-lab/alpaca_eval,1,
+tatsuyah,User,hata,freee K.K.,freee k.k.,freee k.k.,freee K.K.,tatsuyah/vehicle-detection,1,
+tensorflow,Organization,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow/lingvo,1,
+tensorlayer,Organization,TensorLayer Community,TensorLayer Community,tensorlayer community,tensorlayer community,TensorLayer Community,tensorlayer/HyperPose,1,
+tensorlayer,Organization,TensorLayer Community,TensorLayer Community,tensorlayer community,tensorlayer community,TensorLayer Community,tensorlayer/seq2seq-chatbot,1,
+textlint,Organization,textlint,textlint,textlint,textlint,textlint,textlint/textlint,1,
+thisandagain,User,Andrew Sliwinski,The LEGO Group,the lego group,the lego group,The LEGO Group,thisandagain/sentiment,1,
+thunlp,Organization,THUNLP,THUNLP,thunlp,thunlp,THUNLP,thunlp/OpenAttack,1,
+thunlp,Organization,THUNLP,THUNLP,thunlp,thunlp,THUNLP,thunlp/OpenDelta,1,
+thunlp,Organization,THUNLP,THUNLP,thunlp,thunlp,THUNLP,thunlp/OpenPrompt,1,
+thunlp,Organization,THUNLP,THUNLP,thunlp,thunlp,THUNLP,thunlp/PromptPapers,1,
+thunlp,Organization,THUNLP,THUNLP,thunlp,thunlp,THUNLP,thunlp/TAADpapers,1,
+thunlp,Organization,THUNLP,THUNLP,thunlp,thunlp,THUNLP,thunlp/THUOCL,1,
+tianzhi0549,User,Tian Zhi,The University of Adelaide,the university of adelaide,the university of adelaide,The University of Adelaide,tianzhi0549/FCOS,1,
+titipata,User,Titipat Achakulvisut,Mahidol University,mahidol university,mahidol university,Mahidol University,titipata/pubmed_parser,1,
+tomaarsen,User,Tom Aarsen,@huggingface,huggingface,huggingface,@huggingface,tomaarsen/attention_sinks,1,
+torchgan,Organization,torchgan,torchgan,torchgan,torchgan,torchgan,torchgan/torchgan,1,
+torchgeo,Organization,TorchGeo,TorchGeo,torchgeo,torchgeo,TorchGeo,torchgeo/torchgeo,1,
+towhee-io,Organization,Towhee,Towhee,towhee,towhee,Towhee,towhee-io/towhee,1,
+trigaten,User,trigaten,University of Maryland,university of maryland,university of maryland,University of Maryland,trigaten/Learn_Prompting,1,
+tryolabs,Organization,Tryolabs,Tryolabs,tryolabs,tryolabs,Tryolabs,tryolabs/luminoth,1,
+tstanislawek,User,Tomasz Stanislawek,Snowflake,snowflake,snowflake,Snowflake,tstanislawek/awesome-document-understanding,1,
+typedgrammar,Organization,Typed Grammar,Typed Grammar,typed grammar,typed grammar,Typed Grammar,typedgrammar/typed-japanese,1,
+uber-archive,Organization,Uber Archive,Uber Archive,uber archive,uber archive,Uber Archive,uber-archive/plato-research-dialogue-system,1,
+uber-research,Organization,Uber Research,Uber Research,uber research,uber research,Uber Research,uber-research/PPLM,1,
+ubicomplab,Organization,UW Ubicomp Lab,UW Ubicomp Lab,uw ubicomp lab,uw ubicomp lab,UW Ubicomp Lab,ubicomplab/rPPG-Toolbox,1,
+ultralytics,Organization,Ultralytics,Ultralytics,ultralytics,ultralytics,Ultralytics,ultralytics/ultralytics,1,
+undertheseanlp,Organization,Under The Sea,Under The Sea,under the sea,under the sea,Under The Sea,undertheseanlp/underthesea,1,
+unitaryai,Organization,Unitary,Unitary,unitary,unitary,Unitary,unitaryai/detoxify,1,
+unrealcv,Organization,unrealcv,unrealcv,unrealcv,unrealcv,unrealcv,unrealcv/synthetic-computer-vision,1,
+unrealcv,Organization,unrealcv,unrealcv,unrealcv,unrealcv,unrealcv,unrealcv/unrealcv,1,
+utiasSTARS,Organization,STARS Laboratory,STARS Laboratory,stars laboratory,stars laboratory,STARS Laboratory,utiasSTARS/pykitti,1,
+victordibia,User,Victor Dibia,Microsoft Corporation,microsoft,microsoft,Microsoft Corporation,victordibia/handtracking,1,
+vietanhdev,User,Viet-Anh NGUYEN,Scopic,scopic,scopic,Scopic,vietanhdev/anylabeling,1,
+visionml,Organization,visionml,visionml,visionml,visionml,visionml,visionml/pytracking,1,
+voxel51,Organization,Voxel51,Voxel51,voxel51,voxel51,Voxel51,voxel51/fiftyone,1,
+wangyuxinwhy,User,yuxin.wang,bytedance,bytedance,bytedance,bytedance,wangyuxinwhy/uniem,1,
+waybarrios,User,Wayner Barrios,Dartmouth,dartmouth,dartmouth,Dartmouth,waybarrios/vllm-mlx,1,
+web-arena-x,Organization,web-arena-x,web-arena-x,web arena x,web arena x,web-arena-x,web-arena-x/webarena,1,
+weiaicunzai,User,weiaicunzai,Beijing University of Posts and Telecommunications,beijing university of posts and telecommunications,beijing university of posts and telecommunications,Beijing University of Posts and Telecommunications,weiaicunzai/awesome-image-classification,1,
+wenhaochai,User,Wenhao Chai,Princeton University,princeton university,princeton university,Princeton University,wenhaochai/StableVideo,1,
+whylabs,Organization,WhyLabs,WhyLabs,whylabs,whylabs,WhyLabs,whylabs/langkit,1,
+wikipedia2vec,Organization,wikipedia2vec,wikipedia2vec,wikipedia2vec,wikipedia2vec,wikipedia2vec,wikipedia2vec/wikipedia2vec,1,
+williamSYSU,User,WilliamLam,Sun Yat-sen University (SYSU),sun yat sen university sysu,sun yat sen university sysu,Sun Yat-sen University (SYSU),williamSYSU/TextGAN-PyTorch,1,
+winkjs,Organization,wink,wink,wink,wink,wink,winkjs/wink-nlp,1,
+withoutbg,Organization,withoutBG,withoutBG,withoutbg,withoutbg,withoutBG,withoutbg/withoutbg,1,
+wkentaro,User,Kentaro Wada,@mujin,mujin,mujin,@mujin,wkentaro/labelme,1,
+wkentaro,User,Kentaro Wada,@mujin,mujin,mujin,@mujin,wkentaro/pytorch-fcn,1,
+wooorm,User,Titus,@igalia,igalia,igalia,@igalia,wooorm/franc,1,
+wpeebles,User,Bill Peebles,OpenAI,openai,openai,OpenAI,wpeebles/gangealing,1,
+xiaoyufenfei,User,Yu Wang,NJUPT,njupt,njupt,NJUPT,xiaoyufenfei/Efficient-Segmentation-Networks,1,
+xinshuoweng,User,Xinshuo Weng,NVIDIA,nvidia,nvidia,NVIDIA,xinshuoweng/AB3DMOT,1,
+xtreme1-io,Organization,Xtreme1,Xtreme1,xtreme1,xtreme1,Xtreme1,xtreme1-io/xtreme1,1,
+xuebinqin,User,Xuebin Qin,University of Alberta,university of alberta,university of alberta,University of Alberta,xuebinqin/DIS,1,
+xuebinqin,User,Xuebin Qin,University of Alberta,university of alberta,university of alberta,University of Alberta,xuebinqin/U-2-Net,1,
+xverse-engine,Organization,XVERSE Technology,XVERSE Technology,xverse technology,xverse technology,XVERSE Technology,xverse-engine/XScene-UEPlugin,1,
+xvjiarui,User,Jerry Jiarui XU,UCSD,ucsd,ucsd,UCSD,xvjiarui/GCNet,1,
+yangjianxin1,User,Yang JianXin,Sun Yat-Sen University,sun yat sen university,sun yat sen university,Sun Yat-Sen University,yangjianxin1/GPT2-chitchat,1,
+yanshengjia,User,Shengjia Yan,@amzn,amzn,amzn,@amzn,yanshengjia/ml-road,1,
+yao8839836,User,Dr. Liang Yao (姚亮),Sun Yat-sen University,sun yat sen university,sun yat sen university,Sun Yat-sen University,yao8839836/text_gcn,1,
+yashbhalgat,User,Yash Sanjay Bhalgat,"@Yash-DPhil-Research, @Qualcomm-AI-Research @voxel51, @princeton-vl",yash dphil research qualcomm ai research voxel51 princeton vl,yash dphil research qualcomm ai research voxel51 princeton vl,"@Yash-DPhil-Research, @Qualcomm-AI-Research @voxel51, @princeton-vl",yashbhalgat/HashNeRF-pytorch,1,
+yobix-ai,Organization,Yobix AI,Yobix AI,yobix ai,yobix ai,Yobix AI,yobix-ai/extractous,1,
+yoshitomo-matsubara,User,Yoshitomo Matsubara,@yahoo,yahoo,yahoo,@yahoo,yoshitomo-matsubara/torchdistill,1,
+youngfish42,User,Yuwen Yang,Shanghai Jiao Tong University (SJTU),shanghai jiao tong university sjtu,shanghai jiao tong university sjtu,Shanghai Jiao Tong University (SJTU),youngfish42/Awesome-FL,1,
+youyuge34,User,Sheng You,Alibaba Group,alibaba group,alibaba group,Alibaba Group,youyuge34/Anime-InPainting,1,
+yurijmikhalevich,User,Yurij Mikhalevich,Makes magic at @QAWolf 🐺,makes magic at qawolf,makes magic at qawolf,Makes magic at @QAWolf 🐺,yurijmikhalevich/rclip,1,
+yvann-ba,User,Yvann Barbot,@TerraLabAI,terralabai,terralabai,@TerraLabAI,yvann-ba/Robby-chatbot,1,
+zalandoresearch,Organization,Zalando Research,Zalando Research,zalando research,zalando research,Zalando Research,zalandoresearch/fashion-mnist,1,
+zapdos-labs,Organization,Zapdos Labs,Zapdos Labs,zapdos labs,zapdos labs,Zapdos Labs,zapdos-labs/unblink,1,
+zhihongz,User,Zhihong Zhang,Tsinghua University,tsinghua university,tsinghua university,Tsinghua University,zhihongz/awesome-low-light-image-enhancement,1,
+zjukg,Organization,ZJUKG,ZJUKG,zjukg,zjukg,ZJUKG,zjukg/KG-LLM-Papers,1,
+zjunlp,Organization,ZJUNLP,ZJUNLP,zjunlp,zjunlp,ZJUNLP,zjunlp/DeepKE,1,
+zjunlp,Organization,ZJUNLP,ZJUNLP,zjunlp,zjunlp,ZJUNLP,zjunlp/LLMAgentPapers,1,
+zjunlp,Organization,ZJUNLP,ZJUNLP,zjunlp,zjunlp,ZJUNLP,zjunlp/Prompt4ReasoningPapers,1,
+zjunlp,Organization,ZJUNLP,ZJUNLP,zjunlp,zjunlp,ZJUNLP,zjunlp/PromptKG,1,
+zubair-irshad,User,Zubair Irshad,@GeorgiaTech @TRI-ML @GT-RIPL,georgiatech tri ml gt ripl,georgiatech tri ml gt ripl,@GeorgiaTech @TRI-ML @GT-RIPL,zubair-irshad/Awesome-Implicit-NeRF-Robotics,1,
+425776024,User,425776024,,,,,425776024/nlpcda,0,missing_company
+Andrew-Jang,User,Andrew Jang,,,,,Andrew-Jang/RAGHub,0,missing_company
+AntonioTepsich,User,Antonio Tepsich,,,,,AntonioTepsich/Convolutional-KANs,0,missing_company
+BR-IDL,User,BR-IDL,,,,,BR-IDL/PaddleViT,0,missing_company
+BachiLi,User,Tzu-Mao Li,,,,,BachiLi/redner,0,missing_company
+ChenghaoMou,User,Chenghao Mou,,,,,ChenghaoMou/text-dedup,0,missing_company
+DSKSD,User,Sungdong Kim,,,,,DSKSD/DeepNLP-models-Pytorch,0,missing_company
+DWCTOD,User,zero is not none,,,,,DWCTOD/CVPR2024-Papers-with-Code-Demo,0,missing_company
+DeepTecher,User,DeepTecher,某厂,,,,DeepTecher/awesome-autonomous-vehicle,0,missing_company
+Developer-Y,User,Developer-Y,,,,,Developer-Y/cs-video-courses,0,missing_company
+Fantasy-Studio,User,Fantasy-Studio,,,,,Fantasy-Studio/Paint-by-Example,0,missing_company
+Franck-Dernoncourt,User,Franck Dernoncourt,,,,,Franck-Dernoncourt/NeuroNER,0,missing_company
+GanjinZero,User,Zheng Yuan,,,,,GanjinZero/awesome_Chinese_medical_NLP,0,missing_company
+GauravBh1010tt,User,Gaurav Bhatt,,,,,GauravBh1010tt/DeepLearn,0,missing_company
+GeekAlexis,User,Yukai Yang (Alexis),,,,,GeekAlexis/FastMOT,0,missing_company
+GoGoDuck912,User,DrPeikeLi,,,,,GoGoDuck912/Self-Correction-Human-Parsing,0,missing_company
+HarderThenHarder,User,何枝,,,,,HarderThenHarder/transformers_tasks,0,missing_company
+Hironsan,User,Hiroki Nakayama,,,,,Hironsan/BossSensor,0,missing_company
+Honlan,User,张宏伦,,,,,Honlan/DeepInterests,0,missing_company
+HqWu-HITCS,Unknown,HqWu-HITCS,,,,,HqWu-HITCS/Awesome-Chinese-LLM,0,missing_company
+IliasHad,User,Ilias Haddad ,,,,,IliasHad/edit-mind,0,missing_company
+Jiakui,User,Jiakui Wang,,,,,Jiakui/awesome-bert,0,missing_company
+Jiakui,User,Jiakui Wang,,,,,Jiakui/awesome-gcn,0,missing_company
+Jumpat,User,Jiazhong Cen,,,,,Jumpat/SegAnyGAussians,0,missing_company
+Jumpat,User,Jiazhong Cen,,,,,Jumpat/SegmentAnythingin3D,0,missing_company
+KaiyangZhou,User,Kaiyang,,,,,KaiyangZhou/Dassl.pytorch,0,missing_company
+KaiyangZhou,User,Kaiyang,,,,,KaiyangZhou/deep-person-reid,0,missing_company
+KaiyangZhou,User,Kaiyang,,,,,KaiyangZhou/pytorch-center-loss,0,missing_company
+KupynOrest,User,Orest Kupyn,,,,,KupynOrest/DeblurGAN,0,missing_company
+Mooler0410,User,Mooler0410,,,,,Mooler0410/LLMsPracticalGuide,0,missing_company
+MorvanZhou,User,Morvan,,,,,MorvanZhou/NLP-Tutorials,0,missing_company
+MrNeRF,User,janusch,,,,,MrNeRF/LichtFeld-Studio,0,missing_company
+NLP-LOVE,User,Stark,,,,,NLP-LOVE/Introduction-NLP,0,missing_company
+NLP-LOVE,User,Stark,,,,,NLP-LOVE/ML-NLP,0,missing_company
+OmkarPathak,User,Omkar Pathak,,,,,OmkarPathak/pyresparser,0,missing_company
+PeterL1n,User,Peter Lin,,,,,PeterL1n/BackgroundMattingV2,0,missing_company
+PeterL1n,User,Peter Lin,,,,,PeterL1n/RobustVideoMatting,0,missing_company
+RQLuo,User,罗仁卿 Renqing Luo,,,,,RQLuo/MixTeX-Latex-OCR,0,missing_company
+Roshanson,User,bkf,,,,,Roshanson/TextInfoExp,0,missing_company
+RubensZimbres,User,Rubens Zimbres,,,,,RubensZimbres/Repo-2017,0,missing_company
+SCIR-HI,User,Health Intelligence Group of HIT-SCIR,,,,,SCIR-HI/Huatuo-Llama-Med-Chinese,0,missing_company
+SCIR-HI,User,Health Intelligence Group of HIT-SCIR,,,,,SCIR-HI/Med-ChatGLM,0,missing_company
+Separius,User,Sepehr Sameni,,,,,Separius/BERT-keras,0,missing_company
+Separius,User,Sepehr Sameni,,,,,Separius/awesome-sentence-embedding,0,missing_company
+TingFree,User,Jay Ting,,,,,TingFree/NLPer-Arsenal,0,missing_company
+TingsongYu,User,TingsongYu,,,,,TingsongYu/PyTorch-Tutorial-2nd,0,missing_company
+TinyLLaVA,User,TinyLLaVA,,,,,TinyLLaVA/TinyLLaVA_Factory,0,missing_company
+Tongjilibo,User,Bo仔很忙,,,,,Tongjilibo/bert4torch,0,missing_company
+WeThinkIn,User,Rocky Ding,,,,,WeThinkIn/AIGC-Interview-Book,0,missing_company
+YeYzheng,User,YYZ,,,,,YeYzheng/KGQA-Based-On-medicine,0,missing_company
+adbar,User,Adrien Barbaresi,,,,,adbar/trafilatura,0,missing_company
+ahmetaa,User,Ahmet A. Akın,,,,,ahmetaa/zemberek-nlp,0,missing_company
+ahmetozlu,User,Ozlu,,,,,ahmetozlu/tensorflow_object_counting_api,0,missing_company
+ahmetozlu,User,Ozlu,,,,,ahmetozlu/vehicle_counting_tensorflow,0,missing_company
+aiff22,User,Andrey,,,,,aiff22/DPED,0,missing_company
+airaria,User,Ziqing Yang,,,,,airaria/TextBrewer,0,missing_company
+aitorzip,User,Aitor Ruano,,,,,aitorzip/PyTorch-CycleGAN,0,missing_company
+ajbrock,User,Andy Brock,,,,,ajbrock/Neural-Photo-Editor,0,missing_company
+alvations,User,alvations,,,,,alvations/pywsd,0,missing_company
+amaiya,User,Arun S. Maiya,,,,,amaiya/ktrain,0,missing_company
+amanjeetsahu,User,Amanjeet Sahu,,,,,amanjeetsahu/Natural-Language-Processing-Specialization,0,missing_company
+amdegroot,User,Max deGroot,,,,,amdegroot/ssd.pytorch,0,missing_company
+amitness,User,Amit Chaudhary,,,,,amitness/learning,0,missing_company
+andrewssobral,User,Andrews Cordolino Sobral,,,,,andrewssobral/bgslibrary,0,missing_company
+andyzeng,User,Andy Zeng,,,,,andyzeng/3dmatch-toolbox,0,missing_company
+andyzeng,User,Andy Zeng,,,,,andyzeng/visual-pushing-grasping,0,missing_company
+aniketpotabatti,User,Aniket Potabatti,,,,,aniketpotabatti/Data-Science-EBooks,0,missing_company
+argosopentech,User,Argos Open Tech,,,,,argosopentech/argos-translate,0,missing_company
+baegwangbin,User,"Bae, Gwangbin",,,,,baegwangbin/DSINE,0,missing_company
+balavenkatesh3322,User,Bala venkatesh,,,,,balavenkatesh3322/CV-pretrained-model,0,missing_company
+bentrevett,User,Ben Trevett,,,,,bentrevett/pytorch-sentiment-analysis,0,missing_company
+bfelbo,User,Bjarke Felbo,,,,,bfelbo/DeepMoji,0,missing_company
+bgshih,User,Baoguang Shi,,,,,bgshih/crnn,0,missing_company
+bin123apple,User,Bin Lei,,,,,bin123apple/AutoCoder,0,missing_company
+blmoistawinde,User,Zhiling Zhang,,,,,blmoistawinde/HarvestText,0,missing_company
+carpedm20,User,Taehoon,,,,,carpedm20/MemN2N-tensorflow,0,missing_company
+carpedm20,User,Taehoon,,,,,carpedm20/lstm-char-cnn-tensorflow,0,missing_company
+cbsudux,User,cbsudux,,,,,cbsudux/awesome-human-pose-estimation,0,missing_company
+chenyuntc,User,Yun Chen,,,,,chenyuntc/PyTorchText,0,missing_company
+chiphuyen,User,Chip Huyen,,,,,chiphuyen/lazynlp,0,missing_company
+chiphuyen,User,Chip Huyen,,,,,chiphuyen/stanford-tensorflow-tutorials,0,missing_company
+chrieke,User,Christoph Rieke,,,,,chrieke/awesome-satellite-imagery-datasets,0,missing_company
+dalinvip,User,大林,,,,,dalinvip/Awesome-ChatGPT,0,missing_company
+datumbox,User,Vasilis Vryniotis,,,,,datumbox/datumbox-framework,0,missing_company
+davidsandberg,User,David Sandberg,,,,,davidsandberg/facenet,0,missing_company
+davisking,User,Davis E. King,,,,,davisking/dlib,0,missing_company
+delip,User,Delip Rao,,,,,delip/PyTorchNLPBook,0,missing_company
+demidovakatya,User,Katya Demidova,,,,,demidovakatya/vvedenie-mashinnoe-obuchenie,0,missing_company
+digantamisra98,User,Xa9aX ツ,,,,,digantamisra98/Mish,0,missing_company
+dmMaze,User,dmMaze,,,,,dmMaze/BallonsTranslator,0,missing_company
+dog-qiuqiu,User,duoduo.cat,,,,,dog-qiuqiu/MobileNet-Yolo,0,missing_company
+dragen1860,User,Jackie Loong,,,,,dragen1860/TensorFlow-2.x-Tutorials,0,missing_company
+dsdanielpark,User,MinWoo(Daniel) Park,,,,,dsdanielpark/Bard-API,0,missing_company
+enoch3712,User,Julio,,,,,enoch3712/ExtractThinker,0,missing_company
+esimov,User,Endre Simo,,,,,esimov/caire,0,missing_company
+esimov,User,Endre Simo,,,,,esimov/pigo,0,missing_company
+fhamborg,User,Felix Hamborg,,,,,fhamborg/news-please,0,missing_company
+foamliu,User,Yang Liu,,,,,foamliu/Deep-Image-Matting,0,missing_company
+greyblake,User,Serhii Potapov,,,,,greyblake/whatlang-rs,0,missing_company
+guillaume-be,User,guillaume-be,,,,,guillaume-be/rust-bert,0,missing_company
+haifengl,User,Haifeng Li,,,,,haifengl/smile,0,missing_company
+hankcs,User,hankcs,,,,,hankcs/HanLP,0,missing_company
+hellodigua,User,digua,,,,,hellodigua/ChatLab,0,missing_company
+hkchengrex,User,Rex Cheng,,,,,hkchengrex/CascadePSP,0,missing_company
+hkchengrex,User,Rex Cheng,,,,,hkchengrex/Cutie,0,missing_company
+hkchengrex,User,Rex Cheng,,,,,hkchengrex/MMAudio,0,missing_company
+hkchengrex,User,Rex Cheng,,,,,hkchengrex/XMem,0,missing_company
+houbb,User,老马啸西风,,,,,houbb/sensitive-word,0,missing_company
+hukenovs,User,Alexander Kapitanov,,,,,hukenovs/hagrid,0,missing_company
+hysts,User,hysts,,,,,hysts/pytorch_image_classification,0,missing_company
+ieee8023,User,Joseph Paul Cohen PhD,,,,,ieee8023/covid-chestxray-dataset,0,missing_company
+innovation-cat,User,Anbu Huang,,,,,innovation-cat/Awesome-Federated-Machine-Learning,0,missing_company
+jacobgil,User,Jacob Gildenblat,,,,,jacobgil/pytorch-grad-cam,0,missing_company
+jaymody,User,Jay Mody,,,,,jaymody/picoGPT,0,missing_company
+jbesomi,User,Jonathan Besomi,,,,,jbesomi/texthero,0,missing_company
+jessevig,User,Jesse Vig,,,,,jessevig/bertviz,0,missing_company
+jingyi0000,User,jingyi0000,,,,,jingyi0000/VLM_survey,0,missing_company
+jncraton,User,Jon Craton,,,,,jncraton/languagemodels,0,missing_company
+joeddav,User,Joe Davison,,,,,joeddav/devol,0,missing_company
+juand-r,User,Juan Diego Rodriguez,,,,,juand-r/entity-recognition-datasets,0,missing_company
+junruxiong,User,Junru,,,,,junruxiong/IncarnaMind,0,missing_company
+kengz,User,Keng,,,,,kengz/aiva,0,missing_company
+kevmo314,User,Kevin Wang,,,,,kevmo314/magic-copy,0,missing_company
+kha-white,User,Maciej Budyś,,,,,kha-white/manga-ocr,0,missing_company
+kingyiusuen,User,King Yiu Suen,,,,,kingyiusuen/image-to-latex,0,missing_company
+km1994,User,杨夕,某某螺丝钉加工厂,,,,km1994/NLP-Interview-Notes,0,missing_company
+koth,User,koth,,,,,koth/kcws,0,missing_company
+kylemcdonald,User,Kyle McDonald,,,,,kylemcdonald/FaceTracker,0,missing_company
+lanxiuyun,User,lanxiuyun,,,,,lanxiuyun/lazyeat,0,missing_company
+laugh12321,User,Laugh,,,,,laugh12321/TensorRT-YOLO,0,missing_company
+lessthanoptimal,User,Peter Abeles,,,,,lessthanoptimal/BoofCV,0,missing_company
+lionsoul2014,User,Leon / 狮子的魂,深圳原语科技,,,,lionsoul2014/jcseg,0,missing_company
+liucongg,User,logCong,,,,,liucongg/GPT2-NewsTitle,0,missing_company
+lixiang0,User,Ruben,,,,,lixiang0/WEB_KG,0,missing_company
+lonePatient,User,Weitang Liu,,,,,lonePatient/BERT-NER-Pytorch,0,missing_company
+lonePatient,User,Weitang Liu,,,,,lonePatient/Bert-Multi-Label-Text-Classification,0,missing_company
+lonePatient,User,Weitang Liu,,,,,lonePatient/albert_pytorch,0,missing_company
+lonePatient,User,Weitang Liu,,,,,lonePatient/awesome-pretrained-chinese-nlp-models,0,missing_company
+lpiccinelli-eth,User,Luigi Piccinelli,,,,,lpiccinelli-eth/UniDepth,0,missing_company
+lucidrains,User,Phil Wang,,,,,lucidrains/lambda-networks,0,missing_company
+lucidrains,User,Phil Wang,,,,,lucidrains/vit-pytorch,0,missing_company
+lzhbrian,User,Tzu-Heng Lin,,,,,lzhbrian/image-to-image-papers,0,missing_company
+margaretmz,User,Margaret Maynard-Reid,,,,,margaretmz/awesome-tensorflow-lite,0,missing_company
+mees,User,Oier Mees,,,,,mees/calvin,0,missing_company
+mihail911,User,Mihail Eric,,,,,mihail911/nlp-library,0,missing_company
+miso-belica,User,Mišo Belica,,,,,miso-belica/sumy,0,missing_company
+moein-shariatnia,User,Moein Shariatnia,,,,,moein-shariatnia/OpenAI-CLIP,0,missing_company
+muskie82,User,Hide,,,,,muskie82/MonoGS,0,missing_company
+noahcao,User,Jinkun Cao,,,,,noahcao/OC_SORT,0,missing_company
+ogkalu2,User,ogkalu2,,,,,ogkalu2/comic-translate,0,missing_company
+ownthink,User,Yener,,,,,ownthink/Jiagu,0,missing_company
+paschmann,User,Paul Aschmann,,,,,paschmann/rasa-ui,0,missing_company
+patrick-llgc,User,Patrick Liu,,,,,patrick-llgc/Learning-Deep-Learning,0,missing_company
+patrickschur,User,Patrick Schur,,,,,patrickschur/language-detection,0,missing_company
+perone,User,Christian S. Perone,,,,,perone/medicaltorch,0,missing_company
+phillipi,User,Phillip Isola,,,,,phillipi/pix2pix,0,missing_company
+piddnad,User,Xiaoyang Kang,,,,,piddnad/DDColor,0,missing_company
+pierluigiferrari,User,Pierluigi Ferrari,,,,,pierluigiferrari/ssd_keras,0,missing_company
+pkhungurn,User,Pramook Khungurn,,,,,pkhungurn/talking-head-anime-2-demo,0,missing_company
+pkhungurn,User,Pramook Khungurn,,,,,pkhungurn/talking-head-anime-3-demo,0,missing_company
+pkhungurn,User,Pramook Khungurn,,,,,pkhungurn/talking-head-anime-demo,0,missing_company
+podgorskiy,User,Stanislav Pidhorskyi,,,,,podgorskiy/ALAE,0,missing_company
+qinzheng93,User,Zheng Qin,,,,,qinzheng93/GeoTransformer,0,missing_company
+rmurai0610,User,Riku Murai,,,,,rmurai0610/MASt3R-SLAM,0,missing_company
+rykov8,User,Andrey Rykov,,,,,rykov8/ssd_keras,0,missing_company
+sekwiatkowski,User,Sebastian E. Kwiatkowski,,,,,sekwiatkowski/awesome-capsule-networks,0,missing_company
+sgrvinod,User,Sagar Vinodababu,,,,,sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning,0,missing_company
+shimat,User,shimat,,,,,shimat/opencvsharp,0,missing_company
+skygazer42,User,skygazer42,,,,,skygazer42/DL-Hub,0,missing_company
+sloria,User,Steven Loria,,,,,sloria/TextBlob,0,missing_company
+songyouwei,User,songyouwei,,,,,songyouwei/ABSA-PyTorch,0,missing_company
+soubhiksanyal,User,Soubhik Sanyal,,,,,soubhiksanyal/RingNet,0,missing_company
+sreeharierk,User,Sreehari S,,,,,sreeharierk/datascience,0,missing_company
+strasdat,User,Hauke Strasdat,,,,,strasdat/Sophus,0,missing_company
+sweeneychris,User,Chris Sweeney,,,,,sweeneychris/TheiaSfM,0,missing_company
+taesungp,User,Taesung Park,,,,,taesungp/contrastive-unpaired-translation,0,missing_company
+timoschick,User,Timo Schick,,,,,timoschick/pet,0,missing_company
+toandaominh1997,User,Thomas Dao,,,,,toandaominh1997/EfficientDet.Pytorch,0,missing_company
+una-dinosauria,User,Julieta,,,,,una-dinosauria/3d-pose-baseline,0,missing_company
+wagamamaz,User,zhangrui,,,,,wagamamaz/tensorflow-tutorial,0,missing_company
+weihaox,User,Weihao Xia,,,,,weihaox/awesome-image-translation,0,missing_company
+weihaox,User,Weihao Xia,,,,,weihaox/awesome-neural-rendering,0,missing_company
+whitphx,User,Yuichiro Tachibana (Tsuchiya),,,,,whitphx/streamlit-webrtc,0,missing_company
+xavier-zy,User,Zhaoyu Zhang,,,,,xavier-zy/Awesome-pytorch-list-CNVersion,0,missing_company
+xiamx,User,Meng Xuan Xia,,,,,xiamx/awesome-sentiment-analysis,0,missing_company
+xinghaochen,User,Xinghao Chen,,,,,xinghaochen/awesome-hand-pose-estimation,0,missing_company
+xusenlinzy,User,xusenlin,,,,,xusenlinzy/api-for-open-llm,0,missing_company
+yaserkl,User,yaserkl,,,,,yaserkl/RLSeq2Seq,0,missing_company
+yassouali,User,Yassine,,,,,yassouali/awesome-semi-supervised-learning,0,missing_company
+yassouali,User,Yassine,,,,,yassouali/pytorch-segmentation,0,missing_company
+yatengLG,User,Shuwei Ji,,,,,yatengLG/ISAT_with_segment_anything,0,missing_company
+ymcui,User,Yiming Cui,,,,,ymcui/Chinese-BERT-wwm,0,missing_company
+ymcui,User,Yiming Cui,,,,,ymcui/Chinese-ELECTRA,0,missing_company
+ymcui,User,Yiming Cui,,,,,ymcui/Chinese-LLaMA-Alpaca,0,missing_company
+ymcui,User,Yiming Cui,,,,,ymcui/Chinese-LLaMA-Alpaca-2,0,missing_company
+ymcui,User,Yiming Cui,,,,,ymcui/Chinese-LLaMA-Alpaca-3,0,missing_company
+ymcui,User,Yiming Cui,,,,,ymcui/Chinese-XLNet,0,missing_company
+yongzhuo,User,Macropodus,,,,,yongzhuo/Keras-TextClassification,0,missing_company
+yongzhuo,User,Macropodus,,,,,yongzhuo/nlp_xiaojiang,0,missing_company
+yuanzhoulvpi2017,User,yuanzhoulvpi,,,,,yuanzhoulvpi2017/zero_nlp,0,missing_company
+zamalali,User,zamal_,,,,,zamalali/DeepGit,0,missing_company
+zihangdai,User,Zihang Dai,,,,,zihangdai/xlnet,0,missing_company
+zkywsg,User,Aron Lau,,,,,zkywsg/Daily-LLM,0,missing_company

@@ -1,0 +1,4587 @@
+{
+  "1adrianb": {
+    "owner_login": "1adrianb",
+    "owner_type": "User",
+    "owner_name": "Adrian Bulat",
+    "company_raw": "Samsung AI Research",
+    "company_canonical": "samsung ai research"
+  },
+  "3DTopia": {
+    "owner_login": "3DTopia",
+    "owner_type": "Organization",
+    "owner_name": "3D Topia",
+    "company_raw": "3D Topia",
+    "company_canonical": "3d topia"
+  },
+  "3d-morphable-models": {
+    "owner_login": "3d-morphable-models",
+    "owner_type": "Organization",
+    "owner_name": "3d-morphable-models",
+    "company_raw": "3d-morphable-models",
+    "company_canonical": "3d morphable models"
+  },
+  "425776024": {
+    "owner_login": "425776024",
+    "owner_type": "User",
+    "owner_name": "425776024",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "666ghj": {
+    "owner_login": "666ghj",
+    "owner_type": "User",
+    "owner_name": "BaiFu",
+    "company_raw": "BUPT, Shanda",
+    "company_canonical": "bupt shanda"
+  },
+  "AI4Finance-Foundation": {
+    "owner_login": "AI4Finance-Foundation",
+    "owner_type": "Organization",
+    "owner_name": "AI4Finance Foundation",
+    "company_raw": "AI4Finance Foundation",
+    "company_canonical": "ai4finance foundation"
+  },
+  "ARM-software": {
+    "owner_login": "ARM-software",
+    "owner_type": "Organization",
+    "owner_name": "Arm Software",
+    "company_raw": "Arm Software",
+    "company_canonical": "arm software"
+  },
+  "AaronJackson": {
+    "owner_login": "AaronJackson",
+    "owner_type": "User",
+    "owner_name": "Aaron S. Jackson",
+    "company_raw": "University of Dundee",
+    "company_canonical": "university of dundee"
+  },
+  "AlibabaResearch": {
+    "owner_login": "AlibabaResearch",
+    "owner_type": "Organization",
+    "owner_name": "Alibaba Research",
+    "company_raw": "Alibaba Research",
+    "company_canonical": "alibaba research"
+  },
+  "Andrew-Jang": {
+    "owner_login": "Andrew-Jang",
+    "owner_type": "User",
+    "owner_name": "Andrew Jang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "AndrewZhe": {
+    "owner_login": "AndrewZhe",
+    "owner_type": "User",
+    "owner_name": "Quzhe Huang",
+    "company_raw": "Peking University",
+    "company_canonical": "peking university"
+  },
+  "AnswerDotAI": {
+    "owner_login": "AnswerDotAI",
+    "owner_type": "Organization",
+    "owner_name": "Answer.AI",
+    "company_raw": "Answer.AI",
+    "company_canonical": "answer.ai"
+  },
+  "AntonioTepsich": {
+    "owner_login": "AntonioTepsich",
+    "owner_type": "User",
+    "owner_name": "Antonio Tepsich",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "Anything-of-anything": {
+    "owner_login": "Anything-of-anything",
+    "owner_type": "User",
+    "owner_name": "Anything-of-Anything ",
+    "company_raw": "National University of Singapore",
+    "company_canonical": "national university of singapore"
+  },
+  "AutoGPTQ": {
+    "owner_login": "AutoGPTQ",
+    "owner_type": "Organization",
+    "owner_name": "AutoGPTQ",
+    "company_raw": "AutoGPTQ",
+    "company_canonical": "autogptq"
+  },
+  "BR-IDL": {
+    "owner_login": "BR-IDL",
+    "owner_type": "User",
+    "owner_name": "BR-IDL",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "BachiLi": {
+    "owner_login": "BachiLi",
+    "owner_type": "User",
+    "owner_name": "Tzu-Mao Li",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "BrikerMan": {
+    "owner_login": "BrikerMan",
+    "owner_type": "User",
+    "owner_name": "Eliyar Eziz",
+    "company_raw": "Yodo1, Ltd.",
+    "company_canonical": "yodo1"
+  },
+  "BrokenSource": {
+    "owner_login": "BrokenSource",
+    "owner_type": "Organization",
+    "owner_name": "Broken Source Software",
+    "company_raw": "Broken Source Software",
+    "company_canonical": "broken source software"
+  },
+  "CLUEbenchmark": {
+    "owner_login": "CLUEbenchmark",
+    "owner_type": "Organization",
+    "owner_name": "CLUE benchmark",
+    "company_raw": "CLUE benchmark",
+    "company_canonical": "clue benchmark"
+  },
+  "CMU-Perceptual-Computing-Lab": {
+    "owner_login": "CMU-Perceptual-Computing-Lab",
+    "owner_type": "Organization",
+    "owner_name": "CMU-Perceptual-Computing-Lab",
+    "company_raw": "CMU-Perceptual-Computing-Lab",
+    "company_canonical": "cmu perceptual computing lab"
+  },
+  "CSAILVision": {
+    "owner_login": "CSAILVision",
+    "owner_type": "Organization",
+    "owner_name": "MIT CSAIL Computer Vision",
+    "company_raw": "MIT CSAIL Computer Vision",
+    "company_canonical": "mit csail computer vision"
+  },
+  "CVHub520": {
+    "owner_login": "CVHub520",
+    "owner_type": "User",
+    "owner_name": "CVHub",
+    "company_raw": "DJI",
+    "company_canonical": "dji"
+  },
+  "CVI-SZU": {
+    "owner_login": "CVI-SZU",
+    "owner_type": "Organization",
+    "owner_name": "Computer Vision Institute, SZU",
+    "company_raw": "Computer Vision Institute, SZU",
+    "company_canonical": "computer vision institute szu"
+  },
+  "CalciferZh": {
+    "owner_login": "CalciferZh",
+    "owner_type": "User",
+    "owner_name": "Yuxiao Zhou",
+    "company_raw": "ETH Zurich",
+    "company_canonical": "eth zurich"
+  },
+  "Cartucho": {
+    "owner_login": "Cartucho",
+    "owner_type": "User",
+    "owner_name": "Cartucho",
+    "company_raw": "Imperial College London",
+    "company_canonical": "imperial college london"
+  },
+  "Charmve": {
+    "owner_login": "Charmve",
+    "owner_type": "User",
+    "owner_name": "Wei ZHANG",
+    "company_raw": "公众号: 迈微AI研习社",
+    "company_canonical": "ai"
+  },
+  "ChenghaoMou": {
+    "owner_login": "ChenghaoMou",
+    "owner_type": "User",
+    "owner_name": "Chenghao Mou",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "ChineseGLUE": {
+    "owner_login": "ChineseGLUE",
+    "owner_type": "Organization",
+    "owner_name": "ChineseGLUE",
+    "company_raw": "ChineseGLUE",
+    "company_canonical": "chineseglue"
+  },
+  "DLR-RM": {
+    "owner_login": "DLR-RM",
+    "owner_type": "Organization",
+    "owner_name": "DLR-RM",
+    "company_raw": "DLR-RM",
+    "company_canonical": "dlr rm"
+  },
+  "DSKSD": {
+    "owner_login": "DSKSD",
+    "owner_type": "User",
+    "owner_name": "Sungdong Kim",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "DWCTOD": {
+    "owner_login": "DWCTOD",
+    "owner_type": "User",
+    "owner_name": "zero is not none",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "DeepTecher": {
+    "owner_login": "DeepTecher",
+    "owner_type": "User",
+    "owner_name": "DeepTecher",
+    "company_raw": "某厂",
+    "company_canonical": ""
+  },
+  "Delta-ML": {
+    "owner_login": "Delta-ML",
+    "owner_type": "Organization",
+    "owner_name": "DELTA",
+    "company_raw": "DELTA",
+    "company_canonical": "delta"
+  },
+  "DengBoCong": {
+    "owner_login": "DengBoCong",
+    "owner_type": "User",
+    "owner_name": "DengBoCong",
+    "company_raw": "@ByteDance",
+    "company_canonical": "bytedance"
+  },
+  "Denis2054": {
+    "owner_login": "Denis2054",
+    "owner_type": "User",
+    "owner_name": "Denis Rothman",
+    "company_raw": "AI Architect & Author | Speaker & Instructor",
+    "company_canonical": "ai architect & author speaker & instructor"
+  },
+  "DerwenAI": {
+    "owner_login": "DerwenAI",
+    "owner_type": "Organization",
+    "owner_name": "derwen.ai",
+    "company_raw": "derwen.ai",
+    "company_canonical": "derwen.ai"
+  },
+  "Developer-Y": {
+    "owner_login": "Developer-Y",
+    "owner_type": "User",
+    "owner_name": "Developer-Y",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "DirtyHarryLYL": {
+    "owner_login": "DirtyHarryLYL",
+    "owner_type": "User",
+    "owner_name": "Yong-Lu Li",
+    "company_raw": "@MVIG-SJTU",
+    "company_canonical": "mvig sjtu"
+  },
+  "DragonComputer": {
+    "owner_login": "DragonComputer",
+    "owner_type": "Organization",
+    "owner_name": "DRAGON.COMPUTER",
+    "company_raw": "DRAGON.COMPUTER",
+    "company_canonical": "dragon.computer"
+  },
+  "EdinburghNLP": {
+    "owner_login": "EdinburghNLP",
+    "owner_type": "Organization",
+    "owner_name": "Edinburgh NLP",
+    "company_raw": "Edinburgh NLP",
+    "company_canonical": "edinburgh nlp"
+  },
+  "EutropicAI": {
+    "owner_login": "EutropicAI",
+    "owner_type": "Organization",
+    "owner_name": "Eutropic",
+    "company_raw": "Eutropic",
+    "company_canonical": "eutropic"
+  },
+  "EvelynFan": {
+    "owner_login": "EvelynFan",
+    "owner_type": "User",
+    "owner_name": "Evelyn",
+    "company_raw": "The University of Hong Kong",
+    "company_canonical": "the university of hong kong"
+  },
+  "FORTH-ModelBasedTracker": {
+    "owner_login": "FORTH-ModelBasedTracker",
+    "owner_type": "Organization",
+    "owner_name": "FORTH  Computational Vision and Robotics Laboratory",
+    "company_raw": "FORTH  Computational Vision and Robotics Laboratory",
+    "company_canonical": "forth computational vision and robotics laboratory"
+  },
+  "Fantasy-Studio": {
+    "owner_login": "Fantasy-Studio",
+    "owner_type": "User",
+    "owner_name": "Fantasy-Studio",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "Franck-Dernoncourt": {
+    "owner_login": "Franck-Dernoncourt",
+    "owner_type": "User",
+    "owner_name": "Franck Dernoncourt",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "FudanDISC": {
+    "owner_login": "FudanDISC",
+    "owner_type": "Organization",
+    "owner_name": "FudanDISC",
+    "company_raw": "FudanDISC",
+    "company_canonical": "fudandisc"
+  },
+  "Future-Scholars": {
+    "owner_login": "Future-Scholars",
+    "owner_type": "Organization",
+    "owner_name": "Future Scholars",
+    "company_raw": "Future Scholars",
+    "company_canonical": "future scholars"
+  },
+  "GaParmar": {
+    "owner_login": "GaParmar",
+    "owner_type": "User",
+    "owner_name": "Gaurav Parmar",
+    "company_raw": "Carnegie Mellon University",
+    "company_canonical": "carnegie mellon university"
+  },
+  "GanjinZero": {
+    "owner_login": "GanjinZero",
+    "owner_type": "User",
+    "owner_name": "Zheng Yuan",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "GauravBh1010tt": {
+    "owner_login": "GauravBh1010tt",
+    "owner_type": "User",
+    "owner_name": "Gaurav Bhatt",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "GeeeekExplorer": {
+    "owner_login": "GeeeekExplorer",
+    "owner_type": "User",
+    "owner_name": "Xingkai Yu",
+    "company_raw": "@deepseek-ai, Nanjing University",
+    "company_canonical": "deepseek ai nanjing university"
+  },
+  "GeekAlexis": {
+    "owner_login": "GeekAlexis",
+    "owner_type": "User",
+    "owner_name": "Yukai Yang (Alexis)",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "GoGoDuck912": {
+    "owner_login": "GoGoDuck912",
+    "owner_type": "User",
+    "owner_name": "DrPeikeLi",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "HKUSTDial": {
+    "owner_login": "HKUSTDial",
+    "owner_type": "Organization",
+    "owner_name": "Data Intelligence and Analytics Lab @ HKUST(GZ)",
+    "company_raw": "Data Intelligence and Analytics Lab @ HKUST(GZ)",
+    "company_canonical": "data intelligence and analytics lab hkust gz"
+  },
+  "HarderThenHarder": {
+    "owner_login": "HarderThenHarder",
+    "owner_type": "User",
+    "owner_name": "何枝",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "HenryNdubuaku": {
+    "owner_login": "HenryNdubuaku",
+    "owner_type": "User",
+    "owner_name": "Henry Ndubuaku",
+    "company_raw": "Cactus Compute",
+    "company_canonical": "cactus compute"
+  },
+  "Hironsan": {
+    "owner_login": "Hironsan",
+    "owner_type": "User",
+    "owner_name": "Hiroki Nakayama",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "Honlan": {
+    "owner_login": "Honlan",
+    "owner_type": "User",
+    "owner_name": "张宏伦",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "HqWu-HITCS": {
+    "owner_login": "HqWu-HITCS",
+    "owner_type": "Unknown",
+    "owner_name": "HqWu-HITCS",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "HumanSignal": {
+    "owner_login": "HumanSignal",
+    "owner_type": "Organization",
+    "owner_name": "HumanSignal",
+    "company_raw": "HumanSignal",
+    "company_canonical": "humansignal"
+  },
+  "HyperGAN": {
+    "owner_login": "HyperGAN",
+    "owner_type": "Organization",
+    "owner_name": "HyperGAN",
+    "company_raw": "HyperGAN",
+    "company_canonical": "hypergan"
+  },
+  "Hyperparticle": {
+    "owner_login": "Hyperparticle",
+    "owner_type": "User",
+    "owner_name": "Dan Kondratyuk",
+    "company_raw": "rekursiv.ai",
+    "company_canonical": "rekursiv.ai"
+  },
+  "HypoX64": {
+    "owner_login": "HypoX64",
+    "owner_type": "User",
+    "owner_name": "Hypo",
+    "company_raw": "Tencent",
+    "company_canonical": "tencent"
+  },
+  "IAAR-Shanghai": {
+    "owner_login": "IAAR-Shanghai",
+    "owner_type": "Organization",
+    "owner_name": "Memtensor Research Group",
+    "company_raw": "Memtensor Research Group",
+    "company_canonical": "memtensor research group"
+  },
+  "IBM": {
+    "owner_login": "IBM",
+    "owner_type": "Organization",
+    "owner_name": "International Business Machines",
+    "company_raw": "International Business Machines",
+    "company_canonical": "international business machines"
+  },
+  "IDEA-Research": {
+    "owner_login": "IDEA-Research",
+    "owner_type": "Organization",
+    "owner_name": "IDEA-Research",
+    "company_raw": "IDEA-Research",
+    "company_canonical": "idea research"
+  },
+  "IliasHad": {
+    "owner_login": "IliasHad",
+    "owner_type": "User",
+    "owner_name": "Ilias Haddad ",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "IntelLabs": {
+    "owner_login": "IntelLabs",
+    "owner_type": "Organization",
+    "owner_name": "Intel Labs",
+    "company_raw": "Intel Labs",
+    "company_canonical": "intel labs"
+  },
+  "JDAI-CV": {
+    "owner_login": "JDAI-CV",
+    "owner_type": "Organization",
+    "owner_name": "JDAI-CV",
+    "company_raw": "JDAI-CV",
+    "company_canonical": "jdai cv"
+  },
+  "JasonKessler": {
+    "owner_login": "JasonKessler",
+    "owner_type": "User",
+    "owner_name": "Jason S. Kessler",
+    "company_raw": "Personal Account",
+    "company_canonical": "personal account"
+  },
+  "Jiakui": {
+    "owner_login": "Jiakui",
+    "owner_type": "User",
+    "owner_name": "Jiakui Wang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "JohnSnowLabs": {
+    "owner_login": "JohnSnowLabs",
+    "owner_type": "Organization",
+    "owner_name": "John Snow Labs",
+    "company_raw": "John Snow Labs",
+    "company_canonical": "john snow labs"
+  },
+  "Jumpat": {
+    "owner_login": "Jumpat",
+    "owner_type": "User",
+    "owner_name": "Jiazhong Cen",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "KaiyangZhou": {
+    "owner_login": "KaiyangZhou",
+    "owner_type": "User",
+    "owner_name": "Kaiyang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "KevinMusgrave": {
+    "owner_login": "KevinMusgrave",
+    "owner_type": "User",
+    "owner_name": "Kevin Musgrave",
+    "company_raw": "Fujitsu Research",
+    "company_canonical": "fujitsu research"
+  },
+  "KlingAIResearch": {
+    "owner_login": "KlingAIResearch",
+    "owner_type": "Organization",
+    "owner_name": "KlingAI Research",
+    "company_raw": "KlingAI Research",
+    "company_canonical": "klingai research"
+  },
+  "Kobaayyy": {
+    "owner_login": "Kobaayyy",
+    "owner_type": "User",
+    "owner_name": "Kobaayyy",
+    "company_raw": "Fuzhou University",
+    "company_canonical": "fuzhou university"
+  },
+  "KudoAI": {
+    "owner_login": "KudoAI",
+    "owner_type": "Organization",
+    "owner_name": "KudoAI",
+    "company_raw": "KudoAI",
+    "company_canonical": "kudoai"
+  },
+  "KupynOrest": {
+    "owner_login": "KupynOrest",
+    "owner_type": "User",
+    "owner_name": "Orest Kupyn",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "Kyubyong": {
+    "owner_login": "Kyubyong",
+    "owner_type": "User",
+    "owner_name": "Kyubyong Park",
+    "company_raw": "TUNiB",
+    "company_canonical": "tunib"
+  },
+  "LMD0311": {
+    "owner_login": "LMD0311",
+    "owner_type": "User",
+    "owner_name": "Xin Zhou",
+    "company_raw": "Huazhong University of Science & Technology",
+    "company_canonical": "huazhong university of science & technology"
+  },
+  "Layout-Parser": {
+    "owner_login": "Layout-Parser",
+    "owner_type": "Organization",
+    "owner_name": "layout-parser",
+    "company_raw": "layout-parser",
+    "company_canonical": "layout parser"
+  },
+  "LexPredict": {
+    "owner_login": "LexPredict",
+    "owner_type": "Organization",
+    "owner_name": "LexPredict",
+    "company_raw": "LexPredict",
+    "company_canonical": "lexpredict"
+  },
+  "Linketic": {
+    "owner_login": "Linketic",
+    "owner_type": "Organization",
+    "owner_name": "Linketic",
+    "company_raw": "Linketic",
+    "company_canonical": "linketic"
+  },
+  "M-3LAB": {
+    "owner_login": "M-3LAB",
+    "owner_type": "Organization",
+    "owner_name": "M3LAB",
+    "company_raw": "M3LAB",
+    "company_canonical": "m3lab"
+  },
+  "MAC-VO": {
+    "owner_login": "MAC-VO",
+    "owner_type": "Organization",
+    "owner_name": "MAC-VO",
+    "company_raw": "MAC-VO",
+    "company_canonical": "mac vo"
+  },
+  "MIND-Lab": {
+    "owner_login": "MIND-Lab",
+    "owner_type": "Organization",
+    "owner_name": "MIND",
+    "company_raw": "MIND",
+    "company_canonical": "mind"
+  },
+  "MIT-SPARK": {
+    "owner_login": "MIT-SPARK",
+    "owner_type": "Organization",
+    "owner_name": "MIT-SPARK",
+    "company_raw": "MIT-SPARK",
+    "company_canonical": "mit spark"
+  },
+  "MOLAorg": {
+    "owner_login": "MOLAorg",
+    "owner_type": "Organization",
+    "owner_name": "The MOLA SLAM framework",
+    "company_raw": "The MOLA SLAM framework",
+    "company_canonical": "the mola slam framework"
+  },
+  "MRPT": {
+    "owner_login": "MRPT",
+    "owner_type": "Organization",
+    "owner_name": "MRPT",
+    "company_raw": "MRPT",
+    "company_canonical": "mrpt"
+  },
+  "MaaAssistantArknights": {
+    "owner_login": "MaaAssistantArknights",
+    "owner_type": "Organization",
+    "owner_name": "MAA",
+    "company_raw": "MAA",
+    "company_canonical": "maa"
+  },
+  "MaaXYZ": {
+    "owner_login": "MaaXYZ",
+    "owner_type": "Organization",
+    "owner_name": "MaaXYZ",
+    "company_raw": "MaaXYZ",
+    "company_canonical": "maaxyz"
+  },
+  "MaartenGr": {
+    "owner_login": "MaartenGr",
+    "owner_type": "User",
+    "owner_name": "Maarten Grootendorst",
+    "company_raw": "@google-deepmind",
+    "company_canonical": "google deepmind"
+  },
+  "Maluuba": {
+    "owner_login": "Maluuba",
+    "owner_type": "Organization",
+    "owner_name": "Maluuba Inc.",
+    "company_raw": "Maluuba Inc.",
+    "company_canonical": "maluuba"
+  },
+  "MarkMoHR": {
+    "owner_login": "MarkMoHR",
+    "owner_type": "User",
+    "owner_name": "Haoran MO",
+    "company_raw": "Postdoc @HKUST (GZ); Ph.D @SYSU",
+    "company_canonical": "postdoc hkust gz ph.d sysu"
+  },
+  "MarvinTeichmann": {
+    "owner_login": "MarvinTeichmann",
+    "owner_type": "User",
+    "owner_name": "Marvin Teichmann",
+    "company_raw": "University of Cambridge",
+    "company_canonical": "university of cambridge"
+  },
+  "MilaNLProc": {
+    "owner_login": "MilaNLProc",
+    "owner_type": "Organization",
+    "owner_name": "MilaNLP",
+    "company_raw": "MilaNLP",
+    "company_canonical": "milanlp"
+  },
+  "MinishLab": {
+    "owner_login": "MinishLab",
+    "owner_type": "Organization",
+    "owner_name": "Minish",
+    "company_raw": "Minish",
+    "company_canonical": "minish"
+  },
+  "Moataz-Elmesmary": {
+    "owner_login": "Moataz-Elmesmary",
+    "owner_type": "User",
+    "owner_name": "Moataz Elmesmary ",
+    "company_raw": "Egyptian Food Bank",
+    "company_canonical": "egyptian food bank"
+  },
+  "ModelTC": {
+    "owner_login": "ModelTC",
+    "owner_type": "Organization",
+    "owner_name": "ModelTC",
+    "company_raw": "ModelTC",
+    "company_canonical": "modeltc"
+  },
+  "Mooler0410": {
+    "owner_login": "Mooler0410",
+    "owner_type": "User",
+    "owner_name": "Mooler0410",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "Morizeyao": {
+    "owner_login": "Morizeyao",
+    "owner_type": "User",
+    "owner_name": "Zeyao Du",
+    "company_raw": "Shopee",
+    "company_canonical": "shopee"
+  },
+  "MorvanZhou": {
+    "owner_login": "MorvanZhou",
+    "owner_type": "User",
+    "owner_name": "Morvan",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "MrNeRF": {
+    "owner_login": "MrNeRF",
+    "owner_type": "User",
+    "owner_name": "janusch",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "Mukosame": {
+    "owner_login": "Mukosame",
+    "owner_type": "User",
+    "owner_name": "Xiaoyu Xiang",
+    "company_raw": "Meta",
+    "company_canonical": "meta"
+  },
+  "MycroftAI": {
+    "owner_login": "MycroftAI",
+    "owner_type": "Organization",
+    "owner_name": "Mycroft",
+    "company_raw": "Mycroft",
+    "company_canonical": "mycroft"
+  },
+  "NLP-LOVE": {
+    "owner_login": "NLP-LOVE",
+    "owner_type": "User",
+    "owner_name": "Stark",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "NLPchina": {
+    "owner_login": "NLPchina",
+    "owner_type": "Organization",
+    "owner_name": "NLPChina",
+    "company_raw": "NLPChina",
+    "company_canonical": "nlpchina"
+  },
+  "NVIDIA": {
+    "owner_login": "NVIDIA",
+    "owner_type": "Organization",
+    "owner_name": "NVIDIA Corporation",
+    "company_raw": "NVIDIA Corporation",
+    "company_canonical": "nvidia"
+  },
+  "NVIDIA-AI-IOT": {
+    "owner_login": "NVIDIA-AI-IOT",
+    "owner_type": "Organization",
+    "owner_name": "NVIDIA AI IOT",
+    "company_raw": "NVIDIA AI IOT",
+    "company_canonical": "nvidia ai iot"
+  },
+  "NVIDIA-Merlin": {
+    "owner_login": "NVIDIA-Merlin",
+    "owner_type": "Organization",
+    "owner_name": "NVIDIA-Merlin",
+    "company_raw": "NVIDIA-Merlin",
+    "company_canonical": "nvidia merlin"
+  },
+  "NVlabs": {
+    "owner_login": "NVlabs",
+    "owner_type": "Organization",
+    "owner_name": "NVIDIA Research Projects",
+    "company_raw": "NVIDIA Research Projects",
+    "company_canonical": "nvidia research projects"
+  },
+  "NX-AI": {
+    "owner_login": "NX-AI",
+    "owner_type": "Organization",
+    "owner_name": "NXAI",
+    "company_raw": "NXAI",
+    "company_canonical": "nxai"
+  },
+  "NanoNets": {
+    "owner_login": "NanoNets",
+    "owner_type": "Organization",
+    "owner_name": "Nanonets",
+    "company_raw": "Nanonets",
+    "company_canonical": "nanonets"
+  },
+  "Neph0s": {
+    "owner_login": "Neph0s",
+    "owner_type": "User",
+    "owner_name": "Xintao Wang",
+    "company_raw": "Fudan University",
+    "company_canonical": "fudan university"
+  },
+  "NirDiamant": {
+    "owner_login": "NirDiamant",
+    "owner_type": "User",
+    "owner_name": "NirDiamant",
+    "company_raw": "DiamantAI",
+    "company_canonical": "diamantai"
+  },
+  "NovaSearch-Team": {
+    "owner_login": "NovaSearch-Team",
+    "owner_type": "Organization",
+    "owner_name": "NovaSearch",
+    "company_raw": "NovaSearch",
+    "company_canonical": "novasearch"
+  },
+  "OAID": {
+    "owner_login": "OAID",
+    "owner_type": "Organization",
+    "owner_name": "OAID",
+    "company_raw": "OAID",
+    "company_canonical": "oaid"
+  },
+  "OFA-Sys": {
+    "owner_login": "OFA-Sys",
+    "owner_type": "Organization",
+    "owner_name": "OFA-Sys",
+    "company_raw": "OFA-Sys",
+    "company_canonical": "ofa sys"
+  },
+  "OML-Team": {
+    "owner_login": "OML-Team",
+    "owner_type": "Organization",
+    "owner_name": "OML-Team",
+    "company_raw": "OML-Team",
+    "company_canonical": "oml team"
+  },
+  "OmkarPathak": {
+    "owner_login": "OmkarPathak",
+    "owner_type": "User",
+    "owner_name": "Omkar Pathak",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "OpenStitching": {
+    "owner_login": "OpenStitching",
+    "owner_type": "Organization",
+    "owner_name": "OpenStitching",
+    "company_raw": "OpenStitching",
+    "company_canonical": "openstitching"
+  },
+  "PaddlePaddle": {
+    "owner_login": "PaddlePaddle",
+    "owner_type": "Organization",
+    "owner_name": "PaddlePaddle",
+    "company_raw": "PaddlePaddle",
+    "company_canonical": "paddlepaddle"
+  },
+  "PeterL1n": {
+    "owner_login": "PeterL1n",
+    "owner_type": "User",
+    "owner_name": "Peter Lin",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "PetrochukM": {
+    "owner_login": "PetrochukM",
+    "owner_type": "User",
+    "owner_name": "Mixail Petrochuk",
+    "company_raw": "@wellsaid-labs",
+    "company_canonical": "wellsaid labs"
+  },
+  "PrunaAI": {
+    "owner_login": "PrunaAI",
+    "owner_type": "Organization",
+    "owner_name": "Pruna AI",
+    "company_raw": "Pruna AI",
+    "company_canonical": "pruna ai"
+  },
+  "QData": {
+    "owner_login": "QData",
+    "owner_type": "Organization",
+    "owner_name": "QData",
+    "company_raw": "QData",
+    "company_canonical": "qdata"
+  },
+  "QingyongHu": {
+    "owner_login": "QingyongHu",
+    "owner_type": "User",
+    "owner_name": "Qingyong",
+    "company_raw": "University of Oxford",
+    "company_canonical": "university of oxford"
+  },
+  "RQLuo": {
+    "owner_login": "RQLuo",
+    "owner_type": "User",
+    "owner_name": "罗仁卿 Renqing Luo",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "RasaHQ": {
+    "owner_login": "RasaHQ",
+    "owner_type": "Organization",
+    "owner_name": "Rasa",
+    "company_raw": "Rasa",
+    "company_canonical": "rasa"
+  },
+  "Renumics": {
+    "owner_login": "Renumics",
+    "owner_type": "Organization",
+    "owner_name": "Renumics",
+    "company_raw": "Renumics",
+    "company_canonical": "renumics"
+  },
+  "Roshanson": {
+    "owner_login": "Roshanson",
+    "owner_type": "User",
+    "owner_name": "bkf",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "RubensZimbres": {
+    "owner_login": "RubensZimbres",
+    "owner_type": "User",
+    "owner_name": "Rubens Zimbres",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "SCIR-HI": {
+    "owner_login": "SCIR-HI",
+    "owner_type": "User",
+    "owner_name": "Health Intelligence Group of HIT-SCIR",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "SKTBrain": {
+    "owner_login": "SKTBrain",
+    "owner_type": "Organization",
+    "owner_name": "SK T-Brain",
+    "company_raw": "SK T-Brain",
+    "company_canonical": "sk t brain"
+  },
+  "STVIR": {
+    "owner_login": "STVIR",
+    "owner_type": "Organization",
+    "owner_name": "STVIR",
+    "company_raw": "STVIR",
+    "company_canonical": "stvir"
+  },
+  "ScanNet": {
+    "owner_login": "ScanNet",
+    "owner_type": "Organization",
+    "owner_name": "ScanNet",
+    "company_raw": "ScanNet",
+    "company_canonical": "scannet"
+  },
+  "SeanLee97": {
+    "owner_login": "SeanLee97",
+    "owner_type": "User",
+    "owner_name": "Sean",
+    "company_raw": "@mixedbread-ai",
+    "company_canonical": "mixedbread ai"
+  },
+  "Separius": {
+    "owner_login": "Separius",
+    "owner_type": "User",
+    "owner_name": "Sepehr Sameni",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "SerpentAI": {
+    "owner_login": "SerpentAI",
+    "owner_type": "Organization",
+    "owner_name": "Serpent.AI",
+    "company_raw": "Serpent.AI",
+    "company_canonical": "serpent.ai"
+  },
+  "SharpAI": {
+    "owner_login": "SharpAI",
+    "owner_type": "Organization",
+    "owner_name": "SharpAI Dev Team",
+    "company_raw": "SharpAI Dev Team",
+    "company_canonical": "sharpai dev team"
+  },
+  "Sharpiless": {
+    "owner_login": "Sharpiless",
+    "owner_type": "User",
+    "owner_name": "Sharpiless",
+    "company_raw": "Beijing Institute of Technology",
+    "company_canonical": "beijing institute of technology"
+  },
+  "ShawnyXiao": {
+    "owner_login": "ShawnyXiao",
+    "owner_type": "User",
+    "owner_name": "Xiaoyue Xiao",
+    "company_raw": "Tencent",
+    "company_canonical": "tencent"
+  },
+  "SkalskiP": {
+    "owner_login": "SkalskiP",
+    "owner_type": "User",
+    "owner_name": "Piotr Skalski",
+    "company_raw": "@roboflow",
+    "company_canonical": "roboflow"
+  },
+  "SqueezeAILab": {
+    "owner_login": "SqueezeAILab",
+    "owner_type": "Organization",
+    "owner_name": "SqueezeAILab",
+    "company_raw": "SqueezeAILab",
+    "company_canonical": "squeezeailab"
+  },
+  "StanfordVL": {
+    "owner_login": "StanfordVL",
+    "owner_type": "Organization",
+    "owner_name": "Stanford Vision and Learning Lab",
+    "company_raw": "Stanford Vision and Learning Lab",
+    "company_canonical": "stanford vision and learning lab"
+  },
+  "SylphAI-Inc": {
+    "owner_login": "SylphAI-Inc",
+    "owner_type": "Organization",
+    "owner_name": "SylphAI",
+    "company_raw": "SylphAI",
+    "company_canonical": "sylphai"
+  },
+  "TeamHG-Memex": {
+    "owner_login": "TeamHG-Memex",
+    "owner_type": "Organization",
+    "owner_name": "TeamHG",
+    "company_raw": "TeamHG",
+    "company_canonical": "teamhg"
+  },
+  "Tencent": {
+    "owner_login": "Tencent",
+    "owner_type": "Organization",
+    "owner_name": "Tencent",
+    "company_raw": "Tencent",
+    "company_canonical": "tencent"
+  },
+  "The-FinAI": {
+    "owner_login": "The-FinAI",
+    "owner_type": "Organization",
+    "owner_name": "The Fin AI",
+    "company_raw": "The Fin AI",
+    "company_canonical": "the fin ai"
+  },
+  "TheShadow29": {
+    "owner_login": "TheShadow29",
+    "owner_type": "User",
+    "owner_name": "Arka Sadhu",
+    "company_raw": "Meta",
+    "company_canonical": "meta"
+  },
+  "TigerResearch": {
+    "owner_login": "TigerResearch",
+    "owner_type": "Organization",
+    "owner_name": "TigerResearch",
+    "company_raw": "TigerResearch",
+    "company_canonical": "tigerresearch"
+  },
+  "TimoBolkart": {
+    "owner_login": "TimoBolkart",
+    "owner_type": "User",
+    "owner_name": "TimoBolkart",
+    "company_raw": "Max Planck Institute for Intelligent Systems",
+    "company_canonical": "max planck institute for intelligent systems"
+  },
+  "TingFree": {
+    "owner_login": "TingFree",
+    "owner_type": "User",
+    "owner_name": "Jay Ting",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "TingsongYu": {
+    "owner_login": "TingsongYu",
+    "owner_type": "User",
+    "owner_name": "TingsongYu",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "TinyLLaVA": {
+    "owner_login": "TinyLLaVA",
+    "owner_type": "User",
+    "owner_name": "TinyLLaVA",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "Tongjilibo": {
+    "owner_login": "Tongjilibo",
+    "owner_type": "User",
+    "owner_name": "Bo仔很忙",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "TorchSSL": {
+    "owner_login": "TorchSSL",
+    "owner_type": "Organization",
+    "owner_name": "TorchSSL",
+    "company_raw": "TorchSSL",
+    "company_canonical": "torchssl"
+  },
+  "Unbabel": {
+    "owner_login": "Unbabel",
+    "owner_type": "Organization",
+    "owner_name": "Unbabel",
+    "company_raw": "Unbabel",
+    "company_canonical": "unbabel"
+  },
+  "UniversalDataTool": {
+    "owner_login": "UniversalDataTool",
+    "owner_type": "Organization",
+    "owner_name": "Universal Data Tool",
+    "company_raw": "Universal Data Tool",
+    "company_canonical": "universal data tool"
+  },
+  "Unstructured-IO": {
+    "owner_login": "Unstructured-IO",
+    "owner_type": "Organization",
+    "owner_name": "Unstructured",
+    "company_raw": "Unstructured",
+    "company_canonical": "unstructured"
+  },
+  "VKCOM": {
+    "owner_login": "VKCOM",
+    "owner_type": "Organization",
+    "owner_name": "VK.com",
+    "company_raw": "VK.com",
+    "company_canonical": "vk.com"
+  },
+  "VladimirYugay": {
+    "owner_login": "VladimirYugay",
+    "owner_type": "User",
+    "owner_name": "Vladimir Yugay",
+    "company_raw": "University of Amsterdam",
+    "company_canonical": "university of amsterdam"
+  },
+  "WeThinkIn": {
+    "owner_login": "WeThinkIn",
+    "owner_type": "User",
+    "owner_name": "Rocky Ding",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "WooooDyy": {
+    "owner_login": "WooooDyy",
+    "owner_type": "User",
+    "owner_name": "Zhiheng Xi (SII)",
+    "company_raw": "Fudan University",
+    "company_canonical": "fudan university"
+  },
+  "Yangzhangcst": {
+    "owner_login": "Yangzhangcst",
+    "owner_type": "User",
+    "owner_name": "Yang Zhang",
+    "company_raw": "Hubei University of Technology",
+    "company_canonical": "hubei university of technology"
+  },
+  "YeYzheng": {
+    "owner_login": "YeYzheng",
+    "owner_type": "User",
+    "owner_name": "YYZ",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "YuliangXiu": {
+    "owner_login": "YuliangXiu",
+    "owner_type": "User",
+    "owner_name": "Yuliang Xiu",
+    "company_raw": "Westlake University",
+    "company_canonical": "westlake university"
+  },
+  "ZHZisZZ": {
+    "owner_login": "ZHZisZZ",
+    "owner_type": "User",
+    "owner_name": "Zhanhui Zhou",
+    "company_raw": "UC Berkeley",
+    "company_canonical": "uc berkeley"
+  },
+  "ZhaoJ9014": {
+    "owner_login": "ZhaoJ9014",
+    "owner_type": "User",
+    "owner_name": "Jian ZHAO (赵健)",
+    "company_raw": "TeleAI of China Telecom (中国电信人工智能研究院)",
+    "company_canonical": "teleai of china telecom"
+  },
+  "ZheC": {
+    "owner_login": "ZheC",
+    "owner_type": "User",
+    "owner_name": "Zhe Cao",
+    "company_raw": "UC Berkeley",
+    "company_canonical": "uc berkeley"
+  },
+  "ZhongqunZHANG": {
+    "owner_login": "ZhongqunZHANG",
+    "owner_type": "User",
+    "owner_name": "Zhongqun ZHANG",
+    "company_raw": "University of Birmingham",
+    "company_canonical": "university of birmingham"
+  },
+  "aangelopoulos": {
+    "owner_login": "aangelopoulos",
+    "owner_type": "User",
+    "owner_name": "Anastasios Angelopoulos",
+    "company_raw": "University of California, Berkeley",
+    "company_canonical": "university of california berkeley"
+  },
+  "abhimishra91": {
+    "owner_login": "abhimishra91",
+    "owner_type": "User",
+    "owner_name": "Abhishek Kumar Mishra",
+    "company_raw": "Collinson Group",
+    "company_canonical": "collinson group"
+  },
+  "accord-net": {
+    "owner_login": "accord-net",
+    "owner_type": "Organization",
+    "owner_name": "Accord.NET",
+    "company_raw": "Accord.NET",
+    "company_canonical": "accord.net"
+  },
+  "activeloopai": {
+    "owner_login": "activeloopai",
+    "owner_type": "Organization",
+    "owner_name": "Activeloop",
+    "company_raw": "Activeloop",
+    "company_canonical": "activeloop"
+  },
+  "adapter-hub": {
+    "owner_login": "adapter-hub",
+    "owner_type": "Organization",
+    "owner_name": "AdapterHub",
+    "company_raw": "AdapterHub",
+    "company_canonical": "adapterhub"
+  },
+  "adbar": {
+    "owner_login": "adbar",
+    "owner_type": "User",
+    "owner_name": "Adrien Barbaresi",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "adobe": {
+    "owner_login": "adobe",
+    "owner_type": "Organization",
+    "owner_name": "Adobe, Inc.",
+    "company_raw": "Adobe, Inc.",
+    "company_canonical": "adobe"
+  },
+  "adobe-research": {
+    "owner_login": "adobe-research",
+    "owner_type": "Organization",
+    "owner_name": "Adobe Research",
+    "company_raw": "Adobe Research",
+    "company_canonical": "adobe research"
+  },
+  "advimman": {
+    "owner_login": "advimman",
+    "owner_type": "Organization",
+    "owner_name": "Image Manipulation",
+    "company_raw": "Image Manipulation",
+    "company_canonical": "image manipulation"
+  },
+  "ahmetaa": {
+    "owner_login": "ahmetaa",
+    "owner_type": "User",
+    "owner_name": "Ahmet A. Akın",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "ahmetozlu": {
+    "owner_login": "ahmetozlu",
+    "owner_type": "User",
+    "owner_name": "Ozlu",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "ai-forever": {
+    "owner_login": "ai-forever",
+    "owner_type": "Organization",
+    "owner_name": "AI Forever",
+    "company_raw": "AI Forever",
+    "company_canonical": "ai forever"
+  },
+  "aiff22": {
+    "owner_login": "aiff22",
+    "owner_type": "User",
+    "owner_name": "Andrey",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "airaria": {
+    "owner_login": "airaria",
+    "owner_type": "User",
+    "owner_name": "Ziqing Yang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "aisingapore": {
+    "owner_login": "aisingapore",
+    "owner_type": "Organization",
+    "owner_name": "AI Singapore",
+    "company_raw": "AI Singapore",
+    "company_canonical": "ai singapore"
+  },
+  "aitorzip": {
+    "owner_login": "aitorzip",
+    "owner_type": "User",
+    "owner_name": "Aitor Ruano",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "ajbrock": {
+    "owner_login": "ajbrock",
+    "owner_type": "User",
+    "owner_name": "Andy Brock",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "alexsosn": {
+    "owner_login": "alexsosn",
+    "owner_type": "User",
+    "owner_name": "Oleksandr (Alex) Sosnovshchenko",
+    "company_raw": "Agilent Technologies",
+    "company_canonical": "agilent technologies"
+  },
+  "alibaba": {
+    "owner_login": "alibaba",
+    "owner_type": "Organization",
+    "owner_name": "Alibaba",
+    "company_raw": "Alibaba",
+    "company_canonical": "alibaba"
+  },
+  "alicevision": {
+    "owner_login": "alicevision",
+    "owner_type": "Organization",
+    "owner_name": "AliceVision",
+    "company_raw": "AliceVision",
+    "company_canonical": "alicevision"
+  },
+  "allenai": {
+    "owner_login": "allenai",
+    "owner_type": "Organization",
+    "owner_name": "Ai2",
+    "company_raw": "Ai2",
+    "company_canonical": "ai2"
+  },
+  "alvations": {
+    "owner_login": "alvations",
+    "owner_type": "User",
+    "owner_name": "alvations",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "amaiya": {
+    "owner_login": "amaiya",
+    "owner_type": "User",
+    "owner_name": "Arun S. Maiya",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "amanjeetsahu": {
+    "owner_login": "amanjeetsahu",
+    "owner_type": "User",
+    "owner_name": "Amanjeet Sahu",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "amdegroot": {
+    "owner_login": "amdegroot",
+    "owner_type": "User",
+    "owner_name": "Max deGroot",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "amitness": {
+    "owner_login": "amitness",
+    "owner_type": "User",
+    "owner_name": "Amit Chaudhary",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "amusi": {
+    "owner_login": "amusi",
+    "owner_type": "User",
+    "owner_name": "Amusi",
+    "company_raw": "CVer",
+    "company_canonical": "cver"
+  },
+  "andrewssobral": {
+    "owner_login": "andrewssobral",
+    "owner_type": "User",
+    "owner_name": "Andrews Cordolino Sobral",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "andyzeng": {
+    "owner_login": "andyzeng",
+    "owner_type": "User",
+    "owner_name": "Andy Zeng",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "aniketpotabatti": {
+    "owner_login": "aniketpotabatti",
+    "owner_type": "User",
+    "owner_name": "Aniket Potabatti",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "apache": {
+    "owner_login": "apache",
+    "owner_type": "Organization",
+    "owner_name": "The Apache Software Foundation",
+    "company_raw": "The Apache Software Foundation",
+    "company_canonical": "the apache software foundation"
+  },
+  "apachecn": {
+    "owner_login": "apachecn",
+    "owner_type": "Organization",
+    "owner_name": "ApacheCN",
+    "company_raw": "ApacheCN",
+    "company_canonical": "apachecn"
+  },
+  "apple": {
+    "owner_login": "apple",
+    "owner_type": "Organization",
+    "owner_name": "Apple",
+    "company_raw": "Apple",
+    "company_canonical": "apple"
+  },
+  "argilla-io": {
+    "owner_login": "argilla-io",
+    "owner_type": "Organization",
+    "owner_name": "Argilla",
+    "company_raw": "Argilla",
+    "company_canonical": "argilla"
+  },
+  "argosopentech": {
+    "owner_login": "argosopentech",
+    "owner_type": "User",
+    "owner_name": "Argos Open Tech",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "artivis": {
+    "owner_login": "artivis",
+    "owner_type": "User",
+    "owner_name": "Jeremie Deray",
+    "company_raw": "@canonical",
+    "company_canonical": "canonical"
+  },
+  "asappresearch": {
+    "owner_login": "asappresearch",
+    "owner_type": "Organization",
+    "owner_name": "ASAPP Research",
+    "company_raw": "ASAPP Research",
+    "company_canonical": "asapp research"
+  },
+  "astorfi": {
+    "owner_login": "astorfi",
+    "owner_type": "User",
+    "owner_name": "Sina Torfi",
+    "company_raw": "Meta",
+    "company_canonical": "meta"
+  },
+  "atulapra": {
+    "owner_login": "atulapra",
+    "owner_type": "User",
+    "owner_name": "Atul Balaji",
+    "company_raw": "IBM",
+    "company_canonical": "ibm"
+  },
+  "aurelio-labs": {
+    "owner_login": "aurelio-labs",
+    "owner_type": "Organization",
+    "owner_name": "Aurelio AI Labs",
+    "company_raw": "Aurelio AI Labs",
+    "company_canonical": "aurelio ai labs"
+  },
+  "autodistill": {
+    "owner_login": "autodistill",
+    "owner_type": "Organization",
+    "owner_name": "Autodistill",
+    "company_raw": "Autodistill",
+    "company_canonical": "autodistill"
+  },
+  "autogluon": {
+    "owner_login": "autogluon",
+    "owner_type": "Organization",
+    "owner_name": "autogluon",
+    "company_raw": "autogluon",
+    "company_canonical": "autogluon"
+  },
+  "autoliuweijie": {
+    "owner_login": "autoliuweijie",
+    "owner_type": "User",
+    "owner_name": "Weijie Liu",
+    "company_raw": "Peking University & Tencent Research",
+    "company_canonical": "peking university & tencent research"
+  },
+  "aws-samples": {
+    "owner_login": "aws-samples",
+    "owner_type": "Organization",
+    "owner_name": "AWS Samples",
+    "company_raw": "AWS Samples",
+    "company_canonical": "aws samples"
+  },
+  "axa-group": {
+    "owner_login": "axa-group",
+    "owner_type": "Organization",
+    "owner_name": "AXA",
+    "company_raw": "AXA",
+    "company_canonical": "axa"
+  },
+  "ayoolaolafenwa": {
+    "owner_login": "ayoolaolafenwa",
+    "owner_type": "User",
+    "owner_name": "ayoolaolafenwa",
+    "company_raw": "BrandMagic Inc",
+    "company_canonical": "brandmagic"
+  },
+  "azavea": {
+    "owner_login": "azavea",
+    "owner_type": "Organization",
+    "owner_name": "Azavea",
+    "company_raw": "Azavea",
+    "company_canonical": "azavea"
+  },
+  "babylonhealth": {
+    "owner_login": "babylonhealth",
+    "owner_type": "Organization",
+    "owner_name": "Babylon Health",
+    "company_raw": "Babylon Health",
+    "company_canonical": "babylon health"
+  },
+  "baegwangbin": {
+    "owner_login": "baegwangbin",
+    "owner_type": "User",
+    "owner_name": "Bae, Gwangbin",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "balavenkatesh3322": {
+    "owner_login": "balavenkatesh3322",
+    "owner_type": "User",
+    "owner_name": "Bala venkatesh",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "beir-cellar": {
+    "owner_login": "beir-cellar",
+    "owner_type": "Organization",
+    "owner_name": "BEIR Cellar",
+    "company_raw": "BEIR Cellar",
+    "company_canonical": "beir cellar"
+  },
+  "bendangnuksung": {
+    "owner_login": "bendangnuksung",
+    "owner_type": "User",
+    "owner_name": "Bendang",
+    "company_raw": "Hubs",
+    "company_canonical": "hubs"
+  },
+  "bentrevett": {
+    "owner_login": "bentrevett",
+    "owner_type": "User",
+    "owner_name": "Ben Trevett",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "bfelbo": {
+    "owner_login": "bfelbo",
+    "owner_type": "User",
+    "owner_name": "Bjarke Felbo",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "bgshih": {
+    "owner_login": "bgshih",
+    "owner_type": "User",
+    "owner_name": "Baoguang Shi",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "bharathgs": {
+    "owner_login": "bharathgs",
+    "owner_type": "User",
+    "owner_name": "bharath g s",
+    "company_raw": "@betterup",
+    "company_canonical": "betterup"
+  },
+  "bheinzerling": {
+    "owner_login": "bheinzerling",
+    "owner_type": "User",
+    "owner_name": "Benjamin Heinzerling",
+    "company_raw": "RIKEN AIP",
+    "company_canonical": "riken aip"
+  },
+  "bigscience-workshop": {
+    "owner_login": "bigscience-workshop",
+    "owner_type": "Organization",
+    "owner_name": "BigScience Workshop",
+    "company_raw": "BigScience Workshop",
+    "company_canonical": "bigscience workshop"
+  },
+  "bilibili": {
+    "owner_login": "bilibili",
+    "owner_type": "Organization",
+    "owner_name": "bilibili",
+    "company_raw": "bilibili",
+    "company_canonical": "bilibili"
+  },
+  "bin123apple": {
+    "owner_login": "bin123apple",
+    "owner_type": "User",
+    "owner_name": "Bin Lei",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "blmoistawinde": {
+    "owner_login": "blmoistawinde",
+    "owner_type": "User",
+    "owner_name": "Zhiling Zhang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "botpress": {
+    "owner_login": "botpress",
+    "owner_type": "Organization",
+    "owner_name": "Botpress",
+    "company_raw": "Botpress",
+    "company_canonical": "botpress"
+  },
+  "brightmart": {
+    "owner_login": "brightmart",
+    "owner_type": "User",
+    "owner_name": "brightmart",
+    "company_raw": "https://www.CLUEbenchmarks.com",
+    "company_canonical": "www.cluebenchmarks.com"
+  },
+  "bytedance": {
+    "owner_login": "bytedance",
+    "owner_type": "Organization",
+    "owner_name": "Bytedance Inc.",
+    "company_raw": "Bytedance Inc.",
+    "company_canonical": "bytedance"
+  },
+  "bytedeco": {
+    "owner_login": "bytedeco",
+    "owner_type": "Organization",
+    "owner_name": "Bytedeco",
+    "company_raw": "Bytedeco",
+    "company_canonical": "bytedeco"
+  },
+  "cambrian-mllm": {
+    "owner_login": "cambrian-mllm",
+    "owner_type": "Organization",
+    "owner_name": "cambrian-mllm",
+    "company_raw": "cambrian-mllm",
+    "company_canonical": "cambrian mllm"
+  },
+  "capitalone": {
+    "owner_login": "capitalone",
+    "owner_type": "Organization",
+    "owner_name": "Capital One",
+    "company_raw": "Capital One",
+    "company_canonical": "capital one"
+  },
+  "carla-simulator": {
+    "owner_login": "carla-simulator",
+    "owner_type": "Organization",
+    "owner_name": "CARLA",
+    "company_raw": "CARLA",
+    "company_canonical": "carla"
+  },
+  "carpedm20": {
+    "owner_login": "carpedm20",
+    "owner_type": "User",
+    "owner_name": "Taehoon",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "catalyst-team": {
+    "owner_login": "catalyst-team",
+    "owner_type": "Organization",
+    "owner_name": "Catalyst-Team",
+    "company_raw": "Catalyst-Team",
+    "company_canonical": "catalyst team"
+  },
+  "cbsudux": {
+    "owner_login": "cbsudux",
+    "owner_type": "User",
+    "owner_name": "cbsudux",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "cdpierse": {
+    "owner_login": "cdpierse",
+    "owner_type": "User",
+    "owner_name": "Charles",
+    "company_raw": "@weaviate",
+    "company_canonical": "weaviate"
+  },
+  "cedrickchee": {
+    "owner_login": "cedrickchee",
+    "owner_type": "User",
+    "owner_name": "Cedric Chee",
+    "company_raw": "InvictusByte",
+    "company_canonical": "invictusbyte"
+  },
+  "ceres-solver": {
+    "owner_login": "ceres-solver",
+    "owner_type": "Organization",
+    "owner_name": "ceres-solver",
+    "company_raw": "ceres-solver",
+    "company_canonical": "ceres solver"
+  },
+  "chainer": {
+    "owner_login": "chainer",
+    "owner_type": "Organization",
+    "owner_name": "Chainer",
+    "company_raw": "Chainer",
+    "company_canonical": "chainer"
+  },
+  "chandrikadeb7": {
+    "owner_login": "chandrikadeb7",
+    "owner_type": "User",
+    "owner_name": "Chandrika Deb",
+    "company_raw": "Amdocs",
+    "company_canonical": "amdocs"
+  },
+  "changh95": {
+    "owner_login": "changh95",
+    "owner_type": "User",
+    "owner_name": "Hyunggi Chang",
+    "company_raw": "Tenstorrent",
+    "company_canonical": "tenstorrent"
+  },
+  "chaoyanghe": {
+    "owner_login": "chaoyanghe",
+    "owner_type": "User",
+    "owner_name": "Chaoyang He",
+    "company_raw": "FedML, USC",
+    "company_canonical": "fedml usc"
+  },
+  "chartbeat-labs": {
+    "owner_login": "chartbeat-labs",
+    "owner_type": "Organization",
+    "owner_name": "Chartbeat Labs Projects",
+    "company_raw": "Chartbeat Labs Projects",
+    "company_canonical": "chartbeat labs projects"
+  },
+  "chatopera": {
+    "owner_login": "chatopera",
+    "owner_type": "Organization",
+    "owner_name": "Chatopera",
+    "company_raw": "Chatopera",
+    "company_canonical": "chatopera"
+  },
+  "chengtan9907": {
+    "owner_login": "chengtan9907",
+    "owner_type": "User",
+    "owner_name": "Cheng Tan",
+    "company_raw": "Shanghai Artificial Intelligence Laboratory",
+    "company_canonical": "shanghai artificial intelligence laboratory"
+  },
+  "chenyuntc": {
+    "owner_login": "chenyuntc",
+    "owner_type": "User",
+    "owner_name": "Yun Chen",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "chiphuyen": {
+    "owner_login": "chiphuyen",
+    "owner_type": "User",
+    "owner_name": "Chip Huyen",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "chizhu": {
+    "owner_login": "chizhu",
+    "owner_type": "User",
+    "owner_name": "Zhimin Lin",
+    "company_raw": "Alibaba",
+    "company_canonical": "alibaba"
+  },
+  "chonyy": {
+    "owner_login": "chonyy",
+    "owner_type": "User",
+    "owner_name": "Tony Chou",
+    "company_raw": "Software Engineer @AWS",
+    "company_canonical": "software engineer aws"
+  },
+  "chrieke": {
+    "owner_login": "chrieke",
+    "owner_type": "User",
+    "owner_name": "Christoph Rieke",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "chrismattmann": {
+    "owner_login": "chrismattmann",
+    "owner_type": "User",
+    "owner_name": "Chris Mattmann",
+    "company_raw": "Mattmann.AI",
+    "company_canonical": "mattmann.ai"
+  },
+  "cleanlab": {
+    "owner_login": "cleanlab",
+    "owner_type": "Organization",
+    "owner_name": "Cleanlab",
+    "company_raw": "Cleanlab",
+    "company_canonical": "cleanlab"
+  },
+  "cleardusk": {
+    "owner_login": "cleardusk",
+    "owner_type": "User",
+    "owner_name": "Jianzhu Guo",
+    "company_raw": "Previously, @KlingTeam, Kuaishou << PhD@CASIA",
+    "company_canonical": "previously klingteam kuaishou phd casia"
+  },
+  "clovaai": {
+    "owner_login": "clovaai",
+    "owner_type": "Organization",
+    "owner_name": "Clova AI Research",
+    "company_raw": "Clova AI Research",
+    "company_canonical": "clova ai research"
+  },
+  "cmhungsteve": {
+    "owner_login": "cmhungsteve",
+    "owner_type": "User",
+    "owner_name": "Min-Hung (Steve) Chen",
+    "company_raw": "@NVIDIA",
+    "company_canonical": "nvidia"
+  },
+  "code-kern-ai": {
+    "owner_login": "code-kern-ai",
+    "owner_type": "Organization",
+    "owner_name": "Kern AI",
+    "company_raw": "Kern AI",
+    "company_canonical": "kern ai"
+  },
+  "codefuse-ai": {
+    "owner_login": "codefuse-ai",
+    "owner_type": "Organization",
+    "owner_name": "codefuse-ai",
+    "company_raw": "codefuse-ai",
+    "company_canonical": "codefuse ai"
+  },
+  "codertimo": {
+    "owner_login": "codertimo",
+    "owner_type": "User",
+    "owner_name": "Junseong Kim",
+    "company_raw": "@bittersweet-team",
+    "company_canonical": "bittersweet team"
+  },
+  "colmap": {
+    "owner_login": "colmap",
+    "owner_type": "Organization",
+    "owner_name": "colmap",
+    "company_raw": "colmap",
+    "company_canonical": "colmap"
+  },
+  "crownpku": {
+    "owner_login": "crownpku",
+    "owner_type": "User",
+    "owner_name": "Guan Wang",
+    "company_raw": "Manulife",
+    "company_canonical": "manulife"
+  },
+  "cs230-stanford": {
+    "owner_login": "cs230-stanford",
+    "owner_type": "Organization",
+    "owner_name": "CS230 Deep Learning",
+    "company_raw": "CS230 Deep Learning",
+    "company_canonical": "cs230 deep learning"
+  },
+  "cvat-ai": {
+    "owner_login": "cvat-ai",
+    "owner_type": "Organization",
+    "owner_name": "cvat.ai",
+    "company_raw": "cvat.ai",
+    "company_canonical": "cvat.ai"
+  },
+  "cvg": {
+    "owner_login": "cvg",
+    "owner_type": "Organization",
+    "owner_name": "Computer Vision and Geometry Lab",
+    "company_raw": "Computer Vision and Geometry Lab",
+    "company_canonical": "computer vision and geometry lab"
+  },
+  "cyberbotics": {
+    "owner_login": "cyberbotics",
+    "owner_type": "Organization",
+    "owner_name": "Cyberbotics Ltd.",
+    "company_raw": "Cyberbotics Ltd.",
+    "company_canonical": "cyberbotics"
+  },
+  "d2l-ai": {
+    "owner_login": "d2l-ai",
+    "owner_type": "Organization",
+    "owner_name": "Dive into Deep Learning (D2L.ai)",
+    "company_raw": "Dive into Deep Learning (D2L.ai)",
+    "company_canonical": "dive into deep learning d2l.ai"
+  },
+  "dailenson": {
+    "owner_login": "dailenson",
+    "owner_type": "User",
+    "owner_name": "Gang Dai",
+    "company_raw": "Guangdong University of Technology",
+    "company_canonical": "guangdong university of technology"
+  },
+  "dair-ai": {
+    "owner_login": "dair-ai",
+    "owner_type": "Organization",
+    "owner_name": "DAIR.AI",
+    "company_raw": "DAIR.AI",
+    "company_canonical": "dair.ai"
+  },
+  "dalinvip": {
+    "owner_login": "dalinvip",
+    "owner_type": "User",
+    "owner_name": "大林",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "datadreamer-dev": {
+    "owner_login": "datadreamer-dev",
+    "owner_type": "Organization",
+    "owner_name": "DataDreamer",
+    "company_raw": "DataDreamer",
+    "company_canonical": "datadreamer"
+  },
+  "datamade": {
+    "owner_login": "datamade",
+    "owner_type": "Organization",
+    "owner_name": "datamade",
+    "company_raw": "datamade",
+    "company_canonical": "datamade"
+  },
+  "datawhalechina": {
+    "owner_login": "datawhalechina",
+    "owner_type": "Organization",
+    "owner_name": "Datawhale",
+    "company_raw": "Datawhale",
+    "company_canonical": "datawhale"
+  },
+  "datumbox": {
+    "owner_login": "datumbox",
+    "owner_type": "User",
+    "owner_name": "Vasilis Vryniotis",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "davidsandberg": {
+    "owner_login": "davidsandberg",
+    "owner_type": "User",
+    "owner_name": "David Sandberg",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "davisking": {
+    "owner_login": "davisking",
+    "owner_type": "User",
+    "owner_name": "Davis E. King",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "dbpedia-spotlight": {
+    "owner_login": "dbpedia-spotlight",
+    "owner_type": "Organization",
+    "owner_name": "DBpedia Spotlight",
+    "company_raw": "DBpedia Spotlight",
+    "company_canonical": "dbpedia spotlight"
+  },
+  "deepdoctection": {
+    "owner_login": "deepdoctection",
+    "owner_type": "Organization",
+    "owner_name": "deepdoctection",
+    "company_raw": "deepdoctection",
+    "company_canonical": "deepdoctection"
+  },
+  "deeppavlov": {
+    "owner_login": "deeppavlov",
+    "owner_type": "Organization",
+    "owner_name": "DeepPavlov Team",
+    "company_raw": "DeepPavlov Team",
+    "company_canonical": "deeppavlov team"
+  },
+  "deepset-ai": {
+    "owner_login": "deepset-ai",
+    "owner_type": "Organization",
+    "owner_name": "deepset",
+    "company_raw": "deepset",
+    "company_canonical": "deepset"
+  },
+  "delip": {
+    "owner_login": "delip",
+    "owner_type": "User",
+    "owner_name": "Delip Rao",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "demidovakatya": {
+    "owner_login": "demidovakatya",
+    "owner_type": "User",
+    "owner_name": "Katya Demidova",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "didi": {
+    "owner_login": "didi",
+    "owner_type": "Organization",
+    "owner_name": "DiDi",
+    "company_raw": "DiDi",
+    "company_canonical": "didi"
+  },
+  "digantamisra98": {
+    "owner_login": "digantamisra98",
+    "owner_type": "User",
+    "owner_name": "Xa9aX ツ",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "dmMaze": {
+    "owner_login": "dmMaze",
+    "owner_type": "User",
+    "owner_name": "dmMaze",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "dmlc": {
+    "owner_login": "dmlc",
+    "owner_type": "Organization",
+    "owner_name": "Distributed (Deep) Machine Learning Community",
+    "company_raw": "Distributed (Deep) Machine Learning Community",
+    "company_canonical": "distributed deep machine learning community"
+  },
+  "dog-qiuqiu": {
+    "owner_login": "dog-qiuqiu",
+    "owner_type": "User",
+    "owner_name": "duoduo.cat",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "dongrixinyu": {
+    "owner_login": "dongrixinyu",
+    "owner_type": "User",
+    "owner_name": "dongrixinyu",
+    "company_raw": "Beihang University",
+    "company_canonical": "beihang university"
+  },
+  "dragen1860": {
+    "owner_login": "dragen1860",
+    "owner_type": "User",
+    "owner_name": "Jackie Loong",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "dsdanielpark": {
+    "owner_login": "dsdanielpark",
+    "owner_type": "User",
+    "owner_name": "MinWoo(Daniel) Park",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "dsgiitr": {
+    "owner_login": "dsgiitr",
+    "owner_type": "Organization",
+    "owner_name": "Data Science Group, IIT Roorkee",
+    "company_raw": "Data Science Group, IIT Roorkee",
+    "company_canonical": "data science group iit roorkee"
+  },
+  "duoergun0729": {
+    "owner_login": "duoergun0729",
+    "owner_type": "User",
+    "owner_name": "duoergun0729",
+    "company_raw": "baidu.com",
+    "company_canonical": "baidu.com"
+  },
+  "dusty-nv": {
+    "owner_login": "dusty-nv",
+    "owner_type": "User",
+    "owner_name": "Dustin Franklin",
+    "company_raw": "NVIDIA",
+    "company_canonical": "nvidia"
+  },
+  "endymecy": {
+    "owner_login": "endymecy",
+    "owner_type": "User",
+    "owner_name": "koala",
+    "company_raw": "@tencent",
+    "company_canonical": "tencent"
+  },
+  "enoch3712": {
+    "owner_login": "enoch3712",
+    "owner_type": "User",
+    "owner_name": "Julio",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "eon01": {
+    "owner_login": "eon01",
+    "owner_type": "User",
+    "owner_name": "Aymen El Amri",
+    "company_raw": "FAUN.dev()",
+    "company_canonical": "faun.dev"
+  },
+  "eosphoros-ai": {
+    "owner_login": "eosphoros-ai",
+    "owner_type": "Organization",
+    "owner_name": "eosphoros",
+    "company_raw": "eosphoros",
+    "company_canonical": "eosphoros"
+  },
+  "esimov": {
+    "owner_login": "esimov",
+    "owner_type": "User",
+    "owner_name": "Endre Simo",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "eugeneyan": {
+    "owner_login": "eugeneyan",
+    "owner_type": "User",
+    "owner_name": "Eugene Yan",
+    "company_raw": "@anthropics",
+    "company_canonical": "anthropics"
+  },
+  "exadel-inc": {
+    "owner_login": "exadel-inc",
+    "owner_type": "Organization",
+    "owner_name": "Exadel",
+    "company_raw": "Exadel",
+    "company_canonical": "exadel"
+  },
+  "explosion": {
+    "owner_login": "explosion",
+    "owner_type": "Organization",
+    "owner_name": "Explosion",
+    "company_raw": "Explosion",
+    "company_canonical": "explosion"
+  },
+  "extreme-assistant": {
+    "owner_login": "extreme-assistant",
+    "owner_type": "User",
+    "owner_name": "CVMart",
+    "company_raw": "Extreme Vision Limited",
+    "company_canonical": "extreme vision limited"
+  },
+  "facebookresearch": {
+    "owner_login": "facebookresearch",
+    "owner_type": "Organization",
+    "owner_name": "Meta Research",
+    "company_raw": "Meta Research",
+    "company_canonical": "meta research"
+  },
+  "fhamborg": {
+    "owner_login": "fhamborg",
+    "owner_type": "User",
+    "owner_name": "Felix Hamborg",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "flairNLP": {
+    "owner_login": "flairNLP",
+    "owner_type": "Organization",
+    "owner_name": "flair",
+    "company_raw": "flair",
+    "company_canonical": "flair"
+  },
+  "foamliu": {
+    "owner_login": "foamliu",
+    "owner_type": "User",
+    "owner_name": "Yang Liu",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "foochane": {
+    "owner_login": "foochane",
+    "owner_type": "User",
+    "owner_name": "foochane",
+    "company_raw": "UESTC",
+    "company_canonical": "uestc"
+  },
+  "foolwood": {
+    "owner_login": "foolwood",
+    "owner_type": "User",
+    "owner_name": "Qiang Wang",
+    "company_raw": "Apple",
+    "company_canonical": "apple"
+  },
+  "fukuball": {
+    "owner_login": "fukuball",
+    "owner_type": "User",
+    "owner_name": "Fukuball Lin",
+    "company_raw": "iNDIEVOX Inc.",
+    "company_canonical": "indievox"
+  },
+  "fundamentalvision": {
+    "owner_login": "fundamentalvision",
+    "owner_type": "Organization",
+    "owner_name": "fundamentalvision",
+    "company_raw": "fundamentalvision",
+    "company_canonical": "fundamentalvision"
+  },
+  "gabriben": {
+    "owner_login": "gabriben",
+    "owner_type": "User",
+    "owner_name": "Gabriel Benedict",
+    "company_raw": "@amzn",
+    "company_canonical": "amzn"
+  },
+  "georgian-io": {
+    "owner_login": "georgian-io",
+    "owner_type": "Organization",
+    "owner_name": "Georgian",
+    "company_raw": "Georgian",
+    "company_canonical": "georgian"
+  },
+  "ggeop": {
+    "owner_login": "ggeop",
+    "owner_type": "User",
+    "owner_name": "Georgios Papachristou",
+    "company_raw": "Metis",
+    "company_canonical": "metis"
+  },
+  "gigwegbe": {
+    "owner_login": "gigwegbe",
+    "owner_type": "User",
+    "owner_name": "George Igwegbe",
+    "company_raw": "CMU",
+    "company_canonical": "cmu"
+  },
+  "girafe-ai": {
+    "owner_login": "girafe-ai",
+    "owner_type": "Organization",
+    "owner_name": "girafe.ai",
+    "company_raw": "girafe.ai",
+    "company_canonical": "girafe.ai"
+  },
+  "github": {
+    "owner_login": "github",
+    "owner_type": "Organization",
+    "owner_name": "GitHub",
+    "company_raw": "GitHub",
+    "company_canonical": "github"
+  },
+  "gjy3035": {
+    "owner_login": "gjy3035",
+    "owner_type": "User",
+    "owner_name": "Junyu Gao",
+    "company_raw": "NWPU",
+    "company_canonical": "nwpu"
+  },
+  "gnes-ai": {
+    "owner_login": "gnes-ai",
+    "owner_type": "Organization",
+    "owner_name": "GNES.ai",
+    "company_raw": "GNES.ai",
+    "company_canonical": "gnes.ai"
+  },
+  "go-ego": {
+    "owner_login": "go-ego",
+    "owner_type": "Organization",
+    "owner_name": "ego",
+    "company_raw": "ego",
+    "company_canonical": "ego"
+  },
+  "google": {
+    "owner_login": "google",
+    "owner_type": "Organization",
+    "owner_name": "Google",
+    "company_raw": "Google",
+    "company_canonical": "google"
+  },
+  "google-ai-edge": {
+    "owner_login": "google-ai-edge",
+    "owner_type": "Organization",
+    "owner_name": "google-ai-edge",
+    "company_raw": "google-ai-edge",
+    "company_canonical": "google ai edge"
+  },
+  "google-deepmind": {
+    "owner_login": "google-deepmind",
+    "owner_type": "Organization",
+    "owner_name": "Google DeepMind",
+    "company_raw": "Google DeepMind",
+    "company_canonical": "google deepmind"
+  },
+  "google-research": {
+    "owner_login": "google-research",
+    "owner_type": "Organization",
+    "owner_name": "Google Research",
+    "company_raw": "Google Research",
+    "company_canonical": "google research"
+  },
+  "google-research-datasets": {
+    "owner_login": "google-research-datasets",
+    "owner_type": "Organization",
+    "owner_name": "Google Research Datasets",
+    "company_raw": "Google Research Datasets",
+    "company_canonical": "google research datasets"
+  },
+  "grammarly": {
+    "owner_login": "grammarly",
+    "owner_type": "Organization",
+    "owner_name": "Grammarly",
+    "company_raw": "Grammarly",
+    "company_canonical": "grammarly"
+  },
+  "graph4ai": {
+    "owner_login": "graph4ai",
+    "owner_type": "Organization",
+    "owner_name": "Graph4AI",
+    "company_raw": "Graph4AI",
+    "company_canonical": "graph4ai"
+  },
+  "graphdeco-inria": {
+    "owner_login": "graphdeco-inria",
+    "owner_type": "Organization",
+    "owner_name": "GraphDeco - INRIA",
+    "company_raw": "GraphDeco - INRIA",
+    "company_canonical": "graphdeco inria"
+  },
+  "graykode": {
+    "owner_login": "graykode",
+    "owner_type": "User",
+    "owner_name": "Tae Hwan Jung",
+    "company_raw": "@clober-dex",
+    "company_canonical": "clober dex"
+  },
+  "greyblake": {
+    "owner_login": "greyblake",
+    "owner_type": "User",
+    "owner_name": "Serhii Potapov",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "guillaume-be": {
+    "owner_login": "guillaume-be",
+    "owner_type": "User",
+    "owner_name": "guillaume-be",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "gunthercox": {
+    "owner_login": "gunthercox",
+    "owner_type": "User",
+    "owner_name": "Gunther Cox",
+    "company_raw": "@Jellyfish-AI",
+    "company_canonical": "jellyfish ai"
+  },
+  "haifengl": {
+    "owner_login": "haifengl",
+    "owner_type": "User",
+    "owner_name": "Haifeng Li",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "haitongli": {
+    "owner_login": "haitongli",
+    "owner_type": "User",
+    "owner_name": "Haitong Li",
+    "company_raw": "Purdue University",
+    "company_canonical": "purdue university"
+  },
+  "haltakov": {
+    "owner_login": "haltakov",
+    "owner_type": "User",
+    "owner_name": "Vladimir Haltakov",
+    "company_raw": "Creafex Lab",
+    "company_canonical": "creafex lab"
+  },
+  "hankcs": {
+    "owner_login": "hankcs",
+    "owner_type": "User",
+    "owner_name": "hankcs",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "haosulab": {
+    "owner_login": "haosulab",
+    "owner_type": "Organization",
+    "owner_name": "Hao Su's Lab, UCSD",
+    "company_raw": "Hao Su's Lab, UCSD",
+    "company_canonical": "hao su s lab ucsd"
+  },
+  "hellodigua": {
+    "owner_login": "hellodigua",
+    "owner_type": "User",
+    "owner_name": "digua",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "hiyouga": {
+    "owner_login": "hiyouga",
+    "owner_type": "User",
+    "owner_name": "Yaowei Zheng",
+    "company_raw": "Millennium Science School",
+    "company_canonical": "millennium science school"
+  },
+  "hkchengrex": {
+    "owner_login": "hkchengrex",
+    "owner_type": "User",
+    "owner_name": "Rex Cheng",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "houbb": {
+    "owner_login": "houbb",
+    "owner_type": "User",
+    "owner_name": "老马啸西风",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "huggingface": {
+    "owner_login": "huggingface",
+    "owner_type": "Organization",
+    "owner_name": "Hugging Face",
+    "company_raw": "Hugging Face",
+    "company_canonical": "hugging face"
+  },
+  "hukenovs": {
+    "owner_login": "hukenovs",
+    "owner_type": "User",
+    "owner_name": "Alexander Kapitanov",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "huoyijie": {
+    "owner_login": "huoyijie",
+    "owner_type": "User",
+    "owner_name": "huoyijie",
+    "company_raw": "Loading...",
+    "company_canonical": "loading..."
+  },
+  "hustvl": {
+    "owner_login": "hustvl",
+    "owner_type": "Organization",
+    "owner_name": "HUST Vision Lab",
+    "company_raw": "HUST Vision Lab",
+    "company_canonical": "hust vision lab"
+  },
+  "hybridgroup": {
+    "owner_login": "hybridgroup",
+    "owner_type": "Organization",
+    "owner_name": "The Hybrid Group",
+    "company_raw": "The Hybrid Group",
+    "company_canonical": "the hybrid group"
+  },
+  "hyperonym": {
+    "owner_login": "hyperonym",
+    "owner_type": "Organization",
+    "owner_name": "Hyperonym",
+    "company_raw": "Hyperonym",
+    "company_canonical": "hyperonym"
+  },
+  "hysts": {
+    "owner_login": "hysts",
+    "owner_type": "User",
+    "owner_name": "hysts",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "hzwer": {
+    "owner_login": "hzwer",
+    "owner_type": "User",
+    "owner_name": "hzwer",
+    "company_raw": "@stepfun-ai",
+    "company_canonical": "stepfun ai"
+  },
+  "idealo": {
+    "owner_login": "idealo",
+    "owner_type": "Organization",
+    "owner_name": "idealo",
+    "company_raw": "idealo",
+    "company_canonical": "idealo"
+  },
+  "ieee8023": {
+    "owner_login": "ieee8023",
+    "owner_type": "User",
+    "owner_name": "Joseph Paul Cohen PhD",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "imagej": {
+    "owner_login": "imagej",
+    "owner_type": "Organization",
+    "owner_name": "ImageJ",
+    "company_raw": "ImageJ",
+    "company_canonical": "imagej"
+  },
+  "imcaspar": {
+    "owner_login": "imcaspar",
+    "owner_type": "User",
+    "owner_name": "Caspar Z",
+    "company_raw": "Alibaba Group",
+    "company_canonical": "alibaba group"
+  },
+  "innovation-cat": {
+    "owner_login": "innovation-cat",
+    "owner_type": "User",
+    "owner_name": "Anbu Huang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "invictus717": {
+    "owner_login": "invictus717",
+    "owner_type": "User",
+    "owner_name": "Yiyuan Zhang",
+    "company_raw": "The Chinese University of HongKong",
+    "company_canonical": "the chinese university of hongkong"
+  },
+  "ivan-bilan": {
+    "owner_login": "ivan-bilan",
+    "owner_type": "User",
+    "owner_name": "Ivan Bilan",
+    "company_raw": "Personio",
+    "company_canonical": "personio"
+  },
+  "iwangjian": {
+    "owner_login": "iwangjian",
+    "owner_type": "User",
+    "owner_name": "Jian Wang",
+    "company_raw": "The Hong Kong Polytechnic University",
+    "company_canonical": "the hong kong polytechnic university"
+  },
+  "jackaduma": {
+    "owner_login": "jackaduma",
+    "owner_type": "User",
+    "owner_name": "MK",
+    "company_raw": "Chocolate Factory",
+    "company_canonical": "chocolate factory"
+  },
+  "jacobgil": {
+    "owner_login": "jacobgil",
+    "owner_type": "User",
+    "owner_name": "Jacob Gildenblat",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "jadore801120": {
+    "owner_login": "jadore801120",
+    "owner_type": "User",
+    "owner_name": "Yu-Hsiang Huang",
+    "company_raw": "NetBase Quid",
+    "company_canonical": "netbase quid"
+  },
+  "jalammar": {
+    "owner_login": "jalammar",
+    "owner_type": "User",
+    "owner_name": "Jay Alammar",
+    "company_raw": "@cohere-ai",
+    "company_canonical": "cohere ai"
+  },
+  "jason718": {
+    "owner_login": "jason718",
+    "owner_type": "User",
+    "owner_name": "Jason Ren",
+    "company_raw": "Ai2/UW",
+    "company_canonical": "ai2 uw"
+  },
+  "jasonwei20": {
+    "owner_login": "jasonwei20",
+    "owner_type": "User",
+    "owner_name": "Jason Wei",
+    "company_raw": "@BMIRDS",
+    "company_canonical": "bmirds"
+  },
+  "jaymody": {
+    "owner_login": "jaymody",
+    "owner_type": "User",
+    "owner_name": "Jay Mody",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "jbesomi": {
+    "owner_login": "jbesomi",
+    "owner_type": "User",
+    "owner_name": "Jonathan Besomi",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "jdkato": {
+    "owner_login": "jdkato",
+    "owner_type": "User",
+    "owner_name": "Joseph Kato",
+    "company_raw": "@vale-cli",
+    "company_canonical": "vale cli"
+  },
+  "jeeliz": {
+    "owner_login": "jeeliz",
+    "owner_type": "Organization",
+    "owner_name": "Jeeliz",
+    "company_raw": "Jeeliz",
+    "company_canonical": "jeeliz"
+  },
+  "jerryji1993": {
+    "owner_login": "jerryji1993",
+    "owner_type": "User",
+    "owner_name": "Yanrong Ji",
+    "company_raw": "Northwestern University Feinberg School of Medicine",
+    "company_canonical": "northwestern university feinberg school of medicine"
+  },
+  "jessevig": {
+    "owner_login": "jessevig",
+    "owner_type": "User",
+    "owner_name": "Jesse Vig",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "jfilter": {
+    "owner_login": "jfilter",
+    "owner_type": "User",
+    "owner_name": "Johannes Filter",
+    "company_raw": "Johannes Filter",
+    "company_canonical": "johannes filter"
+  },
+  "jiachenli94": {
+    "owner_login": "jiachenli94",
+    "owner_type": "User",
+    "owner_name": "Jiachen Li",
+    "company_raw": "University of California, Riverside",
+    "company_canonical": "university of california riverside"
+  },
+  "jianzongwu": {
+    "owner_login": "jianzongwu",
+    "owner_type": "User",
+    "owner_name": "Jianzong Wu",
+    "company_raw": "Peking University",
+    "company_canonical": "peking university"
+  },
+  "jingyi0000": {
+    "owner_login": "jingyi0000",
+    "owner_type": "User",
+    "owner_name": "jingyi0000",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "jncraton": {
+    "owner_login": "jncraton",
+    "owner_type": "User",
+    "owner_name": "Jon Craton",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "joeddav": {
+    "owner_login": "joeddav",
+    "owner_type": "User",
+    "owner_name": "Joe Davison",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "jsksxs360": {
+    "owner_login": "jsksxs360",
+    "owner_type": "User",
+    "owner_name": "Sheng Xu",
+    "company_raw": "Soochow University",
+    "company_canonical": "soochow university"
+  },
+  "juand-r": {
+    "owner_login": "juand-r",
+    "owner_type": "User",
+    "owner_name": "Juan Diego Rodriguez",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "junruxiong": {
+    "owner_login": "junruxiong",
+    "owner_type": "User",
+    "owner_name": "Junru",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "junshutang": {
+    "owner_login": "junshutang",
+    "owner_type": "User",
+    "owner_name": "Junshu Tang",
+    "company_raw": "Tencent, Hunyuan",
+    "company_canonical": "tencent hunyuan"
+  },
+  "junyanz": {
+    "owner_login": "junyanz",
+    "owner_type": "User",
+    "owner_name": "Jun-Yan Zhu",
+    "company_raw": "Carnegie Mellon University:",
+    "company_canonical": "carnegie mellon university"
+  },
+  "kakaobrain": {
+    "owner_login": "kakaobrain",
+    "owner_type": "Organization",
+    "owner_name": "kakaobrain",
+    "company_raw": "kakaobrain",
+    "company_canonical": "kakaobrain"
+  },
+  "kengz": {
+    "owner_login": "kengz",
+    "owner_type": "User",
+    "owner_name": "Keng",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "kennethleungty": {
+    "owner_login": "kennethleungty",
+    "owner_type": "User",
+    "owner_name": "Kenneth Leung",
+    "company_raw": "Boston Consulting Group (BCG)",
+    "company_canonical": "boston consulting group bcg"
+  },
+  "kenshohara": {
+    "owner_login": "kenshohara",
+    "owner_type": "User",
+    "owner_name": "Kensho Hara",
+    "company_raw": "National Institute of Advanced Industrial Science and Technology",
+    "company_canonical": "national institute of advanced industrial science and technology"
+  },
+  "keon": {
+    "owner_login": "keon",
+    "owner_type": "User",
+    "owner_name": "Keon",
+    "company_raw": "Om Labs",
+    "company_canonical": "om labs"
+  },
+  "keras-team": {
+    "owner_login": "keras-team",
+    "owner_type": "Organization",
+    "owner_name": "Keras",
+    "company_raw": "Keras",
+    "company_canonical": "keras"
+  },
+  "kevmo314": {
+    "owner_login": "kevmo314",
+    "owner_type": "User",
+    "owner_name": "Kevin Wang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "kha-white": {
+    "owner_login": "kha-white",
+    "owner_type": "User",
+    "owner_name": "Maciej Budyś",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "kingyiusuen": {
+    "owner_login": "kingyiusuen",
+    "owner_type": "User",
+    "owner_name": "King Yiu Suen",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "km1994": {
+    "owner_login": "km1994",
+    "owner_type": "User",
+    "owner_name": "杨夕",
+    "company_raw": "某某螺丝钉加工厂",
+    "company_canonical": ""
+  },
+  "kmario23": {
+    "owner_login": "kmario23",
+    "owner_type": "User",
+    "owner_name": "Mario",
+    "company_raw": "Universität Stuttgart",
+    "company_canonical": "universit t stuttgart"
+  },
+  "konlpy": {
+    "owner_login": "konlpy",
+    "owner_type": "Organization",
+    "owner_name": "KoNLPy",
+    "company_raw": "KoNLPy",
+    "company_canonical": "konlpy"
+  },
+  "kornia": {
+    "owner_login": "kornia",
+    "owner_type": "Organization",
+    "owner_name": "kornia",
+    "company_raw": "kornia",
+    "company_canonical": "kornia"
+  },
+  "koth": {
+    "owner_login": "koth",
+    "owner_type": "User",
+    "owner_name": "koth",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "kylemcdonald": {
+    "owner_login": "kylemcdonald",
+    "owner_type": "User",
+    "owner_name": "Kyle McDonald",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "lagadic": {
+    "owner_login": "lagadic",
+    "owner_type": "Organization",
+    "owner_name": "lagadic",
+    "company_raw": "lagadic",
+    "company_canonical": "lagadic"
+  },
+  "lance-format": {
+    "owner_login": "lance-format",
+    "owner_type": "Organization",
+    "owner_name": "Lance Format",
+    "company_raw": "Lance Format",
+    "company_canonical": "lance format"
+  },
+  "lanxiuyun": {
+    "owner_login": "lanxiuyun",
+    "owner_type": "User",
+    "owner_name": "lanxiuyun",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "laugh12321": {
+    "owner_login": "laugh12321",
+    "owner_type": "User",
+    "owner_name": "Laugh",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "lessthanoptimal": {
+    "owner_login": "lessthanoptimal",
+    "owner_type": "User",
+    "owner_name": "Peter Abeles",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "lgsvl": {
+    "owner_login": "lgsvl",
+    "owner_type": "Organization",
+    "owner_name": "LG Silicon Valley Lab",
+    "company_raw": "LG Silicon Valley Lab",
+    "company_canonical": "lg silicon valley lab"
+  },
+  "li-plus": {
+    "owner_login": "li-plus",
+    "owner_type": "User",
+    "owner_name": "Jiahao Li",
+    "company_raw": "@bytedance",
+    "company_canonical": "bytedance"
+  },
+  "lightaime": {
+    "owner_login": "lightaime",
+    "owner_type": "User",
+    "owner_name": "Guohao Li",
+    "company_raw": "CAMEL-AI.org",
+    "company_canonical": "camel ai.org"
+  },
+  "lightly-ai": {
+    "owner_login": "lightly-ai",
+    "owner_type": "Organization",
+    "owner_name": "Lightly",
+    "company_raw": "Lightly",
+    "company_canonical": "lightly"
+  },
+  "lihanghang": {
+    "owner_login": "lihanghang",
+    "owner_type": "User",
+    "owner_name": "HangHang Li",
+    "company_raw": "Memect",
+    "company_canonical": "memect"
+  },
+  "linkedin": {
+    "owner_login": "linkedin",
+    "owner_type": "Organization",
+    "owner_name": "LinkedIn",
+    "company_raw": "LinkedIn",
+    "company_canonical": "linkedin"
+  },
+  "lionsoul2014": {
+    "owner_login": "lionsoul2014",
+    "owner_type": "User",
+    "owner_name": "Leon / 狮子的魂",
+    "company_raw": "深圳原语科技",
+    "company_canonical": ""
+  },
+  "liucongg": {
+    "owner_login": "liucongg",
+    "owner_type": "User",
+    "owner_name": "logCong",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "lixiang0": {
+    "owner_login": "lixiang0",
+    "owner_type": "User",
+    "owner_name": "Ruben",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "localminimum": {
+    "owner_login": "localminimum",
+    "owner_type": "User",
+    "owner_name": "Min",
+    "company_raw": "Radiant AI",
+    "company_canonical": "radiant ai"
+  },
+  "lonePatient": {
+    "owner_login": "lonePatient",
+    "owner_type": "User",
+    "owner_name": "Weitang Liu",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "longcw": {
+    "owner_login": "longcw",
+    "owner_type": "User",
+    "owner_name": "Long Chen",
+    "company_raw": "@livekit",
+    "company_canonical": "livekit"
+  },
+  "louisfb01": {
+    "owner_login": "louisfb01",
+    "owner_type": "User",
+    "owner_name": "Louis-François Bouchard",
+    "company_raw": "Mila/Polytechnique Montréal & @towardsai",
+    "company_canonical": "mila polytechnique montr al & towardsai"
+  },
+  "lpiccinelli-eth": {
+    "owner_login": "lpiccinelli-eth",
+    "owner_type": "User",
+    "owner_name": "Luigi Piccinelli",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "luban-agi": {
+    "owner_login": "luban-agi",
+    "owner_type": "Organization",
+    "owner_name": "luban-agi",
+    "company_raw": "luban-agi",
+    "company_canonical": "luban agi"
+  },
+  "lucasb-eyer": {
+    "owner_login": "lucasb-eyer",
+    "owner_type": "User",
+    "owner_name": "Lucas Beyer",
+    "company_raw": "MSL Zürich (Ex: @openai @google Brain/DeepMind)",
+    "company_canonical": "msl z rich ex openai google brain deepmind"
+  },
+  "lucidrains": {
+    "owner_login": "lucidrains",
+    "owner_type": "User",
+    "owner_name": "Phil Wang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "ludwig-ai": {
+    "owner_login": "ludwig-ai",
+    "owner_type": "Organization",
+    "owner_name": "Ludwig",
+    "company_raw": "Ludwig",
+    "company_canonical": "ludwig"
+  },
+  "lufficc": {
+    "owner_login": "lufficc",
+    "owner_type": "User",
+    "owner_name": "Congcong Li",
+    "company_raw": "UESTC&UCAS",
+    "company_canonical": "uestc&ucas"
+  },
+  "luispedro": {
+    "owner_login": "luispedro",
+    "owner_type": "User",
+    "owner_name": "Luis Pedro Coelho",
+    "company_raw": "Queensland University of Technology",
+    "company_canonical": "queensland university of technology"
+  },
+  "lukalabs": {
+    "owner_login": "lukalabs",
+    "owner_type": "Organization",
+    "owner_name": "Replika",
+    "company_raw": "Replika",
+    "company_canonical": "replika"
+  },
+  "lyeoni": {
+    "owner_login": "lyeoni",
+    "owner_type": "User",
+    "owner_name": "Allen Lee",
+    "company_raw": "@naver",
+    "company_canonical": "naver"
+  },
+  "lzhbrian": {
+    "owner_login": "lzhbrian",
+    "owner_type": "User",
+    "owner_name": "Tzu-Heng Lin",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "magpie-align": {
+    "owner_login": "magpie-align",
+    "owner_type": "Organization",
+    "owner_name": "Magpie",
+    "company_raw": "Magpie",
+    "company_canonical": "magpie"
+  },
+  "makcedward": {
+    "owner_login": "makcedward",
+    "owner_type": "User",
+    "owner_name": "Edward Ma",
+    "company_raw": "SambaNova Systems",
+    "company_canonical": "sambanova systems"
+  },
+  "manfreddiaz": {
+    "owner_login": "manfreddiaz",
+    "owner_type": "User",
+    "owner_name": "Manfred Diaz",
+    "company_raw": "@mila-iqia @montrealrobotics",
+    "company_canonical": "mila iqia montrealrobotics"
+  },
+  "margaretmz": {
+    "owner_login": "margaretmz",
+    "owner_type": "User",
+    "owner_name": "Margaret Maynard-Reid",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "maximeraafat": {
+    "owner_login": "maximeraafat",
+    "owner_type": "User",
+    "owner_name": "Maxime Raafat",
+    "company_raw": "UV Gen",
+    "company_canonical": "uv gen"
+  },
+  "mayocream": {
+    "owner_login": "mayocream",
+    "owner_type": "User",
+    "owner_name": "Mayo Takanashi",
+    "company_raw": "Woven by Toyota",
+    "company_canonical": "woven by toyota"
+  },
+  "mees": {
+    "owner_login": "mees",
+    "owner_type": "User",
+    "owner_name": "Oier Mees",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "megvii-research": {
+    "owner_login": "megvii-research",
+    "owner_type": "Organization",
+    "owner_name": "MEGVII Research",
+    "company_raw": "MEGVII Research",
+    "company_canonical": "megvii research"
+  },
+  "memvid": {
+    "owner_login": "memvid",
+    "owner_type": "Organization",
+    "owner_name": "Memvid",
+    "company_raw": "Memvid",
+    "company_canonical": "memvid"
+  },
+  "mesolitica": {
+    "owner_login": "mesolitica",
+    "owner_type": "Organization",
+    "owner_name": "Mesolitica",
+    "company_raw": "Mesolitica",
+    "company_canonical": "mesolitica"
+  },
+  "meta-toolkit": {
+    "owner_login": "meta-toolkit",
+    "owner_type": "Organization",
+    "owner_name": "meta-toolkit",
+    "company_raw": "meta-toolkit",
+    "company_canonical": "meta toolkit"
+  },
+  "microsoft": {
+    "owner_login": "microsoft",
+    "owner_type": "Organization",
+    "owner_name": "Microsoft",
+    "company_raw": "Microsoft",
+    "company_canonical": "microsoft"
+  },
+  "mihail911": {
+    "owner_login": "mihail911",
+    "owner_type": "User",
+    "owner_name": "Mihail Eric",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "mila-iqia": {
+    "owner_login": "mila-iqia",
+    "owner_type": "Organization",
+    "owner_name": "Mila",
+    "company_raw": "Mila",
+    "company_canonical": "mila"
+  },
+  "milvus-io": {
+    "owner_login": "milvus-io",
+    "owner_type": "Organization",
+    "owner_name": "The Milvus Project",
+    "company_raw": "The Milvus Project",
+    "company_canonical": "the milvus project"
+  },
+  "minivision-ai": {
+    "owner_login": "minivision-ai",
+    "owner_type": "Organization",
+    "owner_name": "Minivision_AI",
+    "company_raw": "Minivision_AI",
+    "company_canonical": "minivision_ai"
+  },
+  "miso-belica": {
+    "owner_login": "miso-belica",
+    "owner_type": "User",
+    "owner_name": "Mišo Belica",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "ml-tooling": {
+    "owner_login": "ml-tooling",
+    "owner_type": "Organization",
+    "owner_name": "Machine Learning Tooling",
+    "company_raw": "Machine Learning Tooling",
+    "company_canonical": "machine learning tooling"
+  },
+  "mlfoundations": {
+    "owner_login": "mlfoundations",
+    "owner_type": "Organization",
+    "owner_name": "mlfoundations",
+    "company_raw": "mlfoundations",
+    "company_canonical": "mlfoundations"
+  },
+  "modelscope": {
+    "owner_login": "modelscope",
+    "owner_type": "Organization",
+    "owner_name": "ModelScope",
+    "company_raw": "ModelScope",
+    "company_canonical": "modelscope"
+  },
+  "moein-shariatnia": {
+    "owner_login": "moein-shariatnia",
+    "owner_type": "User",
+    "owner_name": "Moein Shariatnia",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "monarch-initiative": {
+    "owner_login": "monarch-initiative",
+    "owner_type": "Organization",
+    "owner_name": "Monarch Initiative",
+    "company_raw": "Monarch Initiative",
+    "company_canonical": "monarch initiative"
+  },
+  "mosaicml": {
+    "owner_login": "mosaicml",
+    "owner_type": "Organization",
+    "owner_name": "Databricks Mosaic Research",
+    "company_raw": "Databricks Mosaic Research",
+    "company_canonical": "databricks mosaic research"
+  },
+  "muskie82": {
+    "owner_login": "muskie82",
+    "owner_type": "User",
+    "owner_name": "Hide",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "nachifur": {
+    "owner_login": "nachifur",
+    "owner_type": "User",
+    "owner_name": "Jiawei Liu (刘佳伟-中科院沈自所)",
+    "company_raw": "Shenyang Institute of Automation, Chinese Academy of Sciences",
+    "company_canonical": "shenyang institute of automation chinese academy of sciences"
+  },
+  "namisan": {
+    "owner_login": "namisan",
+    "owner_type": "User",
+    "owner_name": "Xiaodong",
+    "company_raw": "MSR",
+    "company_canonical": "msr"
+  },
+  "naver": {
+    "owner_login": "naver",
+    "owner_type": "Organization",
+    "owner_name": "NAVER",
+    "company_raw": "NAVER",
+    "company_canonical": "naver"
+  },
+  "ndrplz": {
+    "owner_login": "ndrplz",
+    "owner_type": "User",
+    "owner_name": "Andrea Palazzi",
+    "company_raw": "Nomitri - Perception AI for Mobile",
+    "company_canonical": "nomitri perception ai for mobile"
+  },
+  "neomatrix369": {
+    "owner_login": "neomatrix369",
+    "owner_type": "User",
+    "owner_name": "mani",
+    "company_raw": "Lead Software, Data, ML Engnr (Self-employed)",
+    "company_canonical": "lead software data ml engnr self employed"
+  },
+  "nerfstudio-project": {
+    "owner_login": "nerfstudio-project",
+    "owner_type": "Organization",
+    "owner_name": "nerfstudio",
+    "company_raw": "nerfstudio",
+    "company_canonical": "nerfstudio"
+  },
+  "neuml": {
+    "owner_login": "neuml",
+    "owner_type": "Organization",
+    "owner_name": "NeuML",
+    "company_raw": "NeuML",
+    "company_canonical": "neuml"
+  },
+  "neuralmagic": {
+    "owner_login": "neuralmagic",
+    "owner_type": "Organization",
+    "owner_name": "Neural Magic",
+    "company_raw": "Neural Magic",
+    "company_canonical": "neural magic"
+  },
+  "nfmcclure": {
+    "owner_login": "nfmcclure",
+    "owner_type": "User",
+    "owner_name": "Nick",
+    "company_raw": "@nfmcclure",
+    "company_canonical": "nfmcclure"
+  },
+  "nianticlabs": {
+    "owner_login": "nianticlabs",
+    "owner_type": "Organization",
+    "owner_name": "Niantic Labs",
+    "company_raw": "Niantic Labs",
+    "company_canonical": "niantic labs"
+  },
+  "nikitakit": {
+    "owner_login": "nikitakit",
+    "owner_type": "User",
+    "owner_name": "Nikita Kitaev",
+    "company_raw": "UC Berkeley",
+    "company_canonical": "uc berkeley"
+  },
+  "nlp-uoregon": {
+    "owner_login": "nlp-uoregon",
+    "owner_type": "User",
+    "owner_name": "nlp-uoregon",
+    "company_raw": "University of Oregon",
+    "company_canonical": "university of oregon"
+  },
+  "nlpodyssey": {
+    "owner_login": "nlpodyssey",
+    "owner_type": "Organization",
+    "owner_name": "NLP Odyssey",
+    "company_raw": "NLP Odyssey",
+    "company_canonical": "nlp odyssey"
+  },
+  "nlptown": {
+    "owner_login": "nlptown",
+    "owner_type": "Organization",
+    "owner_name": "NLP Town",
+    "company_raw": "NLP Town",
+    "company_canonical": "nlp town"
+  },
+  "nltk": {
+    "owner_login": "nltk",
+    "owner_type": "Organization",
+    "owner_name": "Natural Language Toolkit",
+    "company_raw": "Natural Language Toolkit",
+    "company_canonical": "natural language toolkit"
+  },
+  "noahcao": {
+    "owner_login": "noahcao",
+    "owner_type": "User",
+    "owner_name": "Jinkun Cao",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "nv-tlabs": {
+    "owner_login": "nv-tlabs",
+    "owner_type": "Organization",
+    "owner_name": "NVIDIA Spatial Intelligence Lab (SIL)",
+    "company_raw": "NVIDIA Spatial Intelligence Lab (SIL)",
+    "company_canonical": "nvidia spatial intelligence lab sil"
+  },
+  "nyu-mll": {
+    "owner_login": "nyu-mll",
+    "owner_type": "Organization",
+    "owner_name": "ML² AT CILVR ",
+    "company_raw": "ML² AT CILVR",
+    "company_canonical": "ml at cilvr"
+  },
+  "obsei": {
+    "owner_login": "obsei",
+    "owner_type": "Organization",
+    "owner_name": "obsei",
+    "company_raw": "obsei",
+    "company_canonical": "obsei"
+  },
+  "obss": {
+    "owner_login": "obss",
+    "owner_type": "Organization",
+    "owner_name": "Open Business Software Solutions",
+    "company_raw": "Open Business Software Solutions",
+    "company_canonical": "open business software solutions"
+  },
+  "ogkalu2": {
+    "owner_login": "ogkalu2",
+    "owner_type": "User",
+    "owner_name": "ogkalu2",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "om-ai-lab": {
+    "owner_login": "om-ai-lab",
+    "owner_type": "Organization",
+    "owner_name": "Om AI Lab",
+    "company_raw": "Om AI Lab",
+    "company_canonical": "om ai lab"
+  },
+  "omarsar": {
+    "owner_login": "omarsar",
+    "owner_type": "User",
+    "owner_name": "Elvis Saravia",
+    "company_raw": "DAIR.AI",
+    "company_canonical": "dair.ai"
+  },
+  "oneTaken": {
+    "owner_login": "oneTaken",
+    "owner_type": "User",
+    "owner_name": "oneTaken",
+    "company_raw": "Megvii Research",
+    "company_canonical": "megvii research"
+  },
+  "open-compass": {
+    "owner_login": "open-compass",
+    "owner_type": "Organization",
+    "owner_name": "OpenCompass",
+    "company_raw": "OpenCompass",
+    "company_canonical": "opencompass"
+  },
+  "open-edge-platform": {
+    "owner_login": "open-edge-platform",
+    "owner_type": "Organization",
+    "owner_name": "Open Edge Platform",
+    "company_raw": "Open Edge Platform",
+    "company_canonical": "open edge platform"
+  },
+  "open-mmlab": {
+    "owner_login": "open-mmlab",
+    "owner_type": "Organization",
+    "owner_name": "OpenMMLab",
+    "company_raw": "OpenMMLab",
+    "company_canonical": "openmmlab"
+  },
+  "openMVG": {
+    "owner_login": "openMVG",
+    "owner_type": "Organization",
+    "owner_name": "openMVG",
+    "company_raw": "openMVG",
+    "company_canonical": "openmvg"
+  },
+  "opendatacam": {
+    "owner_login": "opendatacam",
+    "owner_type": "Organization",
+    "owner_name": "OpenDataCam",
+    "company_raw": "OpenDataCam",
+    "company_canonical": "opendatacam"
+  },
+  "openeventdata": {
+    "owner_login": "openeventdata",
+    "owner_type": "Organization",
+    "owner_name": "Open Event Data Alliance",
+    "company_raw": "Open Event Data Alliance",
+    "company_canonical": "open event data alliance"
+  },
+  "openpifpaf": {
+    "owner_login": "openpifpaf",
+    "owner_type": "Organization",
+    "owner_name": "OpenPifPaf",
+    "company_raw": "OpenPifPaf",
+    "company_canonical": "openpifpaf"
+  },
+  "openvenues": {
+    "owner_login": "openvenues",
+    "owner_type": "Organization",
+    "owner_name": "openvenues",
+    "company_raw": "openvenues",
+    "company_canonical": "openvenues"
+  },
+  "openvinotoolkit": {
+    "owner_login": "openvinotoolkit",
+    "owner_type": "Organization",
+    "owner_name": "OpenVINO™ Toolkit",
+    "company_raw": "OpenVINO™ Toolkit",
+    "company_canonical": "openvino toolkit"
+  },
+  "oracle": {
+    "owner_login": "oracle",
+    "owner_type": "Organization",
+    "owner_name": "Oracle",
+    "company_raw": "Oracle",
+    "company_canonical": "oracle"
+  },
+  "otaha178": {
+    "owner_login": "otaha178",
+    "owner_type": "User",
+    "owner_name": "Omar Taha",
+    "company_raw": "TRM Labs",
+    "company_canonical": "trm labs"
+  },
+  "ownthink": {
+    "owner_login": "ownthink",
+    "owner_type": "User",
+    "owner_name": "Yener",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "oxford-cs-deepnlp-2017": {
+    "owner_login": "oxford-cs-deepnlp-2017",
+    "owner_type": "Organization",
+    "owner_name": "oxford-cs-deepnlp-2017",
+    "company_raw": "oxford-cs-deepnlp-2017",
+    "company_canonical": "oxford cs deepnlp 2017"
+  },
+  "paschmann": {
+    "owner_login": "paschmann",
+    "owner_type": "User",
+    "owner_name": "Paul Aschmann",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "pathak22": {
+    "owner_login": "pathak22",
+    "owner_type": "User",
+    "owner_name": "Deepak Pathak",
+    "company_raw": "Skild AI, CMU",
+    "company_canonical": "skild ai cmu"
+  },
+  "patil-suraj": {
+    "owner_login": "patil-suraj",
+    "owner_type": "User",
+    "owner_name": "Suraj Patil",
+    "company_raw": "@black-forest-labs",
+    "company_canonical": "black forest labs"
+  },
+  "patrick-llgc": {
+    "owner_login": "patrick-llgc",
+    "owner_type": "User",
+    "owner_name": "Patrick Liu",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "patrickschur": {
+    "owner_login": "patrickschur",
+    "owner_type": "User",
+    "owner_name": "Patrick Schur",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "patrikhuber": {
+    "owner_login": "patrikhuber",
+    "owner_type": "User",
+    "owner_name": "Patrik Huber",
+    "company_raw": "Mimetrik",
+    "company_canonical": "mimetrik"
+  },
+  "pemistahl": {
+    "owner_login": "pemistahl",
+    "owner_type": "User",
+    "owner_name": "Peter M. Stahl",
+    "company_raw": "@riege",
+    "company_canonical": "riege"
+  },
+  "perone": {
+    "owner_login": "perone",
+    "owner_type": "User",
+    "owner_name": "Christian S. Perone",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "phillipi": {
+    "owner_login": "phillipi",
+    "owner_type": "User",
+    "owner_name": "Phillip Isola",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "piddnad": {
+    "owner_login": "piddnad",
+    "owner_type": "User",
+    "owner_name": "Xiaoyang Kang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "pierluigiferrari": {
+    "owner_login": "pierluigiferrari",
+    "owner_type": "User",
+    "owner_name": "Pierluigi Ferrari",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "pixeltable": {
+    "owner_login": "pixeltable",
+    "owner_type": "Organization",
+    "owner_name": "Pixeltable",
+    "company_raw": "Pixeltable",
+    "company_canonical": "pixeltable"
+  },
+  "pkhungurn": {
+    "owner_login": "pkhungurn",
+    "owner_type": "User",
+    "owner_name": "Pramook Khungurn",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "plasticityai": {
+    "owner_login": "plasticityai",
+    "owner_type": "Organization",
+    "owner_name": "Plasticity",
+    "company_raw": "Plasticity",
+    "company_canonical": "plasticity"
+  },
+  "pliang279": {
+    "owner_login": "pliang279",
+    "owner_type": "User",
+    "owner_name": "Paul Liang",
+    "company_raw": "Massachusetts Institute of Technology",
+    "company_canonical": "massachusetts institute of technology"
+  },
+  "podgorskiy": {
+    "owner_login": "podgorskiy",
+    "owner_type": "User",
+    "owner_name": "Stanislav Pidhorskyi",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "poloclub": {
+    "owner_login": "poloclub",
+    "owner_type": "Organization",
+    "owner_name": "Polo Club of Data Science, Georgia Tech",
+    "company_raw": "Polo Club of Data Science, Georgia Tech",
+    "company_canonical": "polo club of data science georgia tech"
+  },
+  "pprp": {
+    "owner_login": "pprp",
+    "owner_type": "User",
+    "owner_name": "Peyton",
+    "company_raw": "Data Science and Analytic Thrust, Information Hub, HKUST(GZ)",
+    "company_canonical": "data science and analytic thrust information hub hkust gz"
+  },
+  "primeqa": {
+    "owner_login": "primeqa",
+    "owner_type": "Organization",
+    "owner_name": "PrimeQA",
+    "company_raw": "PrimeQA",
+    "company_canonical": "primeqa"
+  },
+  "princeton-nlp": {
+    "owner_login": "princeton-nlp",
+    "owner_type": "Organization",
+    "owner_name": "Princeton Natural Language Processing",
+    "company_raw": "Princeton Natural Language Processing",
+    "company_canonical": "princeton natural language processing"
+  },
+  "promptslab": {
+    "owner_login": "promptslab",
+    "owner_type": "Organization",
+    "owner_name": "PromptsLab",
+    "company_raw": "PromptsLab",
+    "company_canonical": "promptslab"
+  },
+  "pytorch": {
+    "owner_login": "pytorch",
+    "owner_type": "Organization",
+    "owner_name": "pytorch",
+    "company_raw": "pytorch",
+    "company_canonical": "pytorch"
+  },
+  "qinzheng93": {
+    "owner_login": "qinzheng93",
+    "owner_type": "User",
+    "owner_name": "Zheng Qin",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "qqlu": {
+    "owner_login": "qqlu",
+    "owner_type": "User",
+    "owner_name": "Lu Qi",
+    "company_raw": "Insta360",
+    "company_canonical": "insta360"
+  },
+  "qubvel-org": {
+    "owner_login": "qubvel-org",
+    "owner_type": "Organization",
+    "owner_name": "qubvel-org",
+    "company_raw": "qubvel-org",
+    "company_canonical": "qubvel org"
+  },
+  "readbeyond": {
+    "owner_login": "readbeyond",
+    "owner_type": "User",
+    "owner_name": "ReadBeyond",
+    "company_raw": "ReadBeyond",
+    "company_canonical": "readbeyond"
+  },
+  "realsenseai": {
+    "owner_login": "realsenseai",
+    "owner_type": "Organization",
+    "owner_name": "RealSenseAI",
+    "company_raw": "RealSenseAI",
+    "company_canonical": "realsenseai"
+  },
+  "redhuntlabs": {
+    "owner_login": "redhuntlabs",
+    "owner_type": "Organization",
+    "owner_name": "RedHunt Labs",
+    "company_raw": "RedHunt Labs",
+    "company_canonical": "redhunt labs"
+  },
+  "rerun-io": {
+    "owner_login": "rerun-io",
+    "owner_type": "Organization",
+    "owner_name": "rerun.io",
+    "company_raw": "rerun.io",
+    "company_canonical": "rerun.io"
+  },
+  "rguthrie3": {
+    "owner_login": "rguthrie3",
+    "owner_type": "User",
+    "owner_name": "Robert",
+    "company_raw": "Citadel LLC",
+    "company_canonical": "citadel"
+  },
+  "richzhang": {
+    "owner_login": "richzhang",
+    "owner_type": "User",
+    "owner_name": "Richard Zhang",
+    "company_raw": "@adobe",
+    "company_canonical": "adobe"
+  },
+  "rmurai0610": {
+    "owner_login": "rmurai0610",
+    "owner_type": "User",
+    "owner_name": "Riku Murai",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "roatienza": {
+    "owner_login": "roatienza",
+    "owner_type": "User",
+    "owner_name": "Rowel Atienza",
+    "company_raw": "University of the Philippines",
+    "company_canonical": "university of the philippines"
+  },
+  "robertknight": {
+    "owner_login": "robertknight",
+    "owner_type": "User",
+    "owner_name": "Robert Knight",
+    "company_raw": "Shortest Path Software",
+    "company_canonical": "shortest path software"
+  },
+  "robocorp": {
+    "owner_login": "robocorp",
+    "owner_type": "Organization",
+    "owner_name": "Robocorp",
+    "company_raw": "Robocorp",
+    "company_canonical": "robocorp"
+  },
+  "roboflow": {
+    "owner_login": "roboflow",
+    "owner_type": "Organization",
+    "owner_name": "Roboflow",
+    "company_raw": "Roboflow",
+    "company_canonical": "roboflow"
+  },
+  "rodrigopivi": {
+    "owner_login": "rodrigopivi",
+    "owner_type": "User",
+    "owner_name": "Rod",
+    "company_raw": "Om Ah Hum",
+    "company_canonical": "om ah hum"
+  },
+  "rohitg00": {
+    "owner_login": "rohitg00",
+    "owner_type": "User",
+    "owner_name": "Rohit Ghumare",
+    "company_raw": "iii.dev",
+    "company_canonical": "iii.dev"
+  },
+  "roomylee": {
+    "owner_login": "roomylee",
+    "owner_type": "User",
+    "owner_name": "Joohong Lee",
+    "company_raw": "@scatterlab",
+    "company_canonical": "scatterlab"
+  },
+  "roshan-research": {
+    "owner_login": "roshan-research",
+    "owner_type": "Organization",
+    "owner_name": "Roshan",
+    "company_raw": "Roshan",
+    "company_canonical": "roshan"
+  },
+  "royshil": {
+    "owner_login": "royshil",
+    "owner_type": "User",
+    "owner_name": "Roy Shilkrot",
+    "company_raw": "MIT",
+    "company_canonical": "mit"
+  },
+  "rykov8": {
+    "owner_login": "rykov8",
+    "owner_type": "User",
+    "owner_name": "Andrey Rykov",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "sajal2692": {
+    "owner_login": "sajal2692",
+    "owner_type": "User",
+    "owner_name": "Sajal Sharma",
+    "company_raw": "@Menyala",
+    "company_canonical": "menyala"
+  },
+  "salesforce": {
+    "owner_login": "salesforce",
+    "owner_type": "Organization",
+    "owner_name": "Salesforce",
+    "company_raw": "Salesforce",
+    "company_canonical": "salesforce"
+  },
+  "sb-ai-lab": {
+    "owner_login": "sb-ai-lab",
+    "owner_type": "Organization",
+    "owner_name": "sb-ai-lab",
+    "company_raw": "sb-ai-lab",
+    "company_canonical": "sb ai lab"
+  },
+  "sberbank-ai-lab": {
+    "owner_login": "sberbank-ai-lab",
+    "owner_type": "Organization",
+    "owner_name": "Sberbank AI Lab",
+    "company_raw": "Sberbank AI Lab",
+    "company_canonical": "sberbank ai lab"
+  },
+  "scikit-image": {
+    "owner_login": "scikit-image",
+    "owner_type": "Organization",
+    "owner_name": "Image Processing Toolbox for SciPy",
+    "company_raw": "Image Processing Toolbox for SciPy",
+    "company_canonical": "image processing toolbox for scipy"
+  },
+  "screenpipe": {
+    "owner_login": "screenpipe",
+    "owner_type": "Organization",
+    "owner_name": "screenpipe",
+    "company_raw": "screenpipe",
+    "company_canonical": "screenpipe"
+  },
+  "sekwiatkowski": {
+    "owner_login": "sekwiatkowski",
+    "owner_type": "User",
+    "owner_name": "Sebastian E. Kwiatkowski",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "semperai": {
+    "owner_login": "semperai",
+    "owner_type": "Organization",
+    "owner_name": "semperai",
+    "company_raw": "semperai",
+    "company_canonical": "semperai"
+  },
+  "seriousran": {
+    "owner_login": "seriousran",
+    "owner_type": "User",
+    "owner_name": "Chanran Kim",
+    "company_raw": "NVIDIA",
+    "company_canonical": "nvidia"
+  },
+  "sgrvinod": {
+    "owner_login": "sgrvinod",
+    "owner_type": "User",
+    "owner_name": "Sagar Vinodababu",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "shcherbak-ai": {
+    "owner_login": "shcherbak-ai",
+    "owner_type": "Organization",
+    "owner_name": "Shcherbak AI",
+    "company_raw": "Shcherbak AI",
+    "company_canonical": "shcherbak ai"
+  },
+  "shibing624": {
+    "owner_login": "shibing624",
+    "owner_type": "User",
+    "owner_name": "Ming Xu (徐明)",
+    "company_raw": "@tencent",
+    "company_canonical": "tencent"
+  },
+  "shimat": {
+    "owner_login": "shimat",
+    "owner_type": "User",
+    "owner_name": "shimat",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "sightmachine": {
+    "owner_login": "sightmachine",
+    "owner_type": "Organization",
+    "owner_name": "Sight Machine",
+    "company_raw": "Sight Machine",
+    "company_canonical": "sight machine"
+  },
+  "simpler-env": {
+    "owner_login": "simpler-env",
+    "owner_type": "Organization",
+    "owner_name": "simple-env",
+    "company_raw": "simple-env",
+    "company_canonical": "simple env"
+  },
+  "skygazer42": {
+    "owner_login": "skygazer42",
+    "owner_type": "User",
+    "owner_name": "skygazer42",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "sloria": {
+    "owner_login": "sloria",
+    "owner_type": "User",
+    "owner_name": "Steven Loria",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "smilelight": {
+    "owner_login": "smilelight",
+    "owner_type": "User",
+    "owner_name": "Defang Li",
+    "company_raw": "Baidu",
+    "company_canonical": "baidu"
+  },
+  "snavely": {
+    "owner_login": "snavely",
+    "owner_type": "User",
+    "owner_name": "Noah Snavely",
+    "company_raw": "Cornell Tech",
+    "company_canonical": "cornell tech"
+  },
+  "snipsco": {
+    "owner_login": "snipsco",
+    "owner_type": "Organization",
+    "owner_name": "Snips",
+    "company_raw": "Snips",
+    "company_canonical": "snips"
+  },
+  "software-mansion": {
+    "owner_login": "software-mansion",
+    "owner_type": "Organization",
+    "owner_name": "Software Mansion",
+    "company_raw": "Software Mansion",
+    "company_canonical": "software mansion"
+  },
+  "songyouwei": {
+    "owner_login": "songyouwei",
+    "owner_type": "User",
+    "owner_name": "songyouwei",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "soskek": {
+    "owner_login": "soskek",
+    "owner_type": "User",
+    "owner_name": "Sosuke Kobayashi",
+    "company_raw": "Preferred Networks, Inc. @pfnet",
+    "company_canonical": "preferred networks inc. pfnet"
+  },
+  "soubhiksanyal": {
+    "owner_login": "soubhiksanyal",
+    "owner_type": "User",
+    "owner_name": "Soubhik Sanyal",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "spla-tam": {
+    "owner_login": "spla-tam",
+    "owner_type": "Organization",
+    "owner_name": "spla-tam",
+    "company_raw": "spla-tam",
+    "company_canonical": "spla tam"
+  },
+  "spro": {
+    "owner_login": "spro",
+    "owner_type": "User",
+    "owner_name": "Sean Robertson",
+    "company_raw": "Nuve Platform",
+    "company_canonical": "nuve platform"
+  },
+  "sreeharierk": {
+    "owner_login": "sreeharierk",
+    "owner_type": "User",
+    "owner_name": "Sreehari S",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "stanford-oval": {
+    "owner_login": "stanford-oval",
+    "owner_type": "Organization",
+    "owner_name": "Stanford Open Virtual Assistant Lab",
+    "company_raw": "Stanford Open Virtual Assistant Lab",
+    "company_canonical": "stanford open virtual assistant lab"
+  },
+  "stanfordnlp": {
+    "owner_login": "stanfordnlp",
+    "owner_type": "Organization",
+    "owner_name": "Stanford NLP",
+    "company_raw": "Stanford NLP",
+    "company_canonical": "stanford nlp"
+  },
+  "stereolabs": {
+    "owner_login": "stereolabs",
+    "owner_type": "Organization",
+    "owner_name": "Stereolabs",
+    "company_raw": "Stereolabs",
+    "company_canonical": "stereolabs"
+  },
+  "strasdat": {
+    "owner_login": "strasdat",
+    "owner_type": "User",
+    "owner_name": "Hauke Strasdat",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "summanlp": {
+    "owner_login": "summanlp",
+    "owner_type": "Organization",
+    "owner_name": "Summa NLP",
+    "company_raw": "Summa NLP",
+    "company_canonical": "summa nlp"
+  },
+  "superlinked": {
+    "owner_login": "superlinked",
+    "owner_type": "Organization",
+    "owner_name": "Superlinked",
+    "company_raw": "Superlinked",
+    "company_canonical": "superlinked"
+  },
+  "sweeneychris": {
+    "owner_login": "sweeneychris",
+    "owner_type": "User",
+    "owner_name": "Chris Sweeney",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "swz30": {
+    "owner_login": "swz30",
+    "owner_type": "User",
+    "owner_name": "Syed Waqas Zamir",
+    "company_raw": "Microsoft",
+    "company_canonical": "microsoft"
+  },
+  "symforce-org": {
+    "owner_login": "symforce-org",
+    "owner_type": "Organization",
+    "owner_name": "symforce",
+    "company_raw": "symforce",
+    "company_canonical": "symforce"
+  },
+  "symisc": {
+    "owner_login": "symisc",
+    "owner_type": "User",
+    "owner_name": "PixLab | Symisc Systems",
+    "company_raw": "Symisc Systems",
+    "company_canonical": "symisc systems"
+  },
+  "taesungp": {
+    "owner_login": "taesungp",
+    "owner_type": "User",
+    "owner_name": "Taesung Park",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "taishi-i": {
+    "owner_login": "taishi-i",
+    "owner_type": "User",
+    "owner_name": "taishi-i",
+    "company_raw": "@CyberAgentAILab",
+    "company_canonical": "cyberagentailab"
+  },
+  "tangyudi": {
+    "owner_login": "tangyudi",
+    "owner_type": "User",
+    "owner_name": "TangYudi",
+    "company_raw": "微信：aizhushou888",
+    "company_canonical": "aizhushou888"
+  },
+  "tatsu-lab": {
+    "owner_login": "tatsu-lab",
+    "owner_type": "Organization",
+    "owner_name": "Tatsu's shared repositories",
+    "company_raw": "Tatsu's shared repositories",
+    "company_canonical": "tatsu s shared repositories"
+  },
+  "tatsuyah": {
+    "owner_login": "tatsuyah",
+    "owner_type": "User",
+    "owner_name": "hata",
+    "company_raw": "freee K.K.",
+    "company_canonical": "freee k.k."
+  },
+  "tensorflow": {
+    "owner_login": "tensorflow",
+    "owner_type": "Organization",
+    "owner_name": "tensorflow",
+    "company_raw": "tensorflow",
+    "company_canonical": "tensorflow"
+  },
+  "tensorlayer": {
+    "owner_login": "tensorlayer",
+    "owner_type": "Organization",
+    "owner_name": "TensorLayer Community",
+    "company_raw": "TensorLayer Community",
+    "company_canonical": "tensorlayer community"
+  },
+  "textlint": {
+    "owner_login": "textlint",
+    "owner_type": "Organization",
+    "owner_name": "textlint",
+    "company_raw": "textlint",
+    "company_canonical": "textlint"
+  },
+  "thisandagain": {
+    "owner_login": "thisandagain",
+    "owner_type": "User",
+    "owner_name": "Andrew Sliwinski",
+    "company_raw": "The LEGO Group",
+    "company_canonical": "the lego group"
+  },
+  "thunlp": {
+    "owner_login": "thunlp",
+    "owner_type": "Organization",
+    "owner_name": "THUNLP",
+    "company_raw": "THUNLP",
+    "company_canonical": "thunlp"
+  },
+  "tianzhi0549": {
+    "owner_login": "tianzhi0549",
+    "owner_type": "User",
+    "owner_name": "Tian Zhi",
+    "company_raw": "The University of Adelaide",
+    "company_canonical": "the university of adelaide"
+  },
+  "timoschick": {
+    "owner_login": "timoschick",
+    "owner_type": "User",
+    "owner_name": "Timo Schick",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "titipata": {
+    "owner_login": "titipata",
+    "owner_type": "User",
+    "owner_name": "Titipat Achakulvisut",
+    "company_raw": "Mahidol University",
+    "company_canonical": "mahidol university"
+  },
+  "toandaominh1997": {
+    "owner_login": "toandaominh1997",
+    "owner_type": "User",
+    "owner_name": "Thomas Dao",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "tomaarsen": {
+    "owner_login": "tomaarsen",
+    "owner_type": "User",
+    "owner_name": "Tom Aarsen",
+    "company_raw": "@huggingface",
+    "company_canonical": "huggingface"
+  },
+  "torchgan": {
+    "owner_login": "torchgan",
+    "owner_type": "Organization",
+    "owner_name": "torchgan",
+    "company_raw": "torchgan",
+    "company_canonical": "torchgan"
+  },
+  "torchgeo": {
+    "owner_login": "torchgeo",
+    "owner_type": "Organization",
+    "owner_name": "TorchGeo",
+    "company_raw": "TorchGeo",
+    "company_canonical": "torchgeo"
+  },
+  "towhee-io": {
+    "owner_login": "towhee-io",
+    "owner_type": "Organization",
+    "owner_name": "Towhee",
+    "company_raw": "Towhee",
+    "company_canonical": "towhee"
+  },
+  "trigaten": {
+    "owner_login": "trigaten",
+    "owner_type": "User",
+    "owner_name": "trigaten",
+    "company_raw": "University of Maryland",
+    "company_canonical": "university of maryland"
+  },
+  "tryolabs": {
+    "owner_login": "tryolabs",
+    "owner_type": "Organization",
+    "owner_name": "Tryolabs",
+    "company_raw": "Tryolabs",
+    "company_canonical": "tryolabs"
+  },
+  "tstanislawek": {
+    "owner_login": "tstanislawek",
+    "owner_type": "User",
+    "owner_name": "Tomasz Stanislawek",
+    "company_raw": "Snowflake",
+    "company_canonical": "snowflake"
+  },
+  "typedgrammar": {
+    "owner_login": "typedgrammar",
+    "owner_type": "Organization",
+    "owner_name": "Typed Grammar",
+    "company_raw": "Typed Grammar",
+    "company_canonical": "typed grammar"
+  },
+  "uber-archive": {
+    "owner_login": "uber-archive",
+    "owner_type": "Organization",
+    "owner_name": "Uber Archive",
+    "company_raw": "Uber Archive",
+    "company_canonical": "uber archive"
+  },
+  "uber-research": {
+    "owner_login": "uber-research",
+    "owner_type": "Organization",
+    "owner_name": "Uber Research",
+    "company_raw": "Uber Research",
+    "company_canonical": "uber research"
+  },
+  "ubicomplab": {
+    "owner_login": "ubicomplab",
+    "owner_type": "Organization",
+    "owner_name": "UW Ubicomp Lab",
+    "company_raw": "UW Ubicomp Lab",
+    "company_canonical": "uw ubicomp lab"
+  },
+  "ultralytics": {
+    "owner_login": "ultralytics",
+    "owner_type": "Organization",
+    "owner_name": "Ultralytics",
+    "company_raw": "Ultralytics",
+    "company_canonical": "ultralytics"
+  },
+  "una-dinosauria": {
+    "owner_login": "una-dinosauria",
+    "owner_type": "User",
+    "owner_name": "Julieta",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "undertheseanlp": {
+    "owner_login": "undertheseanlp",
+    "owner_type": "Organization",
+    "owner_name": "Under The Sea",
+    "company_raw": "Under The Sea",
+    "company_canonical": "under the sea"
+  },
+  "unitaryai": {
+    "owner_login": "unitaryai",
+    "owner_type": "Organization",
+    "owner_name": "Unitary",
+    "company_raw": "Unitary",
+    "company_canonical": "unitary"
+  },
+  "unrealcv": {
+    "owner_login": "unrealcv",
+    "owner_type": "Organization",
+    "owner_name": "unrealcv",
+    "company_raw": "unrealcv",
+    "company_canonical": "unrealcv"
+  },
+  "utiasSTARS": {
+    "owner_login": "utiasSTARS",
+    "owner_type": "Organization",
+    "owner_name": "STARS Laboratory",
+    "company_raw": "STARS Laboratory",
+    "company_canonical": "stars laboratory"
+  },
+  "victordibia": {
+    "owner_login": "victordibia",
+    "owner_type": "User",
+    "owner_name": "Victor Dibia",
+    "company_raw": "Microsoft Corporation",
+    "company_canonical": "microsoft"
+  },
+  "vietanhdev": {
+    "owner_login": "vietanhdev",
+    "owner_type": "User",
+    "owner_name": "Viet-Anh NGUYEN",
+    "company_raw": "Scopic",
+    "company_canonical": "scopic"
+  },
+  "visionml": {
+    "owner_login": "visionml",
+    "owner_type": "Organization",
+    "owner_name": "visionml",
+    "company_raw": "visionml",
+    "company_canonical": "visionml"
+  },
+  "voxel51": {
+    "owner_login": "voxel51",
+    "owner_type": "Organization",
+    "owner_name": "Voxel51",
+    "company_raw": "Voxel51",
+    "company_canonical": "voxel51"
+  },
+  "wagamamaz": {
+    "owner_login": "wagamamaz",
+    "owner_type": "User",
+    "owner_name": "zhangrui",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "wangyuxinwhy": {
+    "owner_login": "wangyuxinwhy",
+    "owner_type": "User",
+    "owner_name": "yuxin.wang",
+    "company_raw": "bytedance",
+    "company_canonical": "bytedance"
+  },
+  "waybarrios": {
+    "owner_login": "waybarrios",
+    "owner_type": "User",
+    "owner_name": "Wayner Barrios",
+    "company_raw": "Dartmouth",
+    "company_canonical": "dartmouth"
+  },
+  "web-arena-x": {
+    "owner_login": "web-arena-x",
+    "owner_type": "Organization",
+    "owner_name": "web-arena-x",
+    "company_raw": "web-arena-x",
+    "company_canonical": "web arena x"
+  },
+  "weiaicunzai": {
+    "owner_login": "weiaicunzai",
+    "owner_type": "User",
+    "owner_name": "weiaicunzai",
+    "company_raw": "Beijing University of Posts and Telecommunications",
+    "company_canonical": "beijing university of posts and telecommunications"
+  },
+  "weihaox": {
+    "owner_login": "weihaox",
+    "owner_type": "User",
+    "owner_name": "Weihao Xia",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "wenhaochai": {
+    "owner_login": "wenhaochai",
+    "owner_type": "User",
+    "owner_name": "Wenhao Chai",
+    "company_raw": "Princeton University",
+    "company_canonical": "princeton university"
+  },
+  "whitphx": {
+    "owner_login": "whitphx",
+    "owner_type": "User",
+    "owner_name": "Yuichiro Tachibana (Tsuchiya)",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "whylabs": {
+    "owner_login": "whylabs",
+    "owner_type": "Organization",
+    "owner_name": "WhyLabs",
+    "company_raw": "WhyLabs",
+    "company_canonical": "whylabs"
+  },
+  "wikipedia2vec": {
+    "owner_login": "wikipedia2vec",
+    "owner_type": "Organization",
+    "owner_name": "wikipedia2vec",
+    "company_raw": "wikipedia2vec",
+    "company_canonical": "wikipedia2vec"
+  },
+  "williamSYSU": {
+    "owner_login": "williamSYSU",
+    "owner_type": "User",
+    "owner_name": "WilliamLam",
+    "company_raw": "Sun Yat-sen University (SYSU)",
+    "company_canonical": "sun yat sen university sysu"
+  },
+  "winkjs": {
+    "owner_login": "winkjs",
+    "owner_type": "Organization",
+    "owner_name": "wink",
+    "company_raw": "wink",
+    "company_canonical": "wink"
+  },
+  "withoutbg": {
+    "owner_login": "withoutbg",
+    "owner_type": "Organization",
+    "owner_name": "withoutBG",
+    "company_raw": "withoutBG",
+    "company_canonical": "withoutbg"
+  },
+  "wkentaro": {
+    "owner_login": "wkentaro",
+    "owner_type": "User",
+    "owner_name": "Kentaro Wada",
+    "company_raw": "@mujin",
+    "company_canonical": "mujin"
+  },
+  "wooorm": {
+    "owner_login": "wooorm",
+    "owner_type": "User",
+    "owner_name": "Titus",
+    "company_raw": "@igalia",
+    "company_canonical": "igalia"
+  },
+  "wpeebles": {
+    "owner_login": "wpeebles",
+    "owner_type": "User",
+    "owner_name": "Bill Peebles",
+    "company_raw": "OpenAI",
+    "company_canonical": "openai"
+  },
+  "xavier-zy": {
+    "owner_login": "xavier-zy",
+    "owner_type": "User",
+    "owner_name": "Zhaoyu Zhang",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "xiamx": {
+    "owner_login": "xiamx",
+    "owner_type": "User",
+    "owner_name": "Meng Xuan Xia",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "xiaoyufenfei": {
+    "owner_login": "xiaoyufenfei",
+    "owner_type": "User",
+    "owner_name": "Yu Wang",
+    "company_raw": "NJUPT",
+    "company_canonical": "njupt"
+  },
+  "xinghaochen": {
+    "owner_login": "xinghaochen",
+    "owner_type": "User",
+    "owner_name": "Xinghao Chen",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "xinshuoweng": {
+    "owner_login": "xinshuoweng",
+    "owner_type": "User",
+    "owner_name": "Xinshuo Weng",
+    "company_raw": "NVIDIA",
+    "company_canonical": "nvidia"
+  },
+  "xtreme1-io": {
+    "owner_login": "xtreme1-io",
+    "owner_type": "Organization",
+    "owner_name": "Xtreme1",
+    "company_raw": "Xtreme1",
+    "company_canonical": "xtreme1"
+  },
+  "xuebinqin": {
+    "owner_login": "xuebinqin",
+    "owner_type": "User",
+    "owner_name": "Xuebin Qin",
+    "company_raw": "University of Alberta",
+    "company_canonical": "university of alberta"
+  },
+  "xusenlinzy": {
+    "owner_login": "xusenlinzy",
+    "owner_type": "User",
+    "owner_name": "xusenlin",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "xverse-engine": {
+    "owner_login": "xverse-engine",
+    "owner_type": "Organization",
+    "owner_name": "XVERSE Technology",
+    "company_raw": "XVERSE Technology",
+    "company_canonical": "xverse technology"
+  },
+  "xvjiarui": {
+    "owner_login": "xvjiarui",
+    "owner_type": "User",
+    "owner_name": "Jerry Jiarui XU",
+    "company_raw": "UCSD",
+    "company_canonical": "ucsd"
+  },
+  "yangjianxin1": {
+    "owner_login": "yangjianxin1",
+    "owner_type": "User",
+    "owner_name": "Yang JianXin",
+    "company_raw": "Sun Yat-Sen University",
+    "company_canonical": "sun yat sen university"
+  },
+  "yanshengjia": {
+    "owner_login": "yanshengjia",
+    "owner_type": "User",
+    "owner_name": "Shengjia Yan",
+    "company_raw": "@amzn",
+    "company_canonical": "amzn"
+  },
+  "yao8839836": {
+    "owner_login": "yao8839836",
+    "owner_type": "User",
+    "owner_name": "Dr. Liang Yao (姚亮)",
+    "company_raw": "Sun Yat-sen University",
+    "company_canonical": "sun yat sen university"
+  },
+  "yaserkl": {
+    "owner_login": "yaserkl",
+    "owner_type": "User",
+    "owner_name": "yaserkl",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "yashbhalgat": {
+    "owner_login": "yashbhalgat",
+    "owner_type": "User",
+    "owner_name": "Yash Sanjay Bhalgat",
+    "company_raw": "@Yash-DPhil-Research, @Qualcomm-AI-Research @voxel51, @princeton-vl",
+    "company_canonical": "yash dphil research qualcomm ai research voxel51 princeton vl"
+  },
+  "yassouali": {
+    "owner_login": "yassouali",
+    "owner_type": "User",
+    "owner_name": "Yassine",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "yatengLG": {
+    "owner_login": "yatengLG",
+    "owner_type": "User",
+    "owner_name": "Shuwei Ji",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "ymcui": {
+    "owner_login": "ymcui",
+    "owner_type": "User",
+    "owner_name": "Yiming Cui",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "yobix-ai": {
+    "owner_login": "yobix-ai",
+    "owner_type": "Organization",
+    "owner_name": "Yobix AI",
+    "company_raw": "Yobix AI",
+    "company_canonical": "yobix ai"
+  },
+  "yongzhuo": {
+    "owner_login": "yongzhuo",
+    "owner_type": "User",
+    "owner_name": "Macropodus",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "yoshitomo-matsubara": {
+    "owner_login": "yoshitomo-matsubara",
+    "owner_type": "User",
+    "owner_name": "Yoshitomo Matsubara",
+    "company_raw": "@yahoo",
+    "company_canonical": "yahoo"
+  },
+  "youngfish42": {
+    "owner_login": "youngfish42",
+    "owner_type": "User",
+    "owner_name": "Yuwen Yang",
+    "company_raw": "Shanghai Jiao Tong University (SJTU)",
+    "company_canonical": "shanghai jiao tong university sjtu"
+  },
+  "youyuge34": {
+    "owner_login": "youyuge34",
+    "owner_type": "User",
+    "owner_name": "Sheng You",
+    "company_raw": "Alibaba Group",
+    "company_canonical": "alibaba group"
+  },
+  "yuanzhoulvpi2017": {
+    "owner_login": "yuanzhoulvpi2017",
+    "owner_type": "User",
+    "owner_name": "yuanzhoulvpi",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "yurijmikhalevich": {
+    "owner_login": "yurijmikhalevich",
+    "owner_type": "User",
+    "owner_name": "Yurij Mikhalevich",
+    "company_raw": "Makes magic at @QAWolf 🐺",
+    "company_canonical": "makes magic at qawolf"
+  },
+  "yvann-ba": {
+    "owner_login": "yvann-ba",
+    "owner_type": "User",
+    "owner_name": "Yvann Barbot",
+    "company_raw": "@TerraLabAI",
+    "company_canonical": "terralabai"
+  },
+  "zalandoresearch": {
+    "owner_login": "zalandoresearch",
+    "owner_type": "Organization",
+    "owner_name": "Zalando Research",
+    "company_raw": "Zalando Research",
+    "company_canonical": "zalando research"
+  },
+  "zamalali": {
+    "owner_login": "zamalali",
+    "owner_type": "User",
+    "owner_name": "zamal_",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "zapdos-labs": {
+    "owner_login": "zapdos-labs",
+    "owner_type": "Organization",
+    "owner_name": "Zapdos Labs",
+    "company_raw": "Zapdos Labs",
+    "company_canonical": "zapdos labs"
+  },
+  "zhihongz": {
+    "owner_login": "zhihongz",
+    "owner_type": "User",
+    "owner_name": "Zhihong Zhang",
+    "company_raw": "Tsinghua University",
+    "company_canonical": "tsinghua university"
+  },
+  "zihangdai": {
+    "owner_login": "zihangdai",
+    "owner_type": "User",
+    "owner_name": "Zihang Dai",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "zjukg": {
+    "owner_login": "zjukg",
+    "owner_type": "Organization",
+    "owner_name": "ZJUKG",
+    "company_raw": "ZJUKG",
+    "company_canonical": "zjukg"
+  },
+  "zjunlp": {
+    "owner_login": "zjunlp",
+    "owner_type": "Organization",
+    "owner_name": "ZJUNLP",
+    "company_raw": "ZJUNLP",
+    "company_canonical": "zjunlp"
+  },
+  "zkywsg": {
+    "owner_login": "zkywsg",
+    "owner_type": "User",
+    "owner_name": "Aron Lau",
+    "company_raw": "",
+    "company_canonical": ""
+  },
+  "zubair-irshad": {
+    "owner_login": "zubair-irshad",
+    "owner_type": "User",
+    "owner_name": "Zubair Irshad",
+    "company_raw": "@GeorgiaTech @TRI-ML @GT-RIPL",
+    "company_canonical": "georgiatech tri ml gt ripl"
+  }
+}
