@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="stars" type="long" />
+      <attribute id="1" title="language" type="string" />
+      <attribute id="2" title="forks" type="long" />
+    </attributes>
+    <nodes>
+      <node id="opencv/opencv" label="opencv/opencv">
+        <attvalues>
+          <attvalue for="0" value="87147" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="56555" />
+        </attvalues>
+      </node>
+      <node id="d2l-ai/d2l-zh" label="d2l-ai/d2l-zh">
+        <attvalues>
+          <attvalue for="0" value="77203" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="12223" />
+        </attvalues>
+      </node>
+      <node id="ultralytics/ultralytics" label="ultralytics/ultralytics">
+        <attvalues>
+          <attvalue for="0" value="56024" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="10775" />
+        </attvalues>
+      </node>
+      <node id="roboflow/supervision" label="roboflow/supervision">
+        <attvalues>
+          <attvalue for="0" value="38085" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="3365" />
+        </attvalues>
+      </node>
+      <node id="ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code" label="ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code">
+        <attvalues>
+          <attvalue for="0" value="32901" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="7036" />
+        </attvalues>
+      </node>
+      <node id="HumanSignal/label-studio" label="HumanSignal/label-studio">
+        <attvalues>
+          <attvalue for="0" value="27039" />
+          <attvalue for="1" value="TypeScript" />
+          <attvalue for="2" value="3493" />
+        </attvalues>
+      </node>
+      <node id="graphdeco-inria/gaussian-splatting" label="graphdeco-inria/gaussian-splatting">
+        <attvalues>
+          <attvalue for="0" value="21408" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="3118" />
+        </attvalues>
+      </node>
+      <node id="huggingface/datasets" label="huggingface/datasets">
+        <attvalues>
+          <attvalue for="0" value="21403" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="3176" />
+        </attvalues>
+      </node>
+      <node id="AccumulateMore/CV" label="AccumulateMore/CV">
+        <attvalues>
+          <attvalue for="0" value="19916" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="2286" />
+        </attvalues>
+      </node>
+      <node id="pytorch/vision" label="pytorch/vision">
+        <attvalues>
+          <attvalue for="0" value="17633" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="7226" />
+        </attvalues>
+      </node>
+      <node id="virgili0/Virgilio" label="virgili0/Virgilio">
+        <attvalues>
+          <attvalue for="0" value="14323" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="2489" />
+        </attvalues>
+      </node>
+      <node id="mlfoundations/open_clip" label="mlfoundations/open_clip">
+        <attvalues>
+          <attvalue for="0" value="13694" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1279" />
+        </attvalues>
+      </node>
+      <node id="kmario23/deep-learning-drizzle" label="kmario23/deep-learning-drizzle">
+        <attvalues>
+          <attvalue for="0" value="12799" />
+          <attvalue for="1" value="HTML" />
+          <attvalue for="2" value="2972" />
+        </attvalues>
+      </node>
+      <node id="alicevision/Meshroom" label="alicevision/Meshroom">
+        <attvalues>
+          <attvalue for="0" value="12668" />
+          <attvalue for="1" value="QML" />
+          <attvalue for="2" value="1204" />
+        </attvalues>
+      </node>
+      <node id="qubvel-org/segmentation_models.pytorch" label="qubvel-org/segmentation_models.pytorch">
+        <attvalues>
+          <attvalue for="0" value="11485" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1838" />
+        </attvalues>
+      </node>
+      <node id="nerfstudio-project/nerfstudio" label="nerfstudio-project/nerfstudio">
+        <attvalues>
+          <attvalue for="0" value="11452" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1603" />
+        </attvalues>
+      </node>
+      <node id="kornia/kornia" label="kornia/kornia">
+        <attvalues>
+          <attvalue for="0" value="11175" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1180" />
+        </attvalues>
+      </node>
+      <node id="advimman/lama" label="advimman/lama">
+        <attvalues>
+          <attvalue for="0" value="9866" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="1044" />
+        </attvalues>
+      </node>
+      <node id="roboflow/notebooks" label="roboflow/notebooks">
+        <attvalues>
+          <attvalue for="0" value="9325" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="1441" />
+        </attvalues>
+      </node>
+      <node id="PeterL1n/RobustVideoMatting" label="PeterL1n/RobustVideoMatting">
+        <attvalues>
+          <attvalue for="0" value="9311" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1196" />
+        </attvalues>
+      </node>
+      <node id="exadel-inc/CompreFace" label="exadel-inc/CompreFace">
+        <attvalues>
+          <attvalue for="0" value="7882" />
+          <attvalue for="1" value="Java" />
+          <attvalue for="2" value="1095" />
+        </attvalues>
+      </node>
+      <node id="EutropicAI/Final2x" label="EutropicAI/Final2x">
+        <attvalues>
+          <attvalue for="0" value="7158" />
+          <attvalue for="1" value="TypeScript" />
+          <attvalue for="2" value="526" />
+        </attvalues>
+      </node>
+      <node id="PeterL1n/BackgroundMattingV2" label="PeterL1n/BackgroundMattingV2">
+        <attvalues>
+          <attvalue for="0" value="7155" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="965" />
+        </attvalues>
+      </node>
+      <node id="scikit-image/scikit-image" label="scikit-image/scikit-image">
+        <attvalues>
+          <attvalue for="0" value="6495" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="2371" />
+        </attvalues>
+      </node>
+      <node id="liuruoze/EasyPR" label="liuruoze/EasyPR">
+        <attvalues>
+          <attvalue for="0" value="6423" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="2483" />
+        </attvalues>
+      </node>
+      <node id="openMVG/openMVG" label="openMVG/openMVG">
+        <attvalues>
+          <attvalue for="0" value="6382" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="1712" />
+        </attvalues>
+      </node>
+      <node id="Hironsan/BossSensor" label="Hironsan/BossSensor">
+        <attvalues>
+          <attvalue for="0" value="6283" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1077" />
+        </attvalues>
+      </node>
+      <node id="amusi/AI-Job-Notes" label="amusi/AI-Job-Notes">
+        <attvalues>
+          <attvalue for="0" value="6063" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="669" />
+        </attvalues>
+      </node>
+      <node id="shimat/opencvsharp" label="shimat/opencvsharp">
+        <attvalues>
+          <attvalue for="0" value="5962" />
+          <attvalue for="1" value="C#" />
+          <attvalue for="2" value="1229" />
+        </attvalues>
+      </node>
+      <node id="Layout-Parser/layout-parser" label="Layout-Parser/layout-parser">
+        <attvalues>
+          <attvalue for="0" value="5714" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="532" />
+        </attvalues>
+      </node>
+      <node id="idealo/imagededup" label="idealo/imagededup">
+        <attvalues>
+          <attvalue for="0" value="5621" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="476" />
+        </attvalues>
+      </node>
+      <node id="obss/sahi" label="obss/sahi">
+        <attvalues>
+          <attvalue for="0" value="5239" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="743" />
+        </attvalues>
+      </node>
+      <node id="amdegroot/ssd.pytorch" label="amdegroot/ssd.pytorch">
+        <attvalues>
+          <attvalue for="0" value="5234" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1735" />
+        </attvalues>
+      </node>
+      <node id="666ghj/BettaFish" label="666ghj/BettaFish">
+        <attvalues>
+          <attvalue for="0" value="40460" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="7509" />
+        </attvalues>
+      </node>
+      <node id="google-research/bert" label="google-research/bert">
+        <attvalues>
+          <attvalue for="0" value="39980" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="9710" />
+        </attvalues>
+      </node>
+      <node id="hankcs/HanLP" label="hankcs/HanLP">
+        <attvalues>
+          <attvalue for="0" value="36261" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="10899" />
+        </attvalues>
+      </node>
+      <node id="deepset-ai/haystack" label="deepset-ai/haystack">
+        <attvalues>
+          <attvalue for="0" value="24851" />
+          <attvalue for="1" value="MDX" />
+          <attvalue for="2" value="2720" />
+        </attvalues>
+      </node>
+      <node id="ymcui/Chinese-LLaMA-Alpaca" label="ymcui/Chinese-LLaMA-Alpaca">
+        <attvalues>
+          <attvalue for="0" value="18948" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1856" />
+        </attvalues>
+      </node>
+      <node id="botpress/botpress" label="botpress/botpress">
+        <attvalues>
+          <attvalue for="0" value="14638" />
+          <attvalue for="1" value="TypeScript" />
+          <attvalue for="2" value="2252" />
+        </attvalues>
+      </node>
+      <node id="spencermountain/compromise" label="spencermountain/compromise">
+        <attvalues>
+          <attvalue for="0" value="12075" />
+          <attvalue for="1" value="JavaScript" />
+          <attvalue for="2" value="666" />
+        </attvalues>
+      </node>
+      <node id="allenai/allennlp" label="allenai/allennlp">
+        <attvalues>
+          <attvalue for="0" value="11891" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="2221" />
+        </attvalues>
+      </node>
+      <node id="huggingface/text-generation-inference" label="huggingface/text-generation-inference">
+        <attvalues>
+          <attvalue for="0" value="10834" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1261" />
+        </attvalues>
+      </node>
+      <node id="huggingface/tokenizers" label="huggingface/tokenizers">
+        <attvalues>
+          <attvalue for="0" value="10635" />
+          <attvalue for="1" value="Rust" />
+          <attvalue for="2" value="1071" />
+        </attvalues>
+      </node>
+      <node id="bigscience-workshop/petals" label="bigscience-workshop/petals">
+        <attvalues>
+          <attvalue for="0" value="10076" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="602" />
+        </attvalues>
+      </node>
+      <node id="stanfordnlp/CoreNLP" label="stanfordnlp/CoreNLP">
+        <attvalues>
+          <attvalue for="0" value="10065" />
+          <attvalue for="1" value="Java" />
+          <attvalue for="2" value="2717" />
+        </attvalues>
+      </node>
+      <node id="brightmart/nlp_chinese_corpus" label="brightmart/nlp_chinese_corpus">
+        <attvalues>
+          <attvalue for="0" value="9887" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="1556" />
+        </attvalues>
+      </node>
+      <node id="Morizeyao/GPT2-Chinese" label="Morizeyao/GPT2-Chinese">
+        <attvalues>
+          <attvalue for="0" value="7601" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1690" />
+        </attvalues>
+      </node>
+      <node id="ymcui/Chinese-LLaMA-Alpaca-2" label="ymcui/Chinese-LLaMA-Alpaca-2">
+        <attvalues>
+          <attvalue for="0" value="7155" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="568" />
+        </attvalues>
+      </node>
+      <node id="MycroftAI/mycroft-core" label="MycroftAI/mycroft-core">
+        <attvalues>
+          <attvalue for="0" value="6622" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1298" />
+        </attvalues>
+      </node>
+      <node id="codertimo/BERT-pytorch" label="codertimo/BERT-pytorch">
+        <attvalues>
+          <attvalue for="0" value="6529" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1321" />
+        </attvalues>
+      </node>
+      <node id="houbb/sensitive-word" label="houbb/sensitive-word">
+        <attvalues>
+          <attvalue for="0" value="5780" />
+          <attvalue for="1" value="Java" />
+          <attvalue for="2" value="782" />
+        </attvalues>
+      </node>
+      <node id="adbar/trafilatura" label="adbar/trafilatura">
+        <attvalues>
+          <attvalue for="0" value="5727" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="356" />
+        </attvalues>
+      </node>
+      <node id="HIT-SCIR/ltp" label="HIT-SCIR/ltp">
+        <attvalues>
+          <attvalue for="0" value="5243" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1061" />
+        </attvalues>
+      </node>
+      <node id="openvenues/libpostal" label="openvenues/libpostal">
+        <attvalues>
+          <attvalue for="0" value="4772" />
+          <attvalue for="1" value="C" />
+          <attvalue for="2" value="466" />
+        </attvalues>
+      </node>
+      <node id="yanshengjia/ml-road" label="yanshengjia/ml-road">
+        <attvalues>
+          <attvalue for="0" value="4716" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1696" />
+        </attvalues>
+      </node>
+      <node id="trigaten/Learn_Prompting" label="trigaten/Learn_Prompting">
+        <attvalues>
+          <attvalue for="0" value="4679" />
+          <attvalue for="1" value="MDX" />
+          <attvalue for="2" value="663" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="opencv/opencv" target="ultralytics/ultralytics" id="0" weight="0.9190580935616215" />
+      <edge source="opencv/opencv" target="pytorch/vision" id="1" weight="0.9090652342859717" />
+      <edge source="opencv/opencv" target="virgili0/Virgilio" id="2" weight="0.9541498612349347" />
+      <edge source="opencv/opencv" target="mlfoundations/open_clip" id="3" weight="0.9173110499661411" />
+      <edge source="opencv/opencv" target="nerfstudio-project/nerfstudio" id="4" weight="0.925148840550744" />
+      <edge source="opencv/opencv" target="scikit-image/scikit-image" id="5" weight="0.9326525532798191" />
+      <edge source="opencv/opencv" target="obss/sahi" id="6" weight="0.9062047978021693" />
+      <edge source="opencv/opencv" target="bigscience-workshop/petals" id="7" weight="0.9460989706813446" />
+      <edge source="opencv/opencv" target="ymcui/Chinese-LLaMA-Alpaca-2" id="8" weight="0.9396985252656166" />
+      <edge source="opencv/opencv" target="MycroftAI/mycroft-core" id="9" weight="0.9170119585801697" />
+      <edge source="d2l-ai/d2l-zh" target="ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code" id="10" weight="0.9383757151264202" />
+      <edge source="d2l-ai/d2l-zh" target="HumanSignal/label-studio" id="11" weight="0.9072662940588164" />
+      <edge source="d2l-ai/d2l-zh" target="kmario23/deep-learning-drizzle" id="12" weight="0.9386578158979076" />
+      <edge source="ultralytics/ultralytics" target="roboflow/supervision" id="13" weight="0.9472675605751155" />
+      <edge source="ultralytics/ultralytics" target="huggingface/datasets" id="14" weight="0.9424450517558921" />
+      <edge source="ultralytics/ultralytics" target="AccumulateMore/CV" id="15" weight="0.9004135678126531" />
+      <edge source="ultralytics/ultralytics" target="pytorch/vision" id="16" weight="0.9643316281187203" />
+      <edge source="ultralytics/ultralytics" target="virgili0/Virgilio" id="17" weight="0.954812012347129" />
+      <edge source="ultralytics/ultralytics" target="mlfoundations/open_clip" id="18" weight="0.9509044130703971" />
+      <edge source="ultralytics/ultralytics" target="qubvel-org/segmentation_models.pytorch" id="19" weight="0.9309028296405729" />
+      <edge source="ultralytics/ultralytics" target="nerfstudio-project/nerfstudio" id="20" weight="0.9677231533911481" />
+      <edge source="ultralytics/ultralytics" target="kornia/kornia" id="21" weight="0.9182665988795379" />
+      <edge source="ultralytics/ultralytics" target="advimman/lama" id="22" weight="0.9622372297064675" />
+      <edge source="ultralytics/ultralytics" target="roboflow/notebooks" id="23" weight="0.9431601550760544" />
+      <edge source="ultralytics/ultralytics" target="PeterL1n/RobustVideoMatting" id="24" weight="0.9632663511114327" />
+      <edge source="ultralytics/ultralytics" target="PeterL1n/BackgroundMattingV2" id="25" weight="0.9334516023634246" />
+      <edge source="ultralytics/ultralytics" target="scikit-image/scikit-image" id="26" weight="0.9112159981109261" />
+      <edge source="ultralytics/ultralytics" target="Hironsan/BossSensor" id="27" weight="0.9295936172308699" />
+      <edge source="ultralytics/ultralytics" target="amusi/AI-Job-Notes" id="28" weight="0.9029634782683853" />
+      <edge source="ultralytics/ultralytics" target="shimat/opencvsharp" id="29" weight="0.9139184581929346" />
+      <edge source="ultralytics/ultralytics" target="Layout-Parser/layout-parser" id="30" weight="0.9474921149696752" />
+      <edge source="ultralytics/ultralytics" target="idealo/imagededup" id="31" weight="0.9505508581846688" />
+      <edge source="ultralytics/ultralytics" target="obss/sahi" id="32" weight="0.9616837699874952" />
+      <edge source="ultralytics/ultralytics" target="hankcs/HanLP" id="33" weight="0.901793742125823" />
+      <edge source="ultralytics/ultralytics" target="ymcui/Chinese-LLaMA-Alpaca" id="34" weight="0.9343641046004403" />
+      <edge source="ultralytics/ultralytics" target="allenai/allennlp" id="35" weight="0.902684237153441" />
+      <edge source="ultralytics/ultralytics" target="bigscience-workshop/petals" id="36" weight="0.9782940893908081" />
+      <edge source="ultralytics/ultralytics" target="brightmart/nlp_chinese_corpus" id="37" weight="0.95269943579515" />
+      <edge source="ultralytics/ultralytics" target="ymcui/Chinese-LLaMA-Alpaca-2" id="38" weight="0.9433354267427585" />
+      <edge source="ultralytics/ultralytics" target="MycroftAI/mycroft-core" id="39" weight="0.9450147195677024" />
+      <edge source="ultralytics/ultralytics" target="houbb/sensitive-word" id="40" weight="0.9668491232864278" />
+      <edge source="ultralytics/ultralytics" target="adbar/trafilatura" id="41" weight="0.9119236232562193" />
+      <edge source="roboflow/supervision" target="AccumulateMore/CV" id="42" weight="0.9615227392891853" />
+      <edge source="roboflow/supervision" target="pytorch/vision" id="43" weight="0.9928812659490153" />
+      <edge source="roboflow/supervision" target="virgili0/Virgilio" id="44" weight="0.9733590623277197" />
+      <edge source="roboflow/supervision" target="mlfoundations/open_clip" id="45" weight="0.9306189900236805" />
+      <edge source="roboflow/supervision" target="qubvel-org/segmentation_models.pytorch" id="46" weight="0.9225976858857596" />
+      <edge source="roboflow/supervision" target="kornia/kornia" id="47" weight="0.9124657419905372" />
+      <edge source="roboflow/supervision" target="advimman/lama" id="48" weight="0.9150608159630524" />
+      <edge source="roboflow/supervision" target="PeterL1n/RobustVideoMatting" id="49" weight="0.9447333187360107" />
+      <edge source="roboflow/supervision" target="PeterL1n/BackgroundMattingV2" id="50" weight="0.9031805178331143" />
+      <edge source="roboflow/supervision" target="scikit-image/scikit-image" id="51" weight="0.9656550703122715" />
+      <edge source="roboflow/supervision" target="Hironsan/BossSensor" id="52" weight="0.968360007486177" />
+      <edge source="roboflow/supervision" target="amusi/AI-Job-Notes" id="53" weight="0.9624812300107095" />
+      <edge source="roboflow/supervision" target="Layout-Parser/layout-parser" id="54" weight="0.9436023874409967" />
+      <edge source="roboflow/supervision" target="idealo/imagededup" id="55" weight="0.9456319580472056" />
+      <edge source="roboflow/supervision" target="obss/sahi" id="56" weight="0.9058518402428402" />
+      <edge source="roboflow/supervision" target="666ghj/BettaFish" id="57" weight="0.9756681484281647" />
+      <edge source="roboflow/supervision" target="hankcs/HanLP" id="58" weight="0.9018570964986043" />
+      <edge source="roboflow/supervision" target="ymcui/Chinese-LLaMA-Alpaca" id="59" weight="0.9949185624627884" />
+      <edge source="roboflow/supervision" target="spencermountain/compromise" id="60" weight="0.9007534525894079" />
+      <edge source="roboflow/supervision" target="bigscience-workshop/petals" id="61" weight="0.9790165887968236" />
+      <edge source="roboflow/supervision" target="brightmart/nlp_chinese_corpus" id="62" weight="0.9957068984658319" />
+      <edge source="roboflow/supervision" target="ymcui/Chinese-LLaMA-Alpaca-2" id="63" weight="0.9794597091738249" />
+      <edge source="roboflow/supervision" target="MycroftAI/mycroft-core" id="64" weight="0.9486569875213022" />
+      <edge source="roboflow/supervision" target="houbb/sensitive-word" id="65" weight="0.9682756337965925" />
+      <edge source="roboflow/supervision" target="HIT-SCIR/ltp" id="66" weight="0.9562641011666616" />
+      <edge source="ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code" target="yanshengjia/ml-road" id="67" weight="0.9060530159621017" />
+      <edge source="graphdeco-inria/gaussian-splatting" target="mlfoundations/open_clip" id="68" weight="0.9069486466484612" />
+      <edge source="graphdeco-inria/gaussian-splatting" target="qubvel-org/segmentation_models.pytorch" id="69" weight="0.9143813964326934" />
+      <edge source="graphdeco-inria/gaussian-splatting" target="advimman/lama" id="70" weight="0.9369028496781686" />
+      <edge source="graphdeco-inria/gaussian-splatting" target="shimat/opencvsharp" id="71" weight="0.9056384737877902" />
+      <edge source="graphdeco-inria/gaussian-splatting" target="idealo/imagededup" id="72" weight="0.9213611708056637" />
+      <edge source="graphdeco-inria/gaussian-splatting" target="adbar/trafilatura" id="73" weight="0.903508706874713" />
+      <edge source="huggingface/datasets" target="pytorch/vision" id="74" weight="0.9153003201044502" />
+      <edge source="huggingface/datasets" target="virgili0/Virgilio" id="75" weight="0.9024257851250241" />
+      <edge source="huggingface/datasets" target="mlfoundations/open_clip" id="76" weight="0.9268458417643097" />
+      <edge source="huggingface/datasets" target="qubvel-org/segmentation_models.pytorch" id="77" weight="0.9304665958516162" />
+      <edge source="huggingface/datasets" target="nerfstudio-project/nerfstudio" id="78" weight="0.9401145143679066" />
+      <edge source="huggingface/datasets" target="kornia/kornia" id="79" weight="0.9220893864946177" />
+      <edge source="huggingface/datasets" target="advimman/lama" id="80" weight="0.9091664113164618" />
+      <edge source="huggingface/datasets" target="PeterL1n/RobustVideoMatting" id="81" weight="0.9231184076703666" />
+      <edge source="huggingface/datasets" target="exadel-inc/CompreFace" id="82" weight="0.918192030223527" />
+      <edge source="huggingface/datasets" target="Layout-Parser/layout-parser" id="83" weight="0.9547508354127232" />
+      <edge source="huggingface/datasets" target="bigscience-workshop/petals" id="84" weight="0.9309879616920603" />
+      <edge source="huggingface/datasets" target="brightmart/nlp_chinese_corpus" id="85" weight="0.905948954891404" />
+      <edge source="huggingface/datasets" target="houbb/sensitive-word" id="86" weight="0.9291841597700662" />
+      <edge source="huggingface/datasets" target="adbar/trafilatura" id="87" weight="0.9025594142897089" />
+      <edge source="AccumulateMore/CV" target="pytorch/vision" id="88" weight="0.9377112361544628" />
+      <edge source="AccumulateMore/CV" target="virgili0/Virgilio" id="89" weight="0.9764446057029394" />
+      <edge source="AccumulateMore/CV" target="mlfoundations/open_clip" id="90" weight="0.9414428261617738" />
+      <edge source="AccumulateMore/CV" target="PeterL1n/RobustVideoMatting" id="91" weight="0.9167220643360072" />
+      <edge source="AccumulateMore/CV" target="scikit-image/scikit-image" id="92" weight="0.9709744594529232" />
+      <edge source="AccumulateMore/CV" target="Hironsan/BossSensor" id="93" weight="0.9928527873883021" />
+      <edge source="AccumulateMore/CV" target="amusi/AI-Job-Notes" id="94" weight="0.9999625215500957" />
+      <edge source="AccumulateMore/CV" target="idealo/imagededup" id="95" weight="0.9347398637951798" />
+      <edge source="AccumulateMore/CV" target="ymcui/Chinese-LLaMA-Alpaca" id="96" weight="0.9832338270001469" />
+      <edge source="AccumulateMore/CV" target="spencermountain/compromise" id="97" weight="0.911171081661648" />
+      <edge source="AccumulateMore/CV" target="bigscience-workshop/petals" id="98" weight="0.9480557514894271" />
+      <edge source="AccumulateMore/CV" target="brightmart/nlp_chinese_corpus" id="99" weight="0.961937880336867" />
+      <edge source="AccumulateMore/CV" target="ymcui/Chinese-LLaMA-Alpaca-2" id="100" weight="0.9471002458999557" />
+      <edge source="AccumulateMore/CV" target="MycroftAI/mycroft-core" id="101" weight="0.9084440483808547" />
+      <edge source="AccumulateMore/CV" target="houbb/sensitive-word" id="102" weight="0.9011208373509899" />
+      <edge source="pytorch/vision" target="virgili0/Virgilio" id="103" weight="0.97516771940013" />
+      <edge source="pytorch/vision" target="mlfoundations/open_clip" id="104" weight="0.9312178570198499" />
+      <edge source="pytorch/vision" target="qubvel-org/segmentation_models.pytorch" id="105" weight="0.9250009180795215" />
+      <edge source="pytorch/vision" target="nerfstudio-project/nerfstudio" id="106" weight="0.9127618413693771" />
+      <edge source="pytorch/vision" target="kornia/kornia" id="107" weight="0.9153535987598441" />
+      <edge source="pytorch/vision" target="advimman/lama" id="108" weight="0.9221804998908587" />
+      <edge source="pytorch/vision" target="PeterL1n/RobustVideoMatting" id="109" weight="0.9448606664609864" />
+      <edge source="pytorch/vision" target="PeterL1n/BackgroundMattingV2" id="110" weight="0.9026563080994564" />
+      <edge source="pytorch/vision" target="scikit-image/scikit-image" id="111" weight="0.962803804630468" />
+      <edge source="pytorch/vision" target="Hironsan/BossSensor" id="112" weight="0.9493596144505041" />
+      <edge source="pytorch/vision" target="amusi/AI-Job-Notes" id="113" weight="0.9390072860671933" />
+      <edge source="pytorch/vision" target="Layout-Parser/layout-parser" id="114" weight="0.9499485206568669" />
+      <edge source="pytorch/vision" target="idealo/imagededup" id="115" weight="0.9397367631446298" />
+      <edge source="pytorch/vision" target="obss/sahi" id="116" weight="0.9164719095428019" />
+      <edge source="pytorch/vision" target="666ghj/BettaFish" id="117" weight="0.9698951611709551" />
+      <edge source="pytorch/vision" target="hankcs/HanLP" id="118" weight="0.9217426301019783" />
+      <edge source="pytorch/vision" target="ymcui/Chinese-LLaMA-Alpaca" id="119" weight="0.9791449425677381" />
+      <edge source="pytorch/vision" target="bigscience-workshop/petals" id="120" weight="0.9895582055554198" />
+      <edge source="pytorch/vision" target="brightmart/nlp_chinese_corpus" id="121" weight="0.985606167504056" />
+      <edge source="pytorch/vision" target="ymcui/Chinese-LLaMA-Alpaca-2" id="122" weight="0.9880435648899364" />
+      <edge source="pytorch/vision" target="MycroftAI/mycroft-core" id="123" weight="0.9618845196985744" />
+      <edge source="pytorch/vision" target="houbb/sensitive-word" id="124" weight="0.9731063332906575" />
+      <edge source="pytorch/vision" target="HIT-SCIR/ltp" id="125" weight="0.9492622612354027" />
+      <edge source="virgili0/Virgilio" target="mlfoundations/open_clip" id="126" weight="0.9621440580232178" />
+      <edge source="virgili0/Virgilio" target="qubvel-org/segmentation_models.pytorch" id="127" weight="0.9029994819798814" />
+      <edge source="virgili0/Virgilio" target="nerfstudio-project/nerfstudio" id="128" weight="0.9261123402200574" />
+      <edge source="virgili0/Virgilio" target="kornia/kornia" id="129" weight="0.9170164277343366" />
+      <edge source="virgili0/Virgilio" target="advimman/lama" id="130" weight="0.9203146045893096" />
+      <edge source="virgili0/Virgilio" target="PeterL1n/RobustVideoMatting" id="131" weight="0.9417097819494069" />
+      <edge source="virgili0/Virgilio" target="PeterL1n/BackgroundMattingV2" id="132" weight="0.9156841255386456" />
+      <edge source="virgili0/Virgilio" target="scikit-image/scikit-image" id="133" weight="0.9846688613467967" />
+      <edge source="virgili0/Virgilio" target="Hironsan/BossSensor" id="134" weight="0.9797362892657425" />
+      <edge source="virgili0/Virgilio" target="amusi/AI-Job-Notes" id="135" weight="0.9771530663694593" />
+      <edge source="virgili0/Virgilio" target="Layout-Parser/layout-parser" id="136" weight="0.9094405898047964" />
+      <edge source="virgili0/Virgilio" target="idealo/imagededup" id="137" weight="0.947048944890573" />
+      <edge source="virgili0/Virgilio" target="obss/sahi" id="138" weight="0.9338599237489468" />
+      <edge source="virgili0/Virgilio" target="666ghj/BettaFish" id="139" weight="0.9073948642353605" />
+      <edge source="virgili0/Virgilio" target="ymcui/Chinese-LLaMA-Alpaca" id="140" weight="0.9780973444378335" />
+      <edge source="virgili0/Virgilio" target="spencermountain/compromise" id="141" weight="0.9139604328182968" />
+      <edge source="virgili0/Virgilio" target="bigscience-workshop/petals" id="142" weight="0.9899609828374627" />
+      <edge source="virgili0/Virgilio" target="brightmart/nlp_chinese_corpus" id="143" weight="0.9689845333929831" />
+      <edge source="virgili0/Virgilio" target="ymcui/Chinese-LLaMA-Alpaca-2" id="144" weight="0.9840375290621763" />
+      <edge source="virgili0/Virgilio" target="MycroftAI/mycroft-core" id="145" weight="0.9541471287334917" />
+      <edge source="virgili0/Virgilio" target="houbb/sensitive-word" id="146" weight="0.9369820700685119" />
+      <edge source="mlfoundations/open_clip" target="qubvel-org/segmentation_models.pytorch" id="147" weight="0.9402938737679024" />
+      <edge source="mlfoundations/open_clip" target="nerfstudio-project/nerfstudio" id="148" weight="0.9665234470174834" />
+      <edge source="mlfoundations/open_clip" target="kornia/kornia" id="149" weight="0.9644961919267959" />
+      <edge source="mlfoundations/open_clip" target="advimman/lama" id="150" weight="0.9443289982249172" />
+      <edge source="mlfoundations/open_clip" target="PeterL1n/RobustVideoMatting" id="151" weight="0.9333775781609934" />
+      <edge source="mlfoundations/open_clip" target="PeterL1n/BackgroundMattingV2" id="152" weight="0.9113288299409437" />
+      <edge source="mlfoundations/open_clip" target="scikit-image/scikit-image" id="153" weight="0.9336089507754857" />
+      <edge source="mlfoundations/open_clip" target="liuruoze/EasyPR" id="154" weight="0.9283138800540489" />
+      <edge source="mlfoundations/open_clip" target="Hironsan/BossSensor" id="155" weight="0.9519805684082351" />
+      <edge source="mlfoundations/open_clip" target="amusi/AI-Job-Notes" id="156" weight="0.9426601020566945" />
+      <edge source="mlfoundations/open_clip" target="shimat/opencvsharp" id="157" weight="0.9160939903698334" />
+      <edge source="mlfoundations/open_clip" target="Layout-Parser/layout-parser" id="158" weight="0.9319586254796474" />
+      <edge source="mlfoundations/open_clip" target="idealo/imagededup" id="159" weight="0.9538861665925578" />
+      <edge source="mlfoundations/open_clip" target="obss/sahi" id="160" weight="0.9134749641850564" />
+      <edge source="mlfoundations/open_clip" target="ymcui/Chinese-LLaMA-Alpaca" id="161" weight="0.9383616869421713" />
+      <edge source="mlfoundations/open_clip" target="botpress/botpress" id="162" weight="0.9265355189485555" />
+      <edge source="mlfoundations/open_clip" target="spencermountain/compromise" id="163" weight="0.9042631331976664" />
+      <edge source="mlfoundations/open_clip" target="allenai/allennlp" id="164" weight="0.946643302902301" />
+      <edge source="mlfoundations/open_clip" target="bigscience-workshop/petals" id="165" weight="0.954701672647123" />
+      <edge source="mlfoundations/open_clip" target="brightmart/nlp_chinese_corpus" id="166" weight="0.9340304387971526" />
+      <edge source="mlfoundations/open_clip" target="ymcui/Chinese-LLaMA-Alpaca-2" id="167" weight="0.9330549020071783" />
+      <edge source="mlfoundations/open_clip" target="MycroftAI/mycroft-core" id="168" weight="0.9204302904073088" />
+      <edge source="mlfoundations/open_clip" target="houbb/sensitive-word" id="169" weight="0.9109025669257869" />
+      <edge source="mlfoundations/open_clip" target="adbar/trafilatura" id="170" weight="0.9327904607024586" />
+      <edge source="alicevision/Meshroom" target="shimat/opencvsharp" id="171" weight="0.9025698948164231" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="nerfstudio-project/nerfstudio" id="172" weight="0.9314682142245408" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="kornia/kornia" id="173" weight="0.9496117423894067" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="advimman/lama" id="174" weight="0.9401935049846348" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="PeterL1n/RobustVideoMatting" id="175" weight="0.915988523288954" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="liuruoze/EasyPR" id="176" weight="0.9176785366483402" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="openMVG/openMVG" id="177" weight="0.9059179817950515" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="shimat/opencvsharp" id="178" weight="0.9365343104967627" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="Layout-Parser/layout-parser" id="179" weight="0.9683677701722275" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="idealo/imagededup" id="180" weight="0.9161745567477763" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="deepset-ai/haystack" id="181" weight="0.9102951063262951" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="ymcui/Chinese-LLaMA-Alpaca" id="182" weight="0.9127838581726965" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="bigscience-workshop/petals" id="183" weight="0.9226271932488351" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="brightmart/nlp_chinese_corpus" id="184" weight="0.9271945957383603" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="houbb/sensitive-word" id="185" weight="0.9271311313765439" />
+      <edge source="qubvel-org/segmentation_models.pytorch" target="adbar/trafilatura" id="186" weight="0.954775914988805" />
+      <edge source="nerfstudio-project/nerfstudio" target="kornia/kornia" id="187" weight="0.9470190628155025" />
+      <edge source="nerfstudio-project/nerfstudio" target="advimman/lama" id="188" weight="0.9280826267726424" />
+      <edge source="nerfstudio-project/nerfstudio" target="roboflow/notebooks" id="189" weight="0.9358290778518538" />
+      <edge source="nerfstudio-project/nerfstudio" target="PeterL1n/RobustVideoMatting" id="190" weight="0.912958602255769" />
+      <edge source="nerfstudio-project/nerfstudio" target="Layout-Parser/layout-parser" id="191" weight="0.930918983580121" />
+      <edge source="nerfstudio-project/nerfstudio" target="idealo/imagededup" id="192" weight="0.921922489882515" />
+      <edge source="nerfstudio-project/nerfstudio" target="obss/sahi" id="193" weight="0.9163470275878418" />
+      <edge source="nerfstudio-project/nerfstudio" target="botpress/botpress" id="194" weight="0.9236014913478284" />
+      <edge source="nerfstudio-project/nerfstudio" target="allenai/allennlp" id="195" weight="0.9413537447005327" />
+      <edge source="nerfstudio-project/nerfstudio" target="bigscience-workshop/petals" id="196" weight="0.938587968261631" />
+      <edge source="nerfstudio-project/nerfstudio" target="ymcui/Chinese-LLaMA-Alpaca-2" id="197" weight="0.9097850986368936" />
+      <edge source="nerfstudio-project/nerfstudio" target="MycroftAI/mycroft-core" id="198" weight="0.905544622240276" />
+      <edge source="nerfstudio-project/nerfstudio" target="adbar/trafilatura" id="199" weight="0.9367767807731956" />
+      <edge source="kornia/kornia" target="scikit-image/scikit-image" id="200" weight="0.9096229592331053" />
+      <edge source="kornia/kornia" target="liuruoze/EasyPR" id="201" weight="0.9567565584483512" />
+      <edge source="kornia/kornia" target="shimat/opencvsharp" id="202" weight="0.9263845396332904" />
+      <edge source="kornia/kornia" target="Layout-Parser/layout-parser" id="203" weight="0.9559692794940325" />
+      <edge source="kornia/kornia" target="deepset-ai/haystack" id="204" weight="0.9309973065744168" />
+      <edge source="kornia/kornia" target="ymcui/Chinese-LLaMA-Alpaca" id="205" weight="0.909294464561345" />
+      <edge source="kornia/kornia" target="allenai/allennlp" id="206" weight="0.9177558398271719" />
+      <edge source="kornia/kornia" target="bigscience-workshop/petals" id="207" weight="0.9155046305481926" />
+      <edge source="kornia/kornia" target="brightmart/nlp_chinese_corpus" id="208" weight="0.9046544377063639" />
+      <edge source="kornia/kornia" target="ymcui/Chinese-LLaMA-Alpaca-2" id="209" weight="0.9179690241376103" />
+      <edge source="kornia/kornia" target="MycroftAI/mycroft-core" id="210" weight="0.9028893049256235" />
+      <edge source="kornia/kornia" target="adbar/trafilatura" id="211" weight="0.9372971172421414" />
+      <edge source="advimman/lama" target="PeterL1n/RobustVideoMatting" id="212" weight="0.9598123691763798" />
+      <edge source="advimman/lama" target="PeterL1n/BackgroundMattingV2" id="213" weight="0.9540763021801911" />
+      <edge source="advimman/lama" target="Hironsan/BossSensor" id="214" weight="0.9172569017534684" />
+      <edge source="advimman/lama" target="shimat/opencvsharp" id="215" weight="0.961479213190637" />
+      <edge source="advimman/lama" target="Layout-Parser/layout-parser" id="216" weight="0.9141899537970547" />
+      <edge source="advimman/lama" target="idealo/imagededup" id="217" weight="0.9647664500994532" />
+      <edge source="advimman/lama" target="obss/sahi" id="218" weight="0.9217958571254923" />
+      <edge source="advimman/lama" target="ymcui/Chinese-LLaMA-Alpaca" id="219" weight="0.9098835563723305" />
+      <edge source="advimman/lama" target="botpress/botpress" id="220" weight="0.9105923657840199" />
+      <edge source="advimman/lama" target="allenai/allennlp" id="221" weight="0.9002448739157012" />
+      <edge source="advimman/lama" target="bigscience-workshop/petals" id="222" weight="0.941276743569381" />
+      <edge source="advimman/lama" target="brightmart/nlp_chinese_corpus" id="223" weight="0.9293925324865446" />
+      <edge source="advimman/lama" target="MycroftAI/mycroft-core" id="224" weight="0.9166352354946454" />
+      <edge source="advimman/lama" target="houbb/sensitive-word" id="225" weight="0.9426688601364736" />
+      <edge source="advimman/lama" target="adbar/trafilatura" id="226" weight="0.928689948028387" />
+      <edge source="advimman/lama" target="openvenues/libpostal" id="227" weight="0.9196690971509459" />
+      <edge source="roboflow/notebooks" target="idealo/imagededup" id="228" weight="0.9022398560100302" />
+      <edge source="roboflow/notebooks" target="obss/sahi" id="229" weight="0.9400012495677985" />
+      <edge source="PeterL1n/RobustVideoMatting" target="PeterL1n/BackgroundMattingV2" id="230" weight="0.9284228272824553" />
+      <edge source="PeterL1n/RobustVideoMatting" target="Hironsan/BossSensor" id="231" weight="0.9550060020833322" />
+      <edge source="PeterL1n/RobustVideoMatting" target="amusi/AI-Job-Notes" id="232" weight="0.9199402429902145" />
+      <edge source="PeterL1n/RobustVideoMatting" target="Layout-Parser/layout-parser" id="233" weight="0.931494119800194" />
+      <edge source="PeterL1n/RobustVideoMatting" target="idealo/imagededup" id="234" weight="0.9757023942222353" />
+      <edge source="PeterL1n/RobustVideoMatting" target="ymcui/Chinese-LLaMA-Alpaca" id="235" weight="0.9428011657044097" />
+      <edge source="PeterL1n/RobustVideoMatting" target="bigscience-workshop/petals" id="236" weight="0.9648167238430839" />
+      <edge source="PeterL1n/RobustVideoMatting" target="brightmart/nlp_chinese_corpus" id="237" weight="0.9659783537273395" />
+      <edge source="PeterL1n/RobustVideoMatting" target="ymcui/Chinese-LLaMA-Alpaca-2" id="238" weight="0.9057902521037583" />
+      <edge source="PeterL1n/RobustVideoMatting" target="MycroftAI/mycroft-core" id="239" weight="0.9115363376664135" />
+      <edge source="PeterL1n/RobustVideoMatting" target="houbb/sensitive-word" id="240" weight="0.9810018182807797" />
+      <edge source="EutropicAI/Final2x" target="amdegroot/ssd.pytorch" id="241" weight="0.9335550456011822" />
+      <edge source="EutropicAI/Final2x" target="botpress/botpress" id="242" weight="0.9230267515852156" />
+      <edge source="EutropicAI/Final2x" target="huggingface/text-generation-inference" id="243" weight="0.9004406419003845" />
+      <edge source="EutropicAI/Final2x" target="stanfordnlp/CoreNLP" id="244" weight="0.9164486720754904" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="Hironsan/BossSensor" id="245" weight="0.9207422915535102" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="shimat/opencvsharp" id="246" weight="0.9436311733492337" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="idealo/imagededup" id="247" weight="0.9085370429020444" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="obss/sahi" id="248" weight="0.9513230333941146" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="ymcui/Chinese-LLaMA-Alpaca" id="249" weight="0.9064000447396242" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="bigscience-workshop/petals" id="250" weight="0.9246388458517042" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="brightmart/nlp_chinese_corpus" id="251" weight="0.9172199397407158" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="MycroftAI/mycroft-core" id="252" weight="0.9107751556945424" />
+      <edge source="PeterL1n/BackgroundMattingV2" target="houbb/sensitive-word" id="253" weight="0.9156295808581452" />
+      <edge source="scikit-image/scikit-image" target="Hironsan/BossSensor" id="254" weight="0.9549740122676943" />
+      <edge source="scikit-image/scikit-image" target="amusi/AI-Job-Notes" id="255" weight="0.9702807790660638" />
+      <edge source="scikit-image/scikit-image" target="idealo/imagededup" id="256" weight="0.9068975332439376" />
+      <edge source="scikit-image/scikit-image" target="obss/sahi" id="257" weight="0.9062323579014839" />
+      <edge source="scikit-image/scikit-image" target="666ghj/BettaFish" id="258" weight="0.9198117276166002" />
+      <edge source="scikit-image/scikit-image" target="ymcui/Chinese-LLaMA-Alpaca" id="259" weight="0.970973409290729" />
+      <edge source="scikit-image/scikit-image" target="spencermountain/compromise" id="260" weight="0.9095447471114101" />
+      <edge source="scikit-image/scikit-image" target="bigscience-workshop/petals" id="261" weight="0.9615399020456934" />
+      <edge source="scikit-image/scikit-image" target="brightmart/nlp_chinese_corpus" id="262" weight="0.9471596769355922" />
+      <edge source="scikit-image/scikit-image" target="ymcui/Chinese-LLaMA-Alpaca-2" id="263" weight="0.9892260896006525" />
+      <edge source="scikit-image/scikit-image" target="MycroftAI/mycroft-core" id="264" weight="0.9425331339022369" />
+      <edge source="scikit-image/scikit-image" target="HIT-SCIR/ltp" id="265" weight="0.9101791154088466" />
+      <edge source="liuruoze/EasyPR" target="Layout-Parser/layout-parser" id="266" weight="0.9212428196514063" />
+      <edge source="Hironsan/BossSensor" target="amusi/AI-Job-Notes" id="267" weight="0.9938488322406781" />
+      <edge source="Hironsan/BossSensor" target="idealo/imagededup" id="268" weight="0.9571255978779573" />
+      <edge source="Hironsan/BossSensor" target="obss/sahi" id="269" weight="0.9082050341996556" />
+      <edge source="Hironsan/BossSensor" target="ymcui/Chinese-LLaMA-Alpaca" id="270" weight="0.9855318372216959" />
+      <edge source="Hironsan/BossSensor" target="spencermountain/compromise" id="271" weight="0.9075884637232793" />
+      <edge source="Hironsan/BossSensor" target="bigscience-workshop/petals" id="272" weight="0.9651122186994351" />
+      <edge source="Hironsan/BossSensor" target="brightmart/nlp_chinese_corpus" id="273" weight="0.9770967919188289" />
+      <edge source="Hironsan/BossSensor" target="ymcui/Chinese-LLaMA-Alpaca-2" id="274" weight="0.9433923251879124" />
+      <edge source="Hironsan/BossSensor" target="MycroftAI/mycroft-core" id="275" weight="0.9165555493201539" />
+      <edge source="Hironsan/BossSensor" target="houbb/sensitive-word" id="276" weight="0.9375210697367451" />
+      <edge source="amusi/AI-Job-Notes" target="idealo/imagededup" id="277" weight="0.9368134049513537" />
+      <edge source="amusi/AI-Job-Notes" target="ymcui/Chinese-LLaMA-Alpaca" id="278" weight="0.9838734692069371" />
+      <edge source="amusi/AI-Job-Notes" target="spencermountain/compromise" id="279" weight="0.9113494628646928" />
+      <edge source="amusi/AI-Job-Notes" target="bigscience-workshop/petals" id="280" weight="0.9497490963712356" />
+      <edge source="amusi/AI-Job-Notes" target="brightmart/nlp_chinese_corpus" id="281" weight="0.9635002480894149" />
+      <edge source="amusi/AI-Job-Notes" target="ymcui/Chinese-LLaMA-Alpaca-2" id="282" weight="0.9472868192622325" />
+      <edge source="amusi/AI-Job-Notes" target="MycroftAI/mycroft-core" id="283" weight="0.9094694448625428" />
+      <edge source="amusi/AI-Job-Notes" target="houbb/sensitive-word" id="284" weight="0.9041948620599696" />
+      <edge source="shimat/opencvsharp" target="Layout-Parser/layout-parser" id="285" weight="0.9059921508728717" />
+      <edge source="shimat/opencvsharp" target="obss/sahi" id="286" weight="0.9033350016109046" />
+      <edge source="shimat/opencvsharp" target="adbar/trafilatura" id="287" weight="0.9401247234012944" />
+      <edge source="Layout-Parser/layout-parser" target="idealo/imagededup" id="288" weight="0.9077784639066417" />
+      <edge source="Layout-Parser/layout-parser" target="666ghj/BettaFish" id="289" weight="0.9244758041810631" />
+      <edge source="Layout-Parser/layout-parser" target="hankcs/HanLP" id="290" weight="0.9262941485206214" />
+      <edge source="Layout-Parser/layout-parser" target="deepset-ai/haystack" id="291" weight="0.9181677391671162" />
+      <edge source="Layout-Parser/layout-parser" target="ymcui/Chinese-LLaMA-Alpaca" id="292" weight="0.9259938241141669" />
+      <edge source="Layout-Parser/layout-parser" target="bigscience-workshop/petals" id="293" weight="0.9403954846807334" />
+      <edge source="Layout-Parser/layout-parser" target="brightmart/nlp_chinese_corpus" id="294" weight="0.948290815222266" />
+      <edge source="Layout-Parser/layout-parser" target="ymcui/Chinese-LLaMA-Alpaca-2" id="295" weight="0.9146588253376258" />
+      <edge source="Layout-Parser/layout-parser" target="MycroftAI/mycroft-core" id="296" weight="0.903431121195396" />
+      <edge source="Layout-Parser/layout-parser" target="houbb/sensitive-word" id="297" weight="0.9593904531972248" />
+      <edge source="Layout-Parser/layout-parser" target="adbar/trafilatura" id="298" weight="0.9102685873565849" />
+      <edge source="idealo/imagededup" target="amdegroot/ssd.pytorch" id="299" weight="0.9146867205657621" />
+      <edge source="idealo/imagededup" target="ymcui/Chinese-LLaMA-Alpaca" id="300" weight="0.9494427720335715" />
+      <edge source="idealo/imagededup" target="botpress/botpress" id="301" weight="0.929133517196013" />
+      <edge source="idealo/imagededup" target="spencermountain/compromise" id="302" weight="0.9126946026111271" />
+      <edge source="idealo/imagededup" target="allenai/allennlp" id="303" weight="0.9049477820855771" />
+      <edge source="idealo/imagededup" target="bigscience-workshop/petals" id="304" weight="0.9542302459965765" />
+      <edge source="idealo/imagededup" target="brightmart/nlp_chinese_corpus" id="305" weight="0.9579989023582628" />
+      <edge source="idealo/imagededup" target="ymcui/Chinese-LLaMA-Alpaca-2" id="306" weight="0.9177349250745647" />
+      <edge source="idealo/imagededup" target="MycroftAI/mycroft-core" id="307" weight="0.9154068844026478" />
+      <edge source="idealo/imagededup" target="houbb/sensitive-word" id="308" weight="0.9485634186040681" />
+      <edge source="obss/sahi" target="ymcui/Chinese-LLaMA-Alpaca" id="309" weight="0.9043466517845856" />
+      <edge source="obss/sahi" target="bigscience-workshop/petals" id="310" weight="0.9356508218040123" />
+      <edge source="obss/sahi" target="brightmart/nlp_chinese_corpus" id="311" weight="0.9053855868942889" />
+      <edge source="obss/sahi" target="ymcui/Chinese-LLaMA-Alpaca-2" id="312" weight="0.9170730541145399" />
+      <edge source="obss/sahi" target="MycroftAI/mycroft-core" id="313" weight="0.9252219370354677" />
+      <edge source="amdegroot/ssd.pytorch" target="botpress/botpress" id="314" weight="0.9770018633067691" />
+      <edge source="666ghj/BettaFish" target="hankcs/HanLP" id="315" weight="0.9272758114851746" />
+      <edge source="666ghj/BettaFish" target="ymcui/Chinese-LLaMA-Alpaca" id="316" weight="0.9558579550921912" />
+      <edge source="666ghj/BettaFish" target="bigscience-workshop/petals" id="317" weight="0.9258921232164982" />
+      <edge source="666ghj/BettaFish" target="brightmart/nlp_chinese_corpus" id="318" weight="0.9614018976431972" />
+      <edge source="666ghj/BettaFish" target="ymcui/Chinese-LLaMA-Alpaca-2" id="319" weight="0.9488558229651085" />
+      <edge source="666ghj/BettaFish" target="MycroftAI/mycroft-core" id="320" weight="0.9127727598921609" />
+      <edge source="666ghj/BettaFish" target="houbb/sensitive-word" id="321" weight="0.9364540572745181" />
+      <edge source="666ghj/BettaFish" target="HIT-SCIR/ltp" id="322" weight="0.9952454266814276" />
+      <edge source="google-research/bert" target="codertimo/BERT-pytorch" id="323" weight="0.9403134651385973" />
+      <edge source="hankcs/HanLP" target="brightmart/nlp_chinese_corpus" id="324" weight="0.9068844766734079" />
+      <edge source="hankcs/HanLP" target="houbb/sensitive-word" id="325" weight="0.95599580528111" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca" target="spencermountain/compromise" id="326" weight="0.909852251776684" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca" target="bigscience-workshop/petals" id="327" weight="0.9720115842268618" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca" target="brightmart/nlp_chinese_corpus" id="328" weight="0.993429790223764" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca" target="ymcui/Chinese-LLaMA-Alpaca-2" id="329" weight="0.971125226946899" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca" target="MycroftAI/mycroft-core" id="330" weight="0.937361090214441" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca" target="houbb/sensitive-word" id="331" weight="0.9531423827546799" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca" target="HIT-SCIR/ltp" id="332" weight="0.9349340491500695" />
+      <edge source="botpress/botpress" target="allenai/allennlp" id="333" weight="0.9327530055323453" />
+      <edge source="botpress/botpress" target="MycroftAI/mycroft-core" id="334" weight="0.9133516219880609" />
+      <edge source="botpress/botpress" target="adbar/trafilatura" id="335" weight="0.9250661323656441" />
+      <edge source="spencermountain/compromise" target="ymcui/Chinese-LLaMA-Alpaca-2" id="336" weight="0.9009272257279768" />
+      <edge source="spencermountain/compromise" target="MycroftAI/mycroft-core" id="337" weight="0.9060821541551375" />
+      <edge source="allenai/allennlp" target="adbar/trafilatura" id="338" weight="0.9034265921573984" />
+      <edge source="huggingface/tokenizers" target="Morizeyao/GPT2-Chinese" id="339" weight="0.9000225477055749" />
+      <edge source="huggingface/tokenizers" target="codertimo/BERT-pytorch" id="340" weight="0.9160911845986929" />
+      <edge source="bigscience-workshop/petals" target="brightmart/nlp_chinese_corpus" id="341" weight="0.9784887851808269" />
+      <edge source="bigscience-workshop/petals" target="ymcui/Chinese-LLaMA-Alpaca-2" id="342" weight="0.9811520621944064" />
+      <edge source="bigscience-workshop/petals" target="MycroftAI/mycroft-core" id="343" weight="0.961835881401979" />
+      <edge source="bigscience-workshop/petals" target="houbb/sensitive-word" id="344" weight="0.9715562903284498" />
+      <edge source="brightmart/nlp_chinese_corpus" target="ymcui/Chinese-LLaMA-Alpaca-2" id="345" weight="0.9621313118438614" />
+      <edge source="brightmart/nlp_chinese_corpus" target="MycroftAI/mycroft-core" id="346" weight="0.938751556249448" />
+      <edge source="brightmart/nlp_chinese_corpus" target="houbb/sensitive-word" id="347" weight="0.9808843087210751" />
+      <edge source="brightmart/nlp_chinese_corpus" target="HIT-SCIR/ltp" id="348" weight="0.9341466364958418" />
+      <edge source="Morizeyao/GPT2-Chinese" target="codertimo/BERT-pytorch" id="349" weight="0.9485558974395237" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca-2" target="MycroftAI/mycroft-core" id="350" weight="0.9623346159459276" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca-2" target="houbb/sensitive-word" id="351" weight="0.9291159163179533" />
+      <edge source="ymcui/Chinese-LLaMA-Alpaca-2" target="HIT-SCIR/ltp" id="352" weight="0.9362248294269023" />
+      <edge source="MycroftAI/mycroft-core" target="houbb/sensitive-word" id="353" weight="0.9244932349042293" />
+      <edge source="MycroftAI/mycroft-core" target="adbar/trafilatura" id="354" weight="0.9234123826108226" />
+      <edge source="MycroftAI/mycroft-core" target="trigaten/Learn_Prompting" id="355" weight="0.9308898772647822" />
+    </edges>
+  </graph>
+</gexf>
