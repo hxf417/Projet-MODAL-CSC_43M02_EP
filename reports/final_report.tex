@@ -14,7 +14,26 @@
 \date{April 2026}
 
 \begin{document}
-\maketitle
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{0.6cm}
+{\Large\textcolor{gray}{MODAL Graph Analysis Project}\par}
+\vspace{0.6cm}
+{\Huge\bfseries Modal Graph Analysis\par}
+\vspace{0.25cm}
+{\LARGE\bfseries Repository and Company Community Networks\par}
+\vspace{0.55cm}
+{\color{orange}\rule{0.72\linewidth}{1.2pt}\par}
+\vspace{0.8cm}
+\includegraphics[width=0.93\linewidth]{figures/repo_hybrid_cover.png}
+\vfill
+{\large Raphael des Boscs \quad Xufan Huang\par}
+\vspace{0.25cm}
+{\large April 2026\par}
+\vspace*{0.4cm}
+\end{titlepage}
+\newpage
 \tableofcontents
 \newpage
 
@@ -163,7 +182,7 @@ Instead, the repository-level design evolved in the following order:
     \item \textbf{Topic-centric trial on top100+top100 raw data}: we first attempted to organize repositories mainly by topic metadata.
     \item \textbf{Observation}: topic fields were noisy in practice (missing tags, inconsistent granularity, and heterogeneous naming), which made pure topic grouping unstable.
     \item \textbf{Signal shift}: we moved to structural/textual similarity, prioritizing fork-overlap and README semantic similarity.
-    \item \textbf{Single-signal ablations}: we generated separate views with fork-overlap only and README-similarity only (figures to be inserted), then compared their strengths/limitations.
+    \item \textbf{Single-signal ablations}: we generated separate views with fork-overlap only and README-similarity only, then compared their strengths and limitations.
     \item \textbf{Final repository graph}: we adopted the hybrid weighting design and then applied backbone extraction + Louvain + centrality metrics.
 \end{enumerate}
 This evolution explains why topics are kept as attributes/context, but not used as the only relation signal.
@@ -284,11 +303,79 @@ This stage was used to verify that the weighted repository graph and Louvain com
 However, when projected to company level, the resulting company communities were too small for robust interpretation.
 Therefore, we kept Stage A for methodological validation and moved final company interpretation to Stage B.
 
-\subsection{Stage B: Expanded Run for Company Analysis (500+500)}
-\paragraph{Repository-level summary in Stage B}
+\subsection{Signal Ablation Comparison: Fork-only vs README-only vs Mixed}
+To isolate the contribution of each similarity signal, we compared three repository graphs:
+\texttt{fork-overlap only}, \texttt{README-similarity only}, and \texttt{mixed-weight}.
+This comparison is run only on the Stage A 100+100 repository data (\texttt{repo\_raw\_data\_fork\_top100.json}, 186 repositories after deduplication).
+All three GEXF outputs reuse the mixed-weight graph layout: the mixed graph is first clustered by its Louvain \texttt{Community}, then fork-only and README-only reuse the same coordinates for shared nodes.
+For this diagnostic visualization, the fork-only graph uses Jaccard threshold $\geq 0.0125$, and the README-only graph uses cosine similarity $\geq 0.07$.
+The generated files are \texttt{outputs/graphs/repo\_signal\_compare/repository\_mixed\_weight.gexf},
+\texttt{repository\_fork\_only.gexf}, and \texttt{repository\_readme\_only.gexf}.
+
 \begin{table}[h]
 \centering
-\caption{Repository-level graph summary used for the expanded Stage B run (CV500 + NLP500)}
+\caption{Signal ablation summary (fixed-layout comparison)}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Graph & Nodes & Edges & Communities & LCC & Density & Avg. degree & Modularity \\
+\midrule
+Fork-only & 160 & 872 & 9 & 160 & 0.0686 & 10.90 & 0.3974 \\
+README-only & 177 & 4,580 & 5 & 177 & 0.2940 & 51.75 & 0.1532 \\
+Mixed-weight & 153 & 1,178 & 9 & 149 & 0.1013 & 15.40 & 0.2708 \\
+\bottomrule
+\end{tabular}
+\label{tab:repo-signal-ablation}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/repo_fork_only_signal.png}
+\caption{Fork-overlap-only repository graph on the Stage A 100+100 dataset. Nodes keep the mixed-weight layout coordinates and are colored by the mixed-weight community reference, making it possible to see which mixed communities are supported by shared fork audiences.}
+\label{fig:repo-fork-only-signal}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/repo_readme_only_signal.png}
+\caption{README-similarity-only repository graph on the Stage A 100+100 dataset. The same node coordinates and color reference are used as in Figure~\ref{fig:repo-fork-only-signal}. Compared with fork-overlap, README similarity creates many more cross-community edges because general AI/ML README vocabulary overlaps broadly across repositories.}
+\label{fig:repo-readme-only-signal}
+\end{figure}
+
+\paragraph{Key differences}
+Fork-only produces the clearest modular separation, because shared fork audiences are sparse and selective.
+README-only keeps broader coverage but is much denser, so communities are visually more compressed and modularity is lower.
+Mixed-weight sits between the two: it preserves enough bridges for global continuity while avoiding the excessive density of README-only.
+
+The large density gap does \textbf{not} mean that denoising was absent from the README-only graph.
+Rather, the same denoising operation is applied to different edge-weight definitions.
+In README-only mode, the edge weight is the raw cosine similarity:
+\[
+w_{ij}=s^{\text{readme}}_{ij}.
+\]
+In mixed mode, the edge weight is:
+\[
+w_{ij}=0.6s^{\text{fork}}_{ij}+0.2s^{\text{readme}}_{ij}+0.2s^{\text{dep}}_{ij}.
+\]
+Therefore, a threshold value has different meaning across the two graphs.
+For example, if a mixed-weight edge were supported only by README similarity, passing the mixed threshold $w_{ij}\geq 0.03$ would require:
+\[
+0.2s^{\text{readme}}_{ij}\geq 0.03
+\quad \Rightarrow \quad
+s^{\text{readme}}_{ij}\geq 0.15.
+\]
+By contrast, the README-only visualization above uses $s^{\text{readme}}_{ij}\geq 0.07$, which is much more permissive.
+Empirically, with the Stage A data, README-only keeps 4,580 edges at threshold 0.07; raising the README threshold to about 0.106 would reduce it to roughly the same edge count as the mixed graph.
+This explains why README-only is visually much denser even though it is also threshold-filtered.
+README text captures broad semantic proximity, so repositories sharing generic AI terms such as ``LLM'', ``transformer'', ``training'', ``dataset'', ``inference'', or ``model'' can still be linked.
+Fork overlap is more selective because it requires common fork owners, which usually indicates a more specific shared audience or usage context.
+
+\subsection{Stage B: Expanded Run for Company Analysis (500+500)}
+\paragraph{Intermediate repository graph used for company aggregation}
+The expanded 500+500 repository graph is used only as the substrate for company-level aggregation.
+It is not used for the repository-level signal ablation above.
+\begin{table}[h]
+\centering
+\caption{Intermediate repository graph summary for Stage B company aggregation (CV500 + NLP500)}
 \begin{tabular}{lr}
 \toprule
 Metric & Value \\
@@ -304,6 +391,29 @@ Modularity & 0.2576 \\
 \end{tabular}
 \label{tab:repo-summary}
 \end{table}
+
+\paragraph{How company nodes are constructed}
+Each node is a company entity derived from repository ownership after filtering:
+\begin{itemize}[leftmargin=1.5em]
+    \item organization owners are mapped directly to organization-level company IDs;
+    \item user owners are mapped via profile \texttt{company};
+    \item owners without company information are excluded.
+\end{itemize}
+Thus, the node set emphasizes identifiable organizations rather than anonymous personal accounts.
+
+\paragraph{How company edges are constructed}
+For companies $a,b$, we aggregate all repository-level edges crossing the two companies:
+\begin{equation}
+\mathrm{raw\_weight}_{ab}=\sum_{(i,j)\in\mathcal{P}_{ab}} w_{ij}
+\end{equation}
+then normalize:
+\begin{equation}
+W_{ab}=\frac{\mathrm{raw\_weight}_{ab}}{\sqrt{n_a n_b}}
+\end{equation}
+where $n_a,n_b$ are repository counts of the two companies.
+This prevents large entities from dominating simply due to scale.
+In implementation, we keep an edge $(a,b)$ only when at least one cross-company repository pair contributes non-zero similarity; self-loops are removed.
+Therefore, a company-company link means ``evidence of technical relatedness'' (fork overlap, README similarity, dependency overlap), not merely co-popularity.
 
 \paragraph{Company-level summary in Stage B (company-filtered run)}
 \begin{table}[h]
@@ -321,6 +431,14 @@ Modularity & 0.2210 \\
 \end{tabular}
 \label{tab:company-summary}
 \end{table}
+
+\subsection{Company Graph Visualization (Stage B)}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.94\linewidth]{figures/company_analysis.png}
+\caption{Final company-level community graph used in our final analysis. Nodes are companies, node size reflects activity/importance, and node color indicates \texttt{CompanyCommunity}.}
+\label{fig:company-analysis-final}
+\end{figure}
 
 \subsection{Interpretation of the Five Largest Company Communities (Stage B)}
 Current evidence indicates that the ownership graph has a heavy-tail structure:
@@ -343,36 +461,6 @@ Community ID & Company count & Small-company ratio & Median stars \\
 \end{tabular}
 \label{tab:top-company-communities}
 \end{table}
-\subsection{Company Graph Interpretation (Final Figure)}
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.94\linewidth]{figures/company_analysis.png}
-\caption{Final company-level community graph used in our final analysis. Nodes are companies, node size reflects activity/importance, and node color indicates \texttt{CompanyCommunity}.}
-\label{fig:company-analysis-final}
-\end{figure}
-
-\paragraph{How nodes are constructed}
-Each node is a company entity derived from repository ownership after filtering:
-\begin{itemize}[leftmargin=1.5em]
-    \item organization owners are mapped directly to organization-level company IDs;
-    \item user owners are mapped via profile \texttt{company};
-    \item owners without company information are excluded.
-\end{itemize}
-Thus, the node set emphasizes identifiable organizations rather than anonymous personal accounts.
-
-\paragraph{How edges are constructed}
-For companies $a,b$, we aggregate all repository-level edges crossing the two companies:
-\begin{equation}
-\mathrm{raw\_weight}_{ab}=\sum_{(i,j)\in\mathcal{P}_{ab}} w_{ij}
-\end{equation}
-then normalize:
-\begin{equation}
-W_{ab}=\frac{\mathrm{raw\_weight}_{ab}}{\sqrt{n_a n_b}}
-\end{equation}
-where $n_a,n_b$ are repository counts of the two companies.
-This prevents large entities from dominating simply due to scale.
-In implementation, we keep an edge $(a,b)$ only when at least one cross-company repository pair contributes non-zero similarity; self-loops are removed.
-Therefore, a company-company link means ``evidence of technical relatedness'' (fork overlap, README similarity, dependency overlap), not merely co-popularity.
 
 \paragraph{Community meaning and examples}
 The following interpretation is derived from \texttt{company\_network\_clustered\_compact.gexf} (451 nodes, 9010 edges), not only from visual proximity.
@@ -404,6 +492,50 @@ High-weight cross-community edges include
 \textit{Explosion (C3)}--\textit{@huggingface (C1)} (0.1126).
 These bridges explain why the four-core-community block remains strongly integrated despite clear color-separated modules in Figure~\ref{fig:company-analysis-final}.
 
+\subsection{Hypothesis Test: Are Large Companies More Central?}
+After describing the company communities, we test whether company size is associated with centrality.
+The hypothesis is:
+\[
+H_0:\ C_{\text{large}}\leq C_{\text{small}}
+\quad\text{vs.}\quad
+H_1:\ C_{\text{large}}>C_{\text{small}},
+\]
+where $C$ is a company-level centrality score.
+Company size is defined from the sampled repository ownership data:
+\textbf{small companies} have \texttt{repo\_count} $\leq 3$, and
+\textbf{large companies} have \texttt{repo\_count} $>3$.
+This gives 21 large companies and 430 small companies in the company-filtered Stage B graph.
+
+Because centrality distributions are highly skewed and the two groups are imbalanced, we use a one-sided Mann--Whitney U test rather than relying on a normality-based mean comparison.
+The tested metrics are graph degree, weighted degree (strength), PageRank, betweenness centrality, and eigenvector centrality.
+For multiple testing, we report Bonferroni-adjusted $p$-values across the five metrics.
+Effect size is reported as rank-biserial correlation, where positive values mean that large companies tend to have higher centrality ranks than small companies.
+
+\begin{table}[h]
+\centering
+\caption{One-sided Mann--Whitney U test for large-company centrality advantage}
+\begin{tabular}{lrrrrr}
+\toprule
+Metric & Large median & Small median & U & Adj. $p$ & Effect \\
+\midrule
+Degree & 72.0000 & 12.0000 & 6195.0 & 0.0099 & 0.3721 \\
+Weighted degree & 2.6491 & 0.3994 & 6057.5 & 0.0205 & 0.3416 \\
+PageRank & 0.0031 & 0.0015 & 6028.5 & 0.0237 & 0.3352 \\
+Betweenness & 0.0049 & 0.0002 & 6502.0 & 0.0014 & 0.4401 \\
+Eigenvector & 0.0538 & 0.0088 & 5898.5 & 0.0443 & 0.3064 \\
+\bottomrule
+\end{tabular}
+\label{tab:large-company-centrality-test}
+\end{table}
+
+The results reject $H_0$ at $\alpha=0.05$ for all five centrality metrics after Bonferroni correction.
+The strongest effect appears for betweenness centrality, suggesting that large companies are especially likely to act as bridges between company communities.
+This is consistent with the visual graph: large entities such as \textit{Hugging Face}, \textit{Microsoft}, \textit{Explosion}, \textit{Google Research}, and \textit{Ai2} are not only locally connected inside their own communities, but also occupy routes between different technical ecosystems.
+
+This result should be interpreted as an association, not a causal claim.
+The company graph already normalizes edge weights by $\sqrt{n_a n_b}$, so the result is not simply a mechanical consequence of large companies having more repositories.
+However, larger organizations still tend to maintain more diverse projects, attract broader developer attention, and connect multiple technical subfields, which gives them higher centrality in the sampled AI repository ecosystem.
+
 \section{Visualization Protocol}
 \subsection{Why ``hairball'' happens}
 Dense cross-community edges and high edge-count per node can collapse community separation under force-directed layouts.
@@ -421,27 +553,6 @@ To improve readability, we generated a clustered variant (\texttt{company\_netwo
     \item Then run Noverlap
 \end{itemize}
 Color nodes by \texttt{CompanyCommunity}, size nodes by \texttt{RepoCount} or \texttt{PageRank}.
-
-\section{Figures and Tables To Insert}
-\textbf{You can add the following additional assets to extend the experimental section:}
-\begin{enumerate}[leftmargin=1.5em]
-    \item \textbf{Figure F1}: Repository graph from fork-overlap only (single-signal ablation).
-    \item \textbf{Figure F2}: Repository graph from README-similarity only (single-signal ablation).
-    \item \textbf{Figure F3}: Final repository backbone network (hybrid weight; colored by \texttt{Community}, sized by PageRank).
-    \item \textbf{Figure F4}: Company network raw (\texttt{company\_network.gexf}) for density comparison.
-    \item \textbf{Figure F5}: Company network clustered (\texttt{company\_network\_clustered.gexf}) for interpretability.
-    \item \textbf{Figure F6}: Community meta-graph (if used), showing inter-community connectivity.
-    \item \textbf{Table T1}: Parameter sensitivity (weight mix, threshold, top-$k$, $k$-core, resolution) vs modularity.
-    \item \textbf{Table T2}: Top bridge repositories and top bridge companies by weighted betweenness.
-    \item \textbf{Table T3}: Domain composition per community (CV/NLP/Cross).
-\end{enumerate}
-
-\begin{figure}[h]
-\centering
-\fbox{\parbox[c][2.2in][c]{0.9\linewidth}{\centering Placeholder for additional repository-level graph (optional)}}
-\caption{Optional additional repository-level graph view.}
-\label{fig:repo-graph}
-\end{figure}
 
 \section{Threats to Validity}
 \begin{itemize}[leftmargin=1.5em]
@@ -461,10 +572,36 @@ Conda environment: \texttt{cours}. Required libraries include:
 \paragraph{Stage A (initial repository-level run, 100+100)}
 \begin{verbatim}
 python scripts/build_repository_backbone.py \
-  --raw-output data/raw/repo_raw_data_fork.json \
-  --gexf-output outputs/graphs/repo/repository_backbone_fork.gexf \
-  --per-domain-limit 100 \
-  --weight-fork 0.6 --weight-readme 0.2 --weight-dep 0.2
+  --reuse-raw \
+  --raw-output data/raw/repo_raw_data_fork_top100.json \
+  --gexf-output outputs/graphs/repo_signal_compare/repository_mixed_weight.gexf \
+  --signal-mode mixed \
+  --readme-similarity-version v2 \
+  --weight-fork 0.6 --weight-readme 0.2 --weight-dep 0.2 \
+  --seed-community-layout
+\end{verbatim}
+
+\begin{verbatim}
+python scripts/build_repository_backbone.py \
+  --reuse-raw \
+  --raw-output data/raw/repo_raw_data_fork_top100.json \
+  --gexf-output outputs/graphs/repo_signal_compare/repository_fork_only.gexf \
+  --signal-mode fork \
+  --pre-min-weight 0.0125 --min-weight 0.0125 \
+  --top-k 0 --k-core 0 --no-auto-relax \
+  --layout-reference-gexf outputs/graphs/repo_signal_compare/repository_mixed_weight.gexf
+\end{verbatim}
+
+\begin{verbatim}
+python scripts/build_repository_backbone.py \
+  --reuse-raw \
+  --raw-output data/raw/repo_raw_data_fork_top100.json \
+  --gexf-output outputs/graphs/repo_signal_compare/repository_readme_only.gexf \
+  --signal-mode readme \
+  --readme-similarity-version v2 \
+  --pre-min-weight 0.07 --min-weight 0.07 \
+  --top-k 0 --k-core 0 --no-auto-relax \
+  --layout-reference-gexf outputs/graphs/repo_signal_compare/repository_mixed_weight.gexf
 \end{verbatim}
 
 \paragraph{Stage B (expanded run for company analysis, 500+500)}

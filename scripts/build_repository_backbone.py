@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import colorsys
+import hashlib
 import json
 import math
 import os
@@ -748,6 +749,19 @@ def build_tfidf_vectors(
     return vectors, norms
 
 
+def build_readme_vectors(
+    readme_tokens: List[List[str]],
+    version: str,
+) -> Tuple[List[Dict[str, float]], List[float]]:
+    if version == "v2":
+        return build_tfidf_vectors(readme_tokens)
+    if version == "v1":
+        # Legacy-compatible fallback: keep the same sparse cosine pipeline but
+        # disable max document-frequency filtering.
+        return build_tfidf_vectors(readme_tokens, max_df_ratio=1.0)
+    raise ValueError(f"Unsupported README similarity version: {version}")
+
+
 def cosine_similarity_sparse(
     vec_a: Dict[str, float],
     norm_a: float,
@@ -802,6 +816,7 @@ def build_repository_similarity_graph(
     weight_fork: float,
     weight_readme: float,
     weight_dep: float,
+    readme_similarity_version: str,
 ) -> Tuple[nx.Graph, Dict[str, float]]:
     graph = nx.Graph()
     weights = normalized_weight_config(
@@ -811,7 +826,10 @@ def build_repository_similarity_graph(
     )
 
     readme_tokens = [preprocess_readme(repo.get("readme_text", "")) for repo in repo_data]
-    tfidf_vectors, tfidf_norms = build_tfidf_vectors(readme_tokens)
+    tfidf_vectors, tfidf_norms = build_readme_vectors(
+        readme_tokens,
+        version=readme_similarity_version,
+    )
 
     forker_sets = [set(repo.get("forker_owners", [])) for repo in repo_data]
     dependency_sets = [set(repo.get("dependencies", [])) for repo in repo_data]
@@ -894,6 +912,7 @@ def build_repository_similarity_graph(
         "weight_fork": weights["fork"],
         "weight_readme": weights["readme"],
         "weight_dep": weights["dep"],
+        "readme_similarity_version": readme_similarity_version,
     }
     return graph, stats
 
@@ -1155,6 +1174,189 @@ def print_summary(graph: nx.Graph, stats: Dict[str, float]) -> None:
         print(df.sort_values("betweenness", ascending=False).head(10).to_string(index=False))
 
 
+def compute_community_seeded_positions(
+    graph: nx.Graph,
+    community_attr: str = "Community",
+    community_gap: float = 6000.0,
+    local_scale: float = 900.0,
+) -> Dict[str, Tuple[float, float]]:
+    comm_nodes: Dict[int, List[str]] = {}
+    for node, data in graph.nodes(data=True):
+        cid = int(float(data.get(community_attr, 0)))
+        comm_nodes.setdefault(cid, []).append(node)
+
+    meta = nx.Graph()
+    for cid, members in comm_nodes.items():
+        meta.add_node(cid, size=len(members))
+    for u, v, data in graph.edges(data=True):
+        cu = int(float(graph.nodes[u].get(community_attr, 0)))
+        cv = int(float(graph.nodes[v].get(community_attr, 0)))
+        if cu == cv:
+            continue
+        weight = float(data.get("weight", 1.0))
+        if meta.has_edge(cu, cv):
+            meta[cu][cv]["weight"] += weight
+        else:
+            meta.add_edge(cu, cv, weight=weight)
+
+    community_ids = sorted(
+        comm_nodes,
+        key=lambda cid: (-len(comm_nodes[cid]), cid),
+    )
+    if len(community_ids) <= 1:
+        anchors = {cid: (0.0, 0.0) for cid in comm_nodes}
+    else:
+        # Force community anchors apart. A spring layout on the community
+        # metagraph often collapses strong communities into one visual blob.
+        n_comm = len(community_ids)
+        radius = community_gap / (2.0 * math.sin(math.pi / n_comm))
+        anchors = {}
+        for idx, cid in enumerate(community_ids):
+            angle = (2.0 * math.pi * idx / n_comm) - (math.pi / 2.0)
+            anchors[cid] = (math.cos(angle) * radius, math.sin(angle) * radius)
+
+    positions: Dict[str, Tuple[float, float]] = {}
+    for cid, members in comm_nodes.items():
+        members_sorted = sorted(members)
+        ax, ay = anchors.get(cid, (0.0, 0.0))
+        if len(members_sorted) == 1:
+            positions[members_sorted[0]] = (ax, ay)
+            continue
+        sub = graph.subgraph(members_sorted).copy()
+        local = nx.spring_layout(
+            sub,
+            seed=42,
+            weight="weight",
+            k=1.7 / math.sqrt(max(2, sub.number_of_nodes())),
+            iterations=200,
+        )
+        scale = local_scale * (1.0 + 0.12 * math.log10(len(members_sorted) + 1))
+        for node in members_sorted:
+            px, py = local[node]
+            positions[node] = (ax + float(px) * scale, ay + float(py) * scale)
+    return positions
+
+
+def infer_reference_community(
+    graph: nx.Graph,
+    node: str,
+    reference_graph: nx.Graph,
+) -> int:
+    scores: Counter[int] = Counter()
+    for nbr in graph.neighbors(node):
+        if nbr not in reference_graph:
+            continue
+        cid = int(float(reference_graph.nodes[nbr].get("Community", 0)))
+        scores[cid] += float(graph[node][nbr].get("weight", 1.0))
+    if scores:
+        return int(scores.most_common(1)[0][0])
+    if reference_graph.number_of_nodes() == 0:
+        return 0
+    return 0
+
+
+def stable_extra_position(
+    node: str,
+    anchors: Dict[int, Tuple[float, float]],
+    local_scale: float,
+) -> Tuple[int, Tuple[float, float]]:
+    community_ids = sorted(anchors) or [0]
+    digest = hashlib.sha256(node.encode("utf-8")).digest()
+    cid = community_ids[int.from_bytes(digest[:4], "big") % len(community_ids)]
+    angle_raw = int.from_bytes(digest[4:8], "big") / float(2**32)
+    radius_raw = int.from_bytes(digest[8:12], "big") / float(2**32)
+    angle = 2.0 * math.pi * angle_raw
+    radius = local_scale * (0.22 + 0.55 * radius_raw)
+    ax, ay = anchors.get(cid, (0.0, 0.0))
+    return cid, (ax + math.cos(angle) * radius, ay + math.sin(angle) * radius)
+
+
+def apply_positions_to_graph(
+    graph: nx.Graph,
+    positions: Dict[str, Tuple[float, float]],
+) -> None:
+    for node, (x, y) in positions.items():
+        if node not in graph:
+            continue
+        graph.nodes[node]["x"] = float(x)
+        graph.nodes[node]["y"] = float(y)
+        viz = graph.nodes[node].get("viz", {})
+        viz["position"] = {"x": float(x), "y": float(y), "z": 0.0}
+        graph.nodes[node]["viz"] = viz
+
+
+def recolor_graph_by_community(graph: nx.Graph) -> None:
+    partition = {node: int(float(data.get("Community", 0))) for node, data in graph.nodes(data=True)}
+    colors = build_community_color_map(partition)
+    for node, data in graph.nodes(data=True):
+        cid = partition.get(node, 0)
+        r, g, b = colors[cid]
+        viz = data.get("viz", {})
+        viz["color"] = {"r": r, "g": g, "b": b, "a": 0.95}
+        viz["size"] = float(data.get("NodeSize", 10.0))
+        data["viz"] = viz
+
+    for u, v, data in graph.edges(data=True):
+        cu = partition.get(u, 0)
+        cv = partition.get(v, 0)
+        if cu == cv:
+            r, g, b = colors[cu]
+            alpha = 0.32
+        else:
+            r, g, b = (130, 130, 130)
+            alpha = 0.16
+        data["viz"] = {
+            "color": {"r": r, "g": g, "b": b, "a": alpha},
+            "thickness": float(0.8 + 7.0 * data.get("weight", 0.0)),
+        }
+
+
+def apply_reference_layout(
+    graph: nx.Graph,
+    reference_path: str,
+    community_gap: float,
+    local_scale: float,
+) -> None:
+    reference_graph = nx.read_gexf(reference_path)
+    reference_positions: Dict[str, Tuple[float, float]] = {}
+    comm_positions: Dict[int, List[Tuple[float, float]]] = {}
+    for node, data in reference_graph.nodes(data=True):
+        if "x" not in data or "y" not in data:
+            raise RuntimeError(
+                f"Reference graph lacks x/y coordinates: {reference_path}. "
+                "Run mixed graph first with --seed-community-layout."
+            )
+        x = float(data["x"])
+        y = float(data["y"])
+        reference_positions[node] = (x, y)
+        cid = int(float(data.get("Community", 0)))
+        comm_positions.setdefault(cid, []).append((x, y))
+
+    comm_anchor = {
+        cid: (
+            sum(x for x, _ in coords) / len(coords),
+            sum(y for _, y in coords) / len(coords),
+        )
+        for cid, coords in comm_positions.items()
+    }
+
+    positions: Dict[str, Tuple[float, float]] = {}
+    for node in graph.nodes:
+        if node in reference_positions:
+            positions[node] = reference_positions[node]
+            graph.nodes[node].setdefault("SignalCommunity", graph.nodes[node].get("Community", 0))
+            graph.nodes[node]["Community"] = int(
+                float(reference_graph.nodes[node].get("Community", graph.nodes[node].get("Community", 0)))
+            )
+            continue
+        cid, pos = stable_extra_position(node, comm_anchor, local_scale)
+        graph.nodes[node]["Community"] = cid
+        positions[node] = pos
+
+    apply_positions_to_graph(graph, positions)
+    recolor_graph_by_community(graph)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Build repository-level AI backbone network from GitHub data"
@@ -1184,6 +1386,18 @@ def parse_args() -> argparse.Namespace:
         "--reuse-raw",
         action="store_true",
         help="Reuse existing raw-output file instead of fetching from GitHub",
+    )
+    parser.add_argument(
+        "--signal-mode",
+        choices=("mixed", "readme", "fork"),
+        default="mixed",
+        help="Similarity signal to build: mixed, readme-only, or fork-only",
+    )
+    parser.add_argument(
+        "--readme-similarity-version",
+        choices=("v1", "v2"),
+        default="v2",
+        help="README similarity implementation to use (default: v2 sparse TF-IDF)",
     )
     parser.add_argument(
         "--pre-min-weight",
@@ -1245,6 +1459,28 @@ def parse_args() -> argparse.Namespace:
         default=0.2,
         help="Dependency overlap weight in mixed similarity",
     )
+    parser.add_argument(
+        "--seed-community-layout",
+        action="store_true",
+        help="Write community-clustered x/y coordinates based on this graph's Community attribute",
+    )
+    parser.add_argument(
+        "--layout-reference-gexf",
+        default="",
+        help="Optional mixed/reference GEXF with Community and x/y positions to reuse",
+    )
+    parser.add_argument(
+        "--community-gap",
+        type=float,
+        default=6000.0,
+        help="Distance between community anchors for seeded layout",
+    )
+    parser.add_argument(
+        "--local-scale",
+        type=float,
+        default=900.0,
+        help="Scale for local node placement inside each community",
+    )
     return parser.parse_args()
 
 
@@ -1292,12 +1528,22 @@ def main() -> None:
     if not repo_data:
         raise RuntimeError("No repository data available after loading/fetching.")
 
+    if args.signal_mode == "fork":
+        weight_fork, weight_readme, weight_dep = 1.0, 0.0, 0.0
+    elif args.signal_mode == "readme":
+        weight_fork, weight_readme, weight_dep = 0.0, 1.0, 0.0
+    else:
+        weight_fork = args.weight_fork
+        weight_readme = args.weight_readme
+        weight_dep = args.weight_dep
+
     base_graph, signal_stats = build_repository_similarity_graph(
         repo_data=repo_data,
         pre_min_weight=args.pre_min_weight,
-        weight_fork=args.weight_fork,
-        weight_readme=args.weight_readme,
-        weight_dep=args.weight_dep,
+        weight_fork=weight_fork,
+        weight_readme=weight_readme,
+        weight_dep=weight_dep,
+        readme_similarity_version=args.readme_similarity_version,
     )
     print(
         "[graph] pre-backbone "
@@ -1313,9 +1559,11 @@ def main() -> None:
     )
     print(
         "[weights] "
+        f"mode={args.signal_mode}, "
         f"fork={signal_stats['weight_fork']:.3f}, "
         f"readme={signal_stats['weight_readme']:.3f}, "
-        f"dep={signal_stats['weight_dep']:.3f}"
+        f"dep={signal_stats['weight_dep']:.3f}, "
+        f"readme_version={signal_stats['readme_similarity_version']}"
     )
 
     if args.auto_relax:
@@ -1353,6 +1601,26 @@ def main() -> None:
     )
 
     stats = annotate_graph_metrics(backbone, resolution=args.resolution)
+    for node in backbone.nodes:
+        backbone.nodes[node]["SignalCommunity"] = int(float(backbone.nodes[node].get("Community", 0)))
+    if args.layout_reference_gexf:
+        apply_reference_layout(
+            backbone,
+            reference_path=args.layout_reference_gexf,
+            community_gap=args.community_gap,
+            local_scale=args.local_scale,
+        )
+        print(f"[layout] reused reference layout <- {args.layout_reference_gexf}")
+    elif args.seed_community_layout:
+        positions = compute_community_seeded_positions(
+            backbone,
+            community_attr="Community",
+            community_gap=args.community_gap,
+            local_scale=args.local_scale,
+        )
+        apply_positions_to_graph(backbone, positions)
+        print("[layout] seeded community layout from this graph")
+
     ensure_parent_dir(args.gexf_output)
     nx.write_gexf(backbone, args.gexf_output)
     print(f"[save] gexf -> {args.gexf_output}")
