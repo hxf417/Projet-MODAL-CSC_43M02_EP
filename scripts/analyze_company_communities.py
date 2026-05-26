@@ -3,7 +3,7 @@
 
 Pipeline:
 1) Load normalized repository data and repository graph with repo communities.
-2) Resolve owner -> company (GitHub profile company if available; fallback to owner login).
+2) Resolve owner -> company (GitHub profile company).
 3) Aggregate repo-repo edges into company-company edges.
 4) Run Louvain on the company graph.
 5) Export GEXF + CSV summaries, including small-company community signals.
@@ -19,6 +19,7 @@ import os
 import re
 import time
 from collections import Counter, defaultdict
+from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
 
 import community as community_louvain
@@ -33,15 +34,16 @@ RETRY_BACKOFF_SECONDS = 1.5
 
 OWNER_QUERY = """
 query($login: String!) {
-  organization(login: $login) {
+  repositoryOwner(login: $login) {
+    __typename
     login
-    name
-    company
-  }
-  user(login: $login) {
-    login
-    name
-    company
+    ... on Organization {
+      name
+    }
+    ... on User {
+      name
+      company
+    }
   }
 }
 """
@@ -207,17 +209,18 @@ def fetch_owner_company_map(
     total = len(missing)
     for idx, owner in enumerate(missing, start=1):
         data = graphql_request(OWNER_QUERY, {"login": owner}, headers, session)
-        org = data.get("organization")
-        user = data.get("user")
+        owner_obj = data.get("repositoryOwner")
+        owner_type_name = (owner_obj or {}).get("__typename")
 
-        if org:
+        if owner_obj and owner_type_name == "Organization":
             owner_type = "Organization"
-            name = org.get("name") or org.get("login") or owner
-            company_raw = (org.get("company") or "").strip()
-        elif user:
+            name = owner_obj.get("name") or owner_obj.get("login") or owner
+            # Organization owners are treated as companies directly.
+            company_raw = (owner_obj.get("name") or owner_obj.get("login") or "").strip()
+        elif owner_obj and owner_type_name == "User":
             owner_type = "User"
-            name = user.get("name") or user.get("login") or owner
-            company_raw = (user.get("company") or "").strip()
+            name = owner_obj.get("name") or owner_obj.get("login") or owner
+            company_raw = (owner_obj.get("company") or "").strip()
         else:
             owner_type = "Unknown"
             name = owner
@@ -240,13 +243,32 @@ def fetch_owner_company_map(
     return cache
 
 
-def owner_to_company_id(owner: str, owner_meta: Dict[str, Dict]) -> Tuple[str, str]:
+def owner_to_company_id(
+    owner: str,
+    owner_meta: Dict[str, Dict],
+    drop_without_company: bool,
+) -> Optional[Tuple[str, str]]:
     meta = owner_meta.get(owner, {})
     canonical = (meta.get("company_canonical") or "").strip()
     company_raw = (meta.get("company_raw") or "").strip()
     if canonical:
         return canonical, company_raw or canonical
+    if drop_without_company:
+        return None
     return owner.lower(), owner
+
+
+def apply_dataset_layout(args: argparse.Namespace) -> None:
+    tag = (args.dataset_tag or "").strip()
+    if not tag:
+        return
+    root = Path(args.dataset_root).expanduser().resolve()
+    base = root / tag
+    args.company_graph = str(base / "graphs" / "company" / "company_network.gexf")
+    args.company_nodes_csv = str(base / "tables" / "company_nodes.csv")
+    args.company_communities_csv = str(base / "tables" / "company_communities.csv")
+    args.owner_cache = str(base / "cache" / "owner_company_cache.json")
+    args.owner_company_map_csv = str(base / "tables" / "owner_company_map.csv")
 
 
 def parse_args() -> argparse.Namespace:
@@ -284,6 +306,21 @@ def parse_args() -> argparse.Namespace:
         help="Owner company profile cache JSON path",
     )
     parser.add_argument(
+        "--owner-company-map-csv",
+        default="outputs/tables/owner_company_map.csv",
+        help="Output owner->company mapping CSV path",
+    )
+    parser.add_argument(
+        "--dataset-tag",
+        default="",
+        help="Optional dataset tag (e.g., top100_cv_nlp) to route outputs into a dedicated directory tree",
+    )
+    parser.add_argument(
+        "--dataset-root",
+        default="outputs/datasets",
+        help="Root directory used with --dataset-tag",
+    )
+    parser.add_argument(
         "--token-env",
         default="GITHUB_TOKEN",
         help="GitHub token env var (used when fetching owner profiles)",
@@ -293,6 +330,12 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=True,
         help="Fetch owner company metadata from GitHub profiles",
+    )
+    parser.add_argument(
+        "--drop-owners-without-company",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Drop repositories whose owner has no company field on GitHub profile",
     )
     parser.add_argument(
         "--small-company-threshold",
@@ -317,6 +360,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    apply_dataset_layout(args)
 
     with open(args.repo_raw, "r", encoding="utf-8") as f:
         raw_repos = json.load(f)
@@ -338,6 +382,11 @@ def main() -> None:
             cache_path=args.owner_cache,
         )
     else:
+        if args.drop_owners_without_company:
+            raise RuntimeError(
+                "--drop-owners-without-company requires --fetch-owner-company, "
+                "otherwise company fields are unavailable."
+            )
         owner_meta = {
             o: {
                 "owner_login": o,
@@ -352,13 +401,61 @@ def main() -> None:
     repo_to_company: Dict[str, str] = {}
     company_label_map: Dict[str, str] = {}
     company_owner_set: Dict[str, set] = defaultdict(set)
+    dropped_repos_no_company = 0
+    owner_to_company_rows = []
 
     for repo in active_repos:
         owner = repo.split("/", 1)[0]
-        company_id, company_label = owner_to_company_id(owner, owner_meta)
+        meta = owner_meta.get(owner, {})
+        mapped = owner_to_company_id(
+            owner=owner,
+            owner_meta=owner_meta,
+            drop_without_company=args.drop_owners_without_company,
+        )
+        if mapped is None:
+            dropped_repos_no_company += 1
+            owner_to_company_rows.append(
+                {
+                    "owner_login": owner,
+                    "owner_type": meta.get("owner_type", "Unknown"),
+                    "owner_name": meta.get("owner_name", owner),
+                    "company_raw": meta.get("company_raw", ""),
+                    "company_canonical": meta.get("company_canonical", ""),
+                    "company_id": "",
+                    "company_label": "",
+                    "repo_name_with_owner": repo,
+                    "kept": 0,
+                    "drop_reason": "missing_company",
+                }
+            )
+            continue
+        company_id, company_label = mapped
         repo_to_company[repo] = company_id
         company_label_map.setdefault(company_id, company_label)
         company_owner_set[company_id].add(owner)
+        owner_to_company_rows.append(
+            {
+                "owner_login": owner,
+                "owner_type": meta.get("owner_type", "Unknown"),
+                "owner_name": meta.get("owner_name", owner),
+                "company_raw": meta.get("company_raw", ""),
+                "company_canonical": meta.get("company_canonical", ""),
+                "company_id": company_id,
+                "company_label": company_label,
+                "repo_name_with_owner": repo,
+                "kept": 1,
+                "drop_reason": "",
+            }
+        )
+
+    active_repos_filtered = [r for r in active_repos if r in repo_to_company]
+    if not active_repos_filtered:
+        raise RuntimeError("No repositories left after owner-company filtering.")
+    if dropped_repos_no_company > 0:
+        print(
+            f"[filter] dropped repos without company: {dropped_repos_no_company} "
+            f"/ {len(active_repos)}"
+        )
 
     # Aggregate per-company node stats.
     company_repo_count = Counter()
@@ -366,7 +463,7 @@ def main() -> None:
     company_domain_counter: Dict[str, Counter] = defaultdict(Counter)
     company_repo_community_counter: Dict[str, Counter] = defaultdict(Counter)
 
-    for repo in active_repos:
+    for repo in active_repos_filtered:
         comp = repo_to_company[repo]
         raw = repo_raw_map[repo]
         company_repo_count[comp] += 1
@@ -528,12 +625,20 @@ def main() -> None:
     ensure_parent_dir(args.company_communities_csv)
     community_df.to_csv(args.company_communities_csv, index=False)
 
+    owner_map_df = pd.DataFrame(owner_to_company_rows).sort_values(
+        by=["kept", "owner_login", "repo_name_with_owner"],
+        ascending=[False, True, True],
+    )
+    ensure_parent_dir(args.owner_company_map_csv)
+    owner_map_df.to_csv(args.owner_company_map_csv, index=False)
+
     ensure_parent_dir(args.company_graph)
     nx.write_gexf(G_company, args.company_graph)
 
     print("[save] company graph:", args.company_graph)
     print("[save] company nodes csv:", args.company_nodes_csv)
     print("[save] company communities csv:", args.company_communities_csv)
+    print("[save] owner->company map csv:", args.owner_company_map_csv)
     print(
         "[summary] "
         f"companies={G_company.number_of_nodes()}, "
