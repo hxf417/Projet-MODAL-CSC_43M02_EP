@@ -1,61 +1,56 @@
 import json
-import networkx as nx
 import math
-import numpy as np
-from tqdm import tqdm
 import re
-import markdown
-from bs4 import BeautifulSoup
-import matplotlib as plt
+import networkx as nx
+from collections import Counter
+from itertools import combinations
+from tqdm import tqdm
+from typing import Dict, List, Tuple
+from sklearn.feature_extraction.text import TfidfVectorizer
+import scipy.sparse as sp
 
-def strip_readme_to_text(md_string):
-    # 1. Remove code blocks (fenced blocks with ```)
-    text = re.sub(r'```[\s\S]*?```', '', md_string)
+# --- Pre-processing elements from build_repository_backbone.py ---
+TOKEN_RE = re.compile(r"[a-zA-Z][a-zA-Z0-9_\-]{1,}")
+STOPWORDS = {
+    "the", "and", "for", "with", "this", "that", "from", "your", "you",
+    "are", "our", "their", "using", "use", "used", "into", "about",
+    "have", "has", "was", "were", "will", "can", "all", "any", "new",
+    "more", "most", "also", "not", "but", "via", "http", "https",
+    "www", "github", "project", "repository", "code", "model",
+    "models", "learning", "machine", "deep", "ai",
+}
+
+def preprocess_readme(text: str) -> List[str]:
+    if not text:
+        return []
+    # Strip basic markdown elements
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"`[^`]+`", " ", text)
+    text = re.sub(r"!\[[^\]]*\]\([^\)]*\)", " ", text)
+    text = re.sub(r"\[[^\]]*\]\([^\)]*\)", " ", text)
     
-    # 2. Remove inline code (single backticks)
-    text = re.sub(r'`[^`\n]+`', '', text)
-    
-    # 3. Remove HTML comments (like the <!-- Android... --> in the example)
-    text = re.sub(r'<!--[\s\S]*?-->', '', text)
+    tokens = []
+    for token in TOKEN_RE.findall(text.lower()):
+        if len(token) <= 2:
+            continue
+        if token in STOPWORDS:
+            continue
+        tokens.append(token)
+    return tokens
 
-    # 4. Convert the remaining Markdown to HTML
-    html = markdown.markdown(text, extensions=['tables'])
-    soup = BeautifulSoup(html, "html.parser")
-    plain_text = soup.get_text(separator=' ')
-    lines = [line.strip() for line in plain_text.splitlines()]
-    plain_text = '\n'.join(lines)
-    plain_text = re.sub(r'\n{3,}', '\n\n', plain_text)
-    return plain_text.strip()
-
-ai_dict = {}
-ai_dict_data = {}
-with open("../dict_testing.json", "r", encoding = "utf-8") as f:
-    ai_dict_data = json.load(f)
-
-for concept in ai_dict_data["results"]["bindings"]:
-    ai_dict[concept["conceptLabel"]["value"].casefold()] = 0
-
-def tfidf(readme: str)->np.array:
-    v_readme = np.zeros(len(ai_dict))
-    for i, word in enumerate(ai_dict):
-        v_readme[i] = readme.count(word) * ai_dict[word]
-    return v_readme
-
-def cos_similarity(v1: np.array, v2: np.array)->float:
-    if np.linalg.norm(v1)*np.linalg.norm(v2) == 0:
-        return 0.0
-    return np.sum(v1*v2)/(np.linalg.norm(v1)*np.linalg.norm(v2))
-
+# --- Main Network Building Logic ---
 def build_readme_network(json_filepath, output_filepath, min_similarity=0.05):
     with open(json_filepath, 'r', encoding='utf-8') as f:
         repo_data = json.load(f)
         
     G = nx.Graph()
-    readme_corpus = {}
-    N = len(repo_data)
-    for repo in tqdm(repo_data, desc="Adding the Nodes"):
+    readme_tokens_list = []
+    repo_names = []
+    
+    # 1. Add Nodes & Extract text
+    for repo in tqdm(repo_data, desc="Adding Nodes & Preprocessing READMEs"):
         repo_name = repo.get("nameWithOwner")
-        repo_readme = repo.get("readme_text")
+        repo_readme = repo.get("readme_text", "")
         
         G.add_node(
             repo_name,
@@ -64,44 +59,66 @@ def build_readme_network(json_filepath, output_filepath, min_similarity=0.05):
             forks=repo.get("forkCount", 0)
         )
         
-        readme_corpus[repo_name] = strip_readme_to_text(repo_readme).casefold()
+        repo_names.append(repo_name)
+        readme_tokens_list.append(preprocess_readme(repo_readme))
 
-    for word in tqdm(ai_dict.keys(), desc="Computing IDF"):
-        for readme in readme_corpus.values():
-            if word in readme:
-                ai_dict[word] += 1
-        if ai_dict[word] > 0 :
-            ai_dict[word] = math.log10(N/ai_dict[word])
+    N = len(repo_names)
 
-    repo_names = list(readme_corpus.keys())
+    # 2. Compute Sparse TF-IDF matrices using scikit-learn
+    print("Computing TF-IDF vectors...")
+    
+    # Trick to let scikit-learn accept your pre-tokenized lists directly
+    def dummy_tokenizer(doc):
+        return doc
 
-    tfidf_matrix = np.zeros((len(ai_dict), N))
-    for j in tqdm(range(N), desc="Computing TF-IDF matrix"):
-        tfidf_matrix[ : , j] = tfidf(readme_corpus[repo_names[j]])
+    vectorizer = TfidfVectorizer(
+        analyzer='word',
+        tokenizer=dummy_tokenizer,
+        preprocessor=dummy_tokenizer,
+        token_pattern=None,
+        max_df=0.65,           # Matches your max_df_ratio
+        sublinear_tf=True,     # Applies the (1 + log(tf)) formula!
+        smooth_idf=True,       # Applies the +1 smoothing to IDF
+        norm='l2'              # Normalizes vectors so dot product = cosine similarity
+    )
+    
+    # This outputs a highly compressed Scipy sparse matrix
+    tfidf_matrix = vectorizer.fit_transform(readme_tokens_list)
 
-    for i in tqdm(range(N), desc = "Adding the Edges"):
-        for j in range(i + 1, N):
-            readme_similarity_score = cos_similarity(tfidf_matrix[:, i], tfidf_matrix[:, j])
-        
-            if readme_similarity_score >= min_similarity:
-                G.add_edge(repo_names[i], repo_names[j], weight=readme_similarity_score)
+    # 3. Compute pairwise Cosine Similarities & Add Edges
+    print("Computing similarity matrix...")
+    
+    # Because vectors are L2-normalized, the dot product IS the cosine similarity.
+    # Multiplying the matrix by its transpose calculates all similarities instantly in C.
+    sparse_sim_matrix = tfidf_matrix * tfidf_matrix.T
 
+    # Extract only the upper triangle (k=1) to avoid duplicate pairs and self-loops
+    upper_tri = sp.triu(sparse_sim_matrix, k=1)
+    rows, cols, weights = sp.find(upper_tri)
+
+    print("Adding Edges to Graph...")
+    # Add edges directly from the sparse matrix results
+    for i, j, weight in zip(rows, cols, weights):
+        if weight >= min_similarity:
+            G.add_edge(repo_names[i], repo_names[j], weight=weight)
+
+    # 4. Cleanup
     isolated_nodes = list(nx.isolates(G))
     G.remove_nodes_from(isolated_nodes)
     
-    # nodes_to_remove = []
-    # for comp in nx.connected_components(G):
-    #     if len(comp) <= 3:
-    #         nodes_to_remove += list(comp)
-    # G.remove_nodes_from(nodes_to_remove)
-
     number_nodes = G.number_of_nodes()
     number_edges = G.number_of_edges()
-    mean_degree = 2*number_edges/number_nodes
+    mean_degree = (2 * number_edges / number_nodes) if number_nodes > 0 else 0.0
 
-    print(f"Graph built with nodes: {number_nodes}, edges: {number_edges}, average degree: {mean_degree}")
+    print(f"Graph built with nodes: {number_nodes}, edges: {number_edges}, average degree: {mean_degree:.2f}")
+    
     nx.write_gexf(G, output_filepath)
 
 if __name__ == "__main__":
-    
-    build_readme_network("../data/raw/repo_raw_data_fork.json", "../outputs/graphs/repo/clean_readme_network.gexf", min_similarity=0.9)
+    # Note: Using the 0.9 default from the original script will likely result in 
+    # a very sparse or empty graph with the new method. Consider lowering it to 0.05 - 0.2
+    build_readme_network(
+        "data/raw/repo_raw_data_fork.json", 
+        "outputs/graphs/repo/clean_readme_network.gexf", 
+        min_similarity=0.1 
+    )
