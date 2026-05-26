@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-22">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="stars" type="long" />
+      <attribute id="1" title="language" type="string" />
+      <attribute id="2" title="forks" type="long" />
+    </attributes>
+    <nodes>
+      <node id="google-ai-edge/mediapipe" label="google-ai-edge/mediapipe">
+        <attvalues>
+          <attvalue for="0" value="34756" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="5914" />
+        </attvalues>
+      </node>
+      <node id="CMU-Perceptual-Computing-Lab/openpose" label="CMU-Perceptual-Computing-Lab/openpose">
+        <attvalues>
+          <attvalue for="0" value="33965" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="8053" />
+        </attvalues>
+      </node>
+      <node id="d2l-ai/d2l-en" label="d2l-ai/d2l-en">
+        <attvalues>
+          <attvalue for="0" value="28627" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="5023" />
+        </attvalues>
+      </node>
+      <node id="HumanSignal/label-studio" label="HumanSignal/label-studio">
+        <attvalues>
+          <attvalue for="0" value="27039" />
+          <attvalue for="1" value="TypeScript" />
+          <attvalue for="2" value="3493" />
+        </attvalues>
+      </node>
+      <node id="junyanz/pytorch-CycleGAN-and-pix2pix" label="junyanz/pytorch-CycleGAN-and-pix2pix">
+        <attvalues>
+          <attvalue for="0" value="25082" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="6575" />
+        </attvalues>
+      </node>
+      <node id="spmallick/learnopencv" label="spmallick/learnopencv">
+        <attvalues>
+          <attvalue for="0" value="22876" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="11717" />
+        </attvalues>
+      </node>
+      <node id="amusi/CVPR2026-Papers-with-Code" label="amusi/CVPR2026-Papers-with-Code">
+        <attvalues>
+          <attvalue for="0" value="22406" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="2791" />
+        </attvalues>
+      </node>
+      <node id="huggingface/datasets" label="huggingface/datasets">
+        <attvalues>
+          <attvalue for="0" value="21403" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="3176" />
+        </attvalues>
+      </node>
+      <node id="microsoft/AirSim" label="microsoft/AirSim">
+        <attvalues>
+          <attvalue for="0" value="18113" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="4880" />
+        </attvalues>
+      </node>
+      <node id="pytorch/vision" label="pytorch/vision">
+        <attvalues>
+          <attvalue for="0" value="17633" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="7226" />
+        </attvalues>
+      </node>
+      <node id="bharathgs/Awesome-pytorch-list" label="bharathgs/Awesome-pytorch-list">
+        <attvalues>
+          <attvalue for="0" value="16470" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="2832" />
+        </attvalues>
+      </node>
+      <node id="wkentaro/labelme" label="wkentaro/labelme">
+        <attvalues>
+          <attvalue for="0" value="15742" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="3660" />
+        </attvalues>
+      </node>
+      <node id="davisking/dlib" label="davisking/dlib">
+        <attvalues>
+          <attvalue for="0" value="14362" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="3452" />
+        </attvalues>
+      </node>
+      <node id="davidsandberg/facenet" label="davidsandberg/facenet">
+        <attvalues>
+          <attvalue for="0" value="14321" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="4790" />
+        </attvalues>
+      </node>
+      <node id="carla-simulator/carla" label="carla-simulator/carla">
+        <attvalues>
+          <attvalue for="0" value="13850" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="4522" />
+        </attvalues>
+      </node>
+      <node id="junyanz/CycleGAN" label="junyanz/CycleGAN">
+        <attvalues>
+          <attvalue for="0" value="12855" />
+          <attvalue for="1" value="Lua" />
+          <attvalue for="2" value="1968" />
+        </attvalues>
+      </node>
+      <node id="kmario23/deep-learning-drizzle" label="kmario23/deep-learning-drizzle">
+        <attvalues>
+          <attvalue for="0" value="12799" />
+          <attvalue for="1" value="HTML" />
+          <attvalue for="2" value="2972" />
+        </attvalues>
+      </node>
+      <node id="jacobgil/pytorch-grad-cam" label="jacobgil/pytorch-grad-cam">
+        <attvalues>
+          <attvalue for="0" value="12742" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1700" />
+        </attvalues>
+      </node>
+      <node id="zalandoresearch/fashion-mnist" label="zalandoresearch/fashion-mnist">
+        <attvalues>
+          <attvalue for="0" value="12699" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="3071" />
+        </attvalues>
+      </node>
+      <node id="ludwig-ai/ludwig" label="ludwig-ai/ludwig">
+        <attvalues>
+          <attvalue for="0" value="11670" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1214" />
+        </attvalues>
+      </node>
+      <node id="kornia/kornia" label="kornia/kornia">
+        <attvalues>
+          <attvalue for="0" value="11175" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1180" />
+        </attvalues>
+      </node>
+      <node id="phillipi/pix2pix" label="phillipi/pix2pix">
+        <attvalues>
+          <attvalue for="0" value="10624" />
+          <attvalue for="1" value="Lua" />
+          <attvalue for="2" value="1736" />
+        </attvalues>
+      </node>
+      <node id="esimov/caire" label="esimov/caire">
+        <attvalues>
+          <attvalue for="0" value="10482" />
+          <attvalue for="1" value="Go" />
+          <attvalue for="2" value="386" />
+        </attvalues>
+      </node>
+      <node id="dusty-nv/jetson-inference" label="dusty-nv/jetson-inference">
+        <attvalues>
+          <attvalue for="0" value="8804" />
+          <attvalue for="1" value="C++" />
+          <attvalue for="2" value="3096" />
+        </attvalues>
+      </node>
+      <node id="amusi/awesome-object-detection" label="amusi/awesome-object-detection">
+        <attvalues>
+          <attvalue for="0" value="7498" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="1923" />
+        </attvalues>
+      </node>
+      <node id="SerpentAI/SerpentAI" label="SerpentAI/SerpentAI">
+        <attvalues>
+          <attvalue for="0" value="6983" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="802" />
+        </attvalues>
+      </node>
+      <node id="NVIDIA/pix2pixHD" label="NVIDIA/pix2pixHD">
+        <attvalues>
+          <attvalue for="0" value="6944" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1417" />
+        </attvalues>
+      </node>
+      <node id="amusi/daily-paper-computer-vision" label="amusi/daily-paper-computer-vision">
+        <attvalues>
+          <attvalue for="0" value="6742" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="1277" />
+        </attvalues>
+      </node>
+      <node id="jason718/awesome-self-supervised-learning" label="jason718/awesome-self-supervised-learning">
+        <attvalues>
+          <attvalue for="0" value="6381" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="838" />
+        </attvalues>
+      </node>
+      <node id="dragen1860/TensorFlow-2.x-Tutorials" label="dragen1860/TensorFlow-2.x-Tutorials">
+        <attvalues>
+          <attvalue for="0" value="6368" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="2205" />
+        </attvalues>
+      </node>
+      <node id="KevinMusgrave/pytorch-metric-learning" label="KevinMusgrave/pytorch-metric-learning">
+        <attvalues>
+          <attvalue for="0" value="6316" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="661" />
+        </attvalues>
+      </node>
+      <node id="Hironsan/BossSensor" label="Hironsan/BossSensor">
+        <attvalues>
+          <attvalue for="0" value="6283" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1077" />
+        </attvalues>
+      </node>
+      <node id="idealo/imagededup" label="idealo/imagededup">
+        <attvalues>
+          <attvalue for="0" value="5621" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="476" />
+        </attvalues>
+      </node>
+      <node id="hzwer/ECCV2022-RIFE" label="hzwer/ECCV2022-RIFE">
+        <attvalues>
+          <attvalue for="0" value="5384" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="536" />
+        </attvalues>
+      </node>
+      <node id="obss/sahi" label="obss/sahi">
+        <attvalues>
+          <attvalue for="0" value="5239" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="743" />
+        </attvalues>
+      </node>
+      <node id="amdegroot/ssd.pytorch" label="amdegroot/ssd.pytorch">
+        <attvalues>
+          <attvalue for="0" value="5234" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1735" />
+        </attvalues>
+      </node>
+      <node id="huggingface/transformers" label="huggingface/transformers">
+        <attvalues>
+          <attvalue for="0" value="159479" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="32886" />
+        </attvalues>
+      </node>
+      <node id="google-research/bert" label="google-research/bert">
+        <attvalues>
+          <attvalue for="0" value="39980" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="9710" />
+        </attvalues>
+      </node>
+      <node id="hankcs/HanLP" label="hankcs/HanLP">
+        <attvalues>
+          <attvalue for="0" value="36261" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="10899" />
+        </attvalues>
+      </node>
+      <node id="explosion/spaCy" label="explosion/spaCy">
+        <attvalues>
+          <attvalue for="0" value="33472" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="4671" />
+        </attvalues>
+      </node>
+      <node id="deepset-ai/haystack" label="deepset-ai/haystack">
+        <attvalues>
+          <attvalue for="0" value="24851" />
+          <attvalue for="1" value="MDX" />
+          <attvalue for="2" value="2720" />
+        </attvalues>
+      </node>
+      <node id="microsoft/unilm" label="microsoft/unilm">
+        <attvalues>
+          <attvalue for="0" value="22092" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="2698" />
+        </attvalues>
+      </node>
+      <node id="RasaHQ/rasa" label="RasaHQ/rasa">
+        <attvalues>
+          <attvalue for="0" value="21126" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="4912" />
+        </attvalues>
+      </node>
+      <node id="AI4Finance-Foundation/FinGPT" label="AI4Finance-Foundation/FinGPT">
+        <attvalues>
+          <attvalue for="0" value="19479" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="2743" />
+        </attvalues>
+      </node>
+      <node id="keon/awesome-nlp" label="keon/awesome-nlp">
+        <attvalues>
+          <attvalue for="0" value="18421" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="2780" />
+        </attvalues>
+      </node>
+      <node id="NLP-LOVE/ML-NLP" label="NLP-LOVE/ML-NLP">
+        <attvalues>
+          <attvalue for="0" value="17621" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="4639" />
+        </attvalues>
+      </node>
+      <node id="oxford-cs-deepnlp-2017/lectures" label="oxford-cs-deepnlp-2017/lectures">
+        <attvalues>
+          <attvalue for="0" value="15857" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="3564" />
+        </attvalues>
+      </node>
+      <node id="graykode/nlp-tutorial" label="graykode/nlp-tutorial">
+        <attvalues>
+          <attvalue for="0" value="14882" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="3958" />
+        </attvalues>
+      </node>
+      <node id="Unstructured-IO/unstructured" label="Unstructured-IO/unstructured">
+        <attvalues>
+          <attvalue for="0" value="14476" />
+          <attvalue for="1" value="HTML" />
+          <attvalue for="2" value="1217" />
+        </attvalues>
+      </node>
+      <node id="flairNLP/flair" label="flairNLP/flair">
+        <attvalues>
+          <attvalue for="0" value="14370" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="2120" />
+        </attvalues>
+      </node>
+      <node id="tangyudi/Ai-Learn" label="tangyudi/Ai-Learn">
+        <attvalues>
+          <attvalue for="0" value="12881" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="2641" />
+        </attvalues>
+      </node>
+      <node id="neuml/txtai" label="neuml/txtai">
+        <attvalues>
+          <attvalue for="0" value="12404" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="803" />
+        </attvalues>
+      </node>
+      <node id="allenai/allennlp" label="allenai/allennlp">
+        <attvalues>
+          <attvalue for="0" value="11891" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="2221" />
+        </attvalues>
+      </node>
+      <node id="huggingface/tokenizers" label="huggingface/tokenizers">
+        <attvalues>
+          <attvalue for="0" value="10635" />
+          <attvalue for="1" value="Rust" />
+          <attvalue for="2" value="1071" />
+        </attvalues>
+      </node>
+      <node id="chiphuyen/stanford-tensorflow-tutorials" label="chiphuyen/stanford-tensorflow-tutorials">
+        <attvalues>
+          <attvalue for="0" value="10384" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="4262" />
+        </attvalues>
+      </node>
+      <node id="ymcui/Chinese-BERT-wwm" label="ymcui/Chinese-BERT-wwm">
+        <attvalues>
+          <attvalue for="0" value="10202" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1390" />
+        </attvalues>
+      </node>
+      <node id="Mooler0410/LLMsPracticalGuide" label="Mooler0410/LLMsPracticalGuide">
+        <attvalues>
+          <attvalue for="0" value="10167" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="786" />
+        </attvalues>
+      </node>
+      <node id="brightmart/nlp_chinese_corpus" label="brightmart/nlp_chinese_corpus">
+        <attvalues>
+          <attvalue for="0" value="9887" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="1556" />
+        </attvalues>
+      </node>
+      <node id="jadore801120/attention-is-all-you-need-pytorch" label="jadore801120/attention-is-all-you-need-pytorch">
+        <attvalues>
+          <attvalue for="0" value="9683" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="2095" />
+        </attvalues>
+      </node>
+      <node id="sloria/TextBlob" label="sloria/TextBlob">
+        <attvalues>
+          <attvalue for="0" value="9507" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1179" />
+        </attvalues>
+      </node>
+      <node id="jessevig/bertviz" label="jessevig/bertviz">
+        <attvalues>
+          <attvalue for="0" value="8009" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="871" />
+        </attvalues>
+      </node>
+      <node id="crownpku/Awesome-Chinese-NLP" label="crownpku/Awesome-Chinese-NLP">
+        <attvalues>
+          <attvalue for="0" value="7931" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="1710" />
+        </attvalues>
+      </node>
+      <node id="stanfordnlp/stanza" label="stanfordnlp/stanza">
+        <attvalues>
+          <attvalue for="0" value="7773" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="941" />
+        </attvalues>
+      </node>
+      <node id="Morizeyao/GPT2-Chinese" label="Morizeyao/GPT2-Chinese">
+        <attvalues>
+          <attvalue for="0" value="7601" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1690" />
+        </attvalues>
+      </node>
+      <node id="MaartenGr/BERTopic" label="MaartenGr/BERTopic">
+        <attvalues>
+          <attvalue for="0" value="7536" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="889" />
+        </attvalues>
+      </node>
+      <node id="deeppavlov/DeepPavlov" label="deeppavlov/DeepPavlov">
+        <attvalues>
+          <attvalue for="0" value="6975" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1172" />
+        </attvalues>
+      </node>
+      <node id="axa-group/nlp.js" label="axa-group/nlp.js">
+        <attvalues>
+          <attvalue for="0" value="6560" />
+          <attvalue for="1" value="JavaScript" />
+          <attvalue for="2" value="634" />
+        </attvalues>
+      </node>
+      <node id="codertimo/BERT-pytorch" label="codertimo/BERT-pytorch">
+        <attvalues>
+          <attvalue for="0" value="6529" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1321" />
+        </attvalues>
+      </node>
+      <node id="microsoft/nlp-recipes" label="microsoft/nlp-recipes">
+        <attvalues>
+          <attvalue for="0" value="6443" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="913" />
+        </attvalues>
+      </node>
+      <node id="nfmcclure/tensorflow_cookbook" label="nfmcclure/tensorflow_cookbook">
+        <attvalues>
+          <attvalue for="0" value="6244" />
+          <attvalue for="1" value="Jupyter Notebook" />
+          <attvalue for="2" value="2378" />
+        </attvalues>
+      </node>
+      <node id="zihangdai/xlnet" label="zihangdai/xlnet">
+        <attvalues>
+          <attvalue for="0" value="6177" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1154" />
+        </attvalues>
+      </node>
+      <node id="axa-group/Parsr" label="axa-group/Parsr">
+        <attvalues>
+          <attvalue for="0" value="6169" />
+          <attvalue for="1" value="JavaScript" />
+          <attvalue for="2" value="324" />
+        </attvalues>
+      </node>
+      <node id="vi3k6i5/flashtext" label="vi3k6i5/flashtext">
+        <attvalues>
+          <attvalue for="0" value="5709" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="597" />
+        </attvalues>
+      </node>
+      <node id="lonePatient/awesome-pretrained-chinese-nlp-models" label="lonePatient/awesome-pretrained-chinese-nlp-models">
+        <attvalues>
+          <attvalue for="0" value="5552" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="508" />
+        </attvalues>
+      </node>
+      <node id="HIT-SCIR/ltp" label="HIT-SCIR/ltp">
+        <attvalues>
+          <attvalue for="0" value="5243" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="1061" />
+        </attvalues>
+      </node>
+      <node id="chatopera/Synonyms" label="chatopera/Synonyms">
+        <attvalues>
+          <attvalue for="0" value="5103" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="892" />
+        </attvalues>
+      </node>
+      <node id="AutoGPTQ/AutoGPTQ" label="AutoGPTQ/AutoGPTQ">
+        <attvalues>
+          <attvalue for="0" value="5048" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="537" />
+        </attvalues>
+      </node>
+      <node id="argilla-io/argilla" label="argilla-io/argilla">
+        <attvalues>
+          <attvalue for="0" value="4932" />
+          <attvalue for="1" value="Python" />
+          <attvalue for="2" value="479" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="google-ai-edge/mediapipe" target="junyanz/pytorch-CycleGAN-and-pix2pix" id="0" weight="0.02564102564102564" />
+      <edge source="google-ai-edge/mediapipe" target="ludwig-ai/ludwig" id="1" weight="0.030927835051546393" />
+      <edge source="google-ai-edge/mediapipe" target="huggingface/tokenizers" id="2" weight="0.02577319587628866" />
+      <edge source="google-ai-edge/mediapipe" target="zihangdai/xlnet" id="3" weight="0.030927835051546393" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="microsoft/AirSim" id="4" weight="0.041666666666666664" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="pytorch/vision" id="5" weight="0.02564102564102564" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="bharathgs/Awesome-pytorch-list" id="6" weight="0.02564102564102564" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="wkentaro/labelme" id="7" weight="0.02577319587628866" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="davidsandberg/facenet" id="8" weight="0.03626943005181347" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="carla-simulator/carla" id="9" weight="0.02564102564102564" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="junyanz/CycleGAN" id="10" weight="0.02577319587628866" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="zalandoresearch/fashion-mnist" id="11" weight="0.030927835051546393" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="phillipi/pix2pix" id="12" weight="0.03626943005181347" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="Hironsan/BossSensor" id="13" weight="0.030927835051546393" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="amdegroot/ssd.pytorch" id="14" weight="0.03626943005181347" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="keon/awesome-nlp" id="15" weight="0.02564102564102564" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="chiphuyen/stanford-tensorflow-tutorials" id="16" weight="0.02577319587628866" />
+      <edge source="CMU-Perceptual-Computing-Lab/openpose" target="crownpku/Awesome-Chinese-NLP" id="17" weight="0.02564102564102564" />
+      <edge source="d2l-ai/d2l-en" target="carla-simulator/carla" id="18" weight="0.030927835051546393" />
+      <edge source="d2l-ai/d2l-en" target="kmario23/deep-learning-drizzle" id="19" weight="0.030927835051546393" />
+      <edge source="d2l-ai/d2l-en" target="kornia/kornia" id="20" weight="0.02564102564102564" />
+      <edge source="d2l-ai/d2l-en" target="graykode/nlp-tutorial" id="21" weight="0.03626943005181347" />
+      <edge source="d2l-ai/d2l-en" target="chiphuyen/stanford-tensorflow-tutorials" id="22" weight="0.031088082901554404" />
+      <edge source="d2l-ai/d2l-en" target="jessevig/bertviz" id="23" weight="0.030927835051546393" />
+      <edge source="d2l-ai/d2l-en" target="axa-group/nlp.js" id="24" weight="0.030927835051546393" />
+      <edge source="HumanSignal/label-studio" target="idealo/imagededup" id="25" weight="0.031088082901554404" />
+      <edge source="HumanSignal/label-studio" target="huggingface/tokenizers" id="26" weight="0.03125" />
+      <edge source="HumanSignal/label-studio" target="microsoft/nlp-recipes" id="27" weight="0.02577319587628866" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="microsoft/AirSim" id="28" weight="0.030927835051546393" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="junyanz/CycleGAN" id="29" weight="0.07567567567567568" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="zalandoresearch/fashion-mnist" id="30" weight="0.03626943005181347" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="phillipi/pix2pix" id="31" weight="0.03626943005181347" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="esimov/caire" id="32" weight="0.042105263157894736" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="SerpentAI/SerpentAI" id="33" weight="0.030927835051546393" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="NVIDIA/pix2pixHD" id="34" weight="0.03626943005181347" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="amdegroot/ssd.pytorch" id="35" weight="0.030927835051546393" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="chiphuyen/stanford-tensorflow-tutorials" id="36" weight="0.02577319587628866" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="jadore801120/attention-is-all-you-need-pytorch" id="37" weight="0.030927835051546393" />
+      <edge source="junyanz/pytorch-CycleGAN-and-pix2pix" target="zihangdai/xlnet" id="38" weight="0.02564102564102564" />
+      <edge source="spmallick/learnopencv" target="davisking/dlib" id="39" weight="0.02577319587628866" />
+      <edge source="amusi/CVPR2026-Papers-with-Code" target="SerpentAI/SerpentAI" id="40" weight="0.02564102564102564" />
+      <edge source="amusi/CVPR2026-Papers-with-Code" target="tangyudi/Ai-Learn" id="41" weight="0.030927835051546393" />
+      <edge source="huggingface/datasets" target="huggingface/tokenizers" id="42" weight="0.03664921465968586" />
+      <edge source="microsoft/AirSim" target="carla-simulator/carla" id="43" weight="0.03626943005181347" />
+      <edge source="microsoft/AirSim" target="junyanz/CycleGAN" id="44" weight="0.02577319587628866" />
+      <edge source="microsoft/AirSim" target="phillipi/pix2pix" id="45" weight="0.030927835051546393" />
+      <edge source="microsoft/AirSim" target="SerpentAI/SerpentAI" id="46" weight="0.03626943005181347" />
+      <edge source="microsoft/AirSim" target="Hironsan/BossSensor" id="47" weight="0.030927835051546393" />
+      <edge source="microsoft/AirSim" target="amdegroot/ssd.pytorch" id="48" weight="0.02564102564102564" />
+      <edge source="microsoft/AirSim" target="deeppavlov/DeepPavlov" id="49" weight="0.02577319587628866" />
+      <edge source="pytorch/vision" target="bharathgs/Awesome-pytorch-list" id="50" weight="0.030927835051546393" />
+      <edge source="pytorch/vision" target="phillipi/pix2pix" id="51" weight="0.03626943005181347" />
+      <edge source="pytorch/vision" target="amdegroot/ssd.pytorch" id="52" weight="0.0582010582010582" />
+      <edge source="pytorch/vision" target="chiphuyen/stanford-tensorflow-tutorials" id="53" weight="0.02577319587628866" />
+      <edge source="bharathgs/Awesome-pytorch-list" target="phillipi/pix2pix" id="54" weight="0.03626943005181347" />
+      <edge source="bharathgs/Awesome-pytorch-list" target="amusi/awesome-object-detection" id="55" weight="0.02564102564102564" />
+      <edge source="bharathgs/Awesome-pytorch-list" target="amdegroot/ssd.pytorch" id="56" weight="0.030927835051546393" />
+      <edge source="bharathgs/Awesome-pytorch-list" target="jadore801120/attention-is-all-you-need-pytorch" id="57" weight="0.030927835051546393" />
+      <edge source="wkentaro/labelme" target="davidsandberg/facenet" id="58" weight="0.031088082901554404" />
+      <edge source="wkentaro/labelme" target="zalandoresearch/fashion-mnist" id="59" weight="0.031088082901554404" />
+      <edge source="wkentaro/labelme" target="dusty-nv/jetson-inference" id="60" weight="0.02577319587628866" />
+      <edge source="wkentaro/labelme" target="NVIDIA/pix2pixHD" id="61" weight="0.031088082901554404" />
+      <edge source="wkentaro/labelme" target="amdegroot/ssd.pytorch" id="62" weight="0.02577319587628866" />
+      <edge source="davisking/dlib" target="davidsandberg/facenet" id="63" weight="0.02577319587628866" />
+      <edge source="davidsandberg/facenet" target="phillipi/pix2pix" id="64" weight="0.05263157894736842" />
+      <edge source="davidsandberg/facenet" target="Hironsan/BossSensor" id="65" weight="0.030927835051546393" />
+      <edge source="davidsandberg/facenet" target="chiphuyen/stanford-tensorflow-tutorials" id="66" weight="0.02577319587628866" />
+      <edge source="davidsandberg/facenet" target="nfmcclure/tensorflow_cookbook" id="67" weight="0.030927835051546393" />
+      <edge source="carla-simulator/carla" target="junyanz/CycleGAN" id="68" weight="0.02577319587628866" />
+      <edge source="carla-simulator/carla" target="zalandoresearch/fashion-mnist" id="69" weight="0.02564102564102564" />
+      <edge source="carla-simulator/carla" target="ludwig-ai/ludwig" id="70" weight="0.02564102564102564" />
+      <edge source="carla-simulator/carla" target="phillipi/pix2pix" id="71" weight="0.02564102564102564" />
+      <edge source="carla-simulator/carla" target="NVIDIA/pix2pixHD" id="72" weight="0.02564102564102564" />
+      <edge source="carla-simulator/carla" target="chiphuyen/stanford-tensorflow-tutorials" id="73" weight="0.02577319587628866" />
+      <edge source="carla-simulator/carla" target="deeppavlov/DeepPavlov" id="74" weight="0.04736842105263158" />
+      <edge source="junyanz/CycleGAN" target="phillipi/pix2pix" id="75" weight="0.05291005291005291" />
+      <edge source="junyanz/CycleGAN" target="esimov/caire" id="76" weight="0.026041666666666668" />
+      <edge source="junyanz/CycleGAN" target="amdegroot/ssd.pytorch" id="77" weight="0.02577319587628866" />
+      <edge source="junyanz/CycleGAN" target="chiphuyen/stanford-tensorflow-tutorials" id="78" weight="0.03125" />
+      <edge source="junyanz/CycleGAN" target="jadore801120/attention-is-all-you-need-pytorch" id="79" weight="0.031088082901554404" />
+      <edge source="kmario23/deep-learning-drizzle" target="dragen1860/TensorFlow-2.x-Tutorials" id="80" weight="0.02564102564102564" />
+      <edge source="kmario23/deep-learning-drizzle" target="graykode/nlp-tutorial" id="81" weight="0.07526881720430108" />
+      <edge source="kmario23/deep-learning-drizzle" target="stanfordnlp/stanza" id="82" weight="0.030927835051546393" />
+      <edge source="jacobgil/pytorch-grad-cam" target="kornia/kornia" id="83" weight="0.02564102564102564" />
+      <edge source="zalandoresearch/fashion-mnist" target="dusty-nv/jetson-inference" id="84" weight="0.02564102564102564" />
+      <edge source="zalandoresearch/fashion-mnist" target="SerpentAI/SerpentAI" id="85" weight="0.030927835051546393" />
+      <edge source="zalandoresearch/fashion-mnist" target="NVIDIA/pix2pixHD" id="86" weight="0.030927835051546393" />
+      <edge source="zalandoresearch/fashion-mnist" target="amdegroot/ssd.pytorch" id="87" weight="0.02564102564102564" />
+      <edge source="zalandoresearch/fashion-mnist" target="oxford-cs-deepnlp-2017/lectures" id="88" weight="0.02564102564102564" />
+      <edge source="zalandoresearch/fashion-mnist" target="chiphuyen/stanford-tensorflow-tutorials" id="89" weight="0.036458333333333336" />
+      <edge source="zalandoresearch/fashion-mnist" target="jadore801120/attention-is-all-you-need-pytorch" id="90" weight="0.030927835051546393" />
+      <edge source="zalandoresearch/fashion-mnist" target="deeppavlov/DeepPavlov" id="91" weight="0.02577319587628866" />
+      <edge source="ludwig-ai/ludwig" target="idealo/imagededup" id="92" weight="0.02564102564102564" />
+      <edge source="ludwig-ai/ludwig" target="google-research/bert" id="93" weight="0.02564102564102564" />
+      <edge source="ludwig-ai/ludwig" target="neuml/txtai" id="94" weight="0.030927835051546393" />
+      <edge source="ludwig-ai/ludwig" target="stanfordnlp/stanza" id="95" weight="0.03626943005181347" />
+      <edge source="ludwig-ai/ludwig" target="deeppavlov/DeepPavlov" id="96" weight="0.02577319587628866" />
+      <edge source="kornia/kornia" target="flairNLP/flair" id="97" weight="0.02564102564102564" />
+      <edge source="kornia/kornia" target="MaartenGr/BERTopic" id="98" weight="0.02564102564102564" />
+      <edge source="kornia/kornia" target="deeppavlov/DeepPavlov" id="99" weight="0.02577319587628866" />
+      <edge source="phillipi/pix2pix" target="NVIDIA/pix2pixHD" id="100" weight="0.030927835051546393" />
+      <edge source="phillipi/pix2pix" target="Hironsan/BossSensor" id="101" weight="0.03626943005181347" />
+      <edge source="phillipi/pix2pix" target="amdegroot/ssd.pytorch" id="102" weight="0.041666666666666664" />
+      <edge source="phillipi/pix2pix" target="RasaHQ/rasa" id="103" weight="0.030927835051546393" />
+      <edge source="phillipi/pix2pix" target="allenai/allennlp" id="104" weight="0.02564102564102564" />
+      <edge source="phillipi/pix2pix" target="chiphuyen/stanford-tensorflow-tutorials" id="105" weight="0.041884816753926704" />
+      <edge source="phillipi/pix2pix" target="jadore801120/attention-is-all-you-need-pytorch" id="106" weight="0.030927835051546393" />
+      <edge source="esimov/caire" target="deeppavlov/DeepPavlov" id="107" weight="0.026041666666666668" />
+      <edge source="amusi/awesome-object-detection" target="amusi/daily-paper-computer-vision" id="108" weight="0.07526881720430108" />
+      <edge source="SerpentAI/SerpentAI" target="NVIDIA/pix2pixHD" id="109" weight="0.02564102564102564" />
+      <edge source="SerpentAI/SerpentAI" target="flairNLP/flair" id="110" weight="0.02564102564102564" />
+      <edge source="SerpentAI/SerpentAI" target="allenai/allennlp" id="111" weight="0.02564102564102564" />
+      <edge source="SerpentAI/SerpentAI" target="huggingface/tokenizers" id="112" weight="0.02577319587628866" />
+      <edge source="SerpentAI/SerpentAI" target="chiphuyen/stanford-tensorflow-tutorials" id="113" weight="0.02577319587628866" />
+      <edge source="SerpentAI/SerpentAI" target="deeppavlov/DeepPavlov" id="114" weight="0.02577319587628866" />
+      <edge source="NVIDIA/pix2pixHD" target="jason718/awesome-self-supervised-learning" id="115" weight="0.030927835051546393" />
+      <edge source="NVIDIA/pix2pixHD" target="amdegroot/ssd.pytorch" id="116" weight="0.02564102564102564" />
+      <edge source="NVIDIA/pix2pixHD" target="huggingface/transformers" id="117" weight="0.036458333333333336" />
+      <edge source="NVIDIA/pix2pixHD" target="jadore801120/attention-is-all-you-need-pytorch" id="118" weight="0.02564102564102564" />
+      <edge source="NVIDIA/pix2pixHD" target="deeppavlov/DeepPavlov" id="119" weight="0.031088082901554404" />
+      <edge source="KevinMusgrave/pytorch-metric-learning" target="huggingface/tokenizers" id="120" weight="0.03125" />
+      <edge source="Hironsan/BossSensor" target="RasaHQ/rasa" id="121" weight="0.02564102564102564" />
+      <edge source="Hironsan/BossSensor" target="nfmcclure/tensorflow_cookbook" id="122" weight="0.03626943005181347" />
+      <edge source="idealo/imagededup" target="huggingface/tokenizers" id="123" weight="0.02577319587628866" />
+      <edge source="idealo/imagededup" target="MaartenGr/BERTopic" id="124" weight="0.030927835051546393" />
+      <edge source="idealo/imagededup" target="axa-group/nlp.js" id="125" weight="0.02564102564102564" />
+      <edge source="hzwer/ECCV2022-RIFE" target="huggingface/tokenizers" id="126" weight="0.025906735751295335" />
+      <edge source="obss/sahi" target="argilla-io/argilla" id="127" weight="0.031088082901554404" />
+      <edge source="amdegroot/ssd.pytorch" target="chiphuyen/stanford-tensorflow-tutorials" id="128" weight="0.02577319587628866" />
+      <edge source="amdegroot/ssd.pytorch" target="jadore801120/attention-is-all-you-need-pytorch" id="129" weight="0.041666666666666664" />
+      <edge source="huggingface/transformers" target="google-research/bert" id="130" weight="0.05851063829787234" />
+      <edge source="huggingface/transformers" target="jadore801120/attention-is-all-you-need-pytorch" id="131" weight="0.02577319587628866" />
+      <edge source="huggingface/transformers" target="jessevig/bertviz" id="132" weight="0.031088082901554404" />
+      <edge source="huggingface/transformers" target="deeppavlov/DeepPavlov" id="133" weight="0.025906735751295335" />
+      <edge source="huggingface/transformers" target="codertimo/BERT-pytorch" id="134" weight="0.04736842105263158" />
+      <edge source="huggingface/transformers" target="zihangdai/xlnet" id="135" weight="0.031088082901554404" />
+      <edge source="google-research/bert" target="flairNLP/flair" id="136" weight="0.02564102564102564" />
+      <edge source="google-research/bert" target="jessevig/bertviz" id="137" weight="0.02564102564102564" />
+      <edge source="google-research/bert" target="codertimo/BERT-pytorch" id="138" weight="0.08695652173913043" />
+      <edge source="hankcs/HanLP" target="sloria/TextBlob" id="139" weight="0.02577319587628866" />
+      <edge source="hankcs/HanLP" target="HIT-SCIR/ltp" id="140" weight="0.02577319587628866" />
+      <edge source="explosion/spaCy" target="sloria/TextBlob" id="141" weight="0.025906735751295335" />
+      <edge source="deepset-ai/haystack" target="MaartenGr/BERTopic" id="142" weight="0.030927835051546393" />
+      <edge source="deepset-ai/haystack" target="argilla-io/argilla" id="143" weight="0.02577319587628866" />
+      <edge source="microsoft/unilm" target="neuml/txtai" id="144" weight="0.030927835051546393" />
+      <edge source="microsoft/unilm" target="Morizeyao/GPT2-Chinese" id="145" weight="0.030927835051546393" />
+      <edge source="microsoft/unilm" target="zihangdai/xlnet" id="146" weight="0.03626943005181347" />
+      <edge source="AI4Finance-Foundation/FinGPT" target="Mooler0410/LLMsPracticalGuide" id="147" weight="0.02564102564102564" />
+      <edge source="AI4Finance-Foundation/FinGPT" target="AutoGPTQ/AutoGPTQ" id="148" weight="0.026041666666666668" />
+      <edge source="NLP-LOVE/ML-NLP" target="tangyudi/Ai-Learn" id="149" weight="0.02564102564102564" />
+      <edge source="NLP-LOVE/ML-NLP" target="Morizeyao/GPT2-Chinese" id="150" weight="0.02564102564102564" />
+      <edge source="NLP-LOVE/ML-NLP" target="microsoft/nlp-recipes" id="151" weight="0.05263157894736842" />
+      <edge source="graykode/nlp-tutorial" target="stanfordnlp/stanza" id="152" weight="0.0582010582010582" />
+      <edge source="graykode/nlp-tutorial" target="microsoft/nlp-recipes" id="153" weight="0.030927835051546393" />
+      <edge source="Unstructured-IO/unstructured" target="AutoGPTQ/AutoGPTQ" id="154" weight="0.02617801047120419" />
+      <edge source="flairNLP/flair" target="allenai/allennlp" id="155" weight="0.030927835051546393" />
+      <edge source="flairNLP/flair" target="jessevig/bertviz" id="156" weight="0.030927835051546393" />
+      <edge source="flairNLP/flair" target="zihangdai/xlnet" id="157" weight="0.02564102564102564" />
+      <edge source="neuml/txtai" target="huggingface/tokenizers" id="158" weight="0.02577319587628866" />
+      <edge source="neuml/txtai" target="argilla-io/argilla" id="159" weight="0.031088082901554404" />
+      <edge source="allenai/allennlp" target="jadore801120/attention-is-all-you-need-pytorch" id="160" weight="0.041666666666666664" />
+      <edge source="huggingface/tokenizers" target="stanfordnlp/stanza" id="161" weight="0.02577319587628866" />
+      <edge source="huggingface/tokenizers" target="codertimo/BERT-pytorch" id="162" weight="0.031088082901554404" />
+      <edge source="huggingface/tokenizers" target="microsoft/nlp-recipes" id="163" weight="0.02577319587628866" />
+      <edge source="huggingface/tokenizers" target="zihangdai/xlnet" id="164" weight="0.02577319587628866" />
+      <edge source="huggingface/tokenizers" target="axa-group/Parsr" id="165" weight="0.042105263157894736" />
+      <edge source="chiphuyen/stanford-tensorflow-tutorials" target="nfmcclure/tensorflow_cookbook" id="166" weight="0.031088082901554404" />
+      <edge source="ymcui/Chinese-BERT-wwm" target="Morizeyao/GPT2-Chinese" id="167" weight="0.04712041884816754" />
+      <edge source="ymcui/Chinese-BERT-wwm" target="zihangdai/xlnet" id="168" weight="0.07526881720430108" />
+      <edge source="brightmart/nlp_chinese_corpus" target="jessevig/bertviz" id="169" weight="0.02564102564102564" />
+      <edge source="brightmart/nlp_chinese_corpus" target="stanfordnlp/stanza" id="170" weight="0.02564102564102564" />
+      <edge source="brightmart/nlp_chinese_corpus" target="zihangdai/xlnet" id="171" weight="0.030927835051546393" />
+      <edge source="jessevig/bertviz" target="stanfordnlp/stanza" id="172" weight="0.02564102564102564" />
+      <edge source="jessevig/bertviz" target="Morizeyao/GPT2-Chinese" id="173" weight="0.03626943005181347" />
+      <edge source="jessevig/bertviz" target="codertimo/BERT-pytorch" id="174" weight="0.03626943005181347" />
+      <edge source="jessevig/bertviz" target="zihangdai/xlnet" id="175" weight="0.03626943005181347" />
+      <edge source="crownpku/Awesome-Chinese-NLP" target="deeppavlov/DeepPavlov" id="176" weight="0.02577319587628866" />
+      <edge source="crownpku/Awesome-Chinese-NLP" target="chatopera/Synonyms" id="177" weight="0.02564102564102564" />
+      <edge source="stanfordnlp/stanza" target="Morizeyao/GPT2-Chinese" id="178" weight="0.02564102564102564" />
+      <edge source="stanfordnlp/stanza" target="codertimo/BERT-pytorch" id="179" weight="0.030927835051546393" />
+      <edge source="stanfordnlp/stanza" target="microsoft/nlp-recipes" id="180" weight="0.02564102564102564" />
+      <edge source="stanfordnlp/stanza" target="zihangdai/xlnet" id="181" weight="0.03626943005181347" />
+      <edge source="Morizeyao/GPT2-Chinese" target="microsoft/nlp-recipes" id="182" weight="0.02564102564102564" />
+      <edge source="Morizeyao/GPT2-Chinese" target="zihangdai/xlnet" id="183" weight="0.041666666666666664" />
+      <edge source="MaartenGr/BERTopic" target="lonePatient/awesome-pretrained-chinese-nlp-models" id="184" weight="0.02564102564102564" />
+      <edge source="deeppavlov/DeepPavlov" target="vi3k6i5/flashtext" id="185" weight="0.02577319587628866" />
+      <edge source="deeppavlov/DeepPavlov" target="chatopera/Synonyms" id="186" weight="0.02577319587628866" />
+      <edge source="codertimo/BERT-pytorch" target="zihangdai/xlnet" id="187" weight="0.02564102564102564" />
+    </edges>
+  </graph>
+</gexf>

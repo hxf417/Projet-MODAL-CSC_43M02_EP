@@ -17,8 +17,7 @@ def threshold_analyser(graph_filepath, min_value, max_value):
         edges_values[i] = graph.number_of_edges()
     mean_degree_values = 2*edges_values/nodes_values
 
-    # Plotting the graph evolution
-    fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(8, 8), sharex=True)    
+    _, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(8, 8), sharex=True)    
     ax1.plot(threshold_values, nodes_values, label="Number of nodes")
     ax1.plot(threshold_values, edges_values, label="Number of edges")
     ax2.plot(threshold_values, mean_degree_values, label="Mean degree")
@@ -34,6 +33,22 @@ def threshold_analyser(graph_filepath, min_value, max_value):
     plt.show()
 
 
+def edge_weight_distribution(graph_filepath, threshold):
+    graph = nx.read_gexf(graph_filepath)
+    data = []
+    for _, _, weight in graph.edges(data = "weight"):
+        if weight >= threshold:
+            data.append(weight)
+    plt.hist(data)
+
+    plt.title("Edge weight distribution")
+    plt.xlabel("Edge weight")
+    plt.ylabel("Frequency")
+    
+    plt.show()
+
+
 if __name__ == "__main__":
     
     threshold_analyser("outputs/graphs/repo/clean_fork_network.gexf", 0.01, 0.03)
+    edge_weight_distribution("outputs/graphs/repo/clean_fork_network.gexf", 0.025)
